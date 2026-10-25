@@ -12,3 +12,9 @@ __pycache__/
 
 # OS
 .DS_Store
+
+# Local notes, kept for reference only (not pushed)
+CLAUDE.md
+memory.md
+KICKOFF_PROMPT.md
+.claude/

@@ -87,7 +87,6 @@ It resumes automatically (records with a result file are skipped) and every LLM/
 | `config.yaml` | All model IDs and settings |
 | `notebooks/demo.ipynb` | One record end to end, explained step by step |
 | `results/` | Summaries per model, comparison tables, leak test, `report.md`, manual-review sheet |
-| `memory.md` | Running work log: what was done, decisions, open questions |
 
 ## Results (25 Oct 2026, preliminary)
 
