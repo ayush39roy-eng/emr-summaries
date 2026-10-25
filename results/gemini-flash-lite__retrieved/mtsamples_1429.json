@@ -1,0 +1,301 @@
+{
+  "schema_version": "0.1",
+  "record_id": "mtsamples:1429",
+  "patient_id": "3a2cd556-f724-4c85-935b-a65e970c5bdf",
+  "generator": {
+    "kind": "model",
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "v1",
+    "generated_at": "2026-10-25T16:13:44Z"
+  },
+  "one_liner": "A 69-year-old man with stage IV chronic kidney disease secondary to polycystic kidney disease and hypertension follows up, showing improved blood pressure control.",
+  "problems": [
+    {
+      "name": "Chronic kidney disease, stage IV, secondary to polycystic kidney disease",
+      "code": null,
+      "status": "chronic",
+      "is_new": false,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 100,
+          "end": 170
+        }
+      ]
+    },
+    {
+      "name": "Hypertension",
+      "code": null,
+      "status": "confirmed",
+      "is_new": false,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 2282,
+          "end": 2331
+        }
+      ]
+    },
+    {
+      "name": "Metabolic bone disease",
+      "code": null,
+      "status": "confirmed",
+      "is_new": false,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 2336,
+          "end": 2359
+        }
+      ]
+    },
+    {
+      "name": "Anemia",
+      "code": null,
+      "status": "confirmed",
+      "is_new": false,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 2364,
+          "end": 2371
+        }
+      ]
+    }
+  ],
+  "medications": {
+    "started": [],
+    "stopped": [],
+    "changed": [],
+    "continued": [
+      {
+        "name": "Vytorin",
+        "dose": "10/40 mg",
+        "route": null,
+        "frequency": "one a day",
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 1264,
+            "end": 1291
+          }
+        ]
+      },
+      {
+        "name": "Rocaltrol",
+        "dose": "0.25 micrograms",
+        "route": null,
+        "frequency": "a day",
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 1296,
+            "end": 1328
+          }
+        ]
+      },
+      {
+        "name": "Carvedilol",
+        "dose": "12.5 mg",
+        "route": null,
+        "frequency": "twice a day",
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 1333,
+            "end": 1364
+          }
+        ]
+      },
+      {
+        "name": "Cozaar",
+        "dose": "50 mg",
+        "route": null,
+        "frequency": "twice a day",
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 1369,
+            "end": 1394
+          }
+        ]
+      },
+      {
+        "name": "Lasix",
+        "dose": "40 mg",
+        "route": null,
+        "frequency": "a day",
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 1399,
+            "end": 1417
+          }
+        ]
+      }
+    ]
+  },
+  "allergies": [],
+  "key_findings": [
+    {
+      "category": "vital",
+      "name": "Blood Pressure",
+      "value": "140/57",
+      "unit": null,
+      "flag": "abnormal",
+      "trend": null,
+      "interpretation": "Markedly improved over previous readings",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1463,
+          "end": 1491
+        }
+      ]
+    },
+    {
+      "category": "vital",
+      "name": "Pulse",
+      "value": "58",
+      "unit": null,
+      "flag": null,
+      "trend": null,
+      "interpretation": "Regular rate",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1493,
+          "end": 1501
+        }
+      ]
+    },
+    {
+      "category": "vital",
+      "name": "Weight",
+      "value": "67.1",
+      "unit": "kg",
+      "flag": null,
+      "trend": null,
+      "interpretation": "Current weight",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1503,
+          "end": 1528
+        }
+      ]
+    },
+    {
+      "category": "lab",
+      "name": "Estimated GFR",
+      "value": "16",
+      "unit": "mL per minute",
+      "flag": null,
+      "trend": null,
+      "interpretation": "Stage IV chronic kidney disease",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 2211,
+          "end": 2249
+        }
+      ]
+    }
+  ],
+  "procedures": [],
+  "course": {
+    "narrative": "A 69-year-old African American man with stage IV chronic kidney disease secondary to polycystic kidney disease returned for follow-up. He demonstrated much better blood pressure control and had been monitoring readings at home with a new machine. He continues to feel well with a negative review of systems. No medication changes were made. He has not yet attended dialysis education or transplant orientation classes, and needs follow-up for an elevated PSA from the past. He will have blood work done prior to his next visit and return in 4 to 6 weeks.",
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 28,
+        "end": 171
+      },
+      {
+        "doc_id": "d1",
+        "start": 2661,
+        "end": 2708
+      }
+    ]
+  },
+  "disposition": {
+    "status": "discharged",
+    "destination": null,
+    "condition": "stable",
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 2903,
+        "end": 2945
+      }
+    ]
+  },
+  "action_items": [
+    {
+      "action": "Attend dialysis education and transplant orientation classes",
+      "owner": "patient",
+      "priority": "routine",
+      "due": null,
+      "category": "patient_education",
+      "rationale": "Education for end-stage kidney disease and transplant evaluation",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 2537,
+          "end": 2584
+        }
+      ]
+    },
+    {
+      "action": "Get blood work done prior to next visit",
+      "owner": "patient",
+      "priority": "soon",
+      "due": null,
+      "category": "monitoring",
+      "rationale": "Pre-visit laboratory evaluation",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 2710,
+          "end": 2772
+        }
+      ]
+    },
+    {
+      "action": "Check a PSA and refer back to urology",
+      "owner": "treating_team",
+      "priority": "soon",
+      "due": null,
+      "category": "follow_up",
+      "rationale": "Elevated PSA in the past",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 2774,
+          "end": 2841
+        }
+      ]
+    }
+  ],
+  "red_flags": [],
+  "patient_summary": null,
+  "quality": {
+    "missing_information": [],
+    "contradictions": [],
+    "low_confidence_fields": []
+  }
+}

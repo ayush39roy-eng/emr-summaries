@@ -1,0 +1,128 @@
+{
+  "schema_version": "0.1",
+  "record_id": "mtsamples:546",
+  "patient_id": "584db6d1-4872-4e62-a5bf-63e3bb1c94ce",
+  "generator": {
+    "kind": "model",
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "v1",
+    "generated_at": "2026-10-25T16:00:09Z"
+  },
+  "one_liner": "An adult male with a history of B-cell lymphoma and a right lung mass underwent right thoracotomy, right lower lobectomy, and en bloc resection of the diaphragm and portion of the liver, and was transferred to the PACU stable and extubated.",
+  "problems": [
+    {
+      "name": "Right mesothelioma",
+      "code": null,
+      "status": "ruled_out",
+      "is_new": false,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 0,
+          "end": 43
+        }
+      ]
+    },
+    {
+      "name": "Right lung mass invading diaphragm and liver",
+      "code": null,
+      "status": "confirmed",
+      "is_new": true,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 44,
+          "end": 114
+        }
+      ]
+    },
+    {
+      "name": "B-cell lymphoma",
+      "code": null,
+      "status": "confirmed",
+      "is_new": false,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 596,
+          "end": 646
+        }
+      ]
+    }
+  ],
+  "medications": {
+    "started": [],
+    "stopped": [],
+    "changed": [],
+    "continued": []
+  },
+  "allergies": [],
+  "key_findings": [
+    {
+      "category": "exam",
+      "name": "Right lower lobe lung mass",
+      "value": null,
+      "unit": null,
+      "flag": "abnormal",
+      "trend": null,
+      "interpretation": "Mass arising from right lower lobe invading diaphragm and liver",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 125,
+          "end": 181
+        }
+      ]
+    }
+  ],
+  "procedures": [
+    {
+      "name": "Right thoracotomy and right lower lobectomy with en bloc resection of diaphragm and portion of liver",
+      "time": null,
+      "outcome": "Completed successfully, hemostasis achieved, patient extubated and stable",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 182,
+          "end": 300
+        }
+      ]
+    }
+  ],
+  "course": {
+    "narrative": "A male patient with a history of B-cell lymphoma and suspected mesothelioma was brought to the operating room for a right thoracotomy. Intraoperatively, the mass was found to arise from the right lower lobe and invaded the right diaphragm and the dome of the liver. The patient successfully underwent a right lower lobectomy with en bloc resection of the involved diaphragm and a wedge resection of the liver portion. Hemostasis was achieved. A 10-flat JP drain and a 32 straight chest tube were placed. The patient tolerated the procedure well, was extubated in the operating room, and transferred to the PACU in stable condition.",
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 517,
+        "end": 555
+      },
+      {
+        "doc_id": "d1",
+        "start": 5478,
+        "end": 5591
+      }
+    ]
+  },
+  "disposition": {
+    "status": "transferred",
+    "destination": "PACU",
+    "condition": "Stable, extubated",
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 517,
+        "end": 555
+      }
+    ]
+  },
+  "action_items": [],
+  "red_flags": [],
+  "patient_summary": null,
+  "quality": {
+    "missing_information": [],
+    "contradictions": [],
+    "low_confidence_fields": []
+  }
+}

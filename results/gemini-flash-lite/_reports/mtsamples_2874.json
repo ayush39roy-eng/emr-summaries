@@ -1,0 +1,22 @@
+{
+  "record_id": "mtsamples:2874",
+  "model": "gemini-3.5-flash-lite",
+  "latency_s": 8.02,
+  "tokens_in": 1871,
+  "tokens_out": 3345,
+  "cached": false,
+  "error": null,
+  "context_mode": "all_chunks",
+  "n_chunks": 4,
+  "grounding": {
+    "claims": 26,
+    "supported_claims": 26,
+    "unsupported": [],
+    "quotes": 27,
+    "quotes_found": 27,
+    "wrong_chunk_id": 0
+  },
+  "schema_errors": [
+    "one_liner: '52-year-old female with progressive vision changes, dysarthria, headache, and incoordination following a motor vehicle accident, found to have persistent T2 signal abnormalities on brain MRI and reactive atypical mononuclear cells in CSF, transferred to a care facility with worsening somnolence requiring NGT feeding and 24-hour supportive care.' is too long"
+  ]
+}

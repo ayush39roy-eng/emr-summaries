@@ -1,0 +1,94 @@
+{
+  "schema_version": "0.1",
+  "record_id": "mtsamples:675",
+  "patient_id": "8fbf7b41-7080-40c7-813d-c745a509bc31",
+  "generator": {
+    "kind": "model",
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "v1",
+    "generated_at": "2026-10-25T15:57:03Z"
+  },
+  "one_liner": "A 69-year-old male with bilateral knee pain underwent right total knee arthroplasty without complications.",
+  "problems": [
+    {
+      "name": "Bilateral degenerative arthritis of the knees",
+      "code": null,
+      "status": "confirmed",
+      "is_new": false,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 24,
+          "end": 69
+        }
+      ]
+    }
+  ],
+  "medications": {
+    "started": [],
+    "stopped": [],
+    "changed": [],
+    "continued": []
+  },
+  "allergies": [],
+  "key_findings": [],
+  "procedures": [
+    {
+      "name": "Right total knee arthroplasty",
+      "time": null,
+      "outcome": "tolerated the procedure well and there were no complications",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 164,
+          "end": 193
+        },
+        {
+          "doc_id": "d1",
+          "start": 9897,
+          "end": 9970
+        }
+      ]
+    }
+  ],
+  "course": {
+    "narrative": "A 69-year-old male presented with bilateral knee pain for a couple of years, affecting his daily activities. He underwent a right total knee arthroplasty under general anesthesia. Intraoperatively, significant wear was noted in the trochlear groove and medial femoral condyle, prompting the total knee replacement. Lateral release was performed due to patellar subluxation. Components including a Zimmer NexGen system were implanted with polymethyl methacrylate cement. The procedure was completed without complications, and the patient was transferred to the Postanesthesia Care Unit.",
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 811,
+        "end": 930
+      },
+      {
+        "doc_id": "d1",
+        "start": 9897,
+        "end": 9970
+      }
+    ]
+  },
+  "disposition": {
+    "status": "transferred",
+    "destination": "Postanesthesia Care Unit",
+    "condition": "tolerated the procedure well",
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 9811,
+        "end": 9895
+      },
+      {
+        "doc_id": "d1",
+        "start": 9897,
+        "end": 9970
+      }
+    ]
+  },
+  "action_items": [],
+  "red_flags": [],
+  "patient_summary": null,
+  "quality": {
+    "missing_information": [],
+    "contradictions": [],
+    "low_confidence_fields": []
+  }
+}

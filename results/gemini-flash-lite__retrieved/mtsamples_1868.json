@@ -1,0 +1,178 @@
+{
+  "schema_version": "0.1",
+  "record_id": "mtsamples:1868",
+  "patient_id": "4482e29e-7d89-40d5-b15c-0112aa17a473",
+  "generator": {
+    "kind": "model",
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "v1",
+    "generated_at": "2026-10-25T16:14:22Z"
+  },
+  "one_liner": "An elderly gentleman with normal-pressure hydrocephalus status post shunt placement and stabilization is admitted for inpatient rehabilitation to address functional limitations, maximize skills, and ensure a safe return home.",
+  "problems": [
+    {
+      "name": "Encephalopathy related to normal-pressure hydrocephalus",
+      "code": null,
+      "status": "confirmed",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 21,
+          "end": 77
+        }
+      ]
+    },
+    {
+      "name": "Prostate cancer",
+      "code": null,
+      "status": "confirmed",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 847,
+          "end": 875
+        }
+      ]
+    },
+    {
+      "name": "Intermittent urinary incontinence",
+      "code": null,
+      "status": "confirmed",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 877,
+          "end": 910
+        }
+      ]
+    }
+  ],
+  "medications": {
+    "started": [],
+    "stopped": [],
+    "changed": [],
+    "continued": [
+      {
+        "name": "Tylenol",
+        "dose": null,
+        "route": null,
+        "frequency": "as needed",
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 997,
+            "end": 1015
+          }
+        ]
+      },
+      {
+        "name": "Peri-Colace",
+        "dose": null,
+        "route": null,
+        "frequency": "b.i.d.",
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 1022,
+            "end": 1040
+          }
+        ]
+      }
+    ]
+  },
+  "allergies": [
+    {
+      "substance": "No known drug allergies",
+      "reaction": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 948,
+          "end": 972
+        }
+      ]
+    }
+  ],
+  "key_findings": [
+    {
+      "category": "vital",
+      "name": "Temperature",
+      "value": "afebrile",
+      "unit": null,
+      "flag": "normal",
+      "trend": null,
+      "interpretation": "Afebrile with stable vital signs",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1865,
+          "end": 1913
+        }
+      ]
+    }
+  ],
+  "procedures": [
+    {
+      "name": "Shunt placement",
+      "time": null,
+      "outcome": "Stabilized medically and regained leg function",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 323,
+          "end": 374
+        }
+      ]
+    },
+    {
+      "name": "Left hip replacement",
+      "time": null,
+      "outcome": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 915,
+          "end": 936
+        }
+      ]
+    }
+  ],
+  "course": {
+    "narrative": "A pleasant gentleman recently diagnosed with normal-pressure hydrocephalus underwent shunt placement with subsequent medical stabilization and return of leg function at ABCD Medical Center. He was brought in for rehabilitation to address significant ongoing functional limitations, maximize skills and safety, and allow a safe disposition home.",
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 323,
+        "end": 461
+      }
+    ]
+  },
+  "disposition": {
+    "status": "admitted",
+    "destination": "rehabilitation",
+    "condition": null,
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 685,
+        "end": 824
+      }
+    ]
+  },
+  "action_items": [],
+  "red_flags": [],
+  "patient_summary": null,
+  "quality": {
+    "missing_information": [],
+    "contradictions": [],
+    "low_confidence_fields": []
+  }
+}

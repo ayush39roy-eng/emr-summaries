@@ -1,0 +1,166 @@
+{
+  "schema_version": "0.1",
+  "record_id": "mtsamples:1782",
+  "patient_id": "a6eb4bab-df7f-4a50-9573-1a7678187268",
+  "generator": {
+    "kind": "model",
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "v1",
+    "generated_at": "2026-10-25T16:01:08Z"
+  },
+  "one_liner": "A 26-year-old male with a history of psychosis, NOS, presented unresponsive and catatonic with dehydration and was admitted for medical stabilization and re-compensation.",
+  "problems": [
+    {
+      "name": "Catatonia",
+      "code": null,
+      "status": "confirmed",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1514,
+          "end": 1538
+        }
+      ]
+    },
+    {
+      "name": "Psychosis, NOS",
+      "code": null,
+      "status": "confirmed",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 2122,
+          "end": 2146
+        }
+      ]
+    },
+    {
+      "name": "Dehydration",
+      "code": null,
+      "status": "confirmed",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 2167,
+          "end": 2190
+        }
+      ]
+    }
+  ],
+  "medications": {
+    "started": [
+      {
+        "name": "Ativan",
+        "dose": "2 mg",
+        "route": "p.o. or IM",
+        "frequency": "t.i.d.",
+        "previous": null,
+        "reason": "to treat the catatonia",
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 955,
+            "end": 1072
+          }
+        ]
+      }
+    ],
+    "stopped": [],
+    "changed": [],
+    "continued": []
+  },
+  "allergies": [],
+  "key_findings": [
+    {
+      "category": "exam",
+      "name": "Mental Status Exam",
+      "value": "Unresponsive, catatonic",
+      "unit": null,
+      "flag": "abnormal",
+      "trend": null,
+      "interpretation": "Patient is unresponsive, lying in bed in fetal position with blanket over head, catatonic.",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1401,
+          "end": 1429
+        }
+      ]
+    }
+  ],
+  "procedures": [],
+  "course": {
+    "narrative": "A 26-year-old male was found unresponsive, incontinent, and decompensated at his father's home by an outpatient case manager. Upon admission, he was noted to be thin, likely dehydrated, and catatonic, lying in bed in the fetal position. He was admitted with a diagnosis of psychosis, NOS and dehydration. The plan is to stabilize him medically from dehydration via internal medicine and utilize medications and milieu therapy to assist with re-compensation.",
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 224,
+        "end": 348
+      },
+      {
+        "doc_id": "d1",
+        "start": 2013,
+        "end": 2110
+      }
+    ]
+  },
+  "disposition": {
+    "status": "admitted",
+    "destination": null,
+    "condition": null,
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 2086,
+        "end": 2110
+      }
+    ]
+  },
+  "action_items": [
+    {
+      "action": "Stabilize medically from the dehydration per internal medicine",
+      "owner": "treating_team",
+      "priority": "routine",
+      "due": null,
+      "category": "monitoring",
+      "rationale": "Patient is dehydrated from lack of food and fluids.",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 2293,
+          "end": 2356
+        }
+      ]
+    },
+    {
+      "action": "Use medications, milieu therapy to assist with re-compensation",
+      "owner": "treating_team",
+      "priority": "routine",
+      "due": null,
+      "category": "medication",
+      "rationale": "Assist with re-compensation from severe decompensation.",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 2361,
+          "end": 2420
+        }
+      ]
+    }
+  ],
+  "red_flags": [],
+  "patient_summary": null,
+  "quality": {
+    "missing_information": [
+      "Prior medications",
+      "Exact duration of decompensation",
+      "Substance and alcohol history other than nicotine"
+    ],
+    "contradictions": [],
+    "low_confidence_fields": []
+  }
+}

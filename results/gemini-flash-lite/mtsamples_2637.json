@@ -1,0 +1,248 @@
+{
+  "schema_version": "0.1",
+  "record_id": "mtsamples:2637",
+  "patient_id": "ebb44221-055e-49fa-87e4-d02a371e00ff",
+  "generator": {
+    "kind": "model",
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "v1",
+    "generated_at": "2026-10-25T15:55:28Z"
+  },
+  "one_liner": "A female patient with severe menometrorrhagia, severe anemia, and a fibroid uterus underwent hysteroscopy, D&C, and myomectomy, and was discharged home in stable condition.",
+  "problems": [
+    {
+      "name": "Severe menometrorrhagia unresponsive to medical therapy",
+      "code": null,
+      "status": "confirmed",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 25,
+          "end": 80
+        }
+      ]
+    },
+    {
+      "name": "Severe anemia",
+      "code": null,
+      "status": "confirmed",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 86,
+          "end": 99
+        }
+      ]
+    },
+    {
+      "name": "Fibroid uterus",
+      "code": null,
+      "status": "confirmed",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 105,
+          "end": 119
+        }
+      ]
+    }
+  ],
+  "medications": {
+    "started": [
+      {
+        "name": "Vicodin",
+        "dose": "1 tablet",
+        "route": "p.o.",
+        "frequency": "q.4-6 h. p.r.n.",
+        "previous": null,
+        "reason": "pain",
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 1449,
+            "end": 1499
+          }
+        ]
+      },
+      {
+        "name": "multiple vitamin",
+        "dose": "1 tab",
+        "route": "p.o.",
+        "frequency": "daily",
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 1501,
+            "end": 1534
+          }
+        ]
+      },
+      {
+        "name": "ferrous sulfate",
+        "dose": "1 tablet",
+        "route": "p.o.",
+        "frequency": "daily",
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 1536,
+            "end": 1580
+          }
+        ]
+      }
+    ],
+    "stopped": [],
+    "changed": [],
+    "continued": []
+  },
+  "allergies": [],
+  "key_findings": [
+    {
+      "category": "lab",
+      "name": "hematocrit",
+      "value": "25",
+      "unit": null,
+      "flag": null,
+      "trend": null,
+      "interpretation": "Posttransfusion hematocrit level",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 526,
+          "end": 585
+        }
+      ]
+    },
+    {
+      "category": "lab",
+      "name": "hemoglobin",
+      "value": "8.3",
+      "unit": null,
+      "flag": null,
+      "trend": null,
+      "interpretation": "Posttransfusion hemoglobin level",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 587,
+          "end": 604
+        }
+      ]
+    },
+    {
+      "category": "other",
+      "name": "Large endometrial cavity fibroid",
+      "value": null,
+      "unit": null,
+      "flag": null,
+      "trend": null,
+      "interpretation": "Large endometrial cavity fibroid requiring careful dissection and excision",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 349,
+          "end": 423
+        }
+      ]
+    }
+  ],
+  "procedures": [
+    {
+      "name": "Hysteroscopy",
+      "time": null,
+      "outcome": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 268,
+          "end": 280
+        }
+      ]
+    },
+    {
+      "name": "Dilatation and curettage (D&C)",
+      "time": null,
+      "outcome": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 286,
+          "end": 316
+        }
+      ]
+    },
+    {
+      "name": "Myomectomy",
+      "time": null,
+      "outcome": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 322,
+          "end": 332
+        }
+      ]
+    }
+  ],
+  "course": {
+    "narrative": "The patient was admitted to the surgical suite and taken to the operating room for a D&C and hysteroscopy, which revealed a large endometrial cavity fibroid. Careful shaving, excision, and myomectomy of the fibroid were performed with complete hemostasis. She received two units of packed red blood cells due to intraoperative blood loss. Postoperatively, she did well, was ambulating without difficulty, tolerating her diet, and desired to go home.",
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 637,
+        "end": 769
+      }
+    ]
+  },
+  "disposition": {
+    "status": "discharged",
+    "destination": "home",
+    "condition": "Stable",
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 1233,
+        "end": 1267
+      },
+      {
+        "doc_id": "d1",
+        "start": 1289,
+        "end": 1296
+      }
+    ]
+  },
+  "action_items": [
+    {
+      "action": "Return to see Dr. X for further followup care",
+      "owner": "patient",
+      "priority": "routine",
+      "due": "<DATE>",
+      "category": "follow_up",
+      "rationale": "further followup care",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1623,
+          "end": 1706
+        }
+      ]
+    }
+  ],
+  "red_flags": [],
+  "patient_summary": null,
+  "quality": {
+    "missing_information": [],
+    "contradictions": [],
+    "low_confidence_fields": []
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "schema_version": "0.1",
+  "record_id": "mtsamples:1110",
+  "patient_id": "5da10dc3-7f65-4a0c-b72f-22052bd5cf64",
+  "generator": {
+    "kind": "model",
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "v1",
+    "generated_at": "2026-10-25T15:59:32Z"
+  },
+  "one_liner": "A 35-year-old female with breast asymmetry and status post previous breast surgeries underwent left breast capsulotomy and flat advancement V to Y to correct a lower pole defect.",
+  "problems": [
+    {
+      "name": "Breast assymetry, status post previous breast surgery",
+      "code": null,
+      "status": "confirmed",
+      "is_new": false,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 0,
+          "end": 78
+        }
+      ]
+    },
+    {
+      "name": "flatness of the lower pole of the left breast",
+      "code": null,
+      "status": "confirmed",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 398,
+          "end": 453
+        }
+      ]
+    }
+  ],
+  "medications": {
+    "started": [
+      {
+        "name": "Kefzol",
+        "dose": "1 g",
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": "prior to beginning the procedure",
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 975,
+            "end": 1046
+          }
+        ]
+      },
+      {
+        "name": "Bacitracin",
+        "dose": "50,000 units",
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": "irrigation",
+        "evidence": []
+      },
+      {
+        "name": "Kefzol",
+        "dose": "1 g",
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": "irrigation",
+        "evidence": []
+      },
+      {
+        "name": "gentamicin",
+        "dose": "80 mg",
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": "irrigation",
+        "evidence": []
+      }
+    ],
+    "stopped": [],
+    "changed": [],
+    "continued": []
+  },
+  "allergies": [],
+  "key_findings": [
+    {
+      "category": "exam",
+      "name": "nipple inframammary fold distance",
+      "value": "1.5 cm shorter",
+      "unit": "cm",
+      "flag": "abnormal",
+      "trend": null,
+      "interpretation": "nipple inframammary fold distance is approximately 1.5 cm shorter than the fuller right breast",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 456,
+          "end": 555
+        }
+      ]
+    }
+  ],
+  "procedures": [
+    {
+      "name": "Capsulotomy left breast, flat advancement V to Y left breast for correction lower pole defect",
+      "time": null,
+      "outcome": "completed successfully",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 159,
+          "end": 264
+        }
+      ]
+    }
+  ],
+  "course": {
+    "narrative": "A 35-year-old female with left breast lower pole flatness secondary to previous surgeries underwent capsulotomy and V-Y flat advancement of the left breast under LMA anesthesia. Preoperative markings were performed in the upright position. The previous inverted T-scar was excised, the breast was dissected off the underlying capsule and pectoralis muscle, and a superior-based capsular flap was created to allow implant descent. The inferior edge of the capsule was sutured to the inframammary flap, and the vertical incision was extended by 2 cm to correct the lower pole defect. Hemostasis was achieved, the pocket was copiously irrigated, and the incisions were closed in layers. Estimated blood loss was negligible, and sponge/instrument/needle counts were correct.",
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 306,
+        "end": 454
+      },
+      {
+        "doc_id": "d1",
+        "start": 2825,
+        "end": 2857
+      }
+    ]
+  },
+  "disposition": {
+    "status": "other",
+    "destination": null,
+    "condition": null,
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 2684,
+        "end": 2766
+      }
+    ]
+  },
+  "action_items": [],
+  "red_flags": [],
+  "patient_summary": null,
+  "quality": {
+    "missing_information": [],
+    "contradictions": [],
+    "low_confidence_fields": [
+      "/medications/started/1",
+      "/medications/started/2",
+      "/medications/started/3"
+    ]
+  }
+}

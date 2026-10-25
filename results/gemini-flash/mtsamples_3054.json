@@ -1,0 +1,445 @@
+{
+  "schema_version": "0.1",
+  "record_id": "mtsamples:3054",
+  "patient_id": "2ce4dcf0-fab4-4a0a-9062-cc077aa7b1c9",
+  "generator": {
+    "kind": "model",
+    "model": "gemini-3.8-flash",
+    "prompt_version": "v1",
+    "generated_at": "2026-10-25T16:03:08Z"
+  },
+  "one_liner": "A 68-year-old male with CAD, HF, DM, HTN, and stage III CKD presented with acute on chronic kidney failure, orthostatic hypotension, and myositis likely related to medication/herbal use, managed with medication adjustments and outpatient workup.",
+  "problems": [
+    {
+      "name": "Acute on chronic kidney failure",
+      "code": null,
+      "status": "confirmed",
+      "is_new": true,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 5483,
+          "end": 5585
+        }
+      ]
+    },
+    {
+      "name": "Orthostatic hypotension",
+      "code": null,
+      "status": "confirmed",
+      "is_new": true,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 6174,
+          "end": 6324
+        }
+      ]
+    },
+    {
+      "name": "Elevated creatine kinase consistent with myositis",
+      "code": null,
+      "status": "confirmed",
+      "is_new": true,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 6330,
+          "end": 6456
+        }
+      ]
+    },
+    {
+      "name": "Stage III chronic kidney disease",
+      "code": null,
+      "status": "chronic",
+      "is_new": false,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 184,
+          "end": 276
+        }
+      ]
+    },
+    {
+      "name": "Coronary artery disease",
+      "code": null,
+      "status": "chronic",
+      "is_new": false,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 2076,
+          "end": 2131
+        }
+      ]
+    },
+    {
+      "name": "Heart failure",
+      "code": null,
+      "status": "chronic",
+      "is_new": false,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 2173,
+          "end": 2213
+        }
+      ]
+    },
+    {
+      "name": "Hypertension",
+      "code": null,
+      "status": "chronic",
+      "is_new": false,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 2218,
+          "end": 2244
+        }
+      ]
+    },
+    {
+      "name": "Diabetes mellitus",
+      "code": null,
+      "status": "chronic",
+      "is_new": false,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 2249,
+          "end": 2301
+        }
+      ]
+    },
+    {
+      "name": "Benign prostatic hypertrophy",
+      "code": null,
+      "status": "chronic",
+      "is_new": false,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 906,
+          "end": 991
+        }
+      ]
+    }
+  ],
+  "medications": {
+    "started": [],
+    "stopped": [
+      {
+        "name": "Crestor",
+        "dose": "5 mg",
+        "route": null,
+        "frequency": "daily",
+        "previous": "5 mg daily",
+        "reason": "Elevated creatine kinase consistent with myositis",
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 6833,
+            "end": 6846
+          }
+        ]
+      }
+    ],
+    "changed": [
+      {
+        "name": "atenolol",
+        "dose": "25 mg",
+        "route": null,
+        "frequency": "daily",
+        "previous": "50 mg daily",
+        "reason": "Episodic and orthostatic hypotension",
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 6721,
+            "end": 6754
+          }
+        ]
+      },
+      {
+        "name": "enalapril",
+        "dose": "10 mg",
+        "route": null,
+        "frequency": "daily",
+        "previous": "10 mg b.i.d.",
+        "reason": "Episodic and orthostatic hypotension / acute kidney failure",
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 6759,
+            "end": 6793
+          }
+        ]
+      },
+      {
+        "name": "Lasix",
+        "dose": "20 mg",
+        "route": null,
+        "frequency": "daily",
+        "previous": "60 mg daily",
+        "reason": "Dehydration / prerenal acute kidney failure",
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 6798,
+            "end": 6828
+          }
+        ]
+      }
+    ],
+    "continued": [
+      {
+        "name": "Flomax",
+        "dose": "0.4 mg",
+        "route": null,
+        "frequency": "daily",
+        "previous": null,
+        "reason": "prostatic hypertrophy",
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 2005,
+            "end": 2049
+          }
+        ]
+      },
+      {
+        "name": "TriCor",
+        "dose": "145 mg",
+        "route": null,
+        "frequency": "daily",
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 1940,
+            "end": 2003
+          }
+        ]
+      },
+      {
+        "name": "Imdur",
+        "dose": "20 mg",
+        "route": null,
+        "frequency": "two to three times daily",
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 1525,
+            "end": 1583
+          }
+        ]
+      },
+      {
+        "name": "insulin 70/30",
+        "dose": "40/45 units",
+        "route": null,
+        "frequency": "daily",
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 1585,
+            "end": 1635
+          }
+        ]
+      }
+    ]
+  },
+  "allergies": [],
+  "key_findings": [
+    {
+      "category": "lab",
+      "name": "creatinine",
+      "value": "2.3",
+      "unit": null,
+      "flag": "high",
+      "trend": null,
+      "interpretation": "Elevated from prior baseline of 1.8, indicating acute on chronic renal failure",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 358,
+          "end": 466
+        }
+      ]
+    },
+    {
+      "category": "lab",
+      "name": "CK",
+      "value": "653",
+      "unit": null,
+      "flag": "high",
+      "trend": null,
+      "interpretation": "Elevated creatine kinase consistent with myositis",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 5093,
+          "end": 5129
+        }
+      ]
+    },
+    {
+      "category": "lab",
+      "name": "BUN",
+      "value": "46",
+      "unit": null,
+      "flag": "high",
+      "trend": null,
+      "interpretation": "Elevated BUN reflecting worsening renal function or prerenal azotemia",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 4988,
+          "end": 5060
+        }
+      ]
+    },
+    {
+      "category": "vital",
+      "name": "blood pressure",
+      "value": "132/50",
+      "unit": "mmHg",
+      "flag": "abnormal",
+      "trend": null,
+      "interpretation": "Low diastolic pressure on standing contributing to cerebral hypoperfusion and orthostatic dizziness",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 3628,
+          "end": 3676
+        }
+      ]
+    },
+    {
+      "category": "exam",
+      "name": "Orthostatic symptoms",
+      "value": "dizzy on standing",
+      "unit": null,
+      "flag": "abnormal",
+      "trend": null,
+      "interpretation": "Dizziness upon standing for a prolonged period consistent with orthostatic hypotension",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 3688,
+          "end": 3768
+        }
+      ]
+    }
+  ],
+  "procedures": [],
+  "course": {
+    "narrative": "A 68-year-old gentleman with stage III CKD, CAD, HF, and BPH presented for nephrology consultation due to acute creatinine rise to 2.3. Potential etiologies included prerenal volume depletion from furosemide and weight loss, Chinese herbal supplement use causing interstitial nephritis, urinary tract obstruction from BPH, or TriCor interference. He also had orthostatic dizziness with low diastolic blood pressure and elevated CK (653) consistent with myositis from statin/fibrate therapy. Crestor was discontinued, atenolol, enalapril, and Lasix doses were reduced, and he was advised to avoid NSAIDs and herbal supplements.",
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 5483,
+        "end": 5585
+      },
+      {
+        "doc_id": "d1",
+        "start": 6721,
+        "end": 6845
+      }
+    ]
+  },
+  "disposition": {
+    "status": "discharged",
+    "destination": "home",
+    "condition": null,
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 6879,
+        "end": 6931
+      }
+    ]
+  },
+  "action_items": [
+    {
+      "action": "Avoid any further Chinese herbs and NSAIDs",
+      "owner": "patient",
+      "priority": "soon",
+      "due": null,
+      "category": "patient_education",
+      "rationale": "Prevent further nephrotoxicity or interstitial nephritis",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 6544,
+          "end": 6633
+        }
+      ]
+    },
+    {
+      "action": "Recheck laboratory tests including CBC with differential, SPEP, uric acid, and renal panel",
+      "owner": "lab",
+      "priority": "soon",
+      "due": null,
+      "category": "monitoring",
+      "rationale": "Monitor renal function and evaluate acute on chronic kidney failure",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 6638,
+          "end": 6716
+        }
+      ]
+    },
+    {
+      "action": "Perform renal ultrasound",
+      "owner": "specialist",
+      "priority": "soon",
+      "due": null,
+      "category": "pending_result",
+      "rationale": "Investigate potential obstructive uropathy given history of prostatic hypertrophy",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 6851,
+          "end": 6874
+        }
+      ]
+    },
+    {
+      "action": "Follow up in clinic in two weeks",
+      "owner": "treating_team",
+      "priority": "routine",
+      "due": "in two weeks",
+      "category": "follow_up",
+      "rationale": "Review imaging and repeat laboratory studies",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 6879,
+          "end": 6931
+        }
+      ]
+    }
+  ],
+  "red_flags": [],
+  "patient_summary": null,
+  "quality": {
+    "missing_information": [],
+    "contradictions": [],
+    "low_confidence_fields": []
+  }
+}

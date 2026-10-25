@@ -1,0 +1,314 @@
+{
+  "schema_version": "0.1",
+  "record_id": "mtsamples:1452",
+  "patient_id": "50257e42-c50f-4b40-90a1-c9726d307296",
+  "generator": {
+    "kind": "model",
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "v1",
+    "generated_at": "2026-10-25T16:14:29Z"
+  },
+  "one_liner": "A 45-year-old woman with a history of acquired hypothyroidism, status post total thyroidectomy for papillary carcinoma, diabetes mellitus, and sleep apnea returns for follow-up with fatigue, and the plan is to taper her levothyroxine to lower her TSH and follow up in 6 months.",
+  "problems": [
+    {
+      "name": "Acquired hypothyroidism",
+      "code": null,
+      "status": "confirmed",
+      "is_new": false,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 14,
+          "end": 42
+        }
+      ]
+    },
+    {
+      "name": "Papillary carcinoma of the thyroid gland",
+      "code": null,
+      "status": "confirmed",
+      "is_new": false,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 43,
+          "end": 131
+        }
+      ]
+    },
+    {
+      "name": "Diabetes mellitus",
+      "code": null,
+      "status": "confirmed",
+      "is_new": false,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 132,
+          "end": 154
+        }
+      ]
+    },
+    {
+      "name": "Insomnia with sleep apnea",
+      "code": null,
+      "status": "confirmed",
+      "is_new": false,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 155,
+          "end": 185
+        }
+      ]
+    }
+  ],
+  "medications": {
+    "started": [],
+    "stopped": [],
+    "changed": [],
+    "continued": [
+      {
+        "name": "Levothyroxine",
+        "dose": "125 micrograms",
+        "route": "p.o.",
+        "frequency": "once daily",
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 1020,
+            "end": 1069
+          }
+        ]
+      },
+      {
+        "name": "CPAP",
+        "dose": null,
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 1070,
+            "end": 1079
+          }
+        ]
+      },
+      {
+        "name": "Glucotrol",
+        "dose": null,
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 1080,
+            "end": 1094
+          }
+        ]
+      },
+      {
+        "name": "Avandamet",
+        "dose": null,
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 1095,
+            "end": 1109
+          }
+        ]
+      },
+      {
+        "name": "Synthroid",
+        "dose": null,
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 1110,
+            "end": 1124
+          }
+        ]
+      },
+      {
+        "name": "Byetta",
+        "dose": null,
+        "route": null,
+        "frequency": "injected twice daily",
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 1125,
+            "end": 1157
+          }
+        ]
+      }
+    ]
+  },
+  "allergies": [],
+  "key_findings": [
+    {
+      "category": "vital",
+      "name": "Temperature",
+      "value": "96.9",
+      "unit": null,
+      "flag": null,
+      "trend": null,
+      "interpretation": "Temperature 96.9",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1621,
+          "end": 1717
+        }
+      ]
+    },
+    {
+      "category": "vital",
+      "name": "Pulse",
+      "value": "85",
+      "unit": null,
+      "flag": null,
+      "trend": null,
+      "interpretation": "Pulse 85",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1621,
+          "end": 1717
+        }
+      ]
+    },
+    {
+      "category": "vital",
+      "name": "Blood Pressure",
+      "value": "135/65",
+      "unit": null,
+      "flag": null,
+      "trend": null,
+      "interpretation": "Blood pressure 135/65",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1621,
+          "end": 1717
+        }
+      ]
+    },
+    {
+      "category": "vital",
+      "name": "Weight",
+      "value": "85.7",
+      "unit": "kg",
+      "flag": null,
+      "trend": null,
+      "interpretation": "Weight 85.7 kg",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1621,
+          "end": 1717
+        }
+      ]
+    }
+  ],
+  "procedures": [
+    {
+      "name": "total thyroidectomy",
+      "time": null,
+      "outcome": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 89,
+          "end": 131
+        }
+      ]
+    }
+  ],
+  "course": {
+    "narrative": "A 45-year-old woman with a history of acquired hypothyroidism, papillary thyroid carcinoma status post total thyroidectomy, diabetes, and sleep apnea returned to the endocrine clinic. She reported feeling fatigued throughout the day, though she uses CPAP and wakes up refreshed. She denied symptoms of thyroid excess or hypothyroidism. Physical exam revealed an overweight woman with a well-healed surgical scar in the neck and no palpable thyroid tissue. Labs including a free T4, TSH, and thyroglobulin levels were drawn. The plan, discussed with Dr. X, is to taper her thyroid medication to target a TSH of 0.41 or less, have the patient call next week for follow-up, and see her back in approximately 6 months.",
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 214,
+        "end": 305
+      },
+      {
+        "doc_id": "d1",
+        "start": 3009,
+        "end": 3121
+      }
+    ]
+  },
+  "disposition": {
+    "status": "discharged",
+    "destination": null,
+    "condition": null,
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 3157,
+        "end": 3225
+      }
+    ]
+  },
+  "action_items": [
+    {
+      "action": "Call the clinic next week for followup and continued management of her hypothyroid state",
+      "owner": "patient",
+      "priority": "routine",
+      "due": "next week",
+      "category": "follow_up",
+      "rationale": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 2783,
+          "end": 2889
+        }
+      ]
+    },
+    {
+      "action": "See the patient back in approximately 6 months or sooner",
+      "owner": "treating_team",
+      "priority": "routine",
+      "due": "approximately 6 months or sooner",
+      "category": "follow_up",
+      "rationale": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 3157,
+          "end": 3225
+        }
+      ]
+    }
+  ],
+  "red_flags": [],
+  "patient_summary": null,
+  "quality": {
+    "missing_information": [],
+    "contradictions": [],
+    "low_confidence_fields": []
+  }
+}

@@ -1,0 +1,286 @@
+{
+  "schema_version": "0.1",
+  "record_id": "mtsamples:3093",
+  "patient_id": "e4ade88f-3b6f-4173-8d99-c640a7b40638",
+  "generator": {
+    "kind": "model",
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "v1",
+    "generated_at": "2026-10-25T16:01:30Z"
+  },
+  "one_liner": "A 34-year-old male evaluated for an independent medical examination following a left knee work injury who underwent ACL reconstruction and partial medial meniscectomy, currently progressing in physical therapy.",
+  "problems": [
+    {
+      "name": "Sprain of left knee and leg",
+      "code": null,
+      "status": "confirmed",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 0,
+          "end": 48
+        }
+      ]
+    },
+    {
+      "name": "Left knee tear medial meniscus",
+      "code": null,
+      "status": "confirmed",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 49,
+          "end": 100
+        }
+      ]
+    },
+    {
+      "name": "Left knee ACL tear",
+      "code": null,
+      "status": "confirmed",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 102,
+          "end": 121
+        }
+      ]
+    },
+    {
+      "name": "Hypertension",
+      "code": null,
+      "status": "confirmed",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 5285,
+          "end": 5361
+        }
+      ]
+    },
+    {
+      "name": "Hyperlipidemia",
+      "code": null,
+      "status": "confirmed",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 5363,
+          "end": 5377
+        }
+      ]
+    },
+    {
+      "name": "Diabetes",
+      "code": null,
+      "status": "confirmed",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 5383,
+          "end": 5392
+        }
+      ]
+    }
+  ],
+  "medications": {
+    "started": [],
+    "stopped": [],
+    "changed": [],
+    "continued": [
+      {
+        "name": "Glucophage",
+        "dose": null,
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 2127,
+            "end": 2202
+          }
+        ]
+      },
+      {
+        "name": "Lipitor",
+        "dose": null,
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 2140,
+            "end": 2202
+          }
+        ]
+      },
+      {
+        "name": "Actos",
+        "dose": null,
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 2140,
+            "end": 2202
+          }
+        ]
+      },
+      {
+        "name": "Benicar",
+        "dose": null,
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 2140,
+            "end": 2202
+          }
+        ]
+      },
+      {
+        "name": "glimepiride",
+        "dose": null,
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 2140,
+            "end": 2202
+          }
+        ]
+      },
+      {
+        "name": "Januvia",
+        "dose": null,
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 2177,
+            "end": 2202
+          }
+        ]
+      }
+    ]
+  },
+  "allergies": [],
+  "key_findings": [
+    {
+      "category": "imaging",
+      "name": "MRI left knee",
+      "value": null,
+      "unit": null,
+      "flag": "abnormal",
+      "trend": null,
+      "interpretation": "Complete tear of the mid to distal ACL, small peripheral longitudinal tear of posterior horn of medial meniscus, and grade I sprain of MCL.",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 3887,
+          "end": 4034
+        }
+      ]
+    },
+    {
+      "category": "exam",
+      "name": "Left knee range of motion",
+      "value": "50 to 70",
+      "unit": "degrees",
+      "flag": "abnormal",
+      "trend": null,
+      "interpretation": "Limited flexion of left knee.",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 2817,
+          "end": 2886
+        }
+      ]
+    }
+  ],
+  "procedures": [
+    {
+      "name": "Anterior cruciate reconstruction and partial medial meniscectomy",
+      "time": null,
+      "outcome": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1294,
+          "end": 1417
+        }
+      ]
+    }
+  ],
+  "course": {
+    "narrative": "A 34-year-old male sustained a left knee injury at work when his knee went sideways while stepping down. Imaging revealed an ACL tear and a medial meniscal tear. He subsequently underwent surgical intervention consisting of an anterior cruciate ligament reconstruction and partial medial meniscectomy. At the time of evaluation, he is progressing with physical therapy, utilizing one crutch, and reporting left knee pain of 6 to 7 out of 10 with significant bruising and swelling.",
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 160,
+        "end": 306
+      }
+    ]
+  },
+  "disposition": {
+    "status": "other",
+    "destination": null,
+    "condition": null,
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 160,
+        "end": 257
+      }
+    ]
+  },
+  "action_items": [
+    {
+      "action": "Attend next appointment with Dr. X",
+      "owner": "patient",
+      "priority": "routine",
+      "due": null,
+      "category": "follow_up",
+      "rationale": "Follow up for left knee injury evaluation and management.",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1985,
+          "end": 2030
+        }
+      ]
+    }
+  ],
+  "red_flags": [],
+  "patient_summary": null,
+  "quality": {
+    "missing_information": [],
+    "contradictions": [],
+    "low_confidence_fields": []
+  }
+}

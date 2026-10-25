@@ -1,0 +1,81 @@
+{
+  "schema_version": "0.1",
+  "record_id": "mtsamples:965",
+  "patient_id": "0de7963a-9425-43d4-896c-e0e08705bd72",
+  "generator": {
+    "kind": "model",
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "v1",
+    "generated_at": "2026-10-25T16:10:48Z"
+  },
+  "one_liner": "An adult male with a right chronic subdural hematoma underwent successful right burr hole craniotomy for evacuation and subdural drain placement under general anesthesia, and was transported to PACU in satisfactory condition.",
+  "problems": [
+    {
+      "name": "Right chronic subdural hematoma",
+      "code": null,
+      "status": "confirmed",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 24,
+          "end": 56
+        }
+      ]
+    }
+  ],
+  "medications": {
+    "started": [],
+    "stopped": [],
+    "changed": [],
+    "continued": []
+  },
+  "allergies": [],
+  "key_findings": [],
+  "procedures": [
+    {
+      "name": "Right burr hole craniotomy for evacuation of subdural hematoma and placement of subdural drain",
+      "time": null,
+      "outcome": "There was egress of a large amount of liquid. Under pressure, we irrigated for quite sometime until irrigation was returning mostly clear.",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 134,
+          "end": 229
+        }
+      ]
+    }
+  ],
+  "course": {
+    "narrative": "The patient was brought to the operating room and placed in the supine position under general endotracheal anesthesia. A right shoulder roll was placed and the head was turned to the left. The scalp was prepped and draped. Incisions were marked and the parietal boss incision was opened. A bur hole was fashioned, widened, and the dura was coagulated and opened, revealing a large amount of liquid under pressure. Thorough irrigation was performed until clear. A subdural drain was placed in the subdural space and secured. The wound was closed with Vicryl sutures and staples, and a sterile dressing was applied. The patient was extubated in the OR and transported to the PACU in satisfactory condition.",
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 1759,
+        "end": 1849
+      }
+    ]
+  },
+  "disposition": {
+    "status": "transferred",
+    "destination": "PACU",
+    "condition": "satisfactory condition",
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 1803,
+        "end": 1849
+      }
+    ]
+  },
+  "action_items": [],
+  "red_flags": [],
+  "patient_summary": null,
+  "quality": {
+    "missing_information": [
+      "No postoperative plan, follow-up instructions, or medication orders are mentioned in the text."
+    ],
+    "contradictions": [],
+    "low_confidence_fields": []
+  }
+}

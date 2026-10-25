@@ -1,0 +1,126 @@
+{
+  "schema_version": "0.1",
+  "record_id": "mtsamples:536",
+  "patient_id": "52b3d368-13c5-4386-ae1f-7800bc1ed3a4",
+  "generator": {
+    "kind": "model",
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "v1",
+    "generated_at": "2026-10-25T16:00:02Z"
+  },
+  "one_liner": "A one-year-old child with chronic otitis media with effusion and conductive hearing loss underwent successful bilateral myringotomies and PE tube insertion.",
+  "problems": [
+    {
+      "name": "Chronic otitis media with effusion",
+      "code": null,
+      "status": "confirmed",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 24,
+          "end": 58
+        }
+      ]
+    },
+    {
+      "name": "Conductive hearing loss",
+      "code": null,
+      "status": "confirmed",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 60,
+          "end": 83
+        }
+      ]
+    },
+    {
+      "name": "Recurrent acute otitis media",
+      "code": null,
+      "status": "confirmed",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 89,
+          "end": 117
+        }
+      ]
+    }
+  ],
+  "medications": {
+    "started": [
+      {
+        "name": "Floxin otic drops",
+        "dose": null,
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 1166,
+            "end": 1201
+          }
+        ]
+      }
+    ],
+    "stopped": [],
+    "changed": [],
+    "continued": []
+  },
+  "allergies": [],
+  "key_findings": [],
+  "procedures": [
+    {
+      "name": "Bilateral myringotomies, insertion of PE tubes, and pharyngeal anesthesia",
+      "time": null,
+      "outcome": "tolerated the procedure well with stable signs",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 250,
+          "end": 323
+        }
+      ]
+    }
+  ],
+  "course": {
+    "narrative": "A one-year-old patient with chronic otitis media with effusion, conductive hearing loss, and recurrent acute otitis media was brought to the operating room for bilateral myringotomies and PE tube insertion. General anesthesia was administered via facemask. Operating microscopy revealed mucoid middle ear effusions bilaterally, which were aspirated. Reuter bobbin PE tubes were successfully placed in both ears, followed by Floxin otic drops and cotton balls. The patient tolerated the procedure well, anesthesia was reversed, and the patient was transported to the recovery room with stable signs and no complications.",
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 387,
+        "end": 407
+      },
+      {
+        "doc_id": "d1",
+        "start": 1437,
+        "end": 1573
+      }
+    ]
+  },
+  "disposition": {
+    "status": "discharged",
+    "destination": "recovery room",
+    "condition": "stable",
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 1486,
+        "end": 1572
+      }
+    ]
+  },
+  "action_items": [],
+  "red_flags": [],
+  "patient_summary": null,
+  "quality": {
+    "missing_information": [],
+    "contradictions": [],
+    "low_confidence_fields": []
+  }
+}

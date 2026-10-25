@@ -1,0 +1,62 @@
+{
+  "schema_version": "0.1",
+  "record_id": "mtsamples:4031",
+  "patient_id": "f08d0ce8-54e9-49f0-95ba-12fa7963bf06",
+  "generator": {
+    "kind": "model",
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "v1",
+    "generated_at": "2026-10-25T16:00:26Z"
+  },
+  "one_liner": "This is a clinical reference document outlining the signs, symptoms, causes, triggers, treatments, medications, and general care instructions for acne vulgaris.",
+  "problems": [
+    {
+      "name": "Acne vulgaris",
+      "code": null,
+      "status": "chronic",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 0,
+          "end": 86
+        }
+      ]
+    }
+  ],
+  "medications": {
+    "started": [],
+    "stopped": [],
+    "changed": [],
+    "continued": []
+  },
+  "allergies": [],
+  "key_findings": [],
+  "procedures": [],
+  "course": {
+    "narrative": "This record provides educational and clinical guidance on acne vulgaris, describing presentation ranging from blackheads and whiteheads to pustules, cysts, and abscesses. It reviews contributing factors such as oil gland plugging, adolescent sex hormone changes, and bacterial infection. Potential exacerbating factors include temperatures, stress, and certain drugs. Treatment recommendations cover gentle cleansing, avoidance of picking or harsh scrubbing, use of water-based cosmetics, and potential prescription therapies including oral or topical antibiotics, cortisone injections, oral contraceptives, tretinoin, Accutane, and tetracycline, along with specific dietary and administration precautions for tetracycline.",
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 0,
+        "end": 86
+      }
+    ]
+  },
+  "disposition": {
+    "status": "unknown",
+    "destination": null,
+    "condition": null,
+    "evidence": []
+  },
+  "action_items": [],
+  "red_flags": [],
+  "patient_summary": null,
+  "quality": {
+    "missing_information": [
+      "Patient-specific clinical data is entirely absent as this is a general reference document."
+    ],
+    "contradictions": [],
+    "low_confidence_fields": []
+  }
+}

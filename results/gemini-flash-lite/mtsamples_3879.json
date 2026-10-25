@@ -1,0 +1,348 @@
+{
+  "schema_version": "0.1",
+  "record_id": "mtsamples:3879",
+  "patient_id": "052820da-d5aa-4ece-8671-9ac3baa7402d",
+  "generator": {
+    "kind": "model",
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "v1",
+    "generated_at": "2026-10-25T15:57:54Z"
+  },
+  "one_liner": "A 12-year-old male with a history of a bicycle accident involving loss of consciousness and neck pain presents with concussion, facial abrasion, scalp laceration, and knee abrasions, and is admitted for observation.",
+  "problems": [
+    {
+      "name": "Neck pain",
+      "code": null,
+      "status": "confirmed",
+      "is_new": true,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 202,
+          "end": 237
+        }
+      ]
+    },
+    {
+      "name": "Moderate obesity",
+      "code": null,
+      "status": "confirmed",
+      "is_new": true,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1947,
+          "end": 1982
+        }
+      ]
+    },
+    {
+      "name": "Hematoma in the forehead",
+      "code": null,
+      "status": "confirmed",
+      "is_new": true,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 3115,
+          "end": 3150
+        }
+      ]
+    },
+    {
+      "name": "Hematoma in the occipital scalp",
+      "code": null,
+      "status": "confirmed",
+      "is_new": true,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 3151,
+          "end": 3182
+        }
+      ]
+    },
+    {
+      "name": "Abrasions in the upper extremities",
+      "code": null,
+      "status": "confirmed",
+      "is_new": true,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 3183,
+          "end": 3231
+        }
+      ]
+    },
+    {
+      "name": "Abrasions on the knees",
+      "code": null,
+      "status": "confirmed",
+      "is_new": true,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 3232,
+          "end": 3259
+        }
+      ]
+    },
+    {
+      "name": "Concussion",
+      "code": null,
+      "status": "confirmed",
+      "is_new": true,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 3622,
+          "end": 3633
+        }
+      ]
+    },
+    {
+      "name": "Facial abrasion",
+      "code": null,
+      "status": "confirmed",
+      "is_new": true,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 3638,
+          "end": 3654
+        }
+      ]
+    },
+    {
+      "name": "Scalp laceration",
+      "code": null,
+      "status": "confirmed",
+      "is_new": true,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 3659,
+          "end": 3676
+        }
+      ]
+    },
+    {
+      "name": "Knee abrasions",
+      "code": null,
+      "status": "confirmed",
+      "is_new": true,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 3681,
+          "end": 3696
+        }
+      ]
+    }
+  ],
+  "medications": {
+    "started": [],
+    "stopped": [],
+    "changed": [],
+    "continued": []
+  },
+  "allergies": [
+    {
+      "substance": "NONE KNOWN",
+      "reaction": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 393,
+          "end": 415
+        }
+      ]
+    }
+  ],
+  "key_findings": [
+    {
+      "category": "vital",
+      "name": "Blood pressure",
+      "value": "150/75",
+      "unit": "mmHg",
+      "flag": "high",
+      "trend": null,
+      "interpretation": "Elevated blood pressure",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1845,
+          "end": 1866
+        }
+      ]
+    },
+    {
+      "category": "vital",
+      "name": "pulse rate",
+      "value": "80",
+      "unit": "bpm",
+      "flag": "normal",
+      "trend": null,
+      "interpretation": "Normal pulse rate",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1868,
+          "end": 1881
+        }
+      ]
+    },
+    {
+      "category": "vital",
+      "name": "respirations",
+      "value": "18",
+      "unit": "bpm",
+      "flag": "normal",
+      "trend": null,
+      "interpretation": "Normal respiratory rate",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1883,
+          "end": 1898
+        }
+      ]
+    },
+    {
+      "category": "vital",
+      "name": "temperature",
+      "value": "37.4",
+      "unit": "C",
+      "flag": "normal",
+      "trend": null,
+      "interpretation": "Normal temperature",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1900,
+          "end": 1916
+        }
+      ]
+    },
+    {
+      "category": "vital",
+      "name": "saturation",
+      "value": "97",
+      "unit": "%",
+      "flag": "normal",
+      "trend": null,
+      "interpretation": "Normal oxygen saturation on room air",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1918,
+          "end": 1945
+        }
+      ]
+    },
+    {
+      "category": "imaging",
+      "name": "chest x-ray",
+      "value": null,
+      "unit": null,
+      "flag": "normal",
+      "trend": null,
+      "interpretation": "Normal chest x-ray",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 3493,
+          "end": 3530
+        }
+      ]
+    },
+    {
+      "category": "imaging",
+      "name": "right hand x-ray",
+      "value": null,
+      "unit": null,
+      "flag": "normal",
+      "trend": null,
+      "interpretation": "Normal right hand x-ray",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 3532,
+          "end": 3565
+        }
+      ]
+    },
+    {
+      "category": "imaging",
+      "name": "MRI of the head",
+      "value": null,
+      "unit": null,
+      "flag": "normal",
+      "trend": null,
+      "interpretation": "Normal MRI of the head",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 3571,
+          "end": 3607
+        }
+      ]
+    }
+  ],
+  "procedures": [],
+  "course": {
+    "narrative": "A 12-year-old male was admitted to the Emergency Department after falling off his bicycle without a helmet, sustaining a loss of consciousness and neck pain. He reported no other acute complaints. Physical examination revealed a BP of 150/75, moderate obesity, forehead and occipital hematomas, and abrasions on the upper extremities and knees. Diagnostic evaluations including a chest x-ray, right hand x-ray, and head MRI were all normal. He was diagnosed with a concussion, facial abrasion, scalp laceration, and knee abrasions, and was admitted for observation.",
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 28,
+        "end": 237
+      }
+    ]
+  },
+  "disposition": {
+    "status": "admitted",
+    "destination": null,
+    "condition": null,
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 3697,
+        "end": 3745
+      }
+    ]
+  },
+  "action_items": [
+    {
+      "action": "Admit for observation",
+      "owner": "treating_team",
+      "priority": "routine",
+      "due": null,
+      "category": "monitoring",
+      "rationale": "Observation following concussion and head injury.",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 3697,
+          "end": 3745
+        }
+      ]
+    }
+  ],
+  "red_flags": [],
+  "patient_summary": null,
+  "quality": {
+    "missing_information": [],
+    "contradictions": [],
+    "low_confidence_fields": []
+  }
+}

@@ -1,0 +1,339 @@
+{
+  "schema_version": "0.1",
+  "record_id": "mtsamples:4581",
+  "patient_id": "d1cbdc23-323c-4f94-80ef-88cab79f2dc7",
+  "generator": {
+    "kind": "model",
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "v1",
+    "generated_at": "2026-10-25T15:59:58Z"
+  },
+  "one_liner": "A 34-year-old male with renal failure on dialysis and hypertension presented for allergy evaluation following an acute perioral swelling episode suspected to be caused by Keflex.",
+  "problems": [
+    {
+      "name": "Acute allergic reaction",
+      "code": null,
+      "status": "suspected",
+      "is_new": true,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 3139,
+          "end": 3219
+        }
+      ]
+    },
+    {
+      "name": "Renal failure requiring dialysis",
+      "code": null,
+      "status": "chronic",
+      "is_new": false,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 3224,
+          "end": 3257
+        }
+      ]
+    },
+    {
+      "name": "Hypertension",
+      "code": null,
+      "status": "chronic",
+      "is_new": false,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 3262,
+          "end": 3275
+        }
+      ]
+    },
+    {
+      "name": "Urticaria",
+      "code": null,
+      "status": "chronic",
+      "is_new": false,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1213,
+          "end": 1233
+        }
+      ]
+    },
+    {
+      "name": "Grass allergies",
+      "code": null,
+      "status": "chronic",
+      "is_new": false,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 751,
+          "end": 822
+        }
+      ]
+    }
+  ],
+  "medications": {
+    "started": [
+      {
+        "name": "EpiPen",
+        "dose": null,
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": "in the event of acute angioedema or allergic reaction",
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 4076,
+            "end": 4138
+          }
+        ]
+      }
+    ],
+    "stopped": [
+      {
+        "name": "cephalosporin antibiotics",
+        "dose": null,
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": "may be the cause of his allergic reaction",
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 3699,
+            "end": 3774
+          }
+        ]
+      }
+    ],
+    "changed": [],
+    "continued": [
+      {
+        "name": "atenolol",
+        "dose": null,
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": "blood pressure control",
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 990,
+            "end": 1039
+          }
+        ]
+      },
+      {
+        "name": "sodium bicarbonate",
+        "dose": null,
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 1604,
+            "end": 1656
+          }
+        ]
+      },
+      {
+        "name": "Lovaza",
+        "dose": null,
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 1604,
+            "end": 1656
+          }
+        ]
+      },
+      {
+        "name": "Dialyvite",
+        "dose": null,
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 1604,
+            "end": 1656
+          }
+        ]
+      }
+    ]
+  },
+  "allergies": [
+    {
+      "substance": "Heparin",
+      "reaction": "thrombocytopenia",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1668,
+          "end": 1701
+        }
+      ]
+    },
+    {
+      "substance": "Keflex",
+      "reaction": "allergic reaction",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 618,
+          "end": 662
+        }
+      ]
+    }
+  ],
+  "key_findings": [
+    {
+      "category": "vital",
+      "name": "Blood Pressure",
+      "value": "128/78",
+      "unit": "mmHg",
+      "flag": "normal",
+      "trend": null,
+      "interpretation": "Blood pressure is within normal limits.",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1793,
+          "end": 1814
+        }
+      ]
+    },
+    {
+      "category": "vital",
+      "name": "Pulse",
+      "value": "70",
+      "unit": "bpm",
+      "flag": "normal",
+      "trend": null,
+      "interpretation": "Pulse is normal.",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1816,
+          "end": 1824
+        }
+      ]
+    }
+  ],
+  "procedures": [
+    {
+      "name": "RAST allergy testing",
+      "time": null,
+      "outcome": "Performed; results pending",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 3293,
+          "end": 3369
+        }
+      ]
+    },
+    {
+      "name": "PermCath insertion",
+      "time": null,
+      "outcome": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1400,
+          "end": 1451
+        }
+      ]
+    },
+    {
+      "name": "peritoneal dialysis",
+      "time": null,
+      "outcome": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1400,
+          "end": 1451
+        }
+      ]
+    }
+  ],
+  "course": {
+    "narrative": "A 34-year-old male self-referred for allergy evaluation following an acute episode of perioral swelling on <DATE> while on Keflex for a skin cellulitis dialysis shunt infection, which required transfer from ABC Medical Center to XYZ Medical Center. He was treated with corticosteroids, antihistamines, and monitoring. During the visit, RAST allergy testing for food and environmental allergies was performed. He was advised to stop cephalosporin antibiotics and was prescribed an EpiPen.",
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 371,
+        "end": 528
+      },
+      {
+        "doc_id": "d1",
+        "start": 3293,
+        "end": 3418
+      }
+    ]
+  },
+  "disposition": {
+    "status": "discharged",
+    "destination": null,
+    "condition": "healthy appearing; alert and oriented; in no acute distress",
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 1910,
+        "end": 2035
+      }
+    ]
+  },
+  "action_items": [
+    {
+      "action": "Get RAST allergy test results back to the patient with further recommendations",
+      "owner": "treating_team",
+      "priority": "soon",
+      "due": null,
+      "category": "pending_result",
+      "rationale": "RAST allergy testing was performed",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 3375,
+          "end": 3458
+        }
+      ]
+    }
+  ],
+  "red_flags": [
+    {
+      "message": "Proceed directly to the emergency room for further evaluation and treatment after administration of an EpiPen for acute angioedema or allergic reaction.",
+      "severity": "critical",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 4208,
+          "end": 4358
+        }
+      ]
+    }
+  ],
+  "patient_summary": null,
+  "quality": {
+    "missing_information": [],
+    "contradictions": [],
+    "low_confidence_fields": []
+  }
+}

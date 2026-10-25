@@ -1,0 +1,197 @@
+{
+  "schema_version": "0.1",
+  "record_id": "mtsamples:1645",
+  "patient_id": "f196b1a4-e9c1-4541-b0a5-b920997a2246",
+  "generator": {
+    "kind": "model",
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "v1",
+    "generated_at": "2026-10-25T16:14:33Z"
+  },
+  "one_liner": "A 46-year-old man with a history of prior microdiskectomy presents with 4 months of right-sided low back and right leg pain, found to have an acute right S1 radiculopathy and scheduled for follow-up.",
+  "problems": [
+    {
+      "name": "Right-sided low back pain with radiculopathy",
+      "code": null,
+      "status": "confirmed",
+      "is_new": true,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 231,
+          "end": 369
+        },
+        {
+          "doc_id": "d1",
+          "start": 1648,
+          "end": 1691
+        }
+      ]
+    },
+    {
+      "name": "History of left L5-S1 lumbar microdiskectomy",
+      "code": null,
+      "status": "resolved",
+      "is_new": false,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 68,
+          "end": 183
+        }
+      ]
+    }
+  ],
+  "medications": {
+    "started": [],
+    "stopped": [],
+    "changed": [],
+    "continued": []
+  },
+  "allergies": [],
+  "key_findings": [
+    {
+      "category": "exam",
+      "name": "Straight leg raising",
+      "value": "Positive on the right",
+      "unit": null,
+      "flag": "abnormal",
+      "trend": null,
+      "interpretation": "Positive straight leg raising on the right indicating nerve root irritation.",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 754,
+          "end": 797
+        }
+      ]
+    },
+    {
+      "category": "exam",
+      "name": "Ankle reflexes",
+      "value": "absent at both ankles",
+      "unit": null,
+      "flag": "abnormal",
+      "trend": null,
+      "interpretation": "Absent ankle reflexes bilaterally.",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 730,
+          "end": 752
+        }
+      ]
+    },
+    {
+      "category": "imaging",
+      "name": "MRI lumbosacral spine",
+      "value": "right paracentral disc at L5-S1 encroaching upon the right exiting S1 nerve root",
+      "unit": null,
+      "flag": "abnormal",
+      "trend": null,
+      "interpretation": "Disc protrusion at L5-S1 causing nerve root encroachment.",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 855,
+          "end": 946
+        }
+      ]
+    },
+    {
+      "category": "other",
+      "name": "Needle EMG",
+      "value": "spontaneous activity and chronic denervation in right-sided muscles",
+      "unit": null,
+      "flag": "abnormal",
+      "trend": null,
+      "interpretation": "Abnormal electrical study revealing acute right S1 radiculopathy and chronic denervation.",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1497,
+          "end": 1599
+        },
+        {
+          "doc_id": "d1",
+          "start": 1612,
+          "end": 1691
+        }
+      ]
+    }
+  ],
+  "procedures": [
+    {
+      "name": "Needle EMG",
+      "time": null,
+      "outcome": "Abnormal, revealing an acute right S1 radiculopathy",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1208,
+          "end": 1327
+        },
+        {
+          "doc_id": "d1",
+          "start": 1612,
+          "end": 1691
+        }
+      ]
+    }
+  ],
+  "course": {
+    "narrative": "A 46-year-old gentleman presented with a four-month history of gradual onset right-sided low back pain radiating to the right leg and ankle, worsened by activity and accompanied by occasional subtle right leg weakness. Physical exam showed positive straight leg raising on the right and absent ankle reflexes. Lumbar MRI revealed a right paracentral disc at L5-S1 encroaching upon the right exiting S1 nerve root. A needle EMG was performed and showed spontaneous activity and chronic denervation in right-sided muscles, confirming an acute right S1 radiculopathy. The results were discussed with the patient.",
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 9,
+        "end": 127
+      },
+      {
+        "doc_id": "d1",
+        "start": 1612,
+        "end": 1691
+      }
+    ]
+  },
+  "disposition": {
+    "status": "other",
+    "destination": null,
+    "condition": null,
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 1819,
+        "end": 1878
+      }
+    ]
+  },
+  "action_items": [
+    {
+      "action": "Follow up with Dr. X in the near future",
+      "owner": "patient",
+      "priority": "soon",
+      "due": null,
+      "category": "follow_up",
+      "rationale": "Review of test results and ongoing management",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1819,
+          "end": 1878
+        }
+      ]
+    }
+  ],
+  "red_flags": [],
+  "patient_summary": null,
+  "quality": {
+    "missing_information": [],
+    "contradictions": [],
+    "low_confidence_fields": []
+  }
+}

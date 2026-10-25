@@ -1,0 +1,164 @@
+{
+  "schema_version": "0.1",
+  "record_id": "mtsamples:3095",
+  "patient_id": "b959575c-bcba-4e9e-885b-508bff7d43b7",
+  "generator": {
+    "kind": "model",
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "v1",
+    "generated_at": "2026-10-25T16:10:58Z"
+  },
+  "one_liner": "A 38-year-old female laborer presents for evaluation of allowed right medial epicondylitis and carpal tunnel syndrome, alongside contested right cubital tunnel syndrome.",
+  "problems": [
+    {
+      "name": "right medial epicondylitis",
+      "code": null,
+      "status": "confirmed",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 20,
+          "end": 53
+        }
+      ]
+    },
+    {
+      "name": "right carpal tunnel syndrome",
+      "code": null,
+      "status": "confirmed",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 55,
+          "end": 89
+        }
+      ]
+    },
+    {
+      "name": "right cubital tunnel syndrome",
+      "code": null,
+      "status": "suspected",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 113,
+          "end": 148
+        }
+      ]
+    }
+  ],
+  "medications": {
+    "started": [],
+    "stopped": [],
+    "changed": [],
+    "continued": [
+      {
+        "name": "Aleve",
+        "dose": "four a day",
+        "route": null,
+        "frequency": "daily",
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 1355,
+            "end": 1385
+          }
+        ]
+      }
+    ]
+  },
+  "allergies": [],
+  "key_findings": [
+    {
+      "category": "lab",
+      "name": "EMG and nerve conduction velocity right upper extremity",
+      "value": null,
+      "unit": null,
+      "flag": "abnormal",
+      "trend": null,
+      "interpretation": "showed a moderate right carpal tunnel syndrome",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 830,
+          "end": 932
+        }
+      ]
+    },
+    {
+      "category": "exam",
+      "name": "Right elbow examination",
+      "value": null,
+      "unit": null,
+      "flag": "abnormal",
+      "trend": null,
+      "interpretation": "Markedly tender over the medial epicondyle, olecranon, and distal process, and exquisitely tender over the ulnar nerve.",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1153,
+          "end": 1222
+        },
+        {
+          "doc_id": "d1",
+          "start": 1778,
+          "end": 1924
+        }
+      ]
+    },
+    {
+      "category": "exam",
+      "name": "Sensation",
+      "value": null,
+      "unit": null,
+      "flag": "abnormal",
+      "trend": null,
+      "interpretation": "Diminished sensation on the right ring and small fingers.",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 2326,
+          "end": 2392
+        }
+      ]
+    }
+  ],
+  "procedures": [],
+  "course": {
+    "narrative": "A 38-year-old right-handed female laborer presented for evaluation of allowed right medial epicondylitis and right carpal tunnel syndrome, and contested right cubital tunnel syndrome, following an injury over a period of time from performing normal job processes. She reported constant pain in the olecranon and distal triceps, tingling in the right long, ring, and small fingers, and night pain, exacerbated by gripping or opening jars. Records and diagnostic studies including EMG were reviewed. Physical examination revealed tenderness over the medial epicondyle, olecranon, and ulnar nerve, with diminished sensation in the right ring and small fingers, and a positive elbow flexion test. She was currently taking Aleve.",
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 347,
+        "end": 417
+      },
+      {
+        "doc_id": "d1",
+        "start": 1153,
+        "end": 1278
+      }
+    ]
+  },
+  "disposition": {
+    "status": "unknown",
+    "destination": null,
+    "condition": null,
+    "evidence": []
+  },
+  "action_items": [],
+  "red_flags": [],
+  "patient_summary": null,
+  "quality": {
+    "missing_information": [],
+    "contradictions": [],
+    "low_confidence_fields": []
+  }
+}

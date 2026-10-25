@@ -1,0 +1,190 @@
+{
+  "schema_version": "0.1",
+  "record_id": "mtsamples:548",
+  "patient_id": "7d79e746-8ad3-4d61-90ab-b353fb69ac3b",
+  "generator": {
+    "kind": "model",
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "v1",
+    "generated_at": "2026-10-25T15:57:35Z"
+  },
+  "one_liner": "A 37-year-old man with sporadic medullary thyroid cancer underwent central neck reoperation, left reoperative neck dissection levels 1 and infraclavicular fossa, and right levels 2-5 neck dissection with superior mediastinal and pretracheal dissection.",
+  "problems": [
+    {
+      "name": "Medullary thyroid cancer",
+      "code": null,
+      "status": "confirmed",
+      "is_new": false,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 483,
+          "end": 571
+        }
+      ]
+    },
+    {
+      "name": "Left and right infraclavicular lymphadenopathy",
+      "code": null,
+      "status": "confirmed",
+      "is_new": true,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 785,
+          "end": 887
+        }
+      ]
+    },
+    {
+      "name": "Central neck lymphadenopathy",
+      "code": null,
+      "status": "confirmed",
+      "is_new": true,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 785,
+          "end": 887
+        }
+      ]
+    },
+    {
+      "name": "Superior mediastinal disease",
+      "code": null,
+      "status": "suspected",
+      "is_new": true,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 898,
+          "end": 953
+        }
+      ]
+    },
+    {
+      "name": "Persistent medullary thyroid cancer",
+      "code": null,
+      "status": "confirmed",
+      "is_new": true,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 956,
+          "end": 1074
+        }
+      ]
+    }
+  ],
+  "medications": {
+    "started": [],
+    "stopped": [],
+    "changed": [],
+    "continued": []
+  },
+  "allergies": [],
+  "key_findings": [
+    {
+      "category": "exam",
+      "name": "Central neck mass",
+      "value": "3",
+      "unit": "cm",
+      "flag": "abnormal",
+      "trend": null,
+      "interpretation": "Large firm mass measuring approximately 3 cm that appeared to be superior to the strap musculature.",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 4021,
+          "end": 4120
+        }
+      ]
+    },
+    {
+      "category": "exam",
+      "name": "Mediastinal lymph node mass",
+      "value": "1.5",
+      "unit": "cm",
+      "flag": "abnormal",
+      "trend": null,
+      "interpretation": "Lymph node mass palpated deep in mediastinum up against the trachea.",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 4436,
+          "end": 4546
+        }
+      ]
+    }
+  ],
+  "procedures": [
+    {
+      "name": "Central neck reoperation with removal of residual metastatic lymphadenopathy and thyroid tissue in the central neck",
+      "time": null,
+      "outcome": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 20,
+          "end": 136
+        }
+      ]
+    },
+    {
+      "name": "Left reoperative neck dissection levels 1 and the infraclavicular fossa on the left side",
+      "time": null,
+      "outcome": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 138,
+          "end": 227
+        }
+      ]
+    },
+    {
+      "name": "Right levels 2 through 5 neck dissection and superior mediastinal dissection of lymph nodes and pretracheal dissection of lymph nodes",
+      "time": null,
+      "outcome": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 229,
+          "end": 362
+        }
+      ]
+    }
+  ],
+  "course": {
+    "narrative": "The patient, a 37-year-old man with recurrent medullary thyroid cancer, underwent a central neck reoperation, left neck dissection levels 1 and infraclavicular fossa, right levels 2-5 neck dissection, superior mediastinal dissection, and pretracheal dissection. The procedure involved extensive lymph node and tissue removal in a previously operated field, carefully preserving vital structures such as the marginal mandibular, brachial plexus, phrenic, hypoglossal, and recurrent laryngeal/nerve integrity monitor system components, carotid artery, and internal jugular vein. Drains were placed, and the patient tolerated the procedure well, was extubated in the OR, and transferred to the PACU in good condition.",
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 6697,
+        "end": 6841
+      }
+    ]
+  },
+  "disposition": {
+    "status": "transferred",
+    "destination": "postanesthesia care unit",
+    "condition": "good condition",
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 6786,
+        "end": 6841
+      }
+    ]
+  },
+  "action_items": [],
+  "red_flags": [],
+  "patient_summary": null,
+  "quality": {
+    "missing_information": [],
+    "contradictions": [],
+    "low_confidence_fields": []
+  }
+}

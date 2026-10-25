@@ -1,0 +1,240 @@
+{
+  "schema_version": "0.1",
+  "record_id": "mtsamples:3095",
+  "patient_id": "b959575c-bcba-4e9e-885b-508bff7d43b7",
+  "generator": {
+    "kind": "model",
+    "model": "gemma4:e4b",
+    "prompt_version": "v1",
+    "generated_at": "2026-10-25T16:21:13Z"
+  },
+  "one_liner": "38-year-old laborer with allowed conditions of right medial epicondylitis and right carpal tunnel syndrome, and contested right cubital tunnel syndrome, presenting with pain and tingling in the right hand.",
+  "problems": [
+    {
+      "name": "Right medial epicondylitis",
+      "code": null,
+      "status": "resolved",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 0,
+          "end": 53
+        }
+      ]
+    },
+    {
+      "name": "Right carpal tunnel syndrome",
+      "code": null,
+      "status": "resolved",
+      "is_new": null,
+      "evidence": []
+    },
+    {
+      "name": "Right cubital tunnel syndrome",
+      "code": null,
+      "status": "resolved",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 91,
+          "end": 148
+        }
+      ]
+    }
+  ],
+  "medications": {
+    "started": [
+      {
+        "name": "None",
+        "dose": null,
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": null,
+        "evidence": []
+      }
+    ],
+    "stopped": [],
+    "changed": [],
+    "continued": [
+      {
+        "name": "Aleve",
+        "dose": null,
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 1355,
+            "end": 1385
+          }
+        ]
+      }
+    ]
+  },
+  "allergies": [],
+  "key_findings": [
+    {
+      "category": "vital",
+      "name": "unknown",
+      "value": null,
+      "unit": null,
+      "flag": null,
+      "trend": null,
+      "interpretation": "unknown",
+      "time": null,
+      "evidence": []
+    },
+    {
+      "category": "exam",
+      "name": "Right elbow examination",
+      "value": null,
+      "unit": null,
+      "flag": null,
+      "trend": null,
+      "interpretation": "Markedly tender over the medial epicondyle, but also the olecranon and distal process and she was exquisitely tender over the ulnar nerve.",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1778,
+          "end": 1924
+        }
+      ]
+    },
+    {
+      "category": "exam",
+      "name": "Right wrist examination",
+      "value": null,
+      "unit": null,
+      "flag": null,
+      "trend": null,
+      "interpretation": "Wrist flexion causes paresthesias on the right ring and small fingers.",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 2779,
+          "end": 2849
+        }
+      ]
+    },
+    {
+      "category": "exam",
+      "name": "Sensory deficit",
+      "value": null,
+      "unit": null,
+      "flag": null,
+      "trend": null,
+      "interpretation": "Diminished sensation on the right ring and small fingers, specifically the ulnar side of the ring finger of the entire small finger.",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 2326,
+          "end": 2468
+        }
+      ]
+    },
+    {
+      "category": "imaging",
+      "name": "EMG and nerve conduction velocity right upper extremity",
+      "value": null,
+      "unit": null,
+      "flag": null,
+      "trend": null,
+      "interpretation": "Showed a moderate right carpal tunnel syndrome.",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 830,
+          "end": 933
+        }
+      ]
+    }
+  ],
+  "procedures": [
+    {
+      "name": "Examination",
+      "time": null,
+      "outcome": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 264,
+          "end": 345
+        }
+      ]
+    }
+  ],
+  "course": {
+    "narrative": "The patient was examined for allowed and contested conditions. She reported constant pain in the olecranon and distal triceps with tingling in the right long, ring and small fingers, and night pain, which was accentuated by gripping or opening the jar. Examination revealed tenderness over the medial epicondyle, olecranon, and ulnar nerve, and diminished sensation in the ulnar nerve distribution. Diagnostic studies showed a moderate right carpal tunnel syndrome. The provider confirmed that the evidence supports the existence of right cubital tunnel syndrome, noting a positive elbow flexion test and marked tenderness over the ulnar nerve. The condition is believed to be a direct and proximate result of the injury.",
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 1121,
+        "end": 1295
+      },
+      {
+        "doc_id": "d1",
+        "start": 1778,
+        "end": 1924
+      },
+      {
+        "doc_id": "d1",
+        "start": 830,
+        "end": 933
+      },
+      {
+        "doc_id": "d1",
+        "start": 3256,
+        "end": 3420
+      }
+    ]
+  },
+  "disposition": {
+    "status": "unknown",
+    "destination": null,
+    "condition": null,
+    "evidence": []
+  },
+  "action_items": [
+    {
+      "action": "Follow-up/Further evaluation",
+      "owner": "patient",
+      "priority": "routine",
+      "due": null,
+      "category": null,
+      "rationale": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 674,
+          "end": 751
+        }
+      ]
+    }
+  ],
+  "red_flags": [],
+  "patient_summary": null,
+  "quality": {
+    "missing_information": [
+      "The specific date of the examination is not provided in the chunks.",
+      "The outcome or plan following the examination is not explicitly stated."
+    ],
+    "contradictions": [
+      "Dr. X noted that on examination of the right elbow that the ulnar nerve subluxed with flexion and extension of the elbow.",
+      "I did not detect subluxation of the ulnar nerve with flexion and extension."
+    ],
+    "low_confidence_fields": [
+      "/problems/1",
+      "/key_findings/0",
+      "/medications/started/0"
+    ]
+  }
+}

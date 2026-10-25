@@ -49,7 +49,12 @@ python scripts/leak_test.py --seed 2026      # Phase 2: anonymizer recall on syn
 python scripts/run_pipeline.py --model gemini-flash --workers 4   # Phases 3-4: test set, index, retrieve, summarize
 python scripts/run_pipeline.py --model local-gemma               # Phase 5: same chunks + prompt, other model
 python scripts/compare.py                    # Phase 6: results/comparison.{csv,md}, manual_review.csv
+python scripts/retrieval_demo.py             # ask the vector DB questions about one record
 ```
+
+RAG experiment (only the top-k retrieved chunks per summary section are sent, instead of the whole record):
+`python scripts/run_pipeline.py --model gemini-flash-lite --context retrieved --k 2` → `results/gemini-flash-lite__retrieved/`.
+For a step-by-step walk through one record, open `notebooks/demo.ipynb`.
 
 `run_pipeline.py` options: `--limit N`, `--dry-run` (no API calls, prints the prompt), `--redo`, `--workers N`.
 It resumes automatically (records with a result file are skipped) and every LLM/embedding call is cached in
@@ -80,9 +85,17 @@ It resumes automatically (records with a result file are skipped) and every LLM/
 | `src/emr/` | Pipeline code |
 | `scripts/` | Command-line entry points |
 | `config.yaml` | All model IDs and settings |
+| `notebooks/demo.ipynb` | One record end to end, explained step by step |
+| `results/` | Summaries per model, comparison tables, leak test, `report.md`, manual-review sheet |
 | `memory.md` | Running work log: what was done, decisions, open questions |
 
-## Results
+## Results (25 Oct 2026, preliminary)
+
+- Anonymization leak test: **98.1%** of 420 synthetic identifiers removed; clinical phrases kept 100%.
+- Gemini 3.5 Flash-Lite, 50 records: **98% schema-valid, 99.5% of claims backed by an exact quote**, ~6 s/record.
+- Local Gemma 4 (4B, laptop), 10 records: 100% valid, 91.4% grounded, ~3 min/record.
+- Retrieval-only context: 17% fewer input tokens, grounding unchanged (99.4%).
+- Gemini 3.8 Flash / 3.5 Flash / 3.1 Pro: blocked by free-tier quotas (need a paid key). Qwen3 / MedGemma: deferred.
 
 See `results/report.md` (summary for the team), `results/comparison.md` (full tables) and
 `results/leak_test_seed2026.md` (anonymization).

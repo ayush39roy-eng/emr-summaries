@@ -1,0 +1,352 @@
+{
+  "schema_version": "0.1",
+  "record_id": "mtsamples:4581",
+  "patient_id": "d1cbdc23-323c-4f94-80ef-88cab79f2dc7",
+  "generator": {
+    "kind": "model",
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "v1",
+    "generated_at": "2026-10-25T16:12:49Z"
+  },
+  "one_liner": "A 34-year-old male with renal failure on dialysis and hypertension presents for allergy evaluation following an acute allergic reaction, likely to Keflex.",
+  "problems": [
+    {
+      "name": "Acute allergic reaction",
+      "code": null,
+      "status": "confirmed",
+      "is_new": true,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 3139,
+          "end": 3219
+        }
+      ]
+    },
+    {
+      "name": "Renal failure requiring dialysis",
+      "code": null,
+      "status": "chronic",
+      "is_new": false,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 3220,
+          "end": 3257
+        }
+      ]
+    },
+    {
+      "name": "Hypertension",
+      "code": null,
+      "status": "chronic",
+      "is_new": false,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 3258,
+          "end": 3275
+        }
+      ]
+    }
+  ],
+  "medications": {
+    "started": [
+      {
+        "name": "EpiPen",
+        "dose": null,
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": "acute angioedema or allergic reaction or sensation of impending allergic reaction",
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 4076,
+            "end": 4159
+          }
+        ]
+      }
+    ],
+    "stopped": [
+      {
+        "name": "cephalosporin antibiotics",
+        "dose": null,
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": "cause of his allergic reaction",
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 3691,
+            "end": 3774
+          }
+        ]
+      }
+    ],
+    "changed": [],
+    "continued": [
+      {
+        "name": "Atenolol",
+        "dose": null,
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": "blood pressure control",
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 990,
+            "end": 1039
+          }
+        ]
+      },
+      {
+        "name": "sodium bicarbonate",
+        "dose": null,
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 1583,
+            "end": 1656
+          }
+        ]
+      },
+      {
+        "name": "Lovaza",
+        "dose": null,
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 1583,
+            "end": 1656
+          }
+        ]
+      },
+      {
+        "name": "Dialyvite",
+        "dose": null,
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 1583,
+            "end": 1656
+          }
+        ]
+      }
+    ]
+  },
+  "allergies": [
+    {
+      "substance": "Heparin",
+      "reaction": "thrombocytopenia",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1657,
+          "end": 1701
+        }
+      ]
+    },
+    {
+      "substance": "Keflex",
+      "reaction": "acute event of perioral swelling",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 618,
+          "end": 737
+        }
+      ]
+    },
+    {
+      "substance": "cephalosporin antibiotics",
+      "reaction": "allergic reaction",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 3721,
+          "end": 3862
+        }
+      ]
+    }
+  ],
+  "key_findings": [
+    {
+      "category": "vital",
+      "name": "blood pressure",
+      "value": "128/78",
+      "unit": null,
+      "flag": null,
+      "trend": null,
+      "interpretation": "Normal vital sign during physical examination",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1793,
+          "end": 1814
+        }
+      ]
+    },
+    {
+      "category": "vital",
+      "name": "pulse",
+      "value": "70",
+      "unit": null,
+      "flag": null,
+      "trend": null,
+      "interpretation": "Normal pulse",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1816,
+          "end": 1824
+        }
+      ]
+    },
+    {
+      "category": "vital",
+      "name": "temperature",
+      "value": "97.8",
+      "unit": null,
+      "flag": null,
+      "trend": null,
+      "interpretation": "Normal temperature",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1826,
+          "end": 1845
+        }
+      ]
+    },
+    {
+      "category": "vital",
+      "name": "weight",
+      "value": "207",
+      "unit": "pounds",
+      "flag": null,
+      "trend": null,
+      "interpretation": "Patient weight recorded",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1847,
+          "end": 1867
+        }
+      ]
+    }
+  ],
+  "procedures": [
+    {
+      "name": "RAST allergy testing",
+      "time": null,
+      "outcome": "performed",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 3293,
+          "end": 3369
+        }
+      ]
+    },
+    {
+      "name": "PermCath insertion",
+      "time": null,
+      "outcome": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1377,
+          "end": 1451
+        }
+      ]
+    },
+    {
+      "name": "peritoneal dialysis",
+      "time": null,
+      "outcome": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1377,
+          "end": 1451
+        }
+      ]
+    }
+  ],
+  "course": {
+    "narrative": "A 34-year-old male with a history of renal failure on dialysis presented for allergy evaluation following an acute episode of perioral swelling on <DATE> linked to Keflex therapy for a dialysis shunt infection, which had required transfer and admission at XYZ Medical Center. He denied past anaphylaxis or angioedema. He was taking atenolol for blood pressure. RAST allergy testing for food and environmental allergies was performed during this visit. The clinician recommended avoiding cephalosporins, prescribed an EpiPen for emergency use, and planned to follow up with RAST test results.",
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 371,
+        "end": 528
+      },
+      {
+        "doc_id": "d1",
+        "start": 3293,
+        "end": 3458
+      }
+    ]
+  },
+  "disposition": {
+    "status": "unknown",
+    "destination": null,
+    "condition": null,
+    "evidence": []
+  },
+  "action_items": [
+    {
+      "action": "Provide RAST allergy testing results back to the patient with further recommendations",
+      "owner": "treating_team",
+      "priority": "routine",
+      "due": null,
+      "category": "pending_result",
+      "rationale": "To share test results and provide further recommendations",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 3375,
+          "end": 3458
+        }
+      ]
+    }
+  ],
+  "red_flags": [
+    {
+      "message": "Proceed directly to the emergency room for further evaluation and treatment recommendations after administration of an EpiPen.",
+      "severity": "critical",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 4208,
+          "end": 4358
+        }
+      ]
+    }
+  ],
+  "patient_summary": null,
+  "quality": {
+    "missing_information": [],
+    "contradictions": [],
+    "low_confidence_fields": []
+  }
+}

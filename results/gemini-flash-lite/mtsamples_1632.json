@@ -1,0 +1,123 @@
+{
+  "schema_version": "0.1",
+  "record_id": "mtsamples:1632",
+  "patient_id": "41457d18-633f-40bb-b303-0ea2d3d543f9",
+  "generator": {
+    "kind": "model",
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "v1",
+    "generated_at": "2026-10-25T15:57:38Z"
+  },
+  "one_liner": "A 58-year-old female with a history of right breast cancer and radiation therapy underwent screening digital mammogram showing no significant interval changes or evidence of malignancy.",
+  "problems": [
+    {
+      "name": "Right breast cancer",
+      "code": null,
+      "status": "resolved",
+      "is_new": false,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 135,
+          "end": 228
+        }
+      ]
+    }
+  ],
+  "medications": {
+    "started": [],
+    "stopped": [],
+    "changed": [],
+    "continued": []
+  },
+  "allergies": [],
+  "key_findings": [
+    {
+      "category": "imaging",
+      "name": "Screening full-field digital mammogram",
+      "value": null,
+      "unit": null,
+      "flag": "normal",
+      "trend": null,
+      "interpretation": "No significant interval changes are seen. No mammographic evidence of malignancy is identified.",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1264,
+          "end": 1360
+        }
+      ]
+    }
+  ],
+  "procedures": [
+    {
+      "name": "Screening full-field digital mammogram",
+      "time": null,
+      "outcome": "No significant interval changes are seen. No mammographic evidence of malignancy is identified.",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 0,
+          "end": 45
+        },
+        {
+          "doc_id": "d1",
+          "start": 1264,
+          "end": 1360
+        }
+      ]
+    }
+  ],
+  "course": {
+    "narrative": "A 58-year-old female with a history of right breast cancer in <DATE> treated with radiation therapy, and a family history of breast cancer in her sister, presented for a screening full-field digital mammogram. She currently denied any complaints. The imaging demonstrated postsurgical and postradiation changes in the right breast, with no significant interval changes or mammographic evidence of malignancy identified. BIRADS Classification was assessed as Category 2 - Benign. Annual screening mammography was recommended.",
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 55,
+        "end": 133
+      },
+      {
+        "doc_id": "d1",
+        "start": 1449,
+        "end": 1481
+      }
+    ]
+  },
+  "disposition": {
+    "status": "discharged",
+    "destination": null,
+    "condition": "Benign",
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 1365,
+        "end": 1448
+      }
+    ]
+  },
+  "action_items": [
+    {
+      "action": "Annual screening mammography is recommended or sooner if clinical symptoms warrant.",
+      "owner": "patient",
+      "priority": "routine",
+      "due": null,
+      "category": "follow_up",
+      "rationale": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1365,
+          "end": 1448
+        }
+      ]
+    }
+  ],
+  "red_flags": [],
+  "patient_summary": null,
+  "quality": {
+    "missing_information": [],
+    "contradictions": [],
+    "low_confidence_fields": []
+  }
+}

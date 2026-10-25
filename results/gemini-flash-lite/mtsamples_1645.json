@@ -1,0 +1,176 @@
+{
+  "schema_version": "0.1",
+  "record_id": "mtsamples:1645",
+  "patient_id": "f196b1a4-e9c1-4541-b0a5-b920997a2246",
+  "generator": {
+    "kind": "model",
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "v1",
+    "generated_at": "2026-10-25T16:01:59Z"
+  },
+  "one_liner": "A 46-year-old man with previous left lumbar microdiskectomy presents with a four-month history of right-sided low back pain radiating to the right leg, diagnosed with an acute right S1 radiculopathy and scheduled to follow up with Dr. X.",
+  "problems": [
+    {
+      "name": "Right-sided low back pain radiating down into his buttock and posterior aspect of his right leg",
+      "code": null,
+      "status": "confirmed",
+      "is_new": true,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 231,
+          "end": 368
+        }
+      ]
+    },
+    {
+      "name": "Acute right S1 radiculopathy",
+      "code": null,
+      "status": "confirmed",
+      "is_new": true,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1648,
+          "end": 1690
+        }
+      ]
+    }
+  ],
+  "medications": {
+    "started": [],
+    "stopped": [],
+    "changed": [],
+    "continued": []
+  },
+  "allergies": [],
+  "key_findings": [
+    {
+      "category": "exam",
+      "name": "Straight leg raising",
+      "value": "Positive",
+      "unit": null,
+      "flag": "abnormal",
+      "trend": null,
+      "interpretation": "Positive straight leg raising on the right.",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 754,
+          "end": 796
+        }
+      ]
+    },
+    {
+      "category": "imaging",
+      "name": "MRI lumbosacral spine",
+      "value": "right paracentral disc at L5-S1",
+      "unit": null,
+      "flag": "abnormal",
+      "trend": null,
+      "interpretation": "Reveals a right paracentral disc at L5-S1 encroaching upon the right exiting S1 nerve root.",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 855,
+          "end": 945
+        }
+      ]
+    },
+    {
+      "category": "ecg",
+      "name": "Right tibial H reflex",
+      "value": "absent",
+      "unit": null,
+      "flag": "abnormal",
+      "trend": null,
+      "interpretation": "Absent right tibial H reflex.",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1159,
+          "end": 1194
+        }
+      ]
+    },
+    {
+      "category": "other",
+      "name": "Needle EMG",
+      "value": "spontaneous activity / chronic denervation",
+      "unit": null,
+      "flag": "abnormal",
+      "trend": null,
+      "interpretation": "Revealed spontaneous activity in the right gastrocnemius medialis, gluteus maximus, and lower lumbosacral paraspinal muscles, and evidence of chronic denervation.",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1367,
+          "end": 1494
+        }
+      ]
+    }
+  ],
+  "procedures": [
+    {
+      "name": "Needle EMG",
+      "time": null,
+      "outcome": "abnormal, revealing an acute right S1 radiculopathy",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1612,
+          "end": 1690
+        }
+      ]
+    }
+  ],
+  "course": {
+    "narrative": "A 46-year-old right-handed gentleman with a history of prior left L5-S1 lumbar microdiskectomy presented with a four-month history of gradual right low back pain radiating to the right leg and ankle, worsened by activity and accompanied by subtle leg weakness. Physical exam showed positive right straight leg raising and absent ankle reflexes. Lumbar MRI showed a right paracentral disc at L5-S1 encroaching upon the right S1 nerve root. Nerve conduction studies and needle EMG demonstrated an abnormal electrical study revealing an acute right S1 radiculopathy with chronic denervation. Results were discussed with the patient.",
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 9,
+        "end": 127
+      },
+      {
+        "doc_id": "d1",
+        "start": 1612,
+        "end": 1690
+      }
+    ]
+  },
+  "disposition": {
+    "status": "unknown",
+    "destination": null,
+    "condition": null,
+    "evidence": []
+  },
+  "action_items": [
+    {
+      "action": "Follow up with Dr. X",
+      "owner": "patient",
+      "priority": "soon",
+      "due": "in the near future",
+      "category": "follow_up",
+      "rationale": "Discuss results and further management",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1819,
+          "end": 1877
+        }
+      ]
+    }
+  ],
+  "red_flags": [],
+  "patient_summary": null,
+  "quality": {
+    "missing_information": [],
+    "contradictions": [],
+    "low_confidence_fields": []
+  }
+}

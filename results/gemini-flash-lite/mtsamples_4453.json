@@ -1,0 +1,203 @@
+{
+  "schema_version": "0.1",
+  "record_id": "mtsamples:4453",
+  "patient_id": "c121487c-26d1-435d-a83d-f126b20fa970",
+  "generator": {
+    "kind": "model",
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "v1",
+    "generated_at": "2026-10-25T16:00:23Z"
+  },
+  "one_liner": "A 54-year-old female with diabetes presents for a dietary consultation for weight reduction, currently on a restrictive veggie diet and metformin, advised on a 1200-calorie meal plan, increased physical activity, and bedtime snack strategies.",
+  "problems": [
+    {
+      "name": "diabetes",
+      "code": null,
+      "status": "confirmed",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 80,
+          "end": 118
+        }
+      ]
+    }
+  ],
+  "medications": {
+    "started": [],
+    "stopped": [],
+    "changed": [],
+    "continued": [
+      {
+        "name": "metformin",
+        "dose": "500 mg",
+        "route": null,
+        "frequency": "daily",
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 1080,
+            "end": 1131
+          }
+        ]
+      }
+    ]
+  },
+  "allergies": [],
+  "key_findings": [
+    {
+      "category": "vital",
+      "name": "Weight",
+      "value": "189",
+      "unit": "pounds",
+      "flag": null,
+      "trend": null,
+      "interpretation": "Patient weight is 189 pounds",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 992,
+          "end": 1011
+        }
+      ]
+    },
+    {
+      "category": "vital",
+      "name": "BMI",
+      "value": "31-1/2",
+      "unit": null,
+      "flag": null,
+      "trend": null,
+      "interpretation": "BMI is approximately 31-1/2",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1050,
+          "end": 1077
+        }
+      ]
+    },
+    {
+      "category": "lab",
+      "name": "Hemoglobin A1C",
+      "value": "6.4",
+      "unit": "%",
+      "flag": null,
+      "trend": null,
+      "interpretation": "Hemoglobin A1C was 6.4%",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1152,
+          "end": 1175
+        }
+      ]
+    }
+  ],
+  "procedures": [
+    {
+      "name": "dietary consultation",
+      "time": null,
+      "outcome": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 12,
+          "end": 96
+        }
+      ]
+    }
+  ],
+  "course": {
+    "narrative": "A 54-year-old female with diabetes presented for a dietary consultation for weight reduction. She reported previously following the Atkins' diet and recently started a restrictive veggie diet. A diet history was obtained, and she was instructed on a 1200-calorie meal plan to support weight loss of at least one pound a week. Discussion included strategies for improving morning blood sugar control, such as including solid protein in her bedtime snack. Recommendations were made to increase walking frequency to five days a week for 30 minutes, keep food records, and avoid reducing calories below 1000 calories daily.",
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 12,
+        "end": 119
+      },
+      {
+        "doc_id": "d1",
+        "start": 1177,
+        "end": 1318
+      },
+      {
+        "doc_id": "d1",
+        "start": 2192,
+        "end": 2268
+      }
+    ]
+  },
+  "disposition": {
+    "status": "other",
+    "destination": null,
+    "condition": null,
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 2806,
+        "end": 2839
+      }
+    ]
+  },
+  "action_items": [
+    {
+      "action": "Increase the frequency of walking to five days a week",
+      "owner": "patient",
+      "priority": "routine",
+      "due": null,
+      "category": "other",
+      "rationale": "To help support weight reduction",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 2192,
+          "end": 2268
+        }
+      ]
+    },
+    {
+      "action": "Include some solid protein with her bedtime snack",
+      "owner": "patient",
+      "priority": "routine",
+      "due": null,
+      "category": "medication",
+      "rationale": "To help address fasting blood sugar elevations",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 2309,
+          "end": 2424
+        }
+      ]
+    },
+    {
+      "action": "Keep food records and track caloric intake",
+      "owner": "patient",
+      "priority": "routine",
+      "due": null,
+      "category": "monitoring",
+      "rationale": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 2502,
+          "end": 2561
+        }
+      ]
+    }
+  ],
+  "red_flags": [],
+  "patient_summary": null,
+  "quality": {
+    "missing_information": [],
+    "contradictions": [],
+    "low_confidence_fields": []
+  }
+}

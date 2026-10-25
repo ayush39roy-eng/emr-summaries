@@ -1,0 +1,204 @@
+{
+  "schema_version": "0.1",
+  "record_id": "mtsamples:1125",
+  "patient_id": "d6c05bcc-c58f-4eca-80c5-d4a4a150e1de",
+  "generator": {
+    "kind": "model",
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "v1",
+    "generated_at": "2026-10-25T16:13:37Z"
+  },
+  "one_liner": "A 38-week and 3-day pregnant female with two previous cesarean sections underwent repeat cesarean section and bilateral tubal ligation, delivering a female infant without complications.",
+  "problems": [
+    {
+      "name": "Pregnancy at 38 weeks and three days",
+      "code": null,
+      "status": "confirmed",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 28,
+          "end": 65
+        }
+      ]
+    },
+    {
+      "name": "Previous cesarean section x2",
+      "code": null,
+      "status": "chronic",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 70,
+          "end": 99
+        }
+      ]
+    },
+    {
+      "name": "Refusing trial of labor",
+      "code": null,
+      "status": "confirmed",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 104,
+          "end": 128
+        }
+      ]
+    },
+    {
+      "name": "Multiparity, seeking family planning",
+      "code": null,
+      "status": "confirmed",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 133,
+          "end": 170
+        }
+      ]
+    },
+    {
+      "name": "Pelvic adhesions",
+      "code": null,
+      "status": "confirmed",
+      "is_new": true,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 347,
+          "end": 364
+        }
+      ]
+    }
+  ],
+  "medications": {
+    "started": [],
+    "stopped": [],
+    "changed": [],
+    "continued": []
+  },
+  "allergies": [],
+  "key_findings": [
+    {
+      "category": "other",
+      "name": "Estimated blood loss",
+      "value": "800",
+      "unit": "cc",
+      "flag": null,
+      "trend": null,
+      "interpretation": "Estimated blood loss during procedure",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 617,
+          "end": 646
+        }
+      ]
+    },
+    {
+      "category": "other",
+      "name": "Infant Apgar scores",
+      "value": "9 and 9",
+      "unit": null,
+      "flag": null,
+      "trend": null,
+      "interpretation": "Normal infant Apgar scores at one and five minutes",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1118,
+          "end": 1173
+        }
+      ]
+    },
+    {
+      "category": "other",
+      "name": "Infant birth weight",
+      "value": "6 lb 2 oz",
+      "unit": null,
+      "flag": null,
+      "trend": null,
+      "interpretation": "Infant birth weight",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1175,
+          "end": 1220
+        }
+      ]
+    }
+  ],
+  "procedures": [
+    {
+      "name": "Cesarean section",
+      "time": null,
+      "outcome": "The patient tolerated the procedure well.",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 4305,
+          "end": 4346
+        }
+      ]
+    }
+  ],
+  "course": {
+    "narrative": "The patient at 38 weeks and three days of gestation with two previous cesarean sections and refusing a trial of labor underwent a repeat cesarean delivery under spinal anesthesia with Astramorph. Intraoperatively, pelvic adhesions were noted. A female infant in cephalic presentation was delivered with Apgar scores of 9 and 9 at one and five minutes, weighing 6 lb 2 oz with a loose nuchal cord x1. The estimated blood loss was 800 cc. The uterine incision was hemostatic, and the closure was completed successfully. Sponge, lap, and needle counts were correct. The patient tolerated the procedure well and was transferred to the recovery room in satisfactory condition.",
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 560,
+        "end": 595
+      },
+      {
+        "doc_id": "d1",
+        "start": 4397,
+        "end": 4466
+      }
+    ]
+  },
+  "disposition": {
+    "status": "admitted",
+    "destination": "recovery room",
+    "condition": "satisfactory condition",
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 4397,
+        "end": 4466
+      }
+    ]
+  },
+  "action_items": [
+    {
+      "action": "Followed immediately postoperatively within the hospital",
+      "owner": "treating_team",
+      "priority": "routine",
+      "due": null,
+      "category": "follow_up",
+      "rationale": "Immediate postoperative hospital care",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 4468,
+          "end": 4537
+        }
+      ]
+    }
+  ],
+  "red_flags": [],
+  "patient_summary": null,
+  "quality": {
+    "missing_information": [],
+    "contradictions": [],
+    "low_confidence_fields": []
+  }
+}

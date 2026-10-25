@@ -1,0 +1,263 @@
+{
+  "schema_version": "0.1",
+  "record_id": "mtsamples:1311",
+  "patient_id": "141aaf42-9657-4bc8-9dc1-c46068b6f05a",
+  "generator": {
+    "kind": "model",
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "v1",
+    "generated_at": "2026-10-25T15:59:22Z"
+  },
+  "one_liner": "An 85-year-old woman with refractory hypertension and cardiac history presents for a renal clinic follow-up, showing improved blood pressure due to better medication compliance, and is discharged to follow up at the senior center.",
+  "problems": [
+    {
+      "name": "Refractory hypertension",
+      "code": null,
+      "status": "confirmed",
+      "is_new": false,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 14,
+          "end": 57
+        }
+      ]
+    },
+    {
+      "name": "Cardiac arrhythmia",
+      "code": null,
+      "status": "chronic",
+      "is_new": false,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 62,
+          "end": 91
+        }
+      ]
+    },
+    {
+      "name": "Pacemaker secondary to AV block",
+      "code": null,
+      "status": "chronic",
+      "is_new": false,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 96,
+          "end": 139
+        }
+      ]
+    },
+    {
+      "name": "GI bleed",
+      "code": null,
+      "status": "chronic",
+      "is_new": false,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 144,
+          "end": 163
+        }
+      ]
+    },
+    {
+      "name": "Depression",
+      "code": null,
+      "status": "chronic",
+      "is_new": false,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 179,
+          "end": 201
+        }
+      ]
+    },
+    {
+      "name": "Musculoskeletal right buttock pain",
+      "code": null,
+      "status": "confirmed",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 891,
+          "end": 969
+        }
+      ]
+    }
+  ],
+  "medications": {
+    "started": [],
+    "stopped": [],
+    "changed": [],
+    "continued": [
+      {
+        "name": "Triamterene/hydrochlorothiazide",
+        "dose": "37.5/25 mg",
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 1062,
+            "end": 1109
+          }
+        ]
+      },
+      {
+        "name": "Norvasc",
+        "dose": "10 mg",
+        "route": null,
+        "frequency": "daily",
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 1110,
+            "end": 1134
+          }
+        ]
+      },
+      {
+        "name": "Atenolol",
+        "dose": "50 mg",
+        "route": null,
+        "frequency": "a day",
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 1135,
+            "end": 1160
+          }
+        ]
+      },
+      {
+        "name": "Atacand",
+        "dose": "32 mg",
+        "route": null,
+        "frequency": "a day",
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 1161,
+            "end": 1185
+          }
+        ]
+      },
+      {
+        "name": "Cardura",
+        "dose": "4 mg",
+        "route": null,
+        "frequency": "a day",
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 1186,
+            "end": 1209
+          }
+        ]
+      }
+    ]
+  },
+  "allergies": [],
+  "key_findings": [
+    {
+      "category": "vital",
+      "name": "Pulse",
+      "value": "47",
+      "unit": null,
+      "flag": null,
+      "trend": null,
+      "interpretation": "Pulse rate of 47 beats per minute",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1264,
+          "end": 1272
+        }
+      ]
+    },
+    {
+      "category": "vital",
+      "name": "Blood Pressure",
+      "value": "157/56",
+      "unit": null,
+      "flag": "abnormal",
+      "trend": null,
+      "interpretation": "Blood pressure reading of 157/56",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1295,
+          "end": 1317
+        }
+      ]
+    }
+  ],
+  "procedures": [],
+  "course": {
+    "narrative": "An 85-year-old woman returned to the renal clinic after four months. She reported being considerably more compliant with her antihypertensive medications and showed improved blood pressure. She denied systemic symptoms such as chest pain or shortness of breath, noting only right buttock musculoskeletal pain. Physical exam showed a pulse of 47 and blood pressure of 157/56, with clear lungs, regular heart rhythm, and no extremity edema. Because her hypertension is much improved and she has no evidence of GFR greater than 60%, the plan is to reschedule her missed appointment with an internist at the senior center for routine health care and discharge her from the renal practice, with options to return if needed.",
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 230,
+        "end": 348
+      },
+      {
+        "doc_id": "d1",
+        "start": 1982,
+        "end": 2128
+      }
+    ]
+  },
+  "disposition": {
+    "status": "discharged",
+    "destination": "senior center",
+    "condition": "improved",
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 2315,
+        "end": 2372
+      }
+    ]
+  },
+  "action_items": [
+    {
+      "action": "Reschedule appointment to see an internist at the senior center",
+      "owner": "treating_team",
+      "priority": "soon",
+      "due": null,
+      "category": "referral",
+      "rationale": "For her routine health care",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1982,
+          "end": 2057
+        }
+      ]
+    }
+  ],
+  "red_flags": [],
+  "patient_summary": null,
+  "quality": {
+    "missing_information": [],
+    "contradictions": [],
+    "low_confidence_fields": []
+  }
+}

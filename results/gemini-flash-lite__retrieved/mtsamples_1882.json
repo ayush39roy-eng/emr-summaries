@@ -1,0 +1,227 @@
+{
+  "schema_version": "0.1",
+  "record_id": "mtsamples:1882",
+  "patient_id": "52c0df1f-9914-498b-b2ba-1d4c4f492626",
+  "generator": {
+    "kind": "model",
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "v1",
+    "generated_at": "2026-10-25T16:12:58Z"
+  },
+  "one_liner": "A 1-year-old female presents for a well child check, is developing normally, receives routine immunizations and screenings, and is scheduled for a 15-month follow-up.",
+  "problems": [
+    {
+      "name": "Well child check",
+      "code": null,
+      "status": "confirmed",
+      "is_new": true,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 12,
+          "end": 82
+        }
+      ]
+    }
+  ],
+  "medications": {
+    "started": [],
+    "stopped": [],
+    "changed": [],
+    "continued": [
+      {
+        "name": "multivitamin",
+        "dose": null,
+        "route": null,
+        "frequency": "daily",
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 658,
+            "end": 746
+          }
+        ]
+      },
+      {
+        "name": "Tylenol",
+        "dose": null,
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 658,
+            "end": 746
+          }
+        ]
+      }
+    ]
+  },
+  "allergies": [
+    {
+      "substance": "None",
+      "reaction": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 639,
+          "end": 656
+        }
+      ]
+    }
+  ],
+  "key_findings": [
+    {
+      "category": "vital",
+      "name": "Weight",
+      "value": "24 pounds 1 ounce",
+      "unit": "pounds/ounces",
+      "flag": "normal",
+      "trend": null,
+      "interpretation": "Weight measured at well child check",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 862,
+          "end": 887
+        }
+      ]
+    },
+    {
+      "category": "vital",
+      "name": "Height",
+      "value": "30",
+      "unit": "inches",
+      "flag": "normal",
+      "trend": null,
+      "interpretation": "Height measured at well child check",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 889,
+          "end": 906
+        }
+      ]
+    },
+    {
+      "category": "vital",
+      "name": "Head circumference",
+      "value": "46.5",
+      "unit": "cm",
+      "flag": "normal",
+      "trend": null,
+      "interpretation": "Head circumference measured at well child check",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 908,
+          "end": 935
+        }
+      ]
+    },
+    {
+      "category": "vital",
+      "name": "Temperature",
+      "value": "afebrile",
+      "unit": null,
+      "flag": "normal",
+      "trend": null,
+      "interpretation": "Afebrile temperature status",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 937,
+          "end": 958
+        }
+      ]
+    }
+  ],
+  "procedures": [
+    {
+      "name": "Immunizations (Pediarix and HIB)",
+      "time": null,
+      "outcome": "Administered during visit",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 2272,
+          "end": 2308
+        }
+      ]
+    }
+  ],
+  "course": {
+    "narrative": "A 1-year-old female presented with her parents for her well child check. The parents reported she has been doing well overall, transitioning to whole milk and a balanced diet with normal voiding and stooling. She met all developmental milestones. Physical examination was unremarkable except for normal teething behavior and drooling. The patient received Pediarix and HIB vaccines. Screening CBC and lead level were obtained via fingerstick. Anticipatory guidance was provided, and the patient was scheduled for a 15-month follow-up.",
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 12,
+        "end": 82
+      },
+      {
+        "doc_id": "d1",
+        "start": 2272,
+        "end": 2308
+      }
+    ]
+  },
+  "disposition": {
+    "status": "discharged",
+    "destination": "home",
+    "condition": "well",
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 2589,
+        "end": 2661
+      }
+    ]
+  },
+  "action_items": [
+    {
+      "action": "Call the family with CBC and lead level results as they become available",
+      "owner": "treating_team",
+      "priority": "routine",
+      "due": null,
+      "category": "pending_result",
+      "rationale": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 2474,
+          "end": 2528
+        }
+      ]
+    },
+    {
+      "action": "Follow up for the 15-month well child check or as needed for acute care",
+      "owner": "patient",
+      "priority": "routine",
+      "due": null,
+      "category": "follow_up",
+      "rationale": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 2589,
+          "end": 2661
+        }
+      ]
+    }
+  ],
+  "red_flags": [],
+  "patient_summary": null,
+  "quality": {
+    "missing_information": [],
+    "contradictions": [],
+    "low_confidence_fields": []
+  }
+}

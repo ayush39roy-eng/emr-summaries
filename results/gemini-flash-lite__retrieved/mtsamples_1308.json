@@ -1,0 +1,292 @@
+{
+  "schema_version": "0.1",
+  "record_id": "mtsamples:1308",
+  "patient_id": "88ebc1e8-0a5f-41ef-89d5-4052644b3e9e",
+  "generator": {
+    "kind": "model",
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "v1",
+    "generated_at": "2026-10-25T16:10:44Z"
+  },
+  "one_liner": "A female patient with history of depression, hepatitis C, hypertension, and drug abuse presents for evaluation with sleep study and pulmonary function results.",
+  "problems": [
+    {
+      "name": "Depression",
+      "code": null,
+      "status": "chronic",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 2047,
+          "end": 2062
+        }
+      ]
+    },
+    {
+      "name": "Hepatitis C",
+      "code": null,
+      "status": "chronic",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 2063,
+          "end": 2079
+        }
+      ]
+    },
+    {
+      "name": "Hypertension",
+      "code": null,
+      "status": "chronic",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 2080,
+          "end": 2097
+        }
+      ]
+    },
+    {
+      "name": "Inhaled and intravenous drug abuse",
+      "code": null,
+      "status": "chronic",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 2098,
+          "end": 2145
+        }
+      ]
+    },
+    {
+      "name": "Recurrent atypical chest pain",
+      "code": null,
+      "status": "chronic",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 2260,
+          "end": 2334
+        }
+      ]
+    }
+  ],
+  "medications": {
+    "started": [],
+    "stopped": [],
+    "changed": [],
+    "continued": [
+      {
+        "name": "Methadone",
+        "dose": "110 mg",
+        "route": "by mouth",
+        "frequency": "every day",
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 2706,
+            "end": 2746
+          }
+        ]
+      },
+      {
+        "name": "Paxil",
+        "dose": "60 mg",
+        "route": "by mouth",
+        "frequency": "every day",
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 2747,
+            "end": 2782
+          }
+        ]
+      },
+      {
+        "name": "Trazodone",
+        "dose": "30 mg",
+        "route": "by mouth",
+        "frequency": "nightly",
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 2783,
+            "end": 2820
+          }
+        ]
+      },
+      {
+        "name": "Seroquel",
+        "dose": "20 mg",
+        "route": "by mouth",
+        "frequency": "nightly",
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 2821,
+            "end": 2857
+          }
+        ]
+      },
+      {
+        "name": "Avalide (irbesartan) and hydrochlorothiazide",
+        "dose": null,
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 2858,
+            "end": 2907
+          }
+        ]
+      },
+      {
+        "name": "Albuterol and Flovent inhalers",
+        "dose": "two puffs",
+        "route": "by mouth",
+        "frequency": "twice a day",
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 2908,
+            "end": 2974
+          }
+        ]
+      },
+      {
+        "name": "Atrovent",
+        "dose": null,
+        "route": null,
+        "frequency": "as needed",
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 2975,
+            "end": 2998
+          }
+        ]
+      }
+    ]
+  },
+  "allergies": [],
+  "key_findings": [
+    {
+      "category": "vital",
+      "name": "Blood pressure",
+      "value": "126/84",
+      "unit": "mmHg",
+      "flag": null,
+      "trend": null,
+      "interpretation": "Normal blood pressure",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 3023,
+          "end": 3044
+        }
+      ]
+    },
+    {
+      "category": "exam",
+      "name": "Pretibial edema",
+      "value": "1+",
+      "unit": null,
+      "flag": "abnormal",
+      "trend": null,
+      "interpretation": "1+ pretibial edema present",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 4209,
+          "end": 4237
+        }
+      ]
+    },
+    {
+      "category": "lab",
+      "name": "Pulmonary function studies",
+      "value": null,
+      "unit": null,
+      "flag": "abnormal",
+      "trend": null,
+      "interpretation": "Mild restrictive ventilatory defect without obstruction, and well preserved diffusing capacity",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 4331,
+          "end": 4471
+        }
+      ]
+    },
+    {
+      "category": "other",
+      "name": "Overnight sleep study",
+      "value": null,
+      "unit": null,
+      "flag": "abnormal",
+      "trend": null,
+      "interpretation": "Total sleep time 398 minutes, sleep proficiency 92 percent, elevated stage I sleep (28%), stage II at 69%, stage III and IV at 3%, no REM sleep, no periodic limb movements, no significant sleep-disordered breathing during non-REM sleep, intermittent inspiratory flow limitation compatible with snoring observed during non-REM sleep.",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 4472,
+          "end": 4547
+        }
+      ]
+    }
+  ],
+  "procedures": [],
+  "course": {
+    "narrative": "The patient is a female with a history of depression, hepatitis C, hypertension, and past inhaled and intravenous drug abuse, currently on methadone maintenance. Her review of systems was not contributory. Physical exam showed 1+ pretibial edema, deviation in the nasal septum to the right, and otherwise grossly nonfocal findings. Pulmonary function studies revealed a mild restrictive ventilatory defect without obstruction with well-preserved diffusing capacity. An overnight sleep study demonstrated a sleep proficiency of 92 percent, elevated stage I sleep at 28 percent, no REM sleep, no periodic limb movements, and no significant sleep-disordered breathing during non-REM sleep, though intermittent inspiratory flow limitation compatible with snoring was observed.",
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 2025,
+        "end": 2144
+      },
+      {
+        "doc_id": "d1",
+        "start": 4331,
+        "end": 4471
+      }
+    ]
+  },
+  "disposition": {
+    "status": "unknown",
+    "destination": null,
+    "condition": null,
+    "evidence": []
+  },
+  "action_items": [],
+  "red_flags": [],
+  "patient_summary": null,
+  "quality": {
+    "missing_information": [],
+    "contradictions": [],
+    "low_confidence_fields": []
+  }
+}

@@ -1,0 +1,196 @@
+{
+  "schema_version": "0.1",
+  "record_id": "mtsamples:4991",
+  "patient_id": "9488399d-54dc-472c-8bad-a51e3030140b",
+  "generator": {
+    "kind": "model",
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "v1",
+    "generated_at": "2026-10-25T16:01:19Z"
+  },
+  "one_liner": "A 26-year-old white female underwent autopsy following death, revealing findings consistent with hanging (Ligature A) and an additional neck ligature mark (Ligature B) with a fractured hyoid bone.",
+  "problems": [
+    {
+      "name": "Hanging",
+      "code": null,
+      "status": "confirmed",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1279,
+          "end": 1469
+        }
+      ]
+    },
+    {
+      "name": "Hyoid bone fracture",
+      "code": null,
+      "status": "confirmed",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 2941,
+          "end": 2986
+        }
+      ]
+    },
+    {
+      "name": "Thyroid and cricoid cartilages fracture",
+      "code": null,
+      "status": "confirmed",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 3616,
+          "end": 3686
+        }
+      ]
+    }
+  ],
+  "medications": {
+    "started": [],
+    "stopped": [],
+    "changed": [],
+    "continued": []
+  },
+  "allergies": [],
+  "key_findings": [
+    {
+      "category": "exam",
+      "name": "Ligature A",
+      "value": "1.5 inches wide",
+      "unit": "inches",
+      "flag": "abnormal",
+      "trend": null,
+      "interpretation": "Ligature mark on neck below mandible consistent with hanging, determined to be post-mortem due to lack of hemorrhage.",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1157,
+          "end": 1278
+        }
+      ]
+    },
+    {
+      "category": "exam",
+      "name": "Ligature B",
+      "value": "0.8 to 1 cm",
+      "unit": "cm",
+      "flag": "abnormal",
+      "trend": null,
+      "interpretation": "Dark red ligature mark encircling the neck just below laryngeal prominence, consistent with a soft ligature.",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1756,
+          "end": 1890
+        }
+      ]
+    },
+    {
+      "category": "exam",
+      "name": "Conjunctival petechial hemorrhaging",
+      "value": null,
+      "unit": null,
+      "flag": "abnormal",
+      "trend": null,
+      "interpretation": "Petechial hemorrhaging present in conjunctival surfaces of the eyes.",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 923,
+          "end": 998
+        }
+      ]
+    },
+    {
+      "category": "lab",
+      "name": "Ethanol (Blood)",
+      "value": "0",
+      "unit": "gm/dl",
+      "flag": "normal",
+      "trend": null,
+      "interpretation": "Negative for blood ethanol.",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 5309,
+          "end": 5340
+        }
+      ]
+    },
+    {
+      "category": "lab",
+      "name": "Urine Drug Screen",
+      "value": "Negative",
+      "unit": null,
+      "flag": "normal",
+      "trend": null,
+      "interpretation": "Urine immunoassay screen was negative.",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 5267,
+          "end": 5307
+        }
+      ]
+    }
+  ],
+  "procedures": [
+    {
+      "name": "Autopsy",
+      "time": null,
+      "outcome": "Completed with external and internal examination, collection of evidence and toxicology/serology samples.",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 22,
+          "end": 66
+        }
+      ]
+    }
+  ],
+  "course": {
+    "narrative": "An autopsy was performed on a 26-year-old white female presenting in a body bag. External examination revealed two distinct ligature marks on the neck: Ligature A (consistent with hanging, noted to be post-mortem due to lack of surrounding hemorrhage) and Ligature B (horizontal, caused by a soft ligature). Internal examination showed fractures of the hyoid bone, thyroid, and cricoid cartilages. Hemorrhaging from Ligature B penetrated skin and subdermal tissues. Toxicologic studies, blood, bile, stomach contents, and multiple swabs and biological samples were collected for further analysis.",
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 22,
+        "end": 66
+      },
+      {
+        "doc_id": "d1",
+        "start": 2941,
+        "end": 2986
+      }
+    ]
+  },
+  "disposition": {
+    "status": "expired",
+    "destination": null,
+    "condition": null,
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 771,
+        "end": 803
+      }
+    ]
+  },
+  "action_items": [],
+  "red_flags": [],
+  "patient_summary": null,
+  "quality": {
+    "missing_information": [],
+    "contradictions": [],
+    "low_confidence_fields": []
+  }
+}

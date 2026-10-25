@@ -1,0 +1,154 @@
+{
+  "schema_version": "0.1",
+  "record_id": "mtsamples:3086",
+  "patient_id": "0b489614-5d1a-42bb-9619-1645fe7fa016",
+  "generator": {
+    "kind": "model",
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "v1",
+    "generated_at": "2026-10-25T16:13:28Z"
+  },
+  "one_liner": "Patient with two separate primary non-small cell lung carcinomas in the right upper lobe underwent right upper lobe wedge and lobectomy biopsies.",
+  "problems": [
+    {
+      "name": "Poorly differentiated non-small cell carcinoma",
+      "code": null,
+      "status": "confirmed",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1166,
+          "end": 1250
+        }
+      ]
+    },
+    {
+      "name": "Moderately differentiated non-small cell carcinoma (adenocarcinoma)",
+      "code": null,
+      "status": "confirmed",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1551,
+          "end": 1644
+        }
+      ]
+    }
+  ],
+  "medications": {
+    "started": [],
+    "stopped": [],
+    "changed": [],
+    "continued": []
+  },
+  "allergies": [],
+  "key_findings": [
+    {
+      "category": "imaging",
+      "name": "Tumor size (wedge biopsy)",
+      "value": "0.8",
+      "unit": "cm",
+      "flag": null,
+      "trend": null,
+      "interpretation": "0.8 cm poorly differentiated non-small cell carcinoma",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1252,
+          "end": 1272
+        }
+      ]
+    },
+    {
+      "category": "imaging",
+      "name": "Tumor size (RUL resection)",
+      "value": "1.3",
+      "unit": "cm",
+      "flag": null,
+      "trend": null,
+      "interpretation": "1.3 cm moderately differentiated adenocarcinoma",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1646,
+          "end": 1666
+        }
+      ]
+    },
+    {
+      "category": "exam",
+      "name": "Lymph nodes (10R, 4R, subcarinal)",
+      "value": null,
+      "unit": null,
+      "flag": null,
+      "trend": null,
+      "interpretation": "Negative for malignancy",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1454,
+          "end": 1546
+        }
+      ]
+    }
+  ],
+  "procedures": [
+    {
+      "name": "Right upper lobe wedge lung biopsy",
+      "time": null,
+      "outcome": "Negative for malignancy margins, 0.8 cm poorly differentiated non-small cell carcinoma",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1166,
+          "end": 1250
+        }
+      ]
+    },
+    {
+      "name": "Right upper lobe resection",
+      "time": null,
+      "outcome": "Negative for malignancy margins, 1.3 cm moderately differentiated adenocarcinoma",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1551,
+          "end": 1644
+        }
+      ]
+    }
+  ],
+  "course": {
+    "narrative": "The patient underwent a right upper lobe wedge biopsy and right upper lobe lung resection along with lymph node samplings (10R, 4R, and subcarinal). Pathologic examination revealed two separate primary tumors in the right upper lobe: a 0.8 cm poorly differentiated non-small cell carcinoma and a 1.3 cm moderately differentiated adenocarcinoma. Arterial invasion was present in the resection specimen, but small vessel, lymphatic, and pleural invasions were not identified. All excised lymph nodes and excision margins were negative for malignancy.",
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 2002,
+        "end": 2166
+      }
+    ]
+  },
+  "disposition": {
+    "status": "unknown",
+    "destination": null,
+    "condition": null,
+    "evidence": []
+  },
+  "action_items": [],
+  "red_flags": [],
+  "patient_summary": null,
+  "quality": {
+    "missing_information": [
+      "Patient age and sex",
+      "Clinical history and physical exam details",
+      "Patient disposition plan"
+    ],
+    "contradictions": [],
+    "low_confidence_fields": []
+  }
+}

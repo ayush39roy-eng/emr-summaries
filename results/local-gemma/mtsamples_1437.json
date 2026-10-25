@@ -1,0 +1,257 @@
+{
+  "schema_version": "0.1",
+  "record_id": "mtsamples:1437",
+  "patient_id": "92d55451-e057-4f65-965c-dd7bbbbd440f",
+  "generator": {
+    "kind": "model",
+    "model": "gemma4:e4b",
+    "prompt_version": "v1",
+    "generated_at": "2026-10-25T16:23:37Z"
+  },
+  "one_liner": "65-year-old patient with history of profound hyponatremia and possible ovarian malignancy, transitioned from aggressive care to terminal wean with comfort care measures following a catastrophic event.",
+  "problems": [
+    {
+      "name": "Profound hyponatremia",
+      "code": null,
+      "status": "resolved",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 316,
+          "end": 413
+        }
+      ]
+    },
+    {
+      "name": "Likely recurrent aspiration pneumonia",
+      "code": null,
+      "status": "resolved",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 415,
+          "end": 538
+        }
+      ]
+    },
+    {
+      "name": "Ovarian malignancy",
+      "code": null,
+      "status": "suspected",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 702,
+          "end": 803
+        }
+      ]
+    },
+    {
+      "name": "Hypertension",
+      "code": null,
+      "status": "resolved",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 902,
+          "end": 1043
+        }
+      ]
+    }
+  ],
+  "medications": {
+    "started": [
+      {
+        "name": "intravenous morphine",
+        "dose": null,
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 1914,
+            "end": 2014
+          }
+        ]
+      }
+    ],
+    "stopped": [
+      {
+        "name": "pressure support",
+        "dose": null,
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 1874,
+            "end": 1912
+          }
+        ]
+      }
+    ],
+    "changed": [],
+    "continued": []
+  },
+  "allergies": [],
+  "key_findings": [
+    {
+      "category": "vital",
+      "name": "Tachycardia",
+      "value": null,
+      "unit": null,
+      "flag": null,
+      "trend": null,
+      "interpretation": "present",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1471,
+          "end": 1512
+        }
+      ]
+    },
+    {
+      "category": "exam",
+      "name": "Lungs",
+      "value": null,
+      "unit": null,
+      "flag": null,
+      "trend": null,
+      "interpretation": "coarse breath sounds",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1514,
+          "end": 1545
+        }
+      ]
+    },
+    {
+      "category": "exam",
+      "name": "Extremities",
+      "value": null,
+      "unit": null,
+      "flag": null,
+      "trend": null,
+      "interpretation": "cool to the touch",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1453,
+          "end": 1469
+        },
+        {
+          "doc_id": "d1",
+          "start": 1566,
+          "end": 1601
+        }
+      ]
+    },
+    {
+      "category": "exam",
+      "name": "Pupils",
+      "value": null,
+      "unit": null,
+      "flag": null,
+      "trend": null,
+      "interpretation": "6 to 2 mm, not responsive to light",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1603,
+          "end": 1689
+        }
+      ]
+    }
+  ],
+  "procedures": [
+    {
+      "name": "Intubation/ET Tube Management",
+      "time": null,
+      "outcome": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1962,
+          "end": 2014
+        }
+      ]
+    }
+  ],
+  "course": {
+    "narrative": "The patient was admitted weeks ago with profound hyponatremia and mental status changes. Initially, aggressive care was pursued for possible ovarian malignancy. Following a catastrophic event last night, the family requested a change in care plan. A decision was made to proceed with terminal wean and comfort care measures. Pressure support was discontinued, and the patient was started on intravenous morphine. Monitors were turned off, and the patient was made as comfortable as possible.",
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 286,
+        "end": 413
+      },
+      {
+        "doc_id": "d1",
+        "start": 1692,
+        "end": 1872
+      },
+      {
+        "doc_id": "d1",
+        "start": 1874,
+        "end": 1912
+      },
+      {
+        "doc_id": "d1",
+        "start": 1914,
+        "end": 2014
+      }
+    ]
+  },
+  "disposition": {
+    "status": "admitted",
+    "destination": null,
+    "condition": null,
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 2095,
+        "end": 2133
+      }
+    ]
+  },
+  "action_items": [
+    {
+      "action": "Proceed with terminal wean and comfort care measures",
+      "owner": "treating_team",
+      "priority": "routine",
+      "due": null,
+      "category": null,
+      "rationale": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 68,
+          "end": 257
+        }
+      ]
+    }
+  ],
+  "red_flags": [],
+  "patient_summary": null,
+  "quality": {
+    "missing_information": [
+      "No specific follow-up appointments or pending lab/imaging results were listed."
+    ],
+    "contradictions": [],
+    "low_confidence_fields": []
+  }
+}

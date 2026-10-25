@@ -1,0 +1,153 @@
+{
+  "schema_version": "0.1",
+  "record_id": "mtsamples:236",
+  "patient_id": "10a4f294-b2d6-4904-aba0-3dc1619fb61f",
+  "generator": {
+    "kind": "model",
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "v1",
+    "generated_at": "2026-10-25T16:11:38Z"
+  },
+  "one_liner": "An 86-year-old female with respiratory failure, malnutrition, and drainage from an old PEG site underwent successful insertion of a right femoral triple lumen catheter for total parenteral nutrition access without complications.",
+  "problems": [
+    {
+      "name": "Need for intravenous access",
+      "code": null,
+      "status": "confirmed",
+      "is_new": true,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 53,
+          "end": 106
+        }
+      ]
+    },
+    {
+      "name": "Drainage of an old percutaneous endoscopic gastrostomy site",
+      "code": null,
+      "status": "confirmed",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 374,
+          "end": 433
+        }
+      ]
+    },
+    {
+      "name": "Respiratory failure with tracheostomy",
+      "code": null,
+      "status": "chronic",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 478,
+          "end": 524
+        }
+      ]
+    },
+    {
+      "name": "Dysphagia",
+      "code": null,
+      "status": "chronic",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 563,
+          "end": 585
+        }
+      ]
+    },
+    {
+      "name": "Protein-calorie malnutrition",
+      "code": null,
+      "status": "chronic",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 599,
+          "end": 638
+        }
+      ]
+    }
+  ],
+  "medications": {
+    "started": [],
+    "stopped": [],
+    "changed": [],
+    "continued": []
+  },
+  "allergies": [],
+  "key_findings": [],
+  "procedures": [
+    {
+      "name": "Insertion of a right femoral triple lumen catheter",
+      "time": null,
+      "outcome": "The patient tolerated the full procedure well. There were no complications.",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 107,
+          "end": 179
+        },
+        {
+          "doc_id": "d1",
+          "start": 2093,
+          "end": 2169
+        }
+      ]
+    }
+  ],
+  "course": {
+    "narrative": "An 86-year-old ventilator-dependent female requiring total parenteral nutrition due to dysphagia and malnutrition needed central venous access. Consent was obtained from the patient's legal guardian. Under local anesthesia with 1% lidocaine, a right femoral triple lumen catheter was successfully placed using the Seldinger technique with guidewire insertion. Correct placement was confirmed via dark venous blood aspiration and back-bleeding from all ports, which were then flushed, locked, and sutured in place with sterile dressing applied. The procedure was uncomplicated, well tolerated, and the nurse was notified for access.",
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 275,
+        "end": 434
+      },
+      {
+        "doc_id": "d1",
+        "start": 2093,
+        "end": 2169
+      }
+    ]
+  },
+  "disposition": {
+    "status": "unknown",
+    "destination": null,
+    "condition": null,
+    "evidence": []
+  },
+  "action_items": [
+    {
+      "action": "Allow for access of the triple lumen catheter",
+      "owner": "treating_team",
+      "priority": "routine",
+      "due": null,
+      "category": "monitoring",
+      "rationale": "Catheter insertion completed for total parenteral nutrition.",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 2171,
+          "end": 2249
+        }
+      ]
+    }
+  ],
+  "red_flags": [],
+  "patient_summary": null,
+  "quality": {
+    "missing_information": [
+      "Disposition destination and current patient condition are not specified."
+    ],
+    "contradictions": [],
+    "low_confidence_fields": []
+  }
+}

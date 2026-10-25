@@ -1,0 +1,788 @@
+{
+  "schema_version": "0.1",
+  "record_id": "mtsamples:3054",
+  "patient_id": "2ce4dcf0-fab4-4a0a-9062-cc077aa7b1c9",
+  "generator": {
+    "kind": "model",
+    "model": "gemma4:e4b",
+    "prompt_version": "v1",
+    "generated_at": "2026-10-25T16:07:01Z"
+  },
+  "one_liner": "68-year-old male with a history of CAD, HTN, DM, and stage III CKD presenting for evaluation of acute on chronic kidney failure and orthostatic hypotension.",
+  "problems": [
+    {
+      "name": "Acute on chronic kidney failure",
+      "code": null,
+      "status": "suspected",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 18,
+          "end": 39
+        },
+        {
+          "doc_id": "d1",
+          "start": 5483,
+          "end": 5515
+        }
+      ]
+    },
+    {
+      "name": "Orthostatic hypotension",
+      "code": null,
+      "status": "suspected",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1082,
+          "end": 1148
+        },
+        {
+          "doc_id": "d1",
+          "start": 3729,
+          "end": 3768
+        },
+        {
+          "doc_id": "d1",
+          "start": 6174,
+          "end": 6198
+        }
+      ]
+    },
+    {
+      "name": "Prostatic hypertrophy and obstruction",
+      "code": null,
+      "status": "suspected",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 897,
+          "end": 991
+        },
+        {
+          "doc_id": "d1",
+          "start": 5722,
+          "end": 5806
+        }
+      ]
+    },
+    {
+      "name": "Elevated creatine kinase",
+      "code": null,
+      "status": "suspected",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 6330,
+          "end": 6380
+        }
+      ]
+    }
+  ],
+  "medications": {
+    "started": [
+      {
+        "name": "None",
+        "dose": null,
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": null,
+        "evidence": []
+      }
+    ],
+    "stopped": [
+      {
+        "name": "Crestor",
+        "dose": null,
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 6833,
+            "end": 6846
+          }
+        ]
+      }
+    ],
+    "changed": [
+      {
+        "name": "atenolol",
+        "dose": null,
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 6721,
+            "end": 6754
+          }
+        ]
+      },
+      {
+        "name": "enalapril",
+        "dose": null,
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 6759,
+            "end": 6793
+          }
+        ]
+      },
+      {
+        "name": "Lasix",
+        "dose": null,
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 6798,
+            "end": 6828
+          }
+        ]
+      }
+    ],
+    "continued": [
+      {
+        "name": "Imdur 20 mg two to three times daily",
+        "dose": null,
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 1525,
+            "end": 1561
+          }
+        ]
+      },
+      {
+        "name": "nitroglycerin p.r.n.",
+        "dose": null,
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 1563,
+            "end": 1583
+          }
+        ]
+      },
+      {
+        "name": "insulin 70/30 40/45 units daily",
+        "dose": null,
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 1585,
+            "end": 1616
+          }
+        ]
+      },
+      {
+        "name": "Zetia 10 mg daily",
+        "dose": null,
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 1618,
+            "end": 1635
+          }
+        ]
+      },
+      {
+        "name": "? Triglide 50 mg daily",
+        "dose": null,
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 1637,
+            "end": 1659
+          }
+        ]
+      },
+      {
+        "name": "Prevacid 30 mg daily",
+        "dose": null,
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 1661,
+            "end": 1681
+          }
+        ]
+      },
+      {
+        "name": "Plavix 75 mg daily",
+        "dose": null,
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 1683,
+            "end": 1701
+          }
+        ]
+      },
+      {
+        "name": "potassium 10 mEq daily",
+        "dose": null,
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 1703,
+            "end": 1725
+          }
+        ]
+      },
+      {
+        "name": "folate 1 mg b.i.d.",
+        "dose": null,
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 1746,
+            "end": 1764
+          }
+        ]
+      },
+      {
+        "name": "Niaspan 500 mg daily",
+        "dose": null,
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 1766,
+            "end": 1786
+          }
+        ]
+      },
+      {
+        "name": "atenolol 50 mg daily",
+        "dose": null,
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 1788,
+            "end": 1808
+          }
+        ]
+      },
+      {
+        "name": "enalapril 10 mg b.i.d.",
+        "dose": null,
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 1810,
+            "end": 1832
+          }
+        ]
+      },
+      {
+        "name": "glyburide 10 mg b.i.d.",
+        "dose": null,
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 1834,
+            "end": 1856
+          }
+        ]
+      },
+      {
+        "name": "Xanax 0.25 mg b.i.d.",
+        "dose": null,
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 1858,
+            "end": 1878
+          }
+        ]
+      },
+      {
+        "name": "aspirin 325 mg daily",
+        "dose": null,
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 1880,
+            "end": 1900
+          }
+        ]
+      },
+      {
+        "name": "Tylenol p.r.n.",
+        "dose": null,
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 1902,
+            "end": 1916
+          }
+        ]
+      },
+      {
+        "name": "Zantac 150 mg b.i.d.",
+        "dose": null,
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 1918,
+            "end": 1938
+          }
+        ]
+      },
+      {
+        "name": "Crestor 5 mg daily",
+        "dose": null,
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 1940,
+            "end": 1958
+          }
+        ]
+      },
+      {
+        "name": "TriCor 145 mg daily",
+        "dose": null,
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 1960,
+            "end": 1979
+          }
+        ]
+      },
+      {
+        "name": "Digitek 0.125 mg daily",
+        "dose": null,
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 1981,
+            "end": 2003
+          }
+        ]
+      },
+      {
+        "name": "Celexa 20 mg daily",
+        "dose": null,
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 2005,
+            "end": 2023
+          }
+        ]
+      },
+      {
+        "name": "Flomax 0.4 mg daily",
+        "dose": null,
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 2029,
+            "end": 2048
+          }
+        ]
+      }
+    ]
+  },
+  "allergies": [
+    {
+      "substance": "None",
+      "reaction": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1495,
+          "end": 1511
+        }
+      ]
+    }
+  ],
+  "key_findings": [
+    {
+      "category": "vital",
+      "name": "Blood pressure",
+      "value": null,
+      "unit": null,
+      "flag": null,
+      "trend": null,
+      "interpretation": "Supine pulse 60 with blood pressure 128/55. Standing pulse 60 with blood pressure of 132/50.",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 3583,
+          "end": 3626
+        },
+        {
+          "doc_id": "d1",
+          "start": 3628,
+          "end": 3676
+        }
+      ]
+    },
+    {
+      "category": "lab",
+      "name": "Creatinine",
+      "value": null,
+      "unit": null,
+      "flag": null,
+      "trend": null,
+      "interpretation": "Elevated; labs dated <DATE>, creatinine was 1.8 with a BUN of 28.",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 4832,
+          "end": 4887
+        }
+      ]
+    },
+    {
+      "category": "lab",
+      "name": "CK",
+      "value": null,
+      "unit": null,
+      "flag": null,
+      "trend": null,
+      "interpretation": "Elevated at 653.",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 5093,
+          "end": 5116
+        }
+      ]
+    },
+    {
+      "category": "lab",
+      "name": "Urinalysis (Today)",
+      "value": null,
+      "unit": null,
+      "flag": null,
+      "trend": null,
+      "interpretation": "Specific gravity 1.020, negative glucose, bilirubin, ketones and blood, 30 mg/dL of protein, pH of 5, negative nitrates, leukocyte esterase. Microscopic exam was bland.",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 5269,
+          "end": 5437
+        },
+        {
+          "doc_id": "d1",
+          "start": 5439,
+          "end": 5466
+        }
+      ]
+    }
+  ],
+  "procedures": [],
+  "course": {
+    "narrative": "The patient presented for evaluation of acute on chronic kidney failure. Review of systems noted dizziness, especially on standing, and urinary symptoms. Labs showed elevated creatinine (2.3 on one date, 1.8 on another) and elevated CK (653). The impression noted acute on chronic kidney failure, orthostatic hypotension, and elevated CK. Recommendations included avoiding NSAIDs and Chinese herbs, rechecking labs (CBC with differential, SPEP, uric acid and renal panel), and dose adjustments for atenolol, enalapril, and Lasix. A renal ultrasound was also recommended.",
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 6544,
+        "end": 6633
+      },
+      {
+        "doc_id": "d1",
+        "start": 6638,
+        "end": 6716
+      },
+      {
+        "doc_id": "d1",
+        "start": 6721,
+        "end": 6754
+      },
+      {
+        "doc_id": "d1",
+        "start": 6759,
+        "end": 6793
+      },
+      {
+        "doc_id": "d1",
+        "start": 6798,
+        "end": 6828
+      },
+      {
+        "doc_id": "d1",
+        "start": 6833,
+        "end": 6846
+      },
+      {
+        "doc_id": "d1",
+        "start": 6851,
+        "end": 6874
+      },
+      {
+        "doc_id": "d1",
+        "start": 6879,
+        "end": 6931
+      }
+    ]
+  },
+  "disposition": {
+    "status": "unknown",
+    "destination": null,
+    "condition": null,
+    "evidence": []
+  },
+  "action_items": [
+    {
+      "action": "Avoid NSAIDs and any further Chinese herbs.",
+      "owner": "patient",
+      "priority": "routine",
+      "due": null,
+      "category": null,
+      "rationale": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 6544,
+          "end": 6633
+        }
+      ]
+    },
+    {
+      "action": "Recheck labs including CBC with differential, SPEP, uric acid and renal panel.",
+      "owner": "patient",
+      "priority": "routine",
+      "due": null,
+      "category": null,
+      "rationale": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 6638,
+          "end": 6716
+        }
+      ]
+    },
+    {
+      "action": "Decrease atenolol to 25 mg daily.",
+      "owner": "patient",
+      "priority": "routine",
+      "due": null,
+      "category": null,
+      "rationale": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 6721,
+          "end": 6754
+        }
+      ]
+    },
+    {
+      "action": "Decrease enalapril to 10 mg daily.",
+      "owner": "patient",
+      "priority": "routine",
+      "due": null,
+      "category": null,
+      "rationale": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 6759,
+          "end": 6793
+        }
+      ]
+    },
+    {
+      "action": "Decrease Lasix to 20 mg daily.",
+      "owner": "patient",
+      "priority": "routine",
+      "due": null,
+      "category": null,
+      "rationale": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 6798,
+          "end": 6828
+        }
+      ]
+    },
+    {
+      "action": "Stop Crestor.",
+      "owner": "patient",
+      "priority": "routine",
+      "due": null,
+      "category": null,
+      "rationale": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 6833,
+          "end": 6846
+        }
+      ]
+    },
+    {
+      "action": "Check renal ultrasound.",
+      "owner": "patient",
+      "priority": "routine",
+      "due": null,
+      "category": null,
+      "rationale": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 6851,
+          "end": 6874
+        }
+      ]
+    },
+    {
+      "action": "Follow up in two weeks for review of studies.",
+      "owner": "patient",
+      "priority": "routine",
+      "due": null,
+      "category": null,
+      "rationale": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 6879,
+          "end": 6931
+        }
+      ]
+    }
+  ],
+  "red_flags": [
+    {
+      "message": "The patient has episodic hypotension at home and low diastolic pressure here.",
+      "severity": "high",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 5588,
+          "end": 5656
+        }
+      ]
+    }
+  ],
+  "patient_summary": null,
+  "quality": {
+    "missing_information": [
+      "Specific dates for multiple events (e.g., 'on <DATE>', 'last placed <DATE>', 'since <DATE>')",
+      "Results of the recommended SPEP, uric acid, and renal panel."
+    ],
+    "contradictions": [
+      "The patient reports dizziness with low glucose, but his blood glucose this morning was 123 and he still was dizzy."
+    ],
+    "low_confidence_fields": [
+      "/medications/started/0"
+    ]
+  }
+}

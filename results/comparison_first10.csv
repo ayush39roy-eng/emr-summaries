@@ -1,0 +1,4 @@
+model,model_id,records,outputs,schema_valid_%,claims_per_summary,grounded_claims_%,unsupported_per_summary,quotes_found_%,has_problems_%,has_medications_%,has_action_items_%,one_liner_over_300_chars,latency_s_median,tokens_in_mean,tokens_out_mean,rougeL_one_liner,bertscore_f1_one_liner
+gemini-flash-lite,gemini-3.5-flash-lite,10,10,100.0,20.9,100.0,0.0,100.0,100.0,70.0,50.0,0,11.1,1801,2488,0.248,0.807
+gemini-flash-lite__retrieved,gemini-3.5-flash-lite,10,10,100.0,19.3,100.0,0.0,100.0,100.0,70.0,40.0,0,5.5,1395,2376,0.275,0.82
+local-gemma,gemma4:e4b,10,10,100.0,18.7,91.4,1.6,96.7,100.0,70.0,100.0,0,175.7,1813,2236,0.383,0.841

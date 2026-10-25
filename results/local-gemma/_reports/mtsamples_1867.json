@@ -1,0 +1,31 @@
+{
+  "record_id": "mtsamples:1867",
+  "model": "gemma4:e4b",
+  "latency_s": 314.78,
+  "tokens_in": 1331,
+  "tokens_out": 3694,
+  "cached": false,
+  "error": null,
+  "context_mode": "all_chunks",
+  "n_chunks": 6,
+  "grounding": {
+    "claims": 35,
+    "supported_claims": 33,
+    "unsupported": [
+      {
+        "pointer": "/key_findings/0",
+        "claim": "unknown",
+        "quotes": []
+      },
+      {
+        "pointer": "/key_findings/1",
+        "claim": "unknown",
+        "quotes": []
+      }
+    ],
+    "quotes": 44,
+    "quotes_found": 44,
+    "wrong_chunk_id": 0
+  },
+  "schema_errors": []
+}

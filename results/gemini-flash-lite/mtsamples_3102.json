@@ -1,0 +1,419 @@
+{
+  "schema_version": "0.1",
+  "record_id": "mtsamples:3102",
+  "patient_id": "85452409-be83-4f08-a2ca-bec42f6cc9d2",
+  "generator": {
+    "kind": "model",
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "v1",
+    "generated_at": "2026-10-25T16:01:37Z"
+  },
+  "one_liner": "A 69-year-old woman with metastatic non-small-cell lung cancer and hospice status presented with inferior ST-elevation MI and new right facial droop, managed medically with heparin, morphine, nitro, and beta-blocker.",
+  "problems": [
+    {
+      "name": "metastatic non-small-cell lung cancer",
+      "code": null,
+      "status": "confirmed",
+      "is_new": false,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 57,
+          "end": 94
+        }
+      ]
+    },
+    {
+      "name": "inferior ST-elevation MI",
+      "code": null,
+      "status": "confirmed",
+      "is_new": true,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 112,
+          "end": 136
+        }
+      ]
+    },
+    {
+      "name": "malignant hemorrhagic pericardial effusion",
+      "code": null,
+      "status": "resolved",
+      "is_new": false,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 368,
+          "end": 435
+        }
+      ]
+    },
+    {
+      "name": "atrial fibrillation",
+      "code": null,
+      "status": "confirmed",
+      "is_new": false,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1931,
+          "end": 1950
+        }
+      ]
+    },
+    {
+      "name": "hypertension",
+      "code": null,
+      "status": "confirmed",
+      "is_new": false,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1952,
+          "end": 1964
+        }
+      ]
+    },
+    {
+      "name": "multiple CVA",
+      "code": null,
+      "status": "confirmed",
+      "is_new": false,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1966,
+          "end": 1989
+        }
+      ]
+    },
+    {
+      "name": "cerebrovascular accident",
+      "code": null,
+      "status": "confirmed",
+      "is_new": true,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 4112,
+          "end": 4154
+        }
+      ]
+    }
+  ],
+  "medications": {
+    "started": [
+      {
+        "name": "heparin",
+        "dose": null,
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 1271,
+            "end": 1330
+          }
+        ]
+      },
+      {
+        "name": "morphine",
+        "dose": null,
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 1339,
+            "end": 1381
+          }
+        ]
+      },
+      {
+        "name": "nitro",
+        "dose": null,
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 1339,
+            "end": 1381
+          }
+        ]
+      },
+      {
+        "name": "beta-blocker",
+        "dose": null,
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 1339,
+            "end": 1381
+          }
+        ]
+      }
+    ],
+    "stopped": [],
+    "changed": [],
+    "continued": [
+      {
+        "name": "Amiodarone",
+        "dose": "200 mg",
+        "route": null,
+        "frequency": "once a day",
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 2038,
+            "end": 2067
+          }
+        ]
+      },
+      {
+        "name": "Roxanol concentrate",
+        "dose": "5 mg",
+        "route": null,
+        "frequency": "three hours p.r.n. pain",
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 2072,
+            "end": 2121
+          }
+        ]
+      }
+    ]
+  },
+  "allergies": [
+    {
+      "substance": "CODEINE",
+      "reaction": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 2122,
+          "end": 2141
+        }
+      ]
+    }
+  ],
+  "key_findings": [
+    {
+      "category": "vital",
+      "name": "blood pressure",
+      "value": "138/82 to 111/87",
+      "unit": "mmHg",
+      "flag": null,
+      "trend": null,
+      "interpretation": "blood pressure ranges from 138/82 to 111/87",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 2574,
+          "end": 2617
+        }
+      ]
+    },
+    {
+      "category": "vital",
+      "name": "respiratory rate",
+      "value": "22",
+      "unit": "breaths/min",
+      "flag": null,
+      "trend": null,
+      "interpretation": "respiratory rate 22",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 2629,
+          "end": 2648
+        }
+      ]
+    },
+    {
+      "category": "exam",
+      "name": "right facial droop",
+      "value": null,
+      "unit": null,
+      "flag": "abnormal",
+      "trend": null,
+      "interpretation": "right facial droop which is new",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 3086,
+          "end": 3150
+        }
+      ]
+    },
+    {
+      "category": "ecg",
+      "name": "ECG",
+      "value": null,
+      "unit": null,
+      "flag": "abnormal",
+      "trend": null,
+      "interpretation": "normalization of prior ST elevation in the inferior leads with Q waves and first-degree AV block",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 3594,
+          "end": 3690
+        }
+      ]
+    },
+    {
+      "category": "lab",
+      "name": "troponin",
+      "value": "0.17",
+      "unit": null,
+      "flag": "abnormal",
+      "trend": null,
+      "interpretation": "elevated troponin",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 3833,
+          "end": 3846
+        }
+      ]
+    },
+    {
+      "category": "lab",
+      "name": "white blood cell count",
+      "value": "1.3",
+      "unit": null,
+      "flag": "low",
+      "trend": null,
+      "interpretation": "leukopenia",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 3858,
+          "end": 3884
+        }
+      ]
+    },
+    {
+      "category": "lab",
+      "name": "hematocrit",
+      "value": "31",
+      "unit": "%",
+      "flag": "low",
+      "trend": null,
+      "interpretation": "low hematocrit",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 3886,
+          "end": 3899
+        }
+      ]
+    }
+  ],
+  "procedures": [
+    {
+      "name": "drainage of a malignant hemorrhagic pericardial effusion",
+      "time": null,
+      "outcome": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 368,
+          "end": 435
+        }
+      ]
+    }
+  ],
+  "course": {
+    "narrative": "A 69-year-old woman with metastatic non-small-cell lung cancer on hospice and a history of strokes presented with vomiting, shortness of breath, garbled speech, and chest pain. An emergency room EKG showed an inferior ST-elevation MI. Thrombolytics and aggressive interventional therapy were deemed contraindicated due to her hospice status and recent hemorrhagic pericardial effusion. She was started on a heparin drip, morphine, nitro, and beta-blocker, resulting in pain relief and normalization of ST elevations on repeat EKG. She was admitted under the hospitalist service with a guarded prognosis.",
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 20,
+        "end": 137
+      },
+      {
+        "doc_id": "d1",
+        "start": 3986,
+        "end": 4199
+      }
+    ]
+  },
+  "disposition": {
+    "status": "admitted",
+    "destination": "hospital service",
+    "condition": "guarded",
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 4302,
+        "end": 4368
+      },
+      {
+        "doc_id": "d1",
+        "start": 4914,
+        "end": 5012
+      }
+    ]
+  },
+  "action_items": [
+    {
+      "action": "Continue heparin with monitoring for risk of hemorrhagic pericardial effusion recurrence",
+      "owner": "treating_team",
+      "priority": "routine",
+      "due": null,
+      "category": "monitoring",
+      "rationale": "she would be at risk for hemorrhagic pericardial effusion recurrence",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 4424,
+          "end": 4551
+        }
+      ]
+    }
+  ],
+  "red_flags": [
+    {
+      "message": "Patient is at risk for hemorrhagic pericardial effusion recurrence while on heparin.",
+      "severity": "high",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 4482,
+          "end": 4551
+        }
+      ]
+    }
+  ],
+  "patient_summary": null,
+  "quality": {
+    "missing_information": [],
+    "contradictions": [],
+    "low_confidence_fields": []
+  }
+}

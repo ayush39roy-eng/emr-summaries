@@ -1,0 +1,237 @@
+{
+  "schema_version": "0.1",
+  "record_id": "mtsamples:3879",
+  "patient_id": "052820da-d5aa-4ece-8671-9ac3baa7402d",
+  "generator": {
+    "kind": "model",
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "v1",
+    "generated_at": "2026-10-25T16:11:33Z"
+  },
+  "one_liner": "A 12-year-old male with a history of a bicycle fall with loss of consciousness and neck pain presented with a concussion and abrasions, and was admitted for observation.",
+  "problems": [
+    {
+      "name": "Concussion",
+      "code": null,
+      "status": "confirmed",
+      "is_new": true,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 3618,
+          "end": 3633
+        }
+      ]
+    },
+    {
+      "name": "Facial abrasion",
+      "code": null,
+      "status": "confirmed",
+      "is_new": true,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 3634,
+          "end": 3654
+        }
+      ]
+    },
+    {
+      "name": "Scalp laceration",
+      "code": null,
+      "status": "confirmed",
+      "is_new": true,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 3655,
+          "end": 3676
+        }
+      ]
+    },
+    {
+      "name": "Knee abrasions",
+      "code": null,
+      "status": "confirmed",
+      "is_new": true,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 3677,
+          "end": 3696
+        }
+      ]
+    },
+    {
+      "name": "Neck pain",
+      "code": null,
+      "status": "confirmed",
+      "is_new": true,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 202,
+          "end": 237
+        }
+      ]
+    }
+  ],
+  "medications": {
+    "started": [],
+    "stopped": [],
+    "changed": [],
+    "continued": []
+  },
+  "allergies": [
+    {
+      "substance": "NONE KNOWN",
+      "reaction": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 393,
+          "end": 415
+        }
+      ]
+    }
+  ],
+  "key_findings": [
+    {
+      "category": "vital",
+      "name": "Blood pressure",
+      "value": "150/75",
+      "unit": "mmHg",
+      "flag": "high",
+      "trend": null,
+      "interpretation": "Elevated blood pressure",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1845,
+          "end": 1866
+        }
+      ]
+    },
+    {
+      "category": "exam",
+      "name": "Moderate obesity",
+      "value": null,
+      "unit": null,
+      "flag": "abnormal",
+      "trend": null,
+      "interpretation": "Patient shows moderate obesity",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1947,
+          "end": 1982
+        }
+      ]
+    },
+    {
+      "category": "imaging",
+      "name": "Chest x-ray",
+      "value": null,
+      "unit": null,
+      "flag": "normal",
+      "trend": null,
+      "interpretation": "Normal chest x-ray",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 3493,
+          "end": 3530
+        }
+      ]
+    },
+    {
+      "category": "imaging",
+      "name": "Right hand x-ray",
+      "value": null,
+      "unit": null,
+      "flag": "normal",
+      "trend": null,
+      "interpretation": "Normal right hand x-ray",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 3532,
+          "end": 3565
+        }
+      ]
+    },
+    {
+      "category": "imaging",
+      "name": "MRI of the head",
+      "value": null,
+      "unit": null,
+      "flag": "normal",
+      "trend": null,
+      "interpretation": "Normal MRI of the head",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 3571,
+          "end": 3607
+        }
+      ]
+    }
+  ],
+  "procedures": [],
+  "course": {
+    "narrative": "A 12-year-old male was admitted to the Emergency Department following a bicycle fall without a helmet, resulting in a loss of consciousness and neck pain. He sustained a concussion, facial abrasion, scalp laceration, and knee abrasions. Imaging including a chest x-ray, right hand x-ray, and head MRI were normal. He was admitted for observation.",
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 28,
+        "end": 166
+      },
+      {
+        "doc_id": "d1",
+        "start": 3697,
+        "end": 3745
+      }
+    ]
+  },
+  "disposition": {
+    "status": "admitted",
+    "destination": null,
+    "condition": null,
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 3697,
+        "end": 3745
+      }
+    ]
+  },
+  "action_items": [
+    {
+      "action": "Observation",
+      "owner": "treating_team",
+      "priority": "routine",
+      "due": null,
+      "category": "monitoring",
+      "rationale": "Admitted for observation following concussion and trauma.",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 3697,
+          "end": 3745
+        }
+      ]
+    }
+  ],
+  "red_flags": [],
+  "patient_summary": null,
+  "quality": {
+    "missing_information": [],
+    "contradictions": [],
+    "low_confidence_fields": []
+  }
+}

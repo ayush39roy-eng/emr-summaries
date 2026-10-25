@@ -1,0 +1,162 @@
+{
+  "schema_version": "0.1",
+  "record_id": "mtsamples:548",
+  "patient_id": "7d79e746-8ad3-4d61-90ab-b353fb69ac3b",
+  "generator": {
+    "kind": "model",
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "v1",
+    "generated_at": "2026-10-25T16:11:17Z"
+  },
+  "one_liner": "A 37-year-old man with sporadic medullary thyroid cancer underwent central neck reoperation, left reoperative neck dissection, right levels 2-5 neck dissection, and superior mediastinal/pretracheal lymph node dissection, tolerating the procedure well.",
+  "problems": [
+    {
+      "name": "medullary thyroid cancer",
+      "code": null,
+      "status": "confirmed",
+      "is_new": false,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 483,
+          "end": 639
+        }
+      ]
+    },
+    {
+      "name": "residual metastatic lymphadenopathy and thyroid tissue in the central neck",
+      "code": null,
+      "status": "confirmed",
+      "is_new": true,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 20,
+          "end": 136
+        }
+      ]
+    },
+    {
+      "name": "left and right infraclavicular lymphadenopathy",
+      "code": null,
+      "status": "confirmed",
+      "is_new": true,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 785,
+          "end": 953
+        }
+      ]
+    },
+    {
+      "name": "superior mediastinal disease",
+      "code": null,
+      "status": "confirmed",
+      "is_new": true,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 898,
+          "end": 953
+        }
+      ]
+    }
+  ],
+  "medications": {
+    "started": [],
+    "stopped": [],
+    "changed": [],
+    "continued": []
+  },
+  "allergies": [],
+  "key_findings": [],
+  "procedures": [
+    {
+      "name": "Central neck reoperation with removal of residual metastatic lymphadenopathy and thyroid tissue in the central neck",
+      "time": null,
+      "outcome": "tolerated the procedure well",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 20,
+          "end": 136
+        },
+        {
+          "doc_id": "d1",
+          "start": 6697,
+          "end": 6841
+        }
+      ]
+    },
+    {
+      "name": "Left reoperative neck dissection levels 1 and the infraclavicular fossa on the left side",
+      "time": null,
+      "outcome": "tolerated the procedure well",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 138,
+          "end": 227
+        },
+        {
+          "doc_id": "d1",
+          "start": 6697,
+          "end": 6841
+        }
+      ]
+    },
+    {
+      "name": "Right levels 2 through 5 neck dissection and superior mediastinal dissection of lymph nodes and pretracheal dissection of lymph nodes",
+      "time": null,
+      "outcome": "tolerated the procedure well",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 229,
+          "end": 395
+        },
+        {
+          "doc_id": "d1",
+          "start": 6697,
+          "end": 6841
+        }
+      ]
+    }
+  ],
+  "course": {
+    "narrative": "A 37-year-old male with a history of sporadic medullary thyroid cancer who developed rapid left and right infraclavicular lymphadenopathy and central neck lymphadenopathy, along with superior mediastinal disease, underwent central neck reoperation, left reoperative neck dissection, and right levels 2 through 5 neck dissection with superior mediastinal and pretracheal lymph node dissection. Lymph node masses including a 1.5 cm lymph node mass were dissected and removed, with preservation of key vascular and neural structures. The patient tolerated the procedure well, was extubated in the OR, and was transferred to the PACU in good condition.",
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 420,
+        "end": 537
+      },
+      {
+        "doc_id": "d1",
+        "start": 6697,
+        "end": 6841
+      }
+    ]
+  },
+  "disposition": {
+    "status": "admitted",
+    "destination": "postanesthesia care unit",
+    "condition": "good condition",
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 6786,
+        "end": 6840
+      }
+    ]
+  },
+  "action_items": [],
+  "red_flags": [],
+  "patient_summary": null,
+  "quality": {
+    "missing_information": [],
+    "contradictions": [],
+    "low_confidence_fields": []
+  }
+}

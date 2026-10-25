@@ -1,0 +1,31 @@
+{
+  "record_id": "mtsamples:675",
+  "model": "gemma4:e4b",
+  "latency_s": 97.68,
+  "tokens_in": 3035,
+  "tokens_out": 949,
+  "cached": false,
+  "error": null,
+  "context_mode": "all_chunks",
+  "n_chunks": 7,
+  "grounding": {
+    "claims": 7,
+    "supported_claims": 5,
+    "unsupported": [
+      {
+        "pointer": "/key_findings/0",
+        "claim": "N/A",
+        "quotes": []
+      },
+      {
+        "pointer": "/action_items/0",
+        "claim": "None stated",
+        "quotes": []
+      }
+    ],
+    "quotes": 6,
+    "quotes_found": 6,
+    "wrong_chunk_id": 0
+  },
+  "schema_errors": []
+}

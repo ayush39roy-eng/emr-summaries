@@ -1,0 +1,179 @@
+{
+  "schema_version": "0.1",
+  "record_id": "mtsamples:4453",
+  "patient_id": "c121487c-26d1-435d-a83d-f126b20fa970",
+  "generator": {
+    "kind": "model",
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "v1",
+    "generated_at": "2026-10-25T16:13:07Z"
+  },
+  "one_liner": "A 54-year-old female with diabetes and a BMI of 31.5 presents for a dietary consultation for weight reduction.",
+  "problems": [
+    {
+      "name": "Diabetes",
+      "code": null,
+      "status": "confirmed",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 80,
+          "end": 118
+        }
+      ]
+    }
+  ],
+  "medications": {
+    "started": [],
+    "stopped": [],
+    "changed": [],
+    "continued": [
+      {
+        "name": "metformin",
+        "dose": "500 mg",
+        "route": null,
+        "frequency": "daily",
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 1109,
+            "end": 1131
+          }
+        ]
+      }
+    ]
+  },
+  "allergies": [],
+  "key_findings": [
+    {
+      "category": "vital",
+      "name": "Weight",
+      "value": "189",
+      "unit": "pounds",
+      "flag": null,
+      "trend": null,
+      "interpretation": "Weight is 189 pounds",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 992,
+          "end": 1012
+        }
+      ]
+    },
+    {
+      "category": "vital",
+      "name": "BMI",
+      "value": "31-1/2",
+      "unit": null,
+      "flag": "high",
+      "trend": null,
+      "interpretation": "BMI is approximately 31-1/2",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1050,
+          "end": 1078
+        }
+      ]
+    },
+    {
+      "category": "lab",
+      "name": "Hemoglobin A1C",
+      "value": "6.4",
+      "unit": "%",
+      "flag": null,
+      "trend": null,
+      "interpretation": "Hemoglobin A1C was 6.4%",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1152,
+          "end": 1176
+        }
+      ]
+    }
+  ],
+  "procedures": [],
+  "course": {
+    "narrative": "A 54-year-old female presented for a dietary consultation for weight reduction secondary to diabetes. She reported a history of following the Atkins' diet and recently a veggie diet for three weeks. Her weight was 189 pounds with a BMI of approximately 31.5, and her Hemoglobin A1C was 6.4%. She takes metformin 500 mg daily. During the consultation, she was instructed on dietary guidelines, and a 1200-calorie meal plan was recommended. The treating team recommended increasing walking frequency to five days a week for 30 minutes, including solid protein with her bedtime snack, keeping food records, and maintaining caloric intake under 1200 but not below 1000 calories daily.",
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 12,
+        "end": 119
+      },
+      {
+        "doc_id": "d1",
+        "start": 992,
+        "end": 1078
+      }
+    ]
+  },
+  "disposition": {
+    "status": "unknown",
+    "destination": null,
+    "condition": null,
+    "evidence": []
+  },
+  "action_items": [
+    {
+      "action": "increase the frequency of her walking to five days a week",
+      "owner": "patient",
+      "priority": "routine",
+      "due": null,
+      "category": "monitoring",
+      "rationale": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 2192,
+          "end": 2268
+        }
+      ]
+    },
+    {
+      "action": "include some solid protein with her bedtime snack",
+      "owner": "patient",
+      "priority": "routine",
+      "due": null,
+      "category": "patient_education",
+      "rationale": "to help address fasting blood sugar elevations",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 2270,
+          "end": 2424
+        }
+      ]
+    },
+    {
+      "action": "keeping food records and tracking caloric intake",
+      "owner": "patient",
+      "priority": "routine",
+      "due": null,
+      "category": "monitoring",
+      "rationale": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 2502,
+          "end": 2561
+        }
+      ]
+    }
+  ],
+  "red_flags": [],
+  "patient_summary": null,
+  "quality": {
+    "missing_information": [],
+    "contradictions": [],
+    "low_confidence_fields": []
+  }
+}

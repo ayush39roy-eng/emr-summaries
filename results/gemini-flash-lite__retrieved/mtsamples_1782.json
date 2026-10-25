@@ -1,0 +1,195 @@
+{
+  "schema_version": "0.1",
+  "record_id": "mtsamples:1782",
+  "patient_id": "a6eb4bab-df7f-4a50-9573-1a7678187268",
+  "generator": {
+    "kind": "model",
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "v1",
+    "generated_at": "2026-10-25T16:13:47Z"
+  },
+  "one_liner": "This 26-year-old male with psychosis, NOS presented unresponsive and incontinent with catatonia and dehydration, and was admitted for medical stabilization and re-compensation.",
+  "problems": [
+    {
+      "name": "Unresponsive",
+      "code": null,
+      "status": "confirmed",
+      "is_new": true,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 115,
+          "end": 195
+        }
+      ]
+    },
+    {
+      "name": "Catatonia",
+      "code": null,
+      "status": "confirmed",
+      "is_new": true,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 2013,
+          "end": 2110
+        }
+      ]
+    },
+    {
+      "name": "Psychosis, NOS",
+      "code": null,
+      "status": "confirmed",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 2122,
+          "end": 2146
+        }
+      ]
+    },
+    {
+      "name": "Dehydration",
+      "code": null,
+      "status": "confirmed",
+      "is_new": true,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 2167,
+          "end": 2190
+        }
+      ]
+    }
+  ],
+  "medications": {
+    "started": [
+      {
+        "name": "Ativan",
+        "dose": "2 mg",
+        "route": "p.o. or IM",
+        "frequency": "t.i.d.",
+        "previous": null,
+        "reason": "to treat the catatonia",
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 955,
+            "end": 1072
+          }
+        ]
+      }
+    ],
+    "stopped": [],
+    "changed": [],
+    "continued": []
+  },
+  "allergies": [],
+  "key_findings": [
+    {
+      "category": "exam",
+      "name": "Mental Status / Responsiveness",
+      "value": "Unresponsive",
+      "unit": null,
+      "flag": "abnormal",
+      "trend": null,
+      "interpretation": "Patient is unresponsive, mute, and severely decompensated.",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 167,
+          "end": 195
+        }
+      ]
+    },
+    {
+      "category": "exam",
+      "name": "Limbs",
+      "value": "contracted",
+      "unit": null,
+      "flag": "abnormal",
+      "trend": null,
+      "interpretation": "Limbs are quite contracted.",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1539,
+          "end": 1603
+        }
+      ]
+    }
+  ],
+  "procedures": [],
+  "course": {
+    "narrative": "A 26-year-old male was found unresponsive and incontinent of urine and feces by his outpatient case manager at his father's home. He was admitted with a diagnosis of psychosis, NOS, catatonia, and dehydration. Upon evaluation, he was unresponsive with contracted limbs. He was started on Ativan 2 mg p.o. or IM t.i.d. for catatonia. The plan involves medical stabilization for dehydration per internal medicine, medications, and milieu therapy to assist with re-compensation, with an estimated length of stay of 10 to 14 days.",
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 224,
+        "end": 348
+      },
+      {
+        "doc_id": "d1",
+        "start": 2013,
+        "end": 2110
+      }
+    ]
+  },
+  "disposition": {
+    "status": "admitted",
+    "destination": null,
+    "condition": null,
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 2013,
+        "end": 2110
+      }
+    ]
+  },
+  "action_items": [
+    {
+      "action": "Stabilize medically from the dehydration per internal medicine.",
+      "owner": "specialist",
+      "priority": "routine",
+      "due": null,
+      "category": "monitoring",
+      "rationale": "Patient has dehydration.",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 2289,
+          "end": 2356
+        }
+      ]
+    },
+    {
+      "action": "Administer medications, milieu therapy to assist with re-compensation.",
+      "owner": "treating_team",
+      "priority": "routine",
+      "due": null,
+      "category": "other",
+      "rationale": "Assist with re-compensation from severe decompensation.",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 2357,
+          "end": 2420
+        }
+      ]
+    }
+  ],
+  "red_flags": [],
+  "patient_summary": null,
+  "quality": {
+    "missing_information": [
+      "Prior home medications are unknown.",
+      "Exact duration of decompensation prior to admission is unknown."
+    ],
+    "contradictions": [],
+    "low_confidence_fields": []
+  }
+}

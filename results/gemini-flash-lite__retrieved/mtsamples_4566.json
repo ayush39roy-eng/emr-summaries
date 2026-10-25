@@ -1,0 +1,378 @@
+{
+  "schema_version": "0.1",
+  "record_id": "mtsamples:4566",
+  "patient_id": "0fed99ed-7c24-4f8d-b12b-ef9904d52e00",
+  "generator": {
+    "kind": "model",
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "v1",
+    "generated_at": "2026-10-25T16:11:54Z"
+  },
+  "one_liner": "A 51-year-old female with BMI 43, NIDDM, and dyspnea on exertion presents for bariatric consultation, interested in Lap-Band surgery, and is planned for preoperative clearance, EKG, nutritionist, and social work evaluation.",
+  "problems": [
+    {
+      "name": "Short of breath in walking about 30 steps",
+      "code": null,
+      "status": "confirmed",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 78,
+          "end": 129
+        }
+      ]
+    },
+    {
+      "name": "Non-insulin dependent diabetes",
+      "code": null,
+      "status": "chronic",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 131,
+          "end": 200
+        }
+      ]
+    },
+    {
+      "name": "Left knee arthritis",
+      "code": null,
+      "status": "chronic",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 202,
+          "end": 259
+        }
+      ]
+    },
+    {
+      "name": "Hemorrhoids",
+      "code": null,
+      "status": "chronic",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 202,
+          "end": 259
+        }
+      ]
+    },
+    {
+      "name": "Back pain",
+      "code": null,
+      "status": "confirmed",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 885,
+          "end": 912
+        }
+      ]
+    }
+  ],
+  "medications": {
+    "started": [],
+    "stopped": [],
+    "changed": [],
+    "continued": [
+      {
+        "name": "Colestid",
+        "dose": "1 g",
+        "route": null,
+        "frequency": "daily",
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 809,
+            "end": 835
+          }
+        ]
+      },
+      {
+        "name": "Actos",
+        "dose": "30 mg",
+        "route": null,
+        "frequency": "daily",
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 837,
+            "end": 854
+          }
+        ]
+      },
+      {
+        "name": "Amaryl",
+        "dose": "2 mg",
+        "route": null,
+        "frequency": "daily",
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 856,
+            "end": 873
+          }
+        ]
+      },
+      {
+        "name": "Soma",
+        "dose": null,
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 875,
+            "end": 879
+          }
+        ]
+      },
+      {
+        "name": "meloxicam",
+        "dose": null,
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": "back pain",
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 885,
+            "end": 913
+          }
+        ]
+      }
+    ]
+  },
+  "allergies": [
+    {
+      "substance": "caffeine, Sudafed, or phenylpropanolamine",
+      "reaction": "tachycardic",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 956,
+          "end": 1028
+        }
+      ]
+    }
+  ],
+  "key_findings": [
+    {
+      "category": "exam",
+      "name": "BMI",
+      "value": "43",
+      "unit": null,
+      "flag": "high",
+      "trend": null,
+      "interpretation": "Obesity",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1379,
+          "end": 1424
+        }
+      ]
+    },
+    {
+      "category": "exam",
+      "name": "Abdomen",
+      "value": null,
+      "unit": null,
+      "flag": "abnormal",
+      "trend": null,
+      "interpretation": "Obese abdomen",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1260,
+          "end": 1311
+        }
+      ]
+    }
+  ],
+  "procedures": [
+    {
+      "name": "stress test",
+      "time": null,
+      "outcome": "negative",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 22,
+          "end": 76
+        }
+      ]
+    },
+    {
+      "name": "laparoscopic cholecystectomy",
+      "time": null,
+      "outcome": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 283,
+          "end": 325
+        }
+      ]
+    },
+    {
+      "name": "tonsillectomy",
+      "time": null,
+      "outcome": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 327,
+          "end": 340
+        }
+      ]
+    },
+    {
+      "name": "left knee surgery",
+      "time": null,
+      "outcome": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 342,
+          "end": 359
+        }
+      ]
+    },
+    {
+      "name": "right breast lumpectomy",
+      "time": null,
+      "outcome": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 365,
+          "end": 389
+        }
+      ]
+    }
+  ],
+  "course": {
+    "narrative": "A 51-year-old female with a BMI of 43, non-insulin dependent diabetes, and shortness of breath when walking about 30 steps presented interested in Lap-Band surgery rather than gastric bypass. Her past medical history includes a negative stress test 4-5 years ago, left knee arthritis, and hemorrhoids. Surgical history includes laparoscopic cholecystectomy, tonsillectomy, left knee surgery, and right breast lumpectomy. She was also rehabilitated for alcohol addiction in the past. Plan includes obtaining a letter of medical necessity from XYZ, getting an EKG and surgical clearance, and evaluations by a nutritionist and social worker prior to insurance submission.",
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 1379,
+        "end": 1488
+      }
+    ]
+  },
+  "disposition": {
+    "status": "other",
+    "destination": null,
+    "condition": "pleasant female in no acute distress",
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 1084,
+        "end": 1131
+      }
+    ]
+  },
+  "action_items": [
+    {
+      "action": "Ask for a letter of medical necessity from XYZ",
+      "owner": "treating_team",
+      "priority": "routine",
+      "due": null,
+      "category": "referral",
+      "rationale": "For Lap-Band evaluation/insurance",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1490,
+          "end": 1552
+        }
+      ]
+    },
+    {
+      "action": "Obtain EKG and clearance for surgery",
+      "owner": "treating_team",
+      "priority": "routine",
+      "due": null,
+      "category": "monitoring",
+      "rationale": "Preoperative clearance",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1554,
+          "end": 1606
+        }
+      ]
+    },
+    {
+      "action": "See nutritionist",
+      "owner": "specialist",
+      "priority": "routine",
+      "due": null,
+      "category": "referral",
+      "rationale": "Bariatric evaluation process",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1608,
+          "end": 1641
+        }
+      ]
+    },
+    {
+      "action": "See social worker",
+      "owner": "specialist",
+      "priority": "routine",
+      "due": null,
+      "category": "referral",
+      "rationale": "Bariatric evaluation process",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1642,
+          "end": 1686
+        }
+      ]
+    },
+    {
+      "action": "Submit to insurance company for approval",
+      "owner": "treating_team",
+      "priority": "routine",
+      "due": null,
+      "category": "other",
+      "rationale": "After completion of clearance, nutritionist, and social worker visits",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1688,
+          "end": 1745
+        }
+      ]
+    }
+  ],
+  "red_flags": [],
+  "patient_summary": null,
+  "quality": {
+    "missing_information": [],
+    "contradictions": [],
+    "low_confidence_fields": []
+  }
+}

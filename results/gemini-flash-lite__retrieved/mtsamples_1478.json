@@ -1,0 +1,256 @@
+{
+  "schema_version": "0.1",
+  "record_id": "mtsamples:1478",
+  "patient_id": "224dd5bd-dc7d-4a4b-a200-0ce6ac8c2b93",
+  "generator": {
+    "kind": "model",
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "v1",
+    "generated_at": "2026-10-25T16:12:36Z"
+  },
+  "one_liner": "A 26-year-old male presents with joint pain, swelling, and stiffness, diagnosed with rheumatoid arthritis.",
+  "problems": [
+    {
+      "name": "Rheumatoid arthritis",
+      "code": null,
+      "status": "confirmed",
+      "is_new": true,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 4443,
+          "end": 4476
+        }
+      ]
+    }
+  ],
+  "medications": {
+    "started": [
+      {
+        "name": "Vioxx",
+        "dose": "12.5 mg",
+        "route": null,
+        "frequency": "BID",
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 4610,
+            "end": 4649
+          }
+        ]
+      }
+    ],
+    "stopped": [],
+    "changed": [],
+    "continued": [
+      {
+        "name": "amoxicillin-clavulanate",
+        "dose": "125 mg-31.25 mg",
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 615,
+            "end": 755
+          }
+        ]
+      },
+      {
+        "name": "Adrenocot",
+        "dose": "0.5 mg",
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 757,
+            "end": 837
+          }
+        ]
+      }
+    ]
+  },
+  "allergies": [
+    {
+      "substance": "aspirin",
+      "reaction": "GI upset, disorientation",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 520,
+          "end": 594
+        }
+      ]
+    }
+  ],
+  "key_findings": [
+    {
+      "category": "lab",
+      "name": "Rheumatoid factor",
+      "value": "52",
+      "unit": "U/ml",
+      "flag": "high",
+      "trend": null,
+      "interpretation": "Elevated rheumatoid factor supporting the diagnosis of rheumatoid arthritis",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 4365,
+          "end": 4393
+        }
+      ]
+    },
+    {
+      "category": "lab",
+      "name": "Sed rate",
+      "value": "31",
+      "unit": "mm/hr",
+      "flag": "high",
+      "trend": null,
+      "interpretation": "Elevated sedimentation rate",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 4395,
+          "end": 4415
+        }
+      ]
+    },
+    {
+      "category": "lab",
+      "name": "C4 complement",
+      "value": "19",
+      "unit": "mg/dl",
+      "flag": null,
+      "trend": null,
+      "interpretation": "C4 complement level",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 4417,
+          "end": 4442
+        }
+      ]
+    }
+  ],
+  "procedures": [
+    {
+      "name": "appendectomy",
+      "time": null,
+      "outcome": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 898,
+          "end": 988
+        }
+      ]
+    }
+  ],
+  "course": {
+    "narrative": "A 26-year-old male presented with joint pain, joint swelling, and stiffness. He had an unremarkable past medical history except for a past appendectomy and a family history of rheumatoid arthritis in his maternal grandmother. Physical examination showed normal vital signs and no acute distress. Laboratory investigations revealed a rheumatoid factor of 52 U/ml and a sed rate of 31 mm/hr. The patient was diagnosed with rheumatoid arthritis, prescribed Vioxx, and instructed to return to the clinic in two weeks, with follow-up lab orders including ESR and quantitative rheumatoid factor.",
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 1701,
+        "end": 1776
+      },
+      {
+        "doc_id": "d1",
+        "start": 4443,
+        "end": 4476
+      }
+    ]
+  },
+  "disposition": {
+    "status": "discharged",
+    "destination": null,
+    "condition": "pleasant, in no apparent distress",
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 1701,
+        "end": 1776
+      }
+    ]
+  },
+  "action_items": [
+    {
+      "action": "Return to clinic in 2 weeks",
+      "owner": "patient",
+      "priority": "routine",
+      "due": "2 weeks",
+      "category": "follow_up",
+      "rationale": "Follow-up for rheumatoid arthritis evaluation and management",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 4563,
+          "end": 4594
+        }
+      ]
+    },
+    {
+      "action": "ESR ordered; automated",
+      "owner": "lab",
+      "priority": "routine",
+      "due": null,
+      "category": "pending_result",
+      "rationale": "Monitor inflammatory markers",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 4483,
+          "end": 4506
+        }
+      ]
+    },
+    {
+      "action": "Ordered RBC",
+      "owner": "lab",
+      "priority": "routine",
+      "due": null,
+      "category": "pending_result",
+      "rationale": "Lab evaluation",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 4508,
+          "end": 4520
+        }
+      ]
+    },
+    {
+      "action": "Ordered quantitative rheumatoid factor",
+      "owner": "lab",
+      "priority": "routine",
+      "due": null,
+      "category": "pending_result",
+      "rationale": "Confirm/monitor rheumatoid factor levels",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 4522,
+          "end": 4561
+        }
+      ]
+    }
+  ],
+  "red_flags": [],
+  "patient_summary": null,
+  "quality": {
+    "missing_information": [],
+    "contradictions": [],
+    "low_confidence_fields": []
+  }
+}

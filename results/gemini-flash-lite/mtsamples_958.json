@@ -1,0 +1,126 @@
+{
+  "schema_version": "0.1",
+  "record_id": "mtsamples:958",
+  "patient_id": "cc54a0dc-60d6-4b39-b639-0e591214ab25",
+  "generator": {
+    "kind": "model",
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "v1",
+    "generated_at": "2026-10-25T16:01:23Z"
+  },
+  "one_liner": "A male patient with metopic synostosis and trigonocephaly underwent successful bilateral orbital frontal zygomatic craniotomy and reconstruction without complications.",
+  "problems": [
+    {
+      "name": "Metopic synostosis with trigonocephaly",
+      "code": null,
+      "status": "confirmed",
+      "is_new": false,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 24,
+          "end": 63
+        }
+      ]
+    }
+  ],
+  "medications": {
+    "started": [],
+    "stopped": [],
+    "changed": [],
+    "continued": []
+  },
+  "allergies": [],
+  "key_findings": [],
+  "procedures": [
+    {
+      "name": "Bilateral orbital frontal zygomatic craniotomy (skull base approach)",
+      "time": null,
+      "outcome": "Successful reconstruction with about 1 cm advancement and no complications",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 145,
+          "end": 214
+        }
+      ]
+    },
+    {
+      "name": "Bilateral orbital advancement with bone grafts",
+      "time": null,
+      "outcome": "Successful advancement",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 219,
+          "end": 362
+        }
+      ]
+    },
+    {
+      "name": "Bilateral forehead reconstruction with autologous graft",
+      "time": null,
+      "outcome": "Reconstruction looked good",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 367,
+          "end": 423
+        }
+      ]
+    },
+    {
+      "name": "Advancement of the temporalis muscle bilaterally",
+      "time": null,
+      "outcome": "Completed",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 428,
+          "end": 477
+        }
+      ]
+    },
+    {
+      "name": "Barrel-stave osteotomies of the parietal bones",
+      "time": null,
+      "outcome": "Completed",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 482,
+          "end": 529
+        }
+      ]
+    }
+  ],
+  "course": {
+    "narrative": "The patient underwent general anesthesia and was positioned supine. A bicoronal zigzag incision was made, followed by craniectomy outlining and bur hole drilling. Bilateral craniotomies were performed using a Midas Rex drill, and the midline piece was elevated. Orbital osteotomies and bone scoring were executed to enable orbital advancement. Bone grafts were secured with a shelf created on the superior orbital rim. Temporalis muscle advancement and barrel-stave osteotomies of the parietal bones were performed to normalize bone contour. Blood loss was approximately 300 to 400 mL, which was replaced with packed cells and fresh frozen plasma. The reconstruction achieved about 1 cm advancement with good cosmetic results. The wound was closed in layers. The patient tolerated the procedure well with no complications.",
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 5663,
+        "end": 5719
+      }
+    ]
+  },
+  "disposition": {
+    "status": "unknown",
+    "destination": null,
+    "condition": "good",
+    "evidence": []
+  },
+  "action_items": [],
+  "red_flags": [],
+  "patient_summary": null,
+  "quality": {
+    "missing_information": [
+      "Patient age",
+      "Postoperative destination/disposition plan"
+    ],
+    "contradictions": [],
+    "low_confidence_fields": [
+      "/disposition"
+    ]
+  }
+}

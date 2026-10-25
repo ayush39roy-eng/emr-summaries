@@ -1,0 +1,214 @@
+{
+  "schema_version": "0.1",
+  "record_id": "mtsamples:1336",
+  "patient_id": "bf296282-59fc-437a-8b00-52ff538c1b7c",
+  "generator": {
+    "kind": "model",
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "v1",
+    "generated_at": "2026-10-25T15:58:33Z"
+  },
+  "one_liner": "A patient with cervical dystonia and post cervical laminectomy pain syndrome shows improvement on the right side following a botulinum toxin injection, but now has pain shifting to the left, prompting a scheduled left-sided Botox injection.",
+  "problems": [
+    {
+      "name": "Cervical dystonia",
+      "code": null,
+      "status": "confirmed",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 15,
+          "end": 33
+        }
+      ]
+    },
+    {
+      "name": "Post cervical laminectomy pain syndrome",
+      "code": null,
+      "status": "confirmed",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 38,
+          "end": 78
+        }
+      ]
+    },
+    {
+      "name": "Anxiety",
+      "code": null,
+      "status": "confirmed",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 560,
+          "end": 600
+        }
+      ]
+    },
+    {
+      "name": "Depression",
+      "code": null,
+      "status": "confirmed",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 560,
+          "end": 600
+        }
+      ]
+    }
+  ],
+  "medications": {
+    "started": [],
+    "stopped": [],
+    "changed": [],
+    "continued": [
+      {
+        "name": "oxycodone",
+        "dose": null,
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 397,
+            "end": 441
+          }
+        ]
+      },
+      {
+        "name": "methadone",
+        "dose": null,
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 397,
+            "end": 441
+          }
+        ]
+      }
+    ]
+  },
+  "allergies": [],
+  "key_findings": [
+    {
+      "category": "exam",
+      "name": "Neck examination right side",
+      "value": null,
+      "unit": null,
+      "flag": "normal",
+      "trend": null,
+      "interpretation": "Excellent reduction in muscle spasm on the right paraspinals, trapezius and splenius capitis muscles with no trigger points.",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 782,
+          "end": 913
+        }
+      ]
+    },
+    {
+      "category": "exam",
+      "name": "Neck examination left side",
+      "value": null,
+      "unit": null,
+      "flag": "abnormal",
+      "trend": null,
+      "interpretation": "Significant muscle spasm with tight bands involving the multifidus muscle with trigger point activity and tenderness and guarding.",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1031,
+          "end": 1206
+        }
+      ]
+    }
+  ],
+  "procedures": [
+    {
+      "name": "botulinum toxin injection into the left multifidus/trapezius muscles",
+      "time": null,
+      "outcome": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1378,
+          "end": 1482
+        }
+      ]
+    }
+  ],
+  "course": {
+    "narrative": "The patient returned for follow-up regarding cervical dystonia and post cervical laminectomy pain syndrome. She reported marked improvement on the right side following a botulinum toxin injection two weeks prior, with increased activities of daily living, but noted that pain had shifted to the left side. Physical examination confirmed excellent reduction in muscle spasm on the right, but revealed significant muscle spasm, trigger points, tenderness, and guarding on the left side, extending into the trapezius. The patient continues to take oxycodone and methadone, and continues to struggle with issues regarding anxiety and depression. After discussion, a decision was made to schedule a botulinum toxin injection (400 units anticipated) into the left multifidus and trapezius muscles. Her current medications were refilled, and she will continue seeing her provider and ongoing therapy.",
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 144,
+        "end": 269
+      },
+      {
+        "doc_id": "d1",
+        "start": 1320,
+        "end": 1482
+      }
+    ]
+  },
+  "disposition": {
+    "status": "unknown",
+    "destination": null,
+    "condition": null,
+    "evidence": []
+  },
+  "action_items": [
+    {
+      "action": "Perform botulinum toxin injection into the left multifidus/trapezius muscles",
+      "owner": "treating_team",
+      "priority": "soon",
+      "due": null,
+      "category": "referral",
+      "rationale": "Left-sided muscle spasm, trigger point activity, tenderness and guarding.",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1378,
+          "end": 1482
+        }
+      ]
+    },
+    {
+      "action": "Continue to see provider and continue therapy",
+      "owner": "patient",
+      "priority": "routine",
+      "due": null,
+      "category": "follow_up",
+      "rationale": "Ongoing management of cervical dystonia and pain syndrome.",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1607,
+          "end": 1694
+        }
+      ]
+    }
+  ],
+  "red_flags": [],
+  "patient_summary": null,
+  "quality": {
+    "missing_information": [],
+    "contradictions": [],
+    "low_confidence_fields": []
+  }
+}

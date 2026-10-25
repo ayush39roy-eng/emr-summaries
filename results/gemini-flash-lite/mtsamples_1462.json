@@ -1,0 +1,201 @@
+{
+  "schema_version": "0.1",
+  "record_id": "mtsamples:1462",
+  "patient_id": "1f6281fb-b026-4e12-9f95-7f04a3970321",
+  "generator": {
+    "kind": "model",
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "v1",
+    "generated_at": "2026-10-25T16:01:14Z"
+  },
+  "one_liner": "An overnight polysomnogram revealed moderate obstructive sleep apnea syndrome and moderate periodic limb movement in sleep disorder, and the patient is recommended for CPAP titration, ENT evaluation, and behavioral weight loss.",
+  "problems": [
+    {
+      "name": "Obstructive sleep apnea syndrome",
+      "code": null,
+      "status": "confirmed",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 993,
+          "end": 1074
+        }
+      ]
+    },
+    {
+      "name": "Periodic limb movement in sleep disorder",
+      "code": null,
+      "status": "confirmed",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1079,
+          "end": 1141
+        }
+      ]
+    }
+  ],
+  "medications": {
+    "started": [],
+    "stopped": [],
+    "changed": [],
+    "continued": []
+  },
+  "allergies": [],
+  "key_findings": [
+    {
+      "category": "vital",
+      "name": "Minimum oxygen saturation",
+      "value": "88",
+      "unit": "%",
+      "flag": "low",
+      "trend": null,
+      "interpretation": "Minimum oxygen saturation dropped to 88% during overnight polysomnogram.",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 413,
+          "end": 447
+        }
+      ]
+    },
+    {
+      "category": "other",
+      "name": "Apnea-hypopnea index",
+      "value": "15.2",
+      "unit": "events per hour",
+      "flag": "abnormal",
+      "trend": null,
+      "interpretation": "Overall apnea-hypopnea index of 15.2 events per hour in the supine position.",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 251,
+          "end": 319
+        }
+      ]
+    },
+    {
+      "category": "other",
+      "name": "Periodic limb movements index",
+      "value": "32",
+      "unit": "events per hour",
+      "flag": "abnormal",
+      "trend": null,
+      "interpretation": "Overall index of 32 events per hour of sleep.",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 509,
+          "end": 554
+        }
+      ]
+    }
+  ],
+  "procedures": [
+    {
+      "name": "Overnight polysomnogram",
+      "time": null,
+      "outcome": "Demonstrated moderate obstructive sleep apnea and periodic limb movement in sleep disorder with reduced sleep efficiency.",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 0,
+          "end": 58
+        }
+      ]
+    }
+  ],
+  "course": {
+    "narrative": "The patient underwent an overnight polysomnogram which showed moderate obstructive sleep apnea syndrome with an AHI of 15.2 events per hour in the supine position, minimum oxygen saturation of 88%, and moderate periodic limb movement in sleep disorder with an index of 32 events per hour. Sleep efficiency was reduced to 89.2% with significant sleep fragmentation and diminished REM sleep. The patient is advised to return for a repeat overnight polysomnogram with CPAP titration, undergo an ENT/maxillofacial evaluation, avoid evening sedatives and alcohol, and participate in a behavioral weight loss program.",
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 0,
+        "end": 58
+      },
+      {
+        "doc_id": "d1",
+        "start": 1632,
+        "end": 1857
+      }
+    ]
+  },
+  "disposition": {
+    "status": "unknown",
+    "destination": null,
+    "condition": null,
+    "evidence": []
+  },
+  "action_items": [
+    {
+      "action": "Return to the sleep laboratory for repeat overnight polysomnogram with CPAP titration.",
+      "owner": "patient",
+      "priority": "routine",
+      "due": null,
+      "category": "follow_up",
+      "rationale": "To determine a necessary pressure to prevent apneas and treat obstructive sleep apnea.",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1752,
+          "end": 1857
+        }
+      ]
+    },
+    {
+      "action": "Undergo careful ENT/maxillofacial evaluation by a physician familiar with sleep disorders.",
+      "owner": "patient",
+      "priority": "routine",
+      "due": null,
+      "category": "referral",
+      "rationale": "Anatomical abnormalities in the upper airway often cause or predispose to this condition.",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 2016,
+          "end": 2138
+        }
+      ]
+    },
+    {
+      "action": "Participate in a behavioral weight loss program.",
+      "owner": "patient",
+      "priority": "routine",
+      "due": null,
+      "category": "patient_education",
+      "rationale": "Obstructive sleep apnea is worsened by obesity.",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 2511,
+          "end": 2607
+        }
+      ]
+    }
+  ],
+  "red_flags": [
+    {
+      "message": "Obstructive sleep apnea is associated with increased risk of myocardial infarction, stroke and sudden death, and excessive daytime sleepiness while driving.",
+      "severity": "high",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1264,
+          "end": 1403
+        }
+      ]
+    }
+  ],
+  "patient_summary": null,
+  "quality": {
+    "missing_information": [],
+    "contradictions": [],
+    "low_confidence_fields": []
+  }
+}

@@ -1,0 +1,220 @@
+{
+  "schema_version": "0.1",
+  "record_id": "mtsamples:1292",
+  "patient_id": "6bd2adf3-abcc-4008-975d-254d866fc98f",
+  "generator": {
+    "kind": "model",
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "v1",
+    "generated_at": "2026-10-25T16:00:47Z"
+  },
+  "one_liner": "A 60-year-old female with history of hypertension and TIA/stroke presented with coughing during meals; a modified barium swallow study showed no aspiration and a good prognosis, and she was discharged with dietary recommendations and a GI referral.",
+  "problems": [
+    {
+      "name": "coughing during meals",
+      "code": null,
+      "status": "confirmed",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 12,
+          "end": 89
+        }
+      ]
+    },
+    {
+      "name": "mild-to-moderate cognitive linguistic deficit",
+      "code": null,
+      "status": "confirmed",
+      "is_new": false,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 91,
+          "end": 173
+        }
+      ]
+    },
+    {
+      "name": "hypertension",
+      "code": null,
+      "status": "chronic",
+      "is_new": false,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 224,
+          "end": 281
+        }
+      ]
+    },
+    {
+      "name": "TIA/stroke",
+      "code": null,
+      "status": "chronic",
+      "is_new": false,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 224,
+          "end": 281
+        }
+      ]
+    },
+    {
+      "name": "globus sensation",
+      "code": null,
+      "status": "confirmed",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1834,
+          "end": 1894
+        }
+      ]
+    }
+  ],
+  "medications": {
+    "started": [],
+    "stopped": [],
+    "changed": [],
+    "continued": []
+  },
+  "allergies": [],
+  "key_findings": [
+    {
+      "category": "imaging",
+      "name": "modified barium swallow study",
+      "value": null,
+      "unit": null,
+      "flag": null,
+      "trend": null,
+      "interpretation": "Premature spillage to valleculae and pyriform sinuses with thin liquid, decreased tongue base retraction, penetration with cup sips of thin liquid, and reduced esophageal peristaltic action without aspiration.",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1036,
+          "end": 1124
+        },
+        {
+          "doc_id": "d1",
+          "start": 1237,
+          "end": 1345
+        },
+        {
+          "doc_id": "d1",
+          "start": 1731,
+          "end": 1819
+        }
+      ]
+    }
+  ],
+  "procedures": [
+    {
+      "name": "modified barium swallow study",
+      "time": null,
+      "outcome": "No aspiration observed; penetration noted with cup sips of thin liquid only.",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1237,
+          "end": 1345
+        }
+      ]
+    }
+  ],
+  "course": {
+    "narrative": "A 60-year-old female with a history of hypertension and TIA/stroke, who experienced coughing during meals, underwent a modified barium swallow study. The assessment revealed premature spillage, decreased tongue base retraction, and penetration with cup sips of thin liquid, but no aspiration was observed. Reduced esophageal peristaltic action was also noted, potentially contributing to a globus sensation. The patient's prognosis for swallowing safety was deemed good. She was discharged from speech therapy services with instructions to take small bites and sips and remain upright after meals, and she was referred to a gastroenterologist for further evaluation of her esophageal function.",
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 12,
+        "end": 89
+      },
+      {
+        "doc_id": "d1",
+        "start": 1237,
+        "end": 1287
+      },
+      {
+        "doc_id": "d1",
+        "start": 2136,
+        "end": 2210
+      }
+    ]
+  },
+  "disposition": {
+    "status": "discharged",
+    "destination": null,
+    "condition": "good",
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 2794,
+        "end": 2829
+      },
+      {
+        "doc_id": "d1",
+        "start": 2162,
+        "end": 2210
+      }
+    ]
+  },
+  "action_items": [
+    {
+      "action": "Take small bite and small sips to help decrease the risk of aspiration and penetration.",
+      "owner": "patient",
+      "priority": "routine",
+      "due": null,
+      "category": "patient_education",
+      "rationale": "Decrease the risk of aspiration and penetration",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 2292,
+          "end": 2394
+        }
+      ]
+    },
+    {
+      "action": "Remain upright at a 90-degree angle for at least 45 minutes after meals.",
+      "owner": "patient",
+      "priority": "routine",
+      "due": null,
+      "category": "monitoring",
+      "rationale": "Decrease risk of aspiration and penetration and reduce globus sensation",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 2399,
+          "end": 2489
+        }
+      ]
+    },
+    {
+      "action": "Refer to a gastroenterologist for further evaluation of her esophageal function.",
+      "owner": "treating_team",
+      "priority": "routine",
+      "due": null,
+      "category": "referral",
+      "rationale": "Further evaluation of her esophageal function",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 2588,
+          "end": 2693
+        }
+      ]
+    }
+  ],
+  "red_flags": [],
+  "patient_summary": null,
+  "quality": {
+    "missing_information": [],
+    "contradictions": [],
+    "low_confidence_fields": []
+  }
+}

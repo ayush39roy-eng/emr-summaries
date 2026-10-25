@@ -1,0 +1,251 @@
+{
+  "schema_version": "0.1",
+  "record_id": "mtsamples:3964",
+  "patient_id": "bebe29b1-02c1-428a-8bfd-da0546e7475f",
+  "generator": {
+    "kind": "model",
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "v1",
+    "generated_at": "2026-10-25T15:59:28Z"
+  },
+  "one_liner": "A 53-year-old African American male with advanced non-small cell lung carcinoma, malignant pleural effusion, and respiratory failure deteriorated on mechanical ventilation, leading to withdrawal of life support and death.",
+  "problems": [
+    {
+      "name": "Advanced non-small cell lung carcinoma",
+      "code": null,
+      "status": "confirmed",
+      "is_new": true,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 25,
+          "end": 63
+        }
+      ]
+    },
+    {
+      "name": "Left malignant pleural effusion",
+      "code": null,
+      "status": "confirmed",
+      "is_new": true,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 69,
+          "end": 100
+        }
+      ]
+    },
+    {
+      "name": "Respiratory failure",
+      "code": null,
+      "status": "confirmed",
+      "is_new": true,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 172,
+          "end": 210
+        }
+      ]
+    },
+    {
+      "name": "Postobstructive pneumonia",
+      "code": null,
+      "status": "suspected",
+      "is_new": true,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 216,
+          "end": 248
+        }
+      ]
+    },
+    {
+      "name": "Gastrointestinal bleed",
+      "code": null,
+      "status": "confirmed",
+      "is_new": true,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 254,
+          "end": 276
+        }
+      ]
+    },
+    {
+      "name": "Thrombocytopenia",
+      "code": null,
+      "status": "confirmed",
+      "is_new": true,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 282,
+          "end": 298
+        }
+      ]
+    },
+    {
+      "name": "Acute renal failure",
+      "code": null,
+      "status": "confirmed",
+      "is_new": true,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 304,
+          "end": 323
+        }
+      ]
+    },
+    {
+      "name": "Hyponatremia",
+      "code": null,
+      "status": "confirmed",
+      "is_new": true,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 329,
+          "end": 341
+        }
+      ]
+    },
+    {
+      "name": "Hypercalcemia",
+      "code": null,
+      "status": "confirmed",
+      "is_new": true,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 347,
+          "end": 360
+        }
+      ]
+    },
+    {
+      "name": "Leukemoid reaction",
+      "code": null,
+      "status": "confirmed",
+      "is_new": true,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 477,
+          "end": 495
+        }
+      ]
+    },
+    {
+      "name": "Elevated liver function tests",
+      "code": null,
+      "status": "confirmed",
+      "is_new": true,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 534,
+          "end": 563
+        }
+      ]
+    }
+  ],
+  "medications": {
+    "started": [],
+    "stopped": [],
+    "changed": [],
+    "continued": []
+  },
+  "allergies": [],
+  "key_findings": [
+    {
+      "category": "imaging",
+      "name": "CT scan of the chest",
+      "value": null,
+      "unit": null,
+      "flag": null,
+      "trend": null,
+      "interpretation": "Left pleural effusion, extensive mediastinal mass, left hilar adenopathy causing complete obstruction of the left lower lobe, lingula, and left pulmonary vein, plus multiple nodules on the right chest consistent with metastatic disease.",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 758,
+          "end": 869
+        }
+      ]
+    }
+  ],
+  "procedures": [
+    {
+      "name": "chest tube insertion",
+      "time": null,
+      "outcome": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 101,
+          "end": 133
+        }
+      ]
+    },
+    {
+      "name": "chemical pleurodesis",
+      "time": null,
+      "outcome": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 134,
+          "end": 166
+        }
+      ]
+    },
+    {
+      "name": "bronchoscopy",
+      "time": null,
+      "outcome": "positive for non-small cell lung CA",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1426,
+          "end": 1507
+        }
+      ]
+    }
+  ],
+  "course": {
+    "narrative": "A 53-year-old male presenting with right hip pain and cough was found on CT to have metastatic lung disease. He developed severe shortness of breath and chest pain from a malignant left pleural effusion requiring chest tube insertion and chemical pleurodesis. Bronchoscopy confirmed non-small cell lung cancer. During admission, he developed respiratory failure requiring intubation and mechanical ventilatory support. Although initially extubated, he required re-intubation due to recurrent respiratory failure. Given his progressive deterioration and inability to receive chemotherapy, his family requested DNR and withdrawal of life support. Life support was withdrawn, and he expired.",
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 1934,
+        "end": 2049
+      }
+    ]
+  },
+  "disposition": {
+    "status": "expired",
+    "destination": null,
+    "condition": null,
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 2090,
+        "end": 2133
+      }
+    ]
+  },
+  "action_items": [],
+  "red_flags": [],
+  "patient_summary": null,
+  "quality": {
+    "missing_information": [],
+    "contradictions": [],
+    "low_confidence_fields": []
+  }
+}

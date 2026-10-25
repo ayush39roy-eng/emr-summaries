@@ -1,0 +1,179 @@
+{
+  "schema_version": "0.1",
+  "record_id": "mtsamples:1868",
+  "patient_id": "4482e29e-7d89-40d5-b15c-0112aa17a473",
+  "generator": {
+    "kind": "model",
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "v1",
+    "generated_at": "2026-10-25T16:01:48Z"
+  },
+  "one_liner": "A gentleman with normal-pressure hydrocephalus status-post shunt placement presents for rehabilitation to address functional limitations, maximize skills, and allow a safe return home.",
+  "problems": [
+    {
+      "name": "Encephalopathy related to normal-pressure hydrocephalus",
+      "code": null,
+      "status": "confirmed",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 21,
+          "end": 76
+        }
+      ]
+    },
+    {
+      "name": "Prostate cancer",
+      "code": null,
+      "status": "confirmed",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 847,
+          "end": 875
+        }
+      ]
+    },
+    {
+      "name": "Intermittent urinary incontinence",
+      "code": null,
+      "status": "confirmed",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 877,
+          "end": 910
+        }
+      ]
+    },
+    {
+      "name": "Left hip replacement",
+      "code": null,
+      "status": "confirmed",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 915,
+          "end": 935
+        }
+      ]
+    }
+  ],
+  "medications": {
+    "started": [],
+    "stopped": [],
+    "changed": [],
+    "continued": [
+      {
+        "name": "Tylenol",
+        "dose": null,
+        "route": null,
+        "frequency": "as needed",
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 997,
+            "end": 1014
+          }
+        ]
+      },
+      {
+        "name": "Peri-Colace",
+        "dose": null,
+        "route": null,
+        "frequency": "b.i.d.",
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 1022,
+            "end": 1040
+          }
+        ]
+      }
+    ]
+  },
+  "allergies": [
+    {
+      "substance": "No known drug allergies",
+      "reaction": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 948,
+          "end": 972
+        }
+      ]
+    }
+  ],
+  "key_findings": [
+    {
+      "category": "vital",
+      "name": "Vital Signs",
+      "value": "afebrile with vital signs stable",
+      "unit": null,
+      "flag": "normal",
+      "trend": null,
+      "interpretation": "Patient is afebrile with stable vital signs",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1865,
+          "end": 1913
+        }
+      ]
+    }
+  ],
+  "procedures": [
+    {
+      "name": "Shunt placement",
+      "time": null,
+      "outcome": "Stabilized medically and got a return of function to the legs",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 323,
+          "end": 374
+        }
+      ]
+    }
+  ],
+  "course": {
+    "narrative": "A pleasant gentleman with normal-pressure hydrocephalus who recently underwent shunt placement and stabilization was admitted for rehabilitation to address functional limitations, maximize skills and safety, and allow a safe disposition home. He has resumed therapies and requires supervision levels for most activities of daily living and walking, with memory at minimal assist. He reports daily headaches managed with Tylenol. Physical examination is unremarkable with stable vital signs.",
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 691,
+        "end": 824
+      }
+    ]
+  },
+  "disposition": {
+    "status": "admitted",
+    "destination": "rehabilitation",
+    "condition": null,
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 691,
+        "end": 824
+      }
+    ]
+  },
+  "action_items": [],
+  "red_flags": [],
+  "patient_summary": null,
+  "quality": {
+    "missing_information": [],
+    "contradictions": [],
+    "low_confidence_fields": []
+  }
+}

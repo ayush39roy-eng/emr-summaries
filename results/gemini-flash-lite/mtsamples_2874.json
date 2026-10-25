@@ -1,0 +1,419 @@
+{
+  "schema_version": "0.1",
+  "record_id": "mtsamples:2874",
+  "patient_id": "8abc3874-dd7b-49c4-841c-bc913b99347f",
+  "generator": {
+    "kind": "model",
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "v1",
+    "generated_at": "2026-10-25T16:00:36Z"
+  },
+  "one_liner": "52-year-old female with progressive vision changes, dysarthria, headache, and incoordination following a motor vehicle accident, found to have persistent T2 signal abnormalities on brain MRI and reactive atypical mononuclear cells in CSF, transferred to a care facility with worsening somnolence requiring NGT feeding and 24-hour supportive care.",
+  "problems": [
+    {
+      "name": "Dysarthria",
+      "code": null,
+      "status": "confirmed",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 0,
+          "end": 14
+        }
+      ]
+    },
+    {
+      "name": "Progressive worsening of vision",
+      "code": null,
+      "status": "confirmed",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 97,
+          "end": 181
+        }
+      ]
+    },
+    {
+      "name": "Headache",
+      "code": null,
+      "status": "confirmed",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 97,
+          "end": 181
+        }
+      ]
+    },
+    {
+      "name": "Incoordination",
+      "code": null,
+      "status": "confirmed",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 97,
+          "end": 181
+        }
+      ]
+    },
+    {
+      "name": "Stress urinary incontinence",
+      "code": null,
+      "status": "resolved",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 651,
+          "end": 738
+        }
+      ]
+    },
+    {
+      "name": "Demential syndrome",
+      "code": null,
+      "status": "suspected",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 3936,
+          "end": 4014
+        }
+      ]
+    }
+  ],
+  "medications": {
+    "started": [],
+    "stopped": [],
+    "changed": [],
+    "continued": []
+  },
+  "allergies": [],
+  "key_findings": [
+    {
+      "category": "lab",
+      "name": "CSF Glucose",
+      "value": "16",
+      "unit": null,
+      "flag": null,
+      "trend": null,
+      "interpretation": "CSF analysis",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1473,
+          "end": 1547
+        }
+      ]
+    },
+    {
+      "category": "lab",
+      "name": "CSF Protein",
+      "value": "99",
+      "unit": null,
+      "flag": "high",
+      "trend": null,
+      "interpretation": "CSF analysis showing elevated protein",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1473,
+          "end": 1547
+        }
+      ]
+    },
+    {
+      "category": "lab",
+      "name": "CSF WBC",
+      "value": "14",
+      "unit": null,
+      "flag": null,
+      "trend": null,
+      "interpretation": "CSF analysis",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1473,
+          "end": 1547
+        }
+      ]
+    },
+    {
+      "category": "lab",
+      "name": "CSF RBC",
+      "value": "114",
+      "unit": null,
+      "flag": null,
+      "trend": null,
+      "interpretation": "CSF analysis",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1473,
+          "end": 1547
+        }
+      ]
+    },
+    {
+      "category": "imaging",
+      "name": "MRI brain scan",
+      "value": "5x10mm",
+      "unit": "mm",
+      "flag": "abnormal",
+      "trend": null,
+      "interpretation": "area of increased signal on T2 weighted images in the right temporal lobe, right posterolateral aspect of the midbrain, pons, and bilateral inferior surface of the cerebellum",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1716,
+          "end": 2008
+        }
+      ]
+    },
+    {
+      "category": "vital",
+      "name": "Blood Pressure",
+      "value": "139/74",
+      "unit": null,
+      "flag": null,
+      "trend": null,
+      "interpretation": "Blood pressure reading",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 2331,
+          "end": 2365
+        }
+      ]
+    },
+    {
+      "category": "vital",
+      "name": "Heart Rate",
+      "value": "90",
+      "unit": null,
+      "flag": null,
+      "trend": null,
+      "interpretation": "Heart rate reading",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 2331,
+          "end": 2365
+        }
+      ]
+    },
+    {
+      "category": "vital",
+      "name": "Respiratory Rate",
+      "value": "20",
+      "unit": null,
+      "flag": null,
+      "trend": null,
+      "interpretation": "Respiratory rate",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 2331,
+          "end": 2365
+        }
+      ]
+    },
+    {
+      "category": "vital",
+      "name": "Temperature",
+      "value": "36.8",
+      "unit": "C",
+      "flag": null,
+      "trend": null,
+      "interpretation": "Temperature",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 2331,
+          "end": 2365
+        }
+      ]
+    },
+    {
+      "category": "exam",
+      "name": "MMSE",
+      "value": "27/30",
+      "unit": null,
+      "flag": null,
+      "trend": null,
+      "interpretation": "Mini-Mental State Examination score",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 2490,
+          "end": 2529
+        }
+      ]
+    },
+    {
+      "category": "lab",
+      "name": "CSF Protein",
+      "value": "131",
+      "unit": "mg/dl",
+      "flag": "high",
+      "trend": null,
+      "interpretation": "Elevated CSF total protein",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 3124,
+          "end": 3204
+        }
+      ]
+    },
+    {
+      "category": "lab",
+      "name": "CSF Albumin",
+      "value": "68",
+      "unit": null,
+      "flag": "high",
+      "trend": null,
+      "interpretation": "Elevated CSF albumin",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 3206,
+          "end": 3231
+        }
+      ]
+    },
+    {
+      "category": "lab",
+      "name": "CSF IgG",
+      "value": "10",
+      "unit": "mg/dl",
+      "flag": "high",
+      "trend": null,
+      "interpretation": "Elevated CSF IgG",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 3233,
+          "end": 3257
+        }
+      ]
+    }
+  ],
+  "procedures": [
+    {
+      "name": "Lumbar punctures",
+      "time": null,
+      "outcome": "showed some atypical mononuclear cells suggestive of tumor or reactive lymphocytosis",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1356,
+          "end": 1471
+        }
+      ]
+    },
+    {
+      "name": "Bone marrow biopsy",
+      "time": null,
+      "outcome": "normal except for decreased iron",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1575,
+          "end": 1631
+        }
+      ]
+    },
+    {
+      "name": "Cerebral angiogram",
+      "time": null,
+      "outcome": "noted variable caliber in the RMCA, LACA and Left AICA distributions",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 4300,
+          "end": 4395
+        }
+      ]
+    },
+    {
+      "name": "Temporal artery biopsy",
+      "time": null,
+      "outcome": "unremarkable",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 4523,
+          "end": 4563
+        }
+      ]
+    },
+    {
+      "name": "Left temporal lobe brain biopsy",
+      "time": null,
+      "outcome": "inconclusive and showed evidence of atypical mononuclear cells and lymphocytes in the perivascular and subarachnoid spaces",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 4865,
+          "end": 5060
+        }
+      ]
+    }
+  ],
+  "course": {
+    "narrative": "A 52-year-old female presented with progressive vision changes, dysarthria, headache, and incoordination starting after a motor vehicle accident. Evaluation revealed elevated CSF protein and T2 MRI signal abnormalities in the brainstem, cerebellar peduncles, and temporal lobes, suggestive of glioma. Multiple workups including lumbar punctures, cerebral angiogram, and a temporal artery biopsy were performed. A left temporal lobe brain biopsy showed atypical mononuclear cells and lymphocytes considered reactive. Her neurological status progressively worsened during her hospital stay, becoming very somnolent and difficult to arouse. She was made DNR at family request and transferred to a care facility requiring NGT feeding and 24-hour supportive care.",
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 97,
+        "end": 203
+      },
+      {
+        "doc_id": "d1",
+        "start": 5376,
+        "end": 5657
+      }
+    ]
+  },
+  "disposition": {
+    "status": "transferred",
+    "destination": "care facility",
+    "condition": "very somnolent and difficult to arouse",
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 5582,
+        "end": 5657
+      }
+    ]
+  },
+  "action_items": [],
+  "red_flags": [],
+  "patient_summary": null,
+  "quality": {
+    "missing_information": [],
+    "contradictions": [],
+    "low_confidence_fields": []
+  }
+}

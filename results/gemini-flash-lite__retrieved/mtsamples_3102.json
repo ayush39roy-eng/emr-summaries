@@ -1,0 +1,419 @@
+{
+  "schema_version": "0.1",
+  "record_id": "mtsamples:3102",
+  "patient_id": "85452409-be83-4f08-a2ca-bec42f6cc9d2",
+  "generator": {
+    "kind": "model",
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "v1",
+    "generated_at": "2026-10-25T16:14:18Z"
+  },
+  "one_liner": "A 69-year-old woman with metastatic NSCLC on hospice presents with new right facial droop, aphasia, CVA, and transient inferior myocardial infarction, admitted for continued management.",
+  "problems": [
+    {
+      "name": "metastatic non-small-cell lung cancer",
+      "code": null,
+      "status": "confirmed",
+      "is_new": false,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1577,
+          "end": 1630
+        }
+      ]
+    },
+    {
+      "name": "malignant pericardial effusion with tamponade",
+      "code": null,
+      "status": "resolved",
+      "is_new": false,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1704,
+          "end": 1775
+        }
+      ]
+    },
+    {
+      "name": "atrial fibrillation",
+      "code": null,
+      "status": "chronic",
+      "is_new": false,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1931,
+          "end": 1950
+        }
+      ]
+    },
+    {
+      "name": "hypertension",
+      "code": null,
+      "status": "chronic",
+      "is_new": false,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1952,
+          "end": 1964
+        }
+      ]
+    },
+    {
+      "name": "history of multiple CVA",
+      "code": null,
+      "status": "chronic",
+      "is_new": false,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1966,
+          "end": 1989
+        }
+      ]
+    },
+    {
+      "name": "cerebrovascular accident",
+      "code": null,
+      "status": "confirmed",
+      "is_new": true,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 4112,
+          "end": 4154
+        }
+      ]
+    },
+    {
+      "name": "transient inferior myocardial infarction",
+      "code": null,
+      "status": "confirmed",
+      "is_new": true,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 4159,
+          "end": 4230
+        }
+      ]
+    }
+  ],
+  "medications": {
+    "started": [],
+    "stopped": [],
+    "changed": [],
+    "continued": [
+      {
+        "name": "Amiodarone",
+        "dose": "200 mg",
+        "route": null,
+        "frequency": "once a day",
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 2034,
+            "end": 2066
+          }
+        ]
+      },
+      {
+        "name": "Roxanol concentrate",
+        "dose": "5 mg",
+        "route": null,
+        "frequency": "three hours p.r.n.",
+        "previous": null,
+        "reason": "pain",
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 2068,
+            "end": 2120
+          }
+        ]
+      }
+    ]
+  },
+  "allergies": [
+    {
+      "substance": "CODEINE",
+      "reaction": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 2122,
+          "end": 2140
+        }
+      ]
+    }
+  ],
+  "key_findings": [
+    {
+      "category": "vital",
+      "name": "Temperature",
+      "value": "97.1",
+      "unit": "degrees",
+      "flag": "normal",
+      "trend": null,
+      "interpretation": "Afebrile",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 2548,
+          "end": 2572
+        }
+      ]
+    },
+    {
+      "category": "vital",
+      "name": "Blood Pressure",
+      "value": "138/82 to 111/87",
+      "unit": null,
+      "flag": "normal",
+      "trend": null,
+      "interpretation": "Blood pressure ranges",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 2574,
+          "end": 2617
+        }
+      ]
+    },
+    {
+      "category": "vital",
+      "name": "Pulse",
+      "value": "61",
+      "unit": null,
+      "flag": "normal",
+      "trend": null,
+      "interpretation": "Regular pulse rate",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 2619,
+          "end": 2627
+        }
+      ]
+    },
+    {
+      "category": "vital",
+      "name": "Respiratory Rate",
+      "value": "22",
+      "unit": null,
+      "flag": "normal",
+      "trend": null,
+      "interpretation": "Respiratory rate",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 2629,
+          "end": 2648
+        }
+      ]
+    },
+    {
+      "category": "vital",
+      "name": "O2 saturation",
+      "value": "100",
+      "unit": "%",
+      "flag": "normal",
+      "trend": null,
+      "interpretation": "Fully saturated",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 2651,
+          "end": 2669
+        }
+      ]
+    },
+    {
+      "category": "exam",
+      "name": "Neurological exam",
+      "value": null,
+      "unit": null,
+      "flag": "abnormal",
+      "trend": null,
+      "interpretation": "Marked aphasia and new right facial droop",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 3086,
+          "end": 3149
+        }
+      ]
+    },
+    {
+      "category": "ecg",
+      "name": "ECG",
+      "value": null,
+      "unit": null,
+      "flag": "abnormal",
+      "trend": null,
+      "interpretation": "Normalization of prior ST elevation in the inferior leads with Q waves and first-degree AV block",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 3575,
+          "end": 3690
+        }
+      ]
+    },
+    {
+      "category": "lab",
+      "name": "troponin",
+      "value": "0.17",
+      "unit": null,
+      "flag": "abnormal",
+      "trend": null,
+      "interpretation": "Elevated troponin",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 3833,
+          "end": 3846
+        }
+      ]
+    },
+    {
+      "category": "lab",
+      "name": "white blood cell count",
+      "value": "1.3",
+      "unit": null,
+      "flag": "low",
+      "trend": null,
+      "interpretation": "Leukopenia",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 3858,
+          "end": 3884
+        }
+      ]
+    },
+    {
+      "category": "lab",
+      "name": "hematocrit",
+      "value": "31",
+      "unit": null,
+      "flag": "low",
+      "trend": null,
+      "interpretation": "Low hematocrit",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 3886,
+          "end": 3899
+        }
+      ]
+    }
+  ],
+  "procedures": [
+    {
+      "name": "urgent drainage",
+      "time": null,
+      "outcome": "resolved malignant pericardial effusion with tamponade",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1704,
+          "end": 1775
+        }
+      ]
+    }
+  ],
+  "course": {
+    "narrative": "A 69-year-old woman with metastatic non-small-cell lung cancer and hospice status, who recently required drainage for a malignant pericardial effusion, presented with new aphasia and right facial droop. Evaluation revealed a cerebrovascular accident and a transient inferior myocardial infarction. Her ECG showed normalization of prior ST elevations with Q waves and first-degree AV block, and labs showed a leukopenia of 1.3 and hematocrit of 31. The case was discussed with the patient and her daughter, who understood the guarded prognosis. Heparin continuation was deemed reasonable with acknowledgment of hemorrhagic effusion risk, morphine was advised for comfort and preload reduction, and other blood thinners like Plavix or thrombolytics were avoided. She is being admitted by the hospitalist service.",
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 3986,
+        "end": 4199
+      }
+    ]
+  },
+  "disposition": {
+    "status": "admitted",
+    "destination": null,
+    "condition": "guarded",
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 4311,
+        "end": 4368
+      },
+      {
+        "doc_id": "d1",
+        "start": 4914,
+        "end": 5012
+      }
+    ]
+  },
+  "action_items": [
+    {
+      "action": "Continue heparin while monitoring for risk of hemorrhagic pericardial effusion recurrence",
+      "owner": "treating_team",
+      "priority": "routine",
+      "due": null,
+      "category": "medication",
+      "rationale": "Reasonable therapy though carries bleeding risk",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 4424,
+          "end": 4550
+        }
+      ]
+    },
+    {
+      "action": "Use morphine for preload reduction and comfort measures",
+      "owner": "treating_team",
+      "priority": "routine",
+      "due": null,
+      "category": "medication",
+      "rationale": "Appropriate for comfort and preload reduction",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 4556,
+          "end": 4655
+        }
+      ]
+    }
+  ],
+  "red_flags": [
+    {
+      "message": "Patient is at risk for hemorrhagic pericardial effusion recurrence with heparin use",
+      "severity": "high",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 4474,
+          "end": 4550
+        }
+      ]
+    }
+  ],
+  "patient_summary": null,
+  "quality": {
+    "missing_information": [],
+    "contradictions": [],
+    "low_confidence_fields": []
+  }
+}

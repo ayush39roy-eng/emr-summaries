@@ -1,0 +1,123 @@
+{
+  "schema_version": "0.1",
+  "record_id": "mtsamples:1392",
+  "patient_id": "a1b864b2-5810-4540-9351-e95b92c59fa4",
+  "generator": {
+    "kind": "model",
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "v1",
+    "generated_at": "2026-10-25T16:11:33Z"
+  },
+  "one_liner": "A 32-year-old female presents with chronic post-surgical foot pain seeking medication after her specialist appointment was allegedly cancelled, but was given Lortab 7.5 before discovery of inconsistencies in her story.",
+  "problems": [
+    {
+      "name": "Foot pain",
+      "code": null,
+      "status": "confirmed",
+      "is_new": false,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1925,
+          "end": 1947
+        }
+      ]
+    }
+  ],
+  "medications": {
+    "started": [
+      {
+        "name": "Lortab",
+        "dose": "7.5",
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": "pain in her foot",
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 2077,
+            "end": 2129
+          }
+        ]
+      }
+    ],
+    "stopped": [],
+    "changed": [],
+    "continued": []
+  },
+  "allergies": [],
+  "key_findings": [
+    {
+      "category": "exam",
+      "name": "Foot examination",
+      "value": null,
+      "unit": null,
+      "flag": "abnormal",
+      "trend": null,
+      "interpretation": "Walking with a very slight limp and mildly tender around the medial side of the foot just inferior to the medial malleolus.",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1695,
+          "end": 1900
+        }
+      ]
+    }
+  ],
+  "procedures": [],
+  "course": {
+    "narrative": "A 32-year-old female presented for foot pain, stating her specialist appointment was cancelled due to insurance. Physical exam revealed well-healed surgical scars, a very slight limp, and mild medial foot tenderness without redness, heat, or swelling. Lortab 7.5 with a refill was provided for her pain. Afterward, staff contacted the specialist's office and learned the patient did not have an appointment scheduled for today, but rather had a postop check on a future date, and was not turned away for insurance. The treating clinician noted this deception for future visits while awaiting her insurance approval.",
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 12,
+        "end": 97
+      },
+      {
+        "doc_id": "d1",
+        "start": 2077,
+        "end": 2201
+      }
+    ]
+  },
+  "disposition": {
+    "status": "discharged",
+    "destination": null,
+    "condition": "pleasant",
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 1984,
+        "end": 2008
+      }
+    ]
+  },
+  "action_items": [
+    {
+      "action": "Keep in mind patient's dishonesty the next time she returns",
+      "owner": "treating_team",
+      "priority": "routine",
+      "due": null,
+      "category": "other",
+      "rationale": "Patient was lying about her appointment cancellation reason.",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 2677,
+          "end": 2762
+        }
+      ]
+    }
+  ],
+  "red_flags": [],
+  "patient_summary": null,
+  "quality": {
+    "missing_information": [],
+    "contradictions": [
+      "Patient stated her appointment was cancelled today due to insurance, but the specialist's office stated she did not have an appointment scheduled for today."
+    ],
+    "low_confidence_fields": []
+  }
+}

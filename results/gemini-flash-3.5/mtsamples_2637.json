@@ -1,0 +1,268 @@
+{
+  "schema_version": "0.1",
+  "record_id": "mtsamples:2637",
+  "patient_id": "ebb44221-055e-49fa-87e4-d02a371e00ff",
+  "generator": {
+    "kind": "model",
+    "model": "gemini-3.5-flash",
+    "prompt_version": "v1",
+    "generated_at": "2026-10-25T15:58:46Z"
+  },
+  "one_liner": "Patient with severe menometrorrhagia, severe anemia, and a fibroid uterus underwent hysteroscopy, D&C, and myomectomy, received 2 units PRBCs, and was discharged home in stable condition.",
+  "problems": [
+    {
+      "name": "Severe menometrorrhagia unresponsive to medical therapy",
+      "code": null,
+      "status": "confirmed",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 25,
+          "end": 81
+        }
+      ]
+    },
+    {
+      "name": "Severe anemia",
+      "code": null,
+      "status": "confirmed",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 21,
+          "end": 99
+        }
+      ]
+    },
+    {
+      "name": "Fibroid uterus",
+      "code": null,
+      "status": "confirmed",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 771,
+          "end": 828
+        }
+      ]
+    }
+  ],
+  "medications": {
+    "started": [
+      {
+        "name": "Vicodin",
+        "dose": "1 tablet",
+        "route": "p.o.",
+        "frequency": "q.4-6 h. p.r.n. pain",
+        "previous": null,
+        "reason": "pain",
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 1449,
+            "end": 1499
+          }
+        ]
+      },
+      {
+        "name": "multiple vitamin",
+        "dose": "1 tab",
+        "route": "p.o.",
+        "frequency": "daily",
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 1501,
+            "end": 1534
+          }
+        ]
+      },
+      {
+        "name": "ferrous sulfate",
+        "dose": "1 tablet",
+        "route": "p.o.",
+        "frequency": "daily",
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 1536,
+            "end": 1581
+          }
+        ]
+      }
+    ],
+    "stopped": [],
+    "changed": [],
+    "continued": []
+  },
+  "allergies": [],
+  "key_findings": [
+    {
+      "category": "lab",
+      "name": "Hemoglobin",
+      "value": "8.3",
+      "unit": null,
+      "flag": "low",
+      "trend": null,
+      "interpretation": "Posttransfusion hemoglobin following second unit of packed red blood cells",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 526,
+          "end": 605
+        }
+      ]
+    },
+    {
+      "category": "lab",
+      "name": "Hematocrit",
+      "value": "25",
+      "unit": null,
+      "flag": "low",
+      "trend": null,
+      "interpretation": "Posttransfusion hematocrit following second unit of packed red blood cells",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 526,
+          "end": 605
+        }
+      ]
+    }
+  ],
+  "procedures": [
+    {
+      "name": "Hysteroscopy",
+      "time": null,
+      "outcome": "Revealed a large endometrial cavity fibroid",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 264,
+          "end": 316
+        }
+      ]
+    },
+    {
+      "name": "Dilatation and curettage (D&C)",
+      "time": null,
+      "outcome": "Performed successfully",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 724,
+          "end": 769
+        }
+      ]
+    },
+    {
+      "name": "Myomectomy",
+      "time": null,
+      "outcome": "Careful shaving and excision with complete removal of the fibroid",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 830,
+          "end": 917
+        }
+      ]
+    },
+    {
+      "name": "Blood Transfusion",
+      "time": null,
+      "outcome": "Received two units of packed red blood cells due to intraoperative blood loss",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 445,
+          "end": 481
+        }
+      ]
+    }
+  ],
+  "course": {
+    "narrative": "The patient was admitted with severe menometrorrhagia unresponsive to medical therapy, severe anemia, and a fibroid uterus. She was taken to the OR for D&C, hysteroscopy, and myomectomy, during which a large endometrial cavity fibroid was carefully shaved and excised. Complete hemostasis was achieved. Secondary to intraoperative blood loss, she received two units of PRBCs, with posttransfusion labs showing a hematocrit of 25 and hemoglobin of 8.3. Postoperatively, she progressed well, ambulated without difficulty, tolerated her diet, and was discharged home in stable condition.",
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 982,
+        "end": 1025
+      }
+    ]
+  },
+  "disposition": {
+    "status": "discharged",
+    "destination": "home",
+    "condition": "Stable",
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 1233,
+        "end": 1267
+      }
+    ]
+  },
+  "action_items": [
+    {
+      "action": "Follow-up visit with Dr. X",
+      "owner": "patient",
+      "priority": "routine",
+      "due": "<DATE>",
+      "category": "follow_up",
+      "rationale": "Postoperative follow-up care",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1623,
+          "end": 1706
+        }
+      ]
+    },
+    {
+      "action": "Bedrest for 1 week with slow return to normal activities over 2 to 3 weeks",
+      "owner": "patient",
+      "priority": "routine",
+      "due": null,
+      "category": "patient_education",
+      "rationale": "Postoperative discharge instructions",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1335,
+          "end": 1421
+        }
+      ]
+    },
+    {
+      "action": "Pelvic rest for 6 weeks",
+      "owner": "patient",
+      "priority": "routine",
+      "due": null,
+      "category": "patient_education",
+      "rationale": "Postoperative discharge instructions",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1423,
+          "end": 1447
+        }
+      ]
+    }
+  ],
+  "red_flags": [],
+  "patient_summary": null,
+  "quality": {
+    "missing_information": [],
+    "contradictions": [],
+    "low_confidence_fields": []
+  }
+}

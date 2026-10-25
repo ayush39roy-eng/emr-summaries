@@ -1,0 +1,624 @@
+{
+  "schema_version": "0.1",
+  "record_id": "mtsamples:1786",
+  "patient_id": "dc072d55-ff09-4393-a670-f51d4ef96b42",
+  "generator": {
+    "kind": "model",
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "v1",
+    "generated_at": "2026-10-25T15:55:51Z"
+  },
+  "one_liner": "An 87-year-old female with recent hip and thoracic compression fractures and back pain presents for evaluation of depression, diagnosed with major depressive disorder, and plan to continue current antidepressants.",
+  "problems": [
+    {
+      "name": "Depression",
+      "code": null,
+      "status": "confirmed",
+      "is_new": true,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 0,
+          "end": 31
+        }
+      ]
+    },
+    {
+      "name": "Low back pain",
+      "code": null,
+      "status": "confirmed",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 37,
+          "end": 131
+        }
+      ]
+    },
+    {
+      "name": "Hip fracture",
+      "code": null,
+      "status": "confirmed",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 37,
+          "end": 131
+        }
+      ]
+    },
+    {
+      "name": "T9 compression fraction",
+      "code": null,
+      "status": "confirmed",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 185,
+          "end": 273
+        }
+      ]
+    },
+    {
+      "name": "T8 compression fracture",
+      "code": null,
+      "status": "confirmed",
+      "is_new": true,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 358,
+          "end": 442
+        }
+      ]
+    },
+    {
+      "name": "Possible meningioma to the left of anterior box",
+      "code": null,
+      "status": "suspected",
+      "is_new": true,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 746,
+          "end": 826
+        }
+      ]
+    },
+    {
+      "name": "Hypertension",
+      "code": null,
+      "status": "chronic",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1971,
+          "end": 2048
+        }
+      ]
+    },
+    {
+      "name": "Cataracts",
+      "code": null,
+      "status": "chronic",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1971,
+          "end": 2048
+        }
+      ]
+    },
+    {
+      "name": "Hysterectomy",
+      "code": null,
+      "status": "resolved",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1971,
+          "end": 2048
+        }
+      ]
+    },
+    {
+      "name": "MI",
+      "code": null,
+      "status": "chronic",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1971,
+          "end": 2048
+        }
+      ]
+    },
+    {
+      "name": "Osteoporosis",
+      "code": null,
+      "status": "chronic",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1971,
+          "end": 2048
+        }
+      ]
+    },
+    {
+      "name": "Right total knee replacement",
+      "code": null,
+      "status": "resolved",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 2050,
+          "end": 2088
+        }
+      ]
+    },
+    {
+      "name": "Diabetes",
+      "code": null,
+      "status": "suspected",
+      "is_new": true,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 2104,
+          "end": 2133
+        }
+      ]
+    },
+    {
+      "name": "Major depression disorder",
+      "code": null,
+      "status": "confirmed",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 4504,
+          "end": 4539
+        }
+      ]
+    }
+  ],
+  "medications": {
+    "started": [],
+    "stopped": [],
+    "changed": [],
+    "continued": [
+      {
+        "name": "Norvasc",
+        "dose": "10 mg",
+        "route": "p.o.",
+        "frequency": "daily",
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 2225,
+            "end": 2249
+          }
+        ]
+      },
+      {
+        "name": "aspirin",
+        "dose": "81 mg",
+        "route": "p.o.",
+        "frequency": "daily",
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 2251,
+            "end": 2275
+          }
+        ]
+      },
+      {
+        "name": "Lipitor",
+        "dose": "20 mg",
+        "route": "p.o.",
+        "frequency": "daily",
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 2277,
+            "end": 2301
+          }
+        ]
+      },
+      {
+        "name": "Klonopin",
+        "dose": "0.5 mg",
+        "route": "p.o.",
+        "frequency": "b.i.d.",
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 2303,
+            "end": 2330
+          }
+        ]
+      },
+      {
+        "name": "digoxin",
+        "dose": "0.125 mg",
+        "route": "p.o.",
+        "frequency": "daily",
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 2332,
+            "end": 2359
+          }
+        ]
+      },
+      {
+        "name": "Lexapro",
+        "dose": "10 mg",
+        "route": "p.o.",
+        "frequency": "daily",
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 2361,
+            "end": 2385
+          },
+          {
+            "doc_id": "d1",
+            "start": 4780,
+            "end": 4808
+          }
+        ]
+      },
+      {
+        "name": "TriCor",
+        "dose": "145 mg",
+        "route": "p.o.",
+        "frequency": "each bedtime",
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 2387,
+            "end": 2418
+          }
+        ]
+      },
+      {
+        "name": "Lasix",
+        "dose": "20 mg",
+        "route": "p.o.",
+        "frequency": "daily",
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 2420,
+            "end": 2442
+          }
+        ]
+      },
+      {
+        "name": "Ismo",
+        "dose": "20 mg",
+        "route": "p.o.",
+        "frequency": "daily",
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 2444,
+            "end": 2465
+          }
+        ]
+      },
+      {
+        "name": "lidocaine patch",
+        "dose": null,
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 2467,
+            "end": 2482
+          }
+        ]
+      },
+      {
+        "name": "Zestril, Prinivil",
+        "dose": "40 mg",
+        "route": "p.o.",
+        "frequency": "daily",
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 2484,
+            "end": 2518
+          }
+        ]
+      },
+      {
+        "name": "Lopressor",
+        "dose": "75 mg",
+        "route": "p.o.",
+        "frequency": "b.i.d.",
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 2520,
+            "end": 2547
+          }
+        ]
+      },
+      {
+        "name": "Starlix",
+        "dose": "120 mg",
+        "route": "p.o.",
+        "frequency": "t.i.d.",
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 2549,
+            "end": 2575
+          }
+        ]
+      },
+      {
+        "name": "Pamelor",
+        "dose": "25 mg",
+        "route": "p.o.",
+        "frequency": "each bedtime",
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 2577,
+            "end": 2608
+          },
+          {
+            "doc_id": "d1",
+            "start": 4809,
+            "end": 4839
+          }
+        ]
+      },
+      {
+        "name": "polyethylene glycol",
+        "dose": "17 g",
+        "route": "p.o.",
+        "frequency": "every other day",
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 2610,
+            "end": 2655
+          }
+        ]
+      },
+      {
+        "name": "potassium chloride",
+        "dose": "20 mEq",
+        "route": "p.o.",
+        "frequency": "t.i.d.",
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 2657,
+            "end": 2694
+          }
+        ]
+      },
+      {
+        "name": "Norco",
+        "dose": "one tablet",
+        "route": "p.o.",
+        "frequency": "q.4h. p.r.n.",
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 2696,
+            "end": 2730
+          }
+        ]
+      },
+      {
+        "name": "Zofran",
+        "dose": "4 mg",
+        "route": "IV",
+        "frequency": "q.6h.",
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 2732,
+            "end": 2752
+          }
+        ]
+      }
+    ]
+  },
+  "allergies": [
+    {
+      "substance": "CODEINE",
+      "reaction": "HALLUCINATIONS",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 2780,
+          "end": 2816
+        }
+      ]
+    }
+  ],
+  "key_findings": [
+    {
+      "category": "imaging",
+      "name": "MRI brain/spine",
+      "value": "positive for possible meningioma to the left of anterior box",
+      "unit": null,
+      "flag": "abnormal",
+      "trend": null,
+      "interpretation": "positive for possible meningioma to the left of anterior box",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 746,
+          "end": 826
+        }
+      ]
+    },
+    {
+      "category": "exam",
+      "name": "Mini Mental Status Exam",
+      "value": "28/30",
+      "unit": null,
+      "flag": "normal",
+      "trend": null,
+      "interpretation": "Score 28/30, missed two recalled words",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 4141,
+          "end": 4233
+        }
+      ]
+    }
+  ],
+  "procedures": [
+    {
+      "name": "vertebroplasty",
+      "time": null,
+      "outcome": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 185,
+          "end": 273
+        }
+      ]
+    },
+    {
+      "name": "vertebroplasty",
+      "time": null,
+      "outcome": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 400,
+          "end": 442
+        }
+      ]
+    }
+  ],
+  "course": {
+    "narrative": "An 87-year-old female was admitted following a hip fracture and subsequent T9 and T8 thoracic compression fractures treated with vertebroplasty. She reported significant mid-to-lower back pain, as well as new depressive symptoms including loss of interest, crying spells, decreased appetite, and passive suicidal thoughts (noting she did not mind dying). She denied active suicidal or homicidal ideations, hallucinations, or manic symptoms. On mental status examination, she was alert and oriented x3 with fair memory and judgment, and scored 28/30 on the MMSE. She was diagnosed with major depressive disorder. The treatment plan includes continuing Lexapro and Pamelor while monitoring for adverse effects and worsening depression, along with discussions regarding potential inpatient psychiatric care.",
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 37,
+        "end": 131
+      },
+      {
+        "doc_id": "d1",
+        "start": 4504,
+        "end": 4539
+      }
+    ]
+  },
+  "disposition": {
+    "status": "admitted",
+    "destination": null,
+    "condition": null,
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 37,
+        "end": 106
+      }
+    ]
+  },
+  "action_items": [
+    {
+      "action": "Continue Lexapro 10 mg daily and Pamelor 25 mg each bedtime monitor for adverse effects of TCA and worsening of depressive symptoms.",
+      "owner": "treating_team",
+      "priority": "routine",
+      "due": null,
+      "category": "monitoring",
+      "rationale": "monitor for adverse effects of TCA and worsening of depressive symptoms",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 4780,
+          "end": 4912
+        }
+      ]
+    },
+    {
+      "action": "Discussed about possible inpatient psychiatric care.",
+      "owner": "treating_team",
+      "priority": "soon",
+      "due": null,
+      "category": "referral",
+      "rationale": "possible inpatient psychiatric care",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 4914,
+          "end": 4966
+        }
+      ]
+    }
+  ],
+  "red_flags": [],
+  "patient_summary": null,
+  "quality": {
+    "missing_information": [],
+    "contradictions": [],
+    "low_confidence_fields": []
+  }
+}

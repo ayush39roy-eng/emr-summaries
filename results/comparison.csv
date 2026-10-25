@@ -1,0 +1,3 @@
+model,model_id,records,outputs,schema_valid_%,claims_per_summary,grounded_claims_%,unsupported_per_summary,quotes_found_%,has_problems_%,has_medications_%,has_action_items_%,one_liner_over_300_chars,latency_s_median,tokens_in_mean,tokens_out_mean,rougeL_one_liner,bertscore_f1_one_liner
+gemini-flash-lite,gemini-3.5-flash-lite,50,50,98.0,15.0,99.5,0.08,99.4,100.0,56.0,64.0,1,6.4,1436,1912,0.223,0.805
+gemini-flash-lite__retrieved,gemini-3.5-flash-lite,50,50,100.0,14.4,99.4,0.08,99.5,100.0,56.0,60.0,0,5.3,1194,1853,0.228,0.806

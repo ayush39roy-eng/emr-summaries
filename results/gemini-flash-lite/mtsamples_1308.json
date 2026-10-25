@@ -1,0 +1,428 @@
+{
+  "schema_version": "0.1",
+  "record_id": "mtsamples:1308",
+  "patient_id": "88ebc1e8-0a5f-41ef-89d5-4052644b3e9e",
+  "generator": {
+    "kind": "model",
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "v1",
+    "generated_at": "2026-10-25T15:56:08Z"
+  },
+  "one_liner": "A 48-year-old woman with a history of depression and substance abuse presents for follow-up of a sleep study showing sleep disruption, likely secondary to psychophysiologic insomnia, smoking, and sedating medications.",
+  "problems": [
+    {
+      "name": "Daytime fatigue",
+      "code": null,
+      "status": "confirmed",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 105,
+          "end": 150
+        }
+      ]
+    },
+    {
+      "name": "Insomnia",
+      "code": null,
+      "status": "confirmed",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 105,
+          "end": 150
+        }
+      ]
+    },
+    {
+      "name": "Dyspnea on minimal exertion",
+      "code": null,
+      "status": "confirmed",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 180,
+          "end": 268
+        }
+      ]
+    },
+    {
+      "name": "Depression",
+      "code": null,
+      "status": "chronic",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 2051,
+          "end": 2061
+        }
+      ]
+    },
+    {
+      "name": "Hepatitis C",
+      "code": null,
+      "status": "chronic",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 2067,
+          "end": 2078
+        }
+      ]
+    },
+    {
+      "name": "Hypertension",
+      "code": null,
+      "status": "chronic",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 2084,
+          "end": 2096
+        }
+      ]
+    },
+    {
+      "name": "Inhaled and intravenous drug abuse history",
+      "code": null,
+      "status": "chronic",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 2102,
+          "end": 2144
+        }
+      ]
+    },
+    {
+      "name": "Atypical chest pain",
+      "code": null,
+      "status": "chronic",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 2245,
+          "end": 2333
+        }
+      ]
+    },
+    {
+      "name": "Psychophysiologic insomnia",
+      "code": null,
+      "status": "suspected",
+      "is_new": true,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 5718,
+          "end": 5847
+        }
+      ]
+    }
+  ],
+  "medications": {
+    "started": [],
+    "stopped": [],
+    "changed": [],
+    "continued": [
+      {
+        "name": "Methadone",
+        "dose": "110 mg",
+        "route": "by mouth",
+        "frequency": "every day",
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 2710,
+            "end": 2745
+          }
+        ]
+      },
+      {
+        "name": "Paxil",
+        "dose": "60 mg",
+        "route": "by mouth",
+        "frequency": "every day",
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 2751,
+            "end": 2781
+          }
+        ]
+      },
+      {
+        "name": "Trazodone",
+        "dose": "30 mg",
+        "route": "by mouth",
+        "frequency": "nightly",
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 2787,
+            "end": 2819
+          }
+        ]
+      },
+      {
+        "name": "Seroquel",
+        "dose": "20 mg",
+        "route": "by mouth",
+        "frequency": "nightly",
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 2825,
+            "end": 2856
+          }
+        ]
+      },
+      {
+        "name": "Avalide (irbesartan) and hydrochlorothiazide",
+        "dose": null,
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 2862,
+            "end": 2906
+          }
+        ]
+      },
+      {
+        "name": "Albuterol and Flovent inhalers",
+        "dose": "two puffs",
+        "route": "by mouth",
+        "frequency": "twice a day",
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 2912,
+            "end": 2973
+          }
+        ]
+      },
+      {
+        "name": "Atrovent",
+        "dose": null,
+        "route": null,
+        "frequency": "as needed",
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 2979,
+            "end": 2997
+          }
+        ]
+      }
+    ]
+  },
+  "allergies": [],
+  "key_findings": [
+    {
+      "category": "vital",
+      "name": "Blood pressure",
+      "value": "126/84",
+      "unit": null,
+      "flag": null,
+      "trend": null,
+      "interpretation": "Blood pressure is 126/84",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 3023,
+          "end": 3044
+        }
+      ]
+    },
+    {
+      "category": "vital",
+      "name": "Pulse",
+      "value": "67",
+      "unit": null,
+      "flag": null,
+      "trend": null,
+      "interpretation": "Pulse is 67",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 3046,
+          "end": 3054
+        }
+      ]
+    },
+    {
+      "category": "vital",
+      "name": "SaO2",
+      "value": "99",
+      "unit": "percent",
+      "flag": null,
+      "trend": null,
+      "interpretation": "SaO2 is 99 percent on room air at rest",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 3146,
+          "end": 3184
+        }
+      ]
+    },
+    {
+      "category": "exam",
+      "name": "Mallampati airway score",
+      "value": "3",
+      "unit": null,
+      "flag": null,
+      "trend": null,
+      "interpretation": "Mallampati airway score was 3",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 3568,
+          "end": 3597
+        }
+      ]
+    },
+    {
+      "category": "exam",
+      "name": "Pretibial edema",
+      "value": "1+",
+      "unit": null,
+      "flag": "abnormal",
+      "trend": null,
+      "interpretation": "There is 1+ pretibial edema",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 4209,
+          "end": 4236
+        }
+      ]
+    },
+    {
+      "category": "lab",
+      "name": "Pulmonary function studies",
+      "value": null,
+      "unit": null,
+      "flag": "abnormal",
+      "trend": null,
+      "interpretation": "Pulmonary function studies reportedly show a mild restrictive ventilatory defect without obstruction",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 4331,
+          "end": 4431
+        }
+      ]
+    }
+  ],
+  "procedures": [
+    {
+      "name": "full-night sleep study",
+      "time": null,
+      "outcome": "Slept for a total sleep time of 398 minutes out of 432 minutes in bed (sleep proficiency 92 percent). No REM sleep, no periodic limb movements, no significant sleep-disordered breathing, intermittent inspiratory flow limitation compatible with snoring.",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 69,
+          "end": 150
+        }
+      ]
+    }
+  ],
+  "course": {
+    "narrative": "A 48-year-old woman returned in follow-up after an overnight sleep study for daytime fatigue and insomnia. She reported difficulty initiating sleep, frequent nocturnal awakenings, and morning tiredness. A sleep study demonstrated a 92% sleep proficiency, elevated stage I sleep, no REM sleep, no periodic limb movements, and no significant sleep-disordered breathing, though intermittent inspiratory flow limitation compatible with snoring was observed. The clinician noted that her symptoms are multifactorial, involving psychophysiologic insomnia, home smoking, and sedating medications (trazodone, Seroquel, and methadone). The patient was advised on sleep hygiene tips and asked to discuss reducing or discontinuing sedating medications with her psychiatrist.",
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 18,
+        "end": 150
+      },
+      {
+        "doc_id": "d1",
+        "start": 5518,
+        "end": 5642
+      }
+    ]
+  },
+  "disposition": {
+    "status": "other",
+    "destination": null,
+    "condition": null,
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 589,
+        "end": 630
+      }
+    ]
+  },
+  "action_items": [
+    {
+      "action": "Discuss reducing or discontinuing trazodone and Seroquel with her psychiatrist",
+      "owner": "patient",
+      "priority": "soon",
+      "due": null,
+      "category": "referral",
+      "rationale": "To address daytime sleepiness caused by long-acting central nervous system acting medications",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 6302,
+          "end": 6525
+        }
+      ]
+    },
+    {
+      "action": "Implement sleep hygiene tips including bedtime rituals, stimulus control therapy, sleep restriction, and avoidance of nicotine in the evening hours",
+      "owner": "patient",
+      "priority": "routine",
+      "due": null,
+      "category": "patient_education",
+      "rationale": "To help mitigate sleep disruption at night",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 6527,
+          "end": 6762
+        }
+      ]
+    }
+  ],
+  "red_flags": [],
+  "patient_summary": null,
+  "quality": {
+    "missing_information": [],
+    "contradictions": [],
+    "low_confidence_fields": []
+  }
+}

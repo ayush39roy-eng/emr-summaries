@@ -1,0 +1,232 @@
+{
+  "schema_version": "0.1",
+  "record_id": "mtsamples:2637",
+  "patient_id": "ebb44221-055e-49fa-87e4-d02a371e00ff",
+  "generator": {
+    "kind": "model",
+    "model": "gemma4:e4b",
+    "prompt_version": "v1",
+    "generated_at": "2026-10-25T15:58:46Z"
+  },
+  "one_liner": "Patient with severe menometrorrhagia and severe anemia, status post hysteroscopy, D&C, and myomectomy for a large endometrial cavity fibroid; discharged stable with pain management and iron supplementation.",
+  "problems": [
+    {
+      "name": "Severe menometrorrhagia unresponsive to medical therapy",
+      "code": null,
+      "status": "resolved",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 0,
+          "end": 80
+        },
+        {
+          "doc_id": "d1",
+          "start": 121,
+          "end": 201
+        }
+      ]
+    },
+    {
+      "name": "Severe anemia",
+      "code": null,
+      "status": "resolved",
+      "is_new": null,
+      "evidence": []
+    },
+    {
+      "name": "Fibroid uterus",
+      "code": null,
+      "status": "resolved",
+      "is_new": null,
+      "evidence": []
+    }
+  ],
+  "medications": {
+    "started": [
+      {
+        "name": "Vicodin tablets",
+        "dose": null,
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 1449,
+            "end": 1499
+          }
+        ]
+      },
+      {
+        "name": "multiple vitamin",
+        "dose": null,
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 1501,
+            "end": 1534
+          }
+        ]
+      },
+      {
+        "name": "ferrous sulfate",
+        "dose": null,
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 1536,
+            "end": 1580
+          }
+        ]
+      }
+    ],
+    "stopped": [],
+    "changed": [],
+    "continued": []
+  },
+  "allergies": [],
+  "key_findings": [
+    {
+      "category": "vital",
+      "name": "Posttransfusion labs",
+      "value": null,
+      "unit": null,
+      "flag": null,
+      "trend": null,
+      "interpretation": "Hematocrit of 25, hemoglobin of 8.3",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 526,
+          "end": 605
+        }
+      ]
+    }
+  ],
+  "procedures": [
+    {
+      "name": "Hysteroscopy",
+      "time": null,
+      "outcome": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 242,
+          "end": 280
+        }
+      ]
+    },
+    {
+      "name": "Dilatation and curettage (D&C)",
+      "time": null,
+      "outcome": null,
+      "evidence": []
+    },
+    {
+      "name": "Myomectomy",
+      "time": null,
+      "outcome": null,
+      "evidence": []
+    }
+  ],
+  "course": {
+    "narrative": "The patient was admitted to the surgical suite and taken to the operating room where a dilatation and curettage (D&C) was performed. Hysteroscopy revealed a large endometrial cavity fibroid. Careful shaving and excision of this fibroid was performed with removal of the fibroid. Hemostasis was noted completely at the end of this procedure. Postoperatively, the patient has done well. The patient was given a 2nd unit of packed red blood cells because of intraoperative blood loss. The patient is now ambulating without difficulty and tolerating her diet. The patient desires to go home. The patient is discharged to home.",
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 637,
+        "end": 769
+      },
+      {
+        "doc_id": "d1",
+        "start": 771,
+        "end": 828
+      },
+      {
+        "doc_id": "d1",
+        "start": 830,
+        "end": 917
+      },
+      {
+        "doc_id": "d1",
+        "start": 919,
+        "end": 980
+      },
+      {
+        "doc_id": "d1",
+        "start": 982,
+        "end": 1025
+      },
+      {
+        "doc_id": "d1",
+        "start": 1027,
+        "end": 1123
+      },
+      {
+        "doc_id": "d1",
+        "start": 1125,
+        "end": 1198
+      },
+      {
+        "doc_id": "d1",
+        "start": 1200,
+        "end": 1231
+      }
+    ]
+  },
+  "disposition": {
+    "status": "discharged",
+    "destination": null,
+    "condition": null,
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 1233,
+        "end": 1267
+      }
+    ]
+  },
+  "action_items": [
+    {
+      "action": "Follow up with Dr. X",
+      "owner": "patient",
+      "priority": "routine",
+      "due": null,
+      "category": null,
+      "rationale": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1623,
+          "end": 1706
+        }
+      ]
+    }
+  ],
+  "red_flags": [],
+  "patient_summary": null,
+  "quality": {
+    "missing_information": [
+      "The specific date for follow-up care is listed as <DATE>."
+    ],
+    "contradictions": [],
+    "low_confidence_fields": [
+      "/problems/1",
+      "/problems/2",
+      "/procedures/1",
+      "/procedures/2"
+    ]
+  }
+}

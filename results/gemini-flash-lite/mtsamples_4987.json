@@ -1,0 +1,115 @@
+{
+  "schema_version": "0.1",
+  "record_id": "mtsamples:4987",
+  "patient_id": "3a9b157c-cab7-4c6c-ac22-638dd790d766",
+  "generator": {
+    "kind": "model",
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "v1",
+    "generated_at": "2026-10-25T15:56:30Z"
+  },
+  "one_liner": "A 25-year-old male decedent examined post-mortem presented with multiple sharp force injuries including a fatal left internal jugular vein transection.",
+  "problems": [
+    {
+      "name": "Sharp force wound of neck, left side, with transection of left internal jugular vein",
+      "code": null,
+      "status": "confirmed",
+      "is_new": true,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 22,
+          "end": 107
+        }
+      ]
+    },
+    {
+      "name": "Multiple stab wounds of chest, abdomen, and left thigh",
+      "code": null,
+      "status": "confirmed",
+      "is_new": true,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 111,
+          "end": 253
+        }
+      ]
+    },
+    {
+      "name": "Multiple incised wounds of scalp, face, neck, chest and left hand",
+      "code": null,
+      "status": "confirmed",
+      "is_new": true,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 257,
+          "end": 339
+        }
+      ]
+    }
+  ],
+  "medications": {
+    "started": [],
+    "stopped": [],
+    "changed": [],
+    "continued": []
+  },
+  "allergies": [],
+  "key_findings": [
+    {
+      "category": "exam",
+      "name": "Pupils",
+      "value": "fixed and dilated",
+      "unit": null,
+      "flag": "abnormal",
+      "trend": null,
+      "interpretation": "Pupils fixed and dilated during external examination.",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1208,
+          "end": 1242
+        }
+      ]
+    }
+  ],
+  "procedures": [],
+  "course": {
+    "narrative": "The body of a well-developed, well-nourished 25-year-old Caucasian male underwent post-mortem examination. External examination revealed extensive traumatic injuries including multiple stab wounds, incised wounds, and abrasions acting as defense wounds. Notably, there was a complex fatal sharp force injury of the left side of the neck with transection of the left internal jugular vein. Additional injuries included penetrating stab wounds of the chest and abdomen with right hemothorax and hemoperitoneum, as well as multiple superficial incised and stab wounds involving the face, scalp, neck, and extremities.",
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 22,
+        "end": 107
+      },
+      {
+        "doc_id": "d1",
+        "start": 973,
+        "end": 1067
+      }
+    ]
+  },
+  "disposition": {
+    "status": "expired",
+    "destination": null,
+    "condition": null,
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 973,
+        "end": 1067
+      }
+    ]
+  },
+  "action_items": [],
+  "red_flags": [],
+  "patient_summary": null,
+  "quality": {
+    "missing_information": [],
+    "contradictions": [],
+    "low_confidence_fields": []
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "record_id": "mtsamples:4987",
+  "model": "gemma4:e4b",
+  "latency_s": 140.43,
+  "tokens_in": 2795,
+  "tokens_out": 1445,
+  "cached": false,
+  "error": null,
+  "context_mode": "all_chunks",
+  "n_chunks": 9,
+  "grounding": {
+    "claims": 10,
+    "supported_claims": 10,
+    "unsupported": [],
+    "quotes": 12,
+    "quotes_found": 12,
+    "wrong_chunk_id": 2
+  },
+  "schema_errors": []
+}

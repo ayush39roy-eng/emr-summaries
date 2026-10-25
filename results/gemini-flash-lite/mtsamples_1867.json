@@ -1,0 +1,669 @@
+{
+  "schema_version": "0.1",
+  "record_id": "mtsamples:1867",
+  "patient_id": "8e2badf7-d4c7-43fd-a707-4e1151c79902",
+  "generator": {
+    "kind": "model",
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "v1",
+    "generated_at": "2026-10-25T15:57:19Z"
+  },
+  "one_liner": "A 70-year-old man with multiple comorbidities presented with a left hip fracture from a ground-level fall, underwent left femoral neck fixation with hemiarthroplasty, and is planned for rehab transfer.",
+  "problems": [
+    {
+      "name": "Left hip fracture",
+      "code": null,
+      "status": "confirmed",
+      "is_new": true,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 0,
+          "end": 39
+        }
+      ]
+    },
+    {
+      "name": "Resolving pneumonia",
+      "code": null,
+      "status": "confirmed",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 481,
+          "end": 511
+        }
+      ]
+    },
+    {
+      "name": "Hypertension",
+      "code": null,
+      "status": "confirmed",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 513,
+          "end": 525
+        }
+      ]
+    },
+    {
+      "name": "Chronic obstructive pulmonary disease",
+      "code": null,
+      "status": "chronic",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 527,
+          "end": 564
+        }
+      ]
+    },
+    {
+      "name": "Congestive heart failure",
+      "code": null,
+      "status": "chronic",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 566,
+          "end": 590
+        }
+      ]
+    },
+    {
+      "name": "Hypothyroidism",
+      "code": null,
+      "status": "confirmed",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 592,
+          "end": 606
+        }
+      ]
+    },
+    {
+      "name": "Depression",
+      "code": null,
+      "status": "confirmed",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 608,
+          "end": 618
+        }
+      ]
+    },
+    {
+      "name": "Anxiety",
+      "code": null,
+      "status": "confirmed",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 620,
+          "end": 627
+        }
+      ]
+    },
+    {
+      "name": "Seizure",
+      "code": null,
+      "status": "confirmed",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 629,
+          "end": 636
+        }
+      ]
+    },
+    {
+      "name": "Chronic renal failure",
+      "code": null,
+      "status": "chronic",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 641,
+          "end": 662
+        }
+      ]
+    },
+    {
+      "name": "Anemia",
+      "code": null,
+      "status": "confirmed",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 664,
+          "end": 682
+        }
+      ]
+    },
+    {
+      "name": "Respiratory insufficiency",
+      "code": null,
+      "status": "confirmed",
+      "is_new": true,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 854,
+          "end": 904
+        }
+      ]
+    },
+    {
+      "name": "Perioperative anemia",
+      "code": null,
+      "status": "confirmed",
+      "is_new": true,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 906,
+          "end": 926
+        }
+      ]
+    },
+    {
+      "name": "Pneumonia",
+      "code": null,
+      "status": "confirmed",
+      "is_new": true,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 502,
+          "end": 511
+        }
+      ]
+    },
+    {
+      "name": "Azotemia",
+      "code": null,
+      "status": "confirmed",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1343,
+          "end": 1351
+        }
+      ]
+    },
+    {
+      "name": "Hyperglycemia",
+      "code": null,
+      "status": "confirmed",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1353,
+          "end": 1366
+        }
+      ]
+    },
+    {
+      "name": "Coronary artery disease",
+      "code": null,
+      "status": "confirmed",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1368,
+          "end": 1391
+        }
+      ]
+    },
+    {
+      "name": "Paroxysmal atrial fibrillation",
+      "code": null,
+      "status": "resolved",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1393,
+          "end": 1435
+        }
+      ]
+    },
+    {
+      "name": "Subdural hematoma",
+      "code": null,
+      "status": "resolved",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1437,
+          "end": 1472
+        }
+      ]
+    },
+    {
+      "name": "Swallowing difficulties",
+      "code": null,
+      "status": "confirmed",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1579,
+          "end": 1603
+        }
+      ]
+    },
+    {
+      "name": "Myocardial infarction with stent placement",
+      "code": null,
+      "status": "confirmed",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 2741,
+          "end": 2784
+        }
+      ]
+    }
+  ],
+  "medications": {
+    "started": [],
+    "stopped": [],
+    "changed": [],
+    "continued": [
+      {
+        "name": "Heparin",
+        "dose": null,
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 1672,
+            "end": 1684
+          }
+        ]
+      },
+      {
+        "name": "Albuterol inhaler",
+        "dose": null,
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 1685,
+            "end": 1707
+          }
+        ]
+      },
+      {
+        "name": "Combivent",
+        "dose": null,
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 1708,
+            "end": 1722
+          }
+        ]
+      },
+      {
+        "name": "Aldactone",
+        "dose": null,
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 1723,
+            "end": 1737
+          }
+        ]
+      },
+      {
+        "name": "Doxepin",
+        "dose": null,
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 1738,
+            "end": 1750
+          }
+        ]
+      },
+      {
+        "name": "Xanax",
+        "dose": null,
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 1751,
+            "end": 1761
+          }
+        ]
+      },
+      {
+        "name": "Aspirin",
+        "dose": null,
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 1762,
+            "end": 1774
+          }
+        ]
+      },
+      {
+        "name": "Amiodarone",
+        "dose": null,
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 1775,
+            "end": 1790
+          }
+        ]
+      },
+      {
+        "name": "Tegretol",
+        "dose": null,
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 1791,
+            "end": 1804
+          }
+        ]
+      },
+      {
+        "name": "Synthroid",
+        "dose": null,
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 1805,
+            "end": 1820
+          }
+        ]
+      },
+      {
+        "name": "Colace",
+        "dose": null,
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 1821,
+            "end": 1833
+          }
+        ]
+      }
+    ]
+  },
+  "allergies": [
+    {
+      "substance": "Zyloprim",
+      "reaction": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1604,
+          "end": 1651
+        }
+      ]
+    },
+    {
+      "substance": "penicillin",
+      "reaction": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1604,
+          "end": 1651
+        }
+      ]
+    },
+    {
+      "substance": "Vioxx",
+      "reaction": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1604,
+          "end": 1651
+        }
+      ]
+    },
+    {
+      "substance": "NSAIDs",
+      "reaction": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1604,
+          "end": 1651
+        }
+      ]
+    }
+  ],
+  "key_findings": [
+    {
+      "category": "exam",
+      "name": "Oropharynx",
+      "value": null,
+      "unit": null,
+      "flag": "normal",
+      "trend": null,
+      "interpretation": "Oropharynx clear.",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 2208,
+          "end": 2225
+        }
+      ]
+    },
+    {
+      "category": "exam",
+      "name": "Cardiovascular exam",
+      "value": null,
+      "unit": null,
+      "flag": "normal",
+      "trend": null,
+      "interpretation": "Regular rate and rhythm without murmurs, rubs or gallops.",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 2231,
+          "end": 2288
+        }
+      ]
+    },
+    {
+      "category": "exam",
+      "name": "Lungs exam",
+      "value": null,
+      "unit": null,
+      "flag": "normal",
+      "trend": null,
+      "interpretation": "Clear to auscultation bilaterally.",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 2297,
+          "end": 2331
+        }
+      ]
+    },
+    {
+      "category": "exam",
+      "name": "Abdomen exam",
+      "value": null,
+      "unit": null,
+      "flag": "normal",
+      "trend": null,
+      "interpretation": "Nontender, nondistended with positive bowel sounds.",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 2332,
+          "end": 2390
+        }
+      ]
+    },
+    {
+      "category": "exam",
+      "name": "Extremities exam",
+      "value": null,
+      "unit": null,
+      "flag": "normal",
+      "trend": null,
+      "interpretation": "Without clubbing, cyanosis, or edema.",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 2391,
+          "end": 2442
+        }
+      ]
+    },
+    {
+      "category": "exam",
+      "name": "Neurologic exam",
+      "value": null,
+      "unit": null,
+      "flag": "normal",
+      "trend": null,
+      "interpretation": "No focal motor or sensory losses to the lower extremities; bulk and tone normal.",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 2456,
+          "end": 2572
+        }
+      ]
+    }
+  ],
+  "procedures": [
+    {
+      "name": "left femoral neck fixation with hemiarthroplasty",
+      "time": null,
+      "outcome": "tolerated well",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 728,
+          "end": 827
+        }
+      ]
+    }
+  ],
+  "course": {
+    "narrative": "A 70-year-old gentleman sustained a ground-level fall at home, resulting in a left hip fracture. He was admitted for an orthopedic stay and underwent left femoral neck fixation with hemiarthroplasty. Postoperatively, he experienced medical complications including respiratory insufficiency, perioperative anemia, pneumonia, and hypertension. Cardiology followed closely. He responded well to medical treatment, physical therapy, and occupational therapy, gradually tolerating more prolonged interventions with less difficulty. Wound site healed well with staples removed.",
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 728,
+        "end": 956
+      }
+    ]
+  },
+  "disposition": {
+    "status": "other",
+    "destination": "rehab",
+    "condition": null,
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 3043,
+        "end": 3093
+      }
+    ]
+  },
+  "action_items": [
+    {
+      "action": "Rehab transfer as soon as medically cleared",
+      "owner": "treating_team",
+      "priority": "routine",
+      "due": null,
+      "category": "referral",
+      "rationale": "Patient is ready for rehabilitation following orthopedic surgery.",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 3043,
+          "end": 3093
+        }
+      ]
+    }
+  ],
+  "red_flags": [],
+  "patient_summary": null,
+  "quality": {
+    "missing_information": [],
+    "contradictions": [],
+    "low_confidence_fields": []
+  }
+}

@@ -1,0 +1,418 @@
+{
+  "schema_version": "0.1",
+  "record_id": "mtsamples:1308",
+  "patient_id": "88ebc1e8-0a5f-41ef-89d5-4052644b3e9e",
+  "generator": {
+    "kind": "model",
+    "model": "gemma4:e4b",
+    "prompt_version": "v1",
+    "generated_at": "2026-10-25T16:14:55Z"
+  },
+  "one_liner": "48-year-old woman returning for follow-up after a sleep study for daytime fatigue and insomnia; plan involves optimizing sleep hygiene and discussing medication adjustments with psychiatry.",
+  "problems": [
+    {
+      "name": "Daytime fatigue and insomnia",
+      "code": null,
+      "status": "resolved",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 41,
+          "end": 151
+        }
+      ]
+    },
+    {
+      "name": "Sleep disruption",
+      "code": null,
+      "status": "chronic",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 180,
+          "end": 269
+        }
+      ]
+    },
+    {
+      "name": "Hypertension",
+      "code": null,
+      "status": "chronic",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 2084,
+          "end": 2097
+        }
+      ]
+    },
+    {
+      "name": "Depression",
+      "code": null,
+      "status": "chronic",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 2051,
+          "end": 2062
+        }
+      ]
+    }
+  ],
+  "medications": {
+    "started": [],
+    "stopped": [],
+    "changed": [
+      {
+        "name": "trazodone",
+        "dose": null,
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 6302,
+            "end": 6358
+          }
+        ]
+      },
+      {
+        "name": "Seroquel",
+        "dose": null,
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 6359,
+            "end": 6414
+          }
+        ]
+      }
+    ],
+    "continued": [
+      {
+        "name": "Methadone",
+        "dose": null,
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 1979,
+            "end": 2024
+          }
+        ]
+      },
+      {
+        "name": "Paxil",
+        "dose": null,
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 2751,
+            "end": 2782
+          }
+        ]
+      },
+      {
+        "name": "Trazodone",
+        "dose": null,
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 2787,
+            "end": 2820
+          }
+        ]
+      },
+      {
+        "name": "Seroquel",
+        "dose": null,
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 2825,
+            "end": 2857
+          }
+        ]
+      },
+      {
+        "name": "Avalide (irbesartan) and hydrochlorothiazide",
+        "dose": null,
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 2862,
+            "end": 2907
+          }
+        ]
+      },
+      {
+        "name": "Albuterol and Flovent inhalers",
+        "dose": null,
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 2912,
+            "end": 2974
+          }
+        ]
+      },
+      {
+        "name": "Atrovent",
+        "dose": null,
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 2979,
+            "end": 2998
+          }
+        ]
+      }
+    ]
+  },
+  "allergies": [],
+  "key_findings": [
+    {
+      "category": "vital",
+      "name": "Blood pressure",
+      "value": null,
+      "unit": null,
+      "flag": null,
+      "trend": null,
+      "interpretation": "126/84",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 3023,
+          "end": 3044
+        }
+      ]
+    },
+    {
+      "category": "vital",
+      "name": "Weight",
+      "value": null,
+      "unit": null,
+      "flag": null,
+      "trend": null,
+      "interpretation": "232 pounds",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 3077,
+          "end": 3094
+        }
+      ]
+    },
+    {
+      "category": "exam",
+      "name": "Nasal passages",
+      "value": null,
+      "unit": null,
+      "flag": null,
+      "trend": null,
+      "interpretation": "deviation in the nasal septum to the right; slight bloody exudate at the right naris",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 3319,
+          "end": 3386
+        },
+        {
+          "doc_id": "d1",
+          "start": 3388,
+          "end": 3440
+        }
+      ]
+    },
+    {
+      "category": "exam",
+      "name": "Extremities",
+      "value": null,
+      "unit": null,
+      "flag": null,
+      "trend": null,
+      "interpretation": "1+ pretibial edema",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 4209,
+          "end": 4237
+        }
+      ]
+    },
+    {
+      "category": "lab",
+      "name": "Pulmonary function studies",
+      "value": null,
+      "unit": null,
+      "flag": null,
+      "trend": null,
+      "interpretation": "mild restrictive ventilatory defect without obstruction; Diffusing capacity is well preserved",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 4331,
+          "end": 4432
+        },
+        {
+          "doc_id": "d1",
+          "start": 4434,
+          "end": 4471
+        }
+      ]
+    },
+    {
+      "category": "lab",
+      "name": "Overnight sleep study",
+      "value": null,
+      "unit": null,
+      "flag": null,
+      "trend": null,
+      "interpretation": "No significant sleep-disordered breathing during non-REM sleep with less than one episode per hour; Intermittent inspiratory flow limitation compatible with snoring was observed during non-REM sleep.",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 5202,
+          "end": 5317
+        },
+        {
+          "doc_id": "d1",
+          "start": 5397,
+          "end": 5496
+        }
+      ]
+    }
+  ],
+  "procedures": [
+    {
+      "name": "Overnight sleep study",
+      "time": null,
+      "outcome": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 589,
+          "end": 631
+        }
+      ]
+    }
+  ],
+  "course": {
+    "narrative": "The patient returned for follow-up after an overnight sleep study to evaluate for daytime fatigue and insomnia. She reports difficulty initiating and maintaining sleep, and daytime dozing. The sleep study showed no significant sleep-disordered breathing during non-REM sleep, but noted intermittent inspiratory flow limitation compatible with snoring. The assessment suggests her symptoms are multifactorial, involving psychophysiologic insomnia and potential sedation from her medications (trazodone, Seroquel, and methadone). The plan is to provide sleep hygiene tips and for the patient to discuss reducing or discontinuing trazodone and Seroquel with her psychiatrist.",
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 5518,
+        "end": 5609
+      },
+      {
+        "doc_id": "d1",
+        "start": 5644,
+        "end": 5848
+      },
+      {
+        "doc_id": "d1",
+        "start": 5957,
+        "end": 6151
+      },
+      {
+        "doc_id": "d1",
+        "start": 6527,
+        "end": 6628
+      }
+    ]
+  },
+  "disposition": {
+    "status": "discharged",
+    "destination": null,
+    "condition": null,
+    "evidence": []
+  },
+  "action_items": [
+    {
+      "action": "Discuss medication reduction/discontinuation",
+      "owner": "patient",
+      "priority": "routine",
+      "due": null,
+      "category": null,
+      "rationale": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 6468,
+          "end": 6526
+        }
+      ]
+    },
+    {
+      "action": "Implement sleep hygiene measures",
+      "owner": "patient",
+      "priority": "routine",
+      "due": null,
+      "category": null,
+      "rationale": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 6580,
+          "end": 6628
+        }
+      ]
+    }
+  ],
+  "red_flags": [],
+  "patient_summary": null,
+  "quality": {
+    "missing_information": [
+      "The patient's psychiatrist was not seen in the encounter, so follow-up on medication changes is pending."
+    ],
+    "contradictions": [
+      "The patient reports that nocturnal choking episodes that have since abated over the past several months.",
+      "The patient had no apneic episodes."
+    ],
+    "low_confidence_fields": []
+  }
+}

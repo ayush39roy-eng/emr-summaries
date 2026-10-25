@@ -1,0 +1,338 @@
+{
+  "schema_version": "0.1",
+  "record_id": "mtsamples:1429",
+  "patient_id": "3a2cd556-f724-4c85-935b-a65e970c5bdf",
+  "generator": {
+    "kind": "model",
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "v1",
+    "generated_at": "2026-10-25T16:01:04Z"
+  },
+  "one_liner": "A 69-year-old man with stage IV CKD secondary to polycystic kidney disease, hypertension, and anemia returns for followup with improved blood pressure control and stable renal function.",
+  "problems": [
+    {
+      "name": "Chronic kidney disease, stage IV, secondary to polycystic kidney disease",
+      "code": null,
+      "status": "confirmed",
+      "is_new": false,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 2136,
+          "end": 2208
+        }
+      ]
+    },
+    {
+      "name": "Hypertension",
+      "code": null,
+      "status": "confirmed",
+      "is_new": false,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 2282,
+          "end": 2330
+        }
+      ]
+    },
+    {
+      "name": "Metabolic bone disease",
+      "code": null,
+      "status": "confirmed",
+      "is_new": false,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 2336,
+          "end": 2358
+        }
+      ]
+    },
+    {
+      "name": "Anemia",
+      "code": null,
+      "status": "confirmed",
+      "is_new": false,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 2364,
+          "end": 2370
+        }
+      ]
+    }
+  ],
+  "medications": {
+    "started": [],
+    "stopped": [],
+    "changed": [],
+    "continued": [
+      {
+        "name": "Vytorin",
+        "dose": "10/40 mg",
+        "route": null,
+        "frequency": "one a day",
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 1260,
+            "end": 1291
+          }
+        ]
+      },
+      {
+        "name": "Rocaltrol",
+        "dose": "0.25 micrograms",
+        "route": null,
+        "frequency": "a day",
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 1292,
+            "end": 1328
+          }
+        ]
+      },
+      {
+        "name": "Carvedilol",
+        "dose": "12.5 mg",
+        "route": null,
+        "frequency": "twice a day",
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 1329,
+            "end": 1364
+          }
+        ]
+      },
+      {
+        "name": "Cozaar",
+        "dose": "50 mg",
+        "route": null,
+        "frequency": "twice a day",
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 1365,
+            "end": 1394
+          }
+        ]
+      },
+      {
+        "name": "Lasix",
+        "dose": "40 mg",
+        "route": null,
+        "frequency": "a day",
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 1395,
+            "end": 1417
+          }
+        ]
+      }
+    ]
+  },
+  "allergies": [],
+  "key_findings": [
+    {
+      "category": "vital",
+      "name": "Blood Pressure",
+      "value": "140/57",
+      "unit": "mmHg",
+      "flag": "abnormal",
+      "trend": null,
+      "interpretation": "Markedly improved over previous readings",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1463,
+          "end": 1579
+        }
+      ]
+    },
+    {
+      "category": "lab",
+      "name": "Creatinine",
+      "value": "4.5",
+      "unit": null,
+      "flag": "high",
+      "trend": null,
+      "interpretation": "Stable stage IV chronic kidney disease",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1947,
+          "end": 2000
+        }
+      ]
+    },
+    {
+      "category": "lab",
+      "name": "Ionized calcium",
+      "value": "8.5",
+      "unit": null,
+      "flag": null,
+      "trend": null,
+      "interpretation": "Lab value noted in metabolic bone disease workup",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 2002,
+          "end": 2021
+        }
+      ]
+    },
+    {
+      "category": "lab",
+      "name": "Intact PTH",
+      "value": "458",
+      "unit": null,
+      "flag": "high",
+      "trend": null,
+      "interpretation": "Elevated PTH in metabolic bone disease",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 2023,
+          "end": 2037
+        }
+      ]
+    },
+    {
+      "category": "lab",
+      "name": "Hemoglobin",
+      "value": "10.9",
+      "unit": null,
+      "flag": "low",
+      "trend": null,
+      "interpretation": "Stable anemia",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 2043,
+          "end": 2068
+        }
+      ]
+    }
+  ],
+  "procedures": [],
+  "course": {
+    "narrative": "A 69-year-old African American gentleman with stage IV chronic kidney disease secondary to polycystic kidney disease returned for followup. He reported feeling well and denied any shortness of breath, chest pain, swelling, nausea, or vomiting. His blood pressure control significantly improved after prior counseling on medication adherence, and his home blood pressure readings were also better. Physical examination showed a blood pressure of 140/57 and pulse of 58 with no significant edema. Laboratory results showed a stable creatinine of 4.5, ionized calcium of 8.5, intact PTH of 458, and stable hemoglobin of 10.9. No medication changes were made. He was re-instructed on attending dialysis and transplant education classes and needs urology follow-up for elevated PSA. He is scheduled to return in 4 to 6 weeks.",
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 28,
+        "end": 171
+      },
+      {
+        "doc_id": "d1",
+        "start": 1077,
+        "end": 1206
+      },
+      {
+        "doc_id": "d1",
+        "start": 1463,
+        "end": 1579
+      }
+    ]
+  },
+  "disposition": {
+    "status": "discharged",
+    "destination": "home",
+    "condition": "stable",
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 2903,
+        "end": 2945
+      }
+    ]
+  },
+  "action_items": [
+    {
+      "action": "Attend dialysis education and transplant orientation classes",
+      "owner": "patient",
+      "priority": "soon",
+      "due": null,
+      "category": "patient_education",
+      "rationale": "Education regarding end-stage kidney disease and transplant evaluation preparation",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 2458,
+          "end": 2584
+        }
+      ]
+    },
+    {
+      "action": "Get blood work done prior to next visit",
+      "owner": "patient",
+      "priority": "soon",
+      "due": null,
+      "category": "monitoring",
+      "rationale": "Routine monitoring for chronic kidney disease",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 2710,
+          "end": 2772
+        }
+      ]
+    },
+    {
+      "action": "Check PSA and follow up with urology",
+      "owner": "treating_team",
+      "priority": "soon",
+      "due": null,
+      "category": "referral",
+      "rationale": "Elevated PSA history",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 2774,
+          "end": 2841
+        }
+      ]
+    },
+    {
+      "action": "Return for followup visit in 4 to 6 weeks",
+      "owner": "patient",
+      "priority": "routine",
+      "due": "4 to 6 weeks",
+      "category": "follow_up",
+      "rationale": "Routine chronic kidney disease followup",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 2903,
+          "end": 2945
+        }
+      ]
+    }
+  ],
+  "red_flags": [],
+  "patient_summary": null,
+  "quality": {
+    "missing_information": [],
+    "contradictions": [],
+    "low_confidence_fields": []
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "record_id": "mtsamples:3054",
+  "model": "gemma4:e4b",
+  "latency_s": 409.6,
+  "tokens_in": 2592,
+  "tokens_out": 4700,
+  "cached": false,
+  "error": null,
+  "context_mode": "all_chunks",
+  "n_chunks": 9,
+  "grounding": {
+    "claims": 46,
+    "supported_claims": 45,
+    "unsupported": [
+      {
+        "pointer": "/medications/started/0",
+        "claim": "None",
+        "quotes": []
+      }
+    ],
+    "quotes": 58,
+    "quotes_found": 58,
+    "wrong_chunk_id": 1
+  },
+  "schema_errors": []
+}

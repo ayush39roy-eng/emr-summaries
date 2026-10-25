@@ -1,0 +1,38 @@
+{
+  "record_id": "mtsamples:3095",
+  "model": "gemma4:e4b",
+  "latency_s": 147.5,
+  "tokens_in": 1547,
+  "tokens_out": 1746,
+  "cached": false,
+  "error": null,
+  "context_mode": "all_chunks",
+  "n_chunks": 6,
+  "grounding": {
+    "claims": 13,
+    "supported_claims": 10,
+    "unsupported": [
+      {
+        "pointer": "/problems/1",
+        "claim": "Right carpal tunnel syndrome",
+        "quotes": [
+          "ALLOWED CONDITIONS: 354.0 right carpal tunnel syndrome"
+        ]
+      },
+      {
+        "pointer": "/key_findings/0",
+        "claim": "unknown",
+        "quotes": []
+      },
+      {
+        "pointer": "/medications/started/0",
+        "claim": "None",
+        "quotes": []
+      }
+    ],
+    "quotes": 14,
+    "quotes_found": 13,
+    "wrong_chunk_id": 0
+  },
+  "schema_errors": []
+}

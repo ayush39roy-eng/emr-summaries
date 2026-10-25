@@ -1,0 +1,225 @@
+{
+  "schema_version": "0.1",
+  "record_id": "mtsamples:1412",
+  "patient_id": "384ad0d5-1947-4695-88f8-533fb89078d7",
+  "generator": {
+    "kind": "model",
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "v1",
+    "generated_at": "2026-10-25T15:59:46Z"
+  },
+  "one_liner": "A 28-year-old female at <DATE> gestation with gestational diabetes presents for a dietary consultation and insulin adjustment.",
+  "problems": [
+    {
+      "name": "Gestational diabetes",
+      "code": null,
+      "status": "confirmed",
+      "is_new": false,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 55,
+          "end": 105
+        },
+        {
+          "doc_id": "d1",
+          "start": 129,
+          "end": 182
+        }
+      ]
+    },
+    {
+      "name": "Ketones in urine",
+      "code": null,
+      "status": "confirmed",
+      "is_new": true,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1753,
+          "end": 1795
+        }
+      ]
+    }
+  ],
+  "medications": {
+    "started": [],
+    "stopped": [],
+    "changed": [
+      {
+        "name": "NovoLog 70/30",
+        "dose": "24 units",
+        "route": "unknown",
+        "frequency": "morning",
+        "previous": "20 units",
+        "reason": "blood sugar adjustment",
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 3781,
+            "end": 3838
+          }
+        ]
+      },
+      {
+        "name": "NovoLog 70/30",
+        "dose": "16 units",
+        "route": "unknown",
+        "frequency": "evening",
+        "previous": "13 units",
+        "reason": "blood sugar adjustment",
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 3843,
+            "end": 3903
+          }
+        ]
+      }
+    ],
+    "continued": []
+  },
+  "allergies": [],
+  "key_findings": [
+    {
+      "category": "vital",
+      "name": "Weight",
+      "value": "238.3",
+      "unit": "pounds",
+      "flag": null,
+      "trend": null,
+      "interpretation": "Current visit weight is 238.3 pounds.",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 441,
+          "end": 464
+        }
+      ]
+    },
+    {
+      "category": "lab",
+      "name": "Fasting blood sugars",
+      "value": "92 to 104",
+      "unit": null,
+      "flag": null,
+      "trend": null,
+      "interpretation": "Fasting blood sugars ranging from 92 to 104 with an average of 97.",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 782,
+          "end": 847
+        }
+      ]
+    },
+    {
+      "category": "lab",
+      "name": "Two-hour postprandial breakfast readings",
+      "value": "172 to 196",
+      "unit": null,
+      "flag": "high",
+      "trend": null,
+      "interpretation": "Elevated postprandial breakfast readings ranging from 172 to 196.",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 849,
+          "end": 936
+        }
+      ]
+    },
+    {
+      "category": "lab",
+      "name": "Two-hour postprandial lunch readings",
+      "value": "149 to 189",
+      "unit": null,
+      "flag": "high",
+      "trend": null,
+      "interpretation": "Elevated postprandial lunch readings ranging from 149 to 189.",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 938,
+          "end": 1021
+        }
+      ]
+    }
+  ],
+  "procedures": [],
+  "course": {
+    "narrative": "A 28-year-old female pregnant with history of gestational diabetes presented for a dietary consultation. Her prepregnancy weight was 235 pounds and current weight is 238.3 pounds. Blood sugar logs over the past week showed fasting averages of 97 and elevated postprandial breakfast and lunch readings with an overall average of 140. Ketones were recently noted in her urine, prompting the addition of snacks. A 2300-calorie meal plan with a specific carbohydrate budget (representing 45% of calories) was provided and reviewed. Insulin regimen was adjusted, increasing morning NovoLog 70/30 from 20 to 24 units and evening NovoLog 70/30 from 13 to 16 units. She was instructed to call in blood sugars at the end of the week if outside target ranges.",
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 12,
+        "end": 106
+      },
+      {
+        "doc_id": "d1",
+        "start": 441,
+        "end": 464
+      },
+      {
+        "doc_id": "d1",
+        "start": 1281,
+        "end": 1324
+      }
+    ]
+  },
+  "disposition": {
+    "status": "discharged",
+    "destination": null,
+    "condition": null,
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 3906,
+        "end": 4063
+      }
+    ]
+  },
+  "action_items": [
+    {
+      "action": "Call in blood sugars at the end of the week if they are outside of the range of over 90 fasting and over 120 two-hour postprandial",
+      "owner": "patient",
+      "priority": "routine",
+      "due": "end of the week",
+      "category": "monitoring",
+      "rationale": "Blood sugar tracking and review",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 3906,
+          "end": 4063
+        }
+      ]
+    },
+    {
+      "action": "Work with the provided meal plan with a carbohydrate budget representing approximately 45% of the calories from carbohydrate",
+      "owner": "patient",
+      "priority": "routine",
+      "due": null,
+      "category": "patient_education",
+      "rationale": "Gestational diabetes dietary management",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 2897,
+          "end": 3045
+        }
+      ]
+    }
+  ],
+  "red_flags": [],
+  "patient_summary": null,
+  "quality": {
+    "missing_information": [],
+    "contradictions": [],
+    "low_confidence_fields": []
+  }
+}

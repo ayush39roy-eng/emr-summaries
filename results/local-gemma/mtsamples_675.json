@@ -1,0 +1,129 @@
+{
+  "schema_version": "0.1",
+  "record_id": "mtsamples:675",
+  "patient_id": "8fbf7b41-7080-40c7-813d-c745a509bc31",
+  "generator": {
+    "kind": "model",
+    "model": "gemma4:e4b",
+    "prompt_version": "v1",
+    "generated_at": "2026-10-25T16:25:15Z"
+  },
+  "one_liner": "69-year-old male underwent right and left total knee arthroplasty for bilateral degenerative arthritis, tolerating the procedure well.",
+  "problems": [
+    {
+      "name": "Bilateral degenerative arthritis of the knees",
+      "code": null,
+      "status": "resolved",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 811,
+          "end": 930
+        }
+      ]
+    }
+  ],
+  "medications": {
+    "started": [],
+    "stopped": [],
+    "changed": [],
+    "continued": []
+  },
+  "allergies": [],
+  "key_findings": [
+    {
+      "category": "vital",
+      "name": "N/A",
+      "value": null,
+      "unit": null,
+      "flag": null,
+      "trend": null,
+      "interpretation": "unknown",
+      "time": null,
+      "evidence": []
+    },
+    {
+      "category": "imaging",
+      "name": "AP x-ray of the knee",
+      "value": null,
+      "unit": null,
+      "flag": null,
+      "trend": null,
+      "interpretation": "appeared that the tibial cut was in neutral, all components in proper positioning",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 7195,
+          "end": 7305
+        }
+      ]
+    }
+  ],
+  "procedures": [
+    {
+      "name": "Right total knee arthroplasty in conjunction with a left total knee arthroplasty",
+      "time": null,
+      "outcome": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 143,
+          "end": 285
+        }
+      ]
+    }
+  ],
+  "course": {
+    "narrative": "The patient underwent general anesthesia for bilateral total knee arthroplasty due to bilateral degenerative arthritis. The procedure involved extensive preparation and resection of the knee joint surfaces. Components included the Zimmer NexGen complete knee solution system, which include a size F right cruciate retaining femoral component, a size #8 peg tibial component precoat, a All-Poly standard size 38, 9.5 mm thickness patellar component, and a prolonged highly cross-linked polyethylene NexGen cruciate retaining tibial articular surface size blue 12 mm height. The knee was irrigated, and the final components were cemented into place. The wound was closed with #1 Ethibond and #1 Vicryl, followed by skin closure with #2-0 Vicryl and staples. The patient tolerated the procedure well.",
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 328,
+        "end": 381
+      },
+      {
+        "doc_id": "d1",
+        "start": 9344,
+        "end": 9444
+      }
+    ]
+  },
+  "disposition": {
+    "status": "transferred",
+    "destination": null,
+    "condition": null,
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 9811,
+        "end": 9895
+      }
+    ]
+  },
+  "action_items": [
+    {
+      "action": "None stated",
+      "owner": "patient",
+      "priority": "routine",
+      "due": null,
+      "category": null,
+      "rationale": null,
+      "evidence": []
+    }
+  ],
+  "red_flags": [],
+  "patient_summary": null,
+  "quality": {
+    "missing_information": [
+      "The final dictated report for the procedure is pending.",
+      "The ConstaVac was _______ to the drain."
+    ],
+    "contradictions": [],
+    "low_confidence_fields": [
+      "/key_findings/0",
+      "/action_items/0"
+    ]
+  }
+}

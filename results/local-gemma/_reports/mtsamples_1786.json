@@ -1,0 +1,41 @@
+{
+  "record_id": "mtsamples:1786",
+  "model": "gemma4:e4b",
+  "latency_s": 234.82,
+  "tokens_in": 1813,
+  "tokens_out": 2585,
+  "cached": false,
+  "error": null,
+  "context_mode": "all_chunks",
+  "n_chunks": 7,
+  "grounding": {
+    "claims": 20,
+    "supported_claims": 16,
+    "unsupported": [
+      {
+        "pointer": "/key_findings/1",
+        "claim": "None",
+        "quotes": []
+      },
+      {
+        "pointer": "/medications/started/0",
+        "claim": "None",
+        "quotes": []
+      },
+      {
+        "pointer": "/medications/stopped/0",
+        "claim": "None",
+        "quotes": []
+      },
+      {
+        "pointer": "/medications/changed/0",
+        "claim": "None",
+        "quotes": []
+      }
+    ],
+    "quotes": 28,
+    "quotes_found": 28,
+    "wrong_chunk_id": 0
+  },
+  "schema_errors": []
+}

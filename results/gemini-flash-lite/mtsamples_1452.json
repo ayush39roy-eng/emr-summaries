@@ -1,0 +1,358 @@
+{
+  "schema_version": "0.1",
+  "record_id": "mtsamples:1452",
+  "patient_id": "50257e42-c50f-4b40-90a1-c9726d307296",
+  "generator": {
+    "kind": "model",
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "v1",
+    "generated_at": "2026-10-25T16:01:54Z"
+  },
+  "one_liner": "A 45-year-old woman with a history of papillary thyroid carcinoma s/p total thyroidectomy, acquired hypothyroidism, diabetes, and sleep apnea presents for routine endocrine follow-up, with a plan to taper levothyroxine to achieve a target TSH.",
+  "problems": [
+    {
+      "name": "Acquired hypothyroidism",
+      "code": null,
+      "status": "chronic",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 14,
+          "end": 42
+        }
+      ]
+    },
+    {
+      "name": "Papillary carcinoma of the thyroid gland",
+      "code": null,
+      "status": "chronic",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 43,
+          "end": 131
+        }
+      ]
+    },
+    {
+      "name": "Diabetes mellitus",
+      "code": null,
+      "status": "chronic",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 132,
+          "end": 154
+        }
+      ]
+    },
+    {
+      "name": "Insomnia with sleep apnea",
+      "code": null,
+      "status": "chronic",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 155,
+          "end": 185
+        }
+      ]
+    }
+  ],
+  "medications": {
+    "started": [],
+    "stopped": [],
+    "changed": [],
+    "continued": [
+      {
+        "name": "Levothyroxine",
+        "dose": "125 micrograms",
+        "route": "p.o.",
+        "frequency": "once daily",
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 1020,
+            "end": 1069
+          }
+        ]
+      },
+      {
+        "name": "CPAP",
+        "dose": null,
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 1070,
+            "end": 1079
+          }
+        ]
+      },
+      {
+        "name": "Glucotrol",
+        "dose": null,
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 1080,
+            "end": 1094
+          }
+        ]
+      },
+      {
+        "name": "Avandamet",
+        "dose": null,
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 1095,
+            "end": 1109
+          }
+        ]
+      },
+      {
+        "name": "Synthroid",
+        "dose": null,
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 1110,
+            "end": 1124
+          }
+        ]
+      },
+      {
+        "name": "Byetta",
+        "dose": null,
+        "route": "injected",
+        "frequency": "twice daily",
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 1125,
+            "end": 1157
+          }
+        ]
+      }
+    ]
+  },
+  "allergies": [],
+  "key_findings": [
+    {
+      "category": "lab",
+      "name": "Thyroglobulin quantitative",
+      "value": "less than 0.5",
+      "unit": null,
+      "flag": null,
+      "trend": null,
+      "interpretation": "Quantitative thyroglobulin level less than 0.5",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 2360,
+          "end": 2400
+        }
+      ]
+    },
+    {
+      "category": "lab",
+      "name": "Thyroglobulin antibody",
+      "value": "less than 20",
+      "unit": null,
+      "flag": null,
+      "trend": null,
+      "interpretation": "Thyroglobulin antibody less than 20",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 2405,
+          "end": 2440
+        }
+      ]
+    },
+    {
+      "category": "lab",
+      "name": "free T4",
+      "value": "1.35",
+      "unit": null,
+      "flag": null,
+      "trend": null,
+      "interpretation": "Free T4 level is 1.35",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 2442,
+          "end": 2454
+        }
+      ]
+    },
+    {
+      "category": "lab",
+      "name": "TSH",
+      "value": "0.121",
+      "unit": null,
+      "flag": "low",
+      "trend": null,
+      "interpretation": "TSH is suppressed at 0.121",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 2460,
+          "end": 2483
+        }
+      ]
+    },
+    {
+      "category": "vital",
+      "name": "Blood Pressure",
+      "value": "135/65",
+      "unit": null,
+      "flag": null,
+      "trend": null,
+      "interpretation": "Blood pressure 135/65",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1675,
+          "end": 1696
+        }
+      ]
+    },
+    {
+      "category": "vital",
+      "name": "Weight",
+      "value": "85.7",
+      "unit": "kg",
+      "flag": null,
+      "trend": null,
+      "interpretation": "Weight is 85.7 kg",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1702,
+          "end": 1716
+        }
+      ]
+    }
+  ],
+  "procedures": [
+    {
+      "name": "Total thyroidectomy",
+      "time": null,
+      "outcome": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 101,
+          "end": 130
+        }
+      ]
+    }
+  ],
+  "course": {
+    "narrative": "A 45-year-old woman with a history of papillary thyroid carcinoma status post total thyroidectomy, acquired hypothyroidism, diabetes, and sleep apnea returned to the endocrine clinic for follow-up. She reported feeling fatigued throughout the day despite doing well with CPAP. She denied symptoms of thyroid excess or hypothyroidism. Physical examination revealed an overweight woman in no acute distress with a well-healed surgical scar in the neck. Laboratory evaluation showed a suppressed TSH of 0.121 and free T4 of 1.35. The plan, discussed with Dr. X, is to taper her medication to bring her TSH to 0.41 or less, repeat thyroid function studies, and have her return in approximately 6 months or sooner.",
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 214,
+        "end": 305
+      }
+    ]
+  },
+  "disposition": {
+    "status": "discharged",
+    "destination": null,
+    "condition": null,
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 3157,
+        "end": 3225
+      }
+    ]
+  },
+  "action_items": [
+    {
+      "action": "Have the patient call the clinic next week for followup and continued management of her hypothyroid state",
+      "owner": "patient",
+      "priority": "soon",
+      "due": "next week",
+      "category": "follow_up",
+      "rationale": "continued management of her hypothyroid state",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 2783,
+          "end": 2889
+        }
+      ]
+    },
+    {
+      "action": "Taper her medication to get her TSH somewhere between 0.41 or less",
+      "owner": "treating_team",
+      "priority": "routine",
+      "due": null,
+      "category": "medication",
+      "rationale": "to get her TSH somewhere between 0.41 or less",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 3009,
+          "end": 3121
+        }
+      ]
+    },
+    {
+      "action": "See the patient back in approximately 6 months or sooner",
+      "owner": "treating_team",
+      "priority": "routine",
+      "due": "approximately 6 months or sooner",
+      "category": "follow_up",
+      "rationale": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 3157,
+          "end": 3225
+        }
+      ]
+    }
+  ],
+  "red_flags": [],
+  "patient_summary": null,
+  "quality": {
+    "missing_information": [],
+    "contradictions": [],
+    "low_confidence_fields": []
+  }
+}

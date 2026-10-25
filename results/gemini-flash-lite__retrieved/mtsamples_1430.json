@@ -1,0 +1,563 @@
+{
+  "schema_version": "0.1",
+  "record_id": "mtsamples:1430",
+  "patient_id": "b2c6c422-d95f-4a6b-84ea-63900d2c3fe2",
+  "generator": {
+    "kind": "model",
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "v1",
+    "generated_at": "2026-10-25T16:12:07Z"
+  },
+  "one_liner": "A 41-year-old female with a complex history of chronic hip and knee pain, osteoarthritis, and lumbar spondylosis establishes care for ongoing pain management.",
+  "problems": [
+    {
+      "name": "Bursitis",
+      "code": null,
+      "status": "confirmed",
+      "is_new": false,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 611,
+          "end": 644
+        }
+      ]
+    },
+    {
+      "name": "Retroverted hips",
+      "code": null,
+      "status": "confirmed",
+      "is_new": false,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 851,
+          "end": 889
+        }
+      ]
+    },
+    {
+      "name": "Osteoarthritis",
+      "code": null,
+      "status": "confirmed",
+      "is_new": false,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1328,
+          "end": 1394
+        },
+        {
+          "doc_id": "d1",
+          "start": 5056,
+          "end": 5074
+        }
+      ]
+    },
+    {
+      "name": "Osteophytosis of the back",
+      "code": null,
+      "status": "confirmed",
+      "is_new": false,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1328,
+          "end": 1394
+        }
+      ]
+    },
+    {
+      "name": "Grand mal seizure",
+      "code": null,
+      "status": "resolved",
+      "is_new": false,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1808,
+          "end": 1878
+        }
+      ]
+    },
+    {
+      "name": "Pericardial fluid-filled cyst adhered to her ventricle",
+      "code": null,
+      "status": "confirmed",
+      "is_new": false,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1916,
+          "end": 1997
+        }
+      ]
+    },
+    {
+      "name": "Degenerative disc disease",
+      "code": null,
+      "status": "confirmed",
+      "is_new": false,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 2504,
+          "end": 2582
+        }
+      ]
+    },
+    {
+      "name": "Facet arthropathy",
+      "code": null,
+      "status": "confirmed",
+      "is_new": false,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 2504,
+          "end": 2582
+        }
+      ]
+    },
+    {
+      "name": "Sacroiliitis",
+      "code": null,
+      "status": "confirmed",
+      "is_new": false,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 2586,
+          "end": 2631
+        }
+      ]
+    },
+    {
+      "name": "Attention deficit disorder",
+      "code": null,
+      "status": "chronic",
+      "is_new": false,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 3251,
+          "end": 3282
+        },
+        {
+          "doc_id": "d1",
+          "start": 5221,
+          "end": 5291
+        }
+      ]
+    },
+    {
+      "name": "TMJ arthropathy",
+      "code": null,
+      "status": "confirmed",
+      "is_new": false,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 3283,
+          "end": 3303
+        },
+        {
+          "doc_id": "d1",
+          "start": 5136,
+          "end": 5176
+        }
+      ]
+    },
+    {
+      "name": "Migraines",
+      "code": null,
+      "status": "confirmed",
+      "is_new": false,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 3304,
+          "end": 3318
+        },
+        {
+          "doc_id": "d1",
+          "start": 5123,
+          "end": 5135
+        }
+      ]
+    },
+    {
+      "name": "Chronic sacroiliitis",
+      "code": null,
+      "status": "confirmed",
+      "is_new": false,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 5075,
+          "end": 5099
+        }
+      ]
+    },
+    {
+      "name": "Lumbar spondylosis",
+      "code": null,
+      "status": "confirmed",
+      "is_new": false,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 5100,
+          "end": 5122
+        }
+      ]
+    },
+    {
+      "name": "Mood disorder secondary to chronic pain",
+      "code": null,
+      "status": "confirmed",
+      "is_new": true,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 5177,
+          "end": 5220
+        }
+      ]
+    }
+  ],
+  "medications": {
+    "started": [],
+    "stopped": [],
+    "changed": [],
+    "continued": [
+      {
+        "name": "Methadone",
+        "dose": "2.5 mg",
+        "route": "p.o.",
+        "frequency": "t.i.d.",
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 3599,
+            "end": 3631
+          }
+        ]
+      },
+      {
+        "name": "Norco",
+        "dose": "10/325 mg",
+        "route": "p.o.",
+        "frequency": "q.i.d.",
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 3632,
+            "end": 3663
+          }
+        ]
+      },
+      {
+        "name": "Tenormin",
+        "dose": "50 mg",
+        "route": null,
+        "frequency": "q.a.m.",
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 3664,
+            "end": 3689
+          }
+        ]
+      },
+      {
+        "name": "Skelaxin",
+        "dose": "800 mg",
+        "route": null,
+        "frequency": "b.i.d. to t.i.d. p.r.n.",
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 3690,
+            "end": 3733
+          }
+        ]
+      },
+      {
+        "name": "Wellbutrin SR",
+        "dose": "100 mg",
+        "route": null,
+        "frequency": "q.d.",
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 3734,
+            "end": 3763
+          }
+        ]
+      },
+      {
+        "name": "Naprosyn",
+        "dose": "500 mg",
+        "route": null,
+        "frequency": "one to two pills q.d. p.r.n.",
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 3764,
+            "end": 3812
+          }
+        ]
+      }
+    ]
+  },
+  "allergies": [
+    {
+      "substance": "IV morphine",
+      "reaction": "hives",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 3824,
+          "end": 3849
+        }
+      ]
+    },
+    {
+      "substance": "Sulfa",
+      "reaction": "blisters and rash",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 3851,
+          "end": 3882
+        }
+      ]
+    }
+  ],
+  "key_findings": [
+    {
+      "category": "vital",
+      "name": "Blood pressure",
+      "value": "110/72",
+      "unit": null,
+      "flag": "normal",
+      "trend": null,
+      "interpretation": "Normal blood pressure",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 4105,
+          "end": 4146
+        }
+      ]
+    },
+    {
+      "category": "vital",
+      "name": "Pulse",
+      "value": "68",
+      "unit": null,
+      "flag": "normal",
+      "trend": null,
+      "interpretation": "Normal pulse",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 4105,
+          "end": 4146
+        }
+      ]
+    },
+    {
+      "category": "exam",
+      "name": "General appearance",
+      "value": null,
+      "unit": null,
+      "flag": "normal",
+      "trend": null,
+      "interpretation": "Well-developed, well-nourished female in no acute distress",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 3905,
+          "end": 3971
+        }
+      ]
+    },
+    {
+      "category": "exam",
+      "name": "Neurologic examination",
+      "value": null,
+      "unit": null,
+      "flag": "normal",
+      "trend": null,
+      "interpretation": "Neurologically intact with normal reflexes and negative Romberg",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 4948,
+          "end": 5043
+        }
+      ]
+    }
+  ],
+  "procedures": [
+    {
+      "name": "Cystectomies",
+      "time": null,
+      "outcome": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 3381,
+          "end": 3398
+        }
+      ]
+    },
+    {
+      "name": "Sinuses surgery",
+      "time": null,
+      "outcome": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 3399,
+          "end": 3411
+        }
+      ]
+    },
+    {
+      "name": "Left ganglia of the head and subdermal removals",
+      "time": null,
+      "outcome": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 3412,
+          "end": 3478
+        }
+      ]
+    },
+    {
+      "name": "TMJ and bruxism procedure",
+      "time": null,
+      "outcome": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 3479,
+          "end": 3499
+        }
+      ]
+    }
+  ],
+  "course": {
+    "narrative": "A 41-year-old female with a long history of chronic hip and knee pain, osteoarthritis, and lumbar spondylosis presented to establish pain management care at the office. She has a history of bilateral hip and knee pain beginning in her youth, retroverted hips, degenerative disc disease, facet arthropathy, and sacroiliitis. She was previously managed by various clinics and providers, but recently had her care discontinued elsewhere due to missing an unscheduled random urine screen request. Past medical history also includes a grand mal seizure linked to past Paxil and Tramadol use, and imaging revealed a pericardial cyst. Currently, she is taking methadone, Norco, Tenormin, Skelaxin, Wellbutrin SR, and Naprosyn. On exam, she was in no acute distress with normal vitals and intact neurology. She was assessed with osteoarthritis, chronic sacroiliitis, lumbar spondylosis, migraine, TMJ arthropathy, mood disorder, and ADD. The plan includes a rheumatology referral review, bone density scan, and thyroid/parathyroid studies.",
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 58,
+        "end": 144
+      },
+      {
+        "doc_id": "d1",
+        "start": 5044,
+        "end": 5121
+      }
+    ]
+  },
+  "disposition": {
+    "status": "other",
+    "destination": null,
+    "condition": "stable",
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 3905,
+        "end": 3992
+      }
+    ]
+  },
+  "action_items": [
+    {
+      "action": "Pursue a bone density scan",
+      "owner": "treating_team",
+      "priority": "routine",
+      "due": null,
+      "category": "referral",
+      "rationale": "Recommended evaluation",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 5358,
+          "end": 5436
+        }
+      ]
+    },
+    {
+      "action": "Obtain thyroid and parathyroid studies",
+      "owner": "treating_team",
+      "priority": "routine",
+      "due": null,
+      "category": "pending_result",
+      "rationale": "Recommended evaluation",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 5437,
+          "end": 5480
+        }
+      ]
+    },
+    {
+      "action": "Decrease Naprosyn usage",
+      "owner": "patient",
+      "priority": "routine",
+      "due": null,
+      "category": "medication",
+      "rationale": "Given the patient's previous sulfa allergies",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 5484,
+          "end": 5579
+        }
+      ]
+    }
+  ],
+  "red_flags": [
+    {
+      "message": "Advised not to undergo any corrective or reparative surgery as well as to limit her activities due to pericardial fluid-filled cyst adhered to her ventricle.",
+      "severity": "high",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 2000,
+          "end": 2114
+        }
+      ]
+    }
+  ],
+  "patient_summary": null,
+  "quality": {
+    "missing_information": [],
+    "contradictions": [],
+    "low_confidence_fields": []
+  }
+}

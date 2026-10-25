@@ -1,0 +1,290 @@
+{
+  "schema_version": "0.1",
+  "record_id": "mtsamples:3093",
+  "patient_id": "e4ade88f-3b6f-4173-8d99-c640a7b40638",
+  "generator": {
+    "kind": "model",
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "v1",
+    "generated_at": "2026-10-25T16:14:08Z"
+  },
+  "one_liner": "A 34-year-old male with history of hypertension, hyperlipidemia, and diabetes presents for evaluation of left knee conditions including ACL tear and medial meniscus tear following a workplace injury.",
+  "problems": [
+    {
+      "name": "left knee tear of the medial meniscus",
+      "code": null,
+      "status": "suspected",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 5779,
+          "end": 5839
+        }
+      ]
+    },
+    {
+      "name": "left knee ACL tear",
+      "code": null,
+      "status": "suspected",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 5779,
+          "end": 5839
+        }
+      ]
+    },
+    {
+      "name": "hypertension",
+      "code": null,
+      "status": "confirmed",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 5306,
+          "end": 5391
+        }
+      ]
+    },
+    {
+      "name": "hyperlipidemia",
+      "code": null,
+      "status": "confirmed",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 5306,
+          "end": 5391
+        }
+      ]
+    },
+    {
+      "name": "diabetes",
+      "code": null,
+      "status": "confirmed",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 5306,
+          "end": 5391
+        }
+      ]
+    }
+  ],
+  "medications": {
+    "started": [],
+    "stopped": [],
+    "changed": [],
+    "continued": [
+      {
+        "name": "Glucophage",
+        "dose": null,
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 2127,
+            "end": 2202
+          }
+        ]
+      },
+      {
+        "name": "Lipitor",
+        "dose": null,
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 2127,
+            "end": 2202
+          }
+        ]
+      },
+      {
+        "name": "Actos",
+        "dose": null,
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 2127,
+            "end": 2202
+          }
+        ]
+      },
+      {
+        "name": "Benicar",
+        "dose": null,
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 2127,
+            "end": 2202
+          }
+        ]
+      },
+      {
+        "name": "glimepiride",
+        "dose": null,
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 2127,
+            "end": 2202
+          }
+        ]
+      },
+      {
+        "name": "Januvia",
+        "dose": null,
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 2127,
+            "end": 2202
+          }
+        ]
+      }
+    ]
+  },
+  "allergies": [],
+  "key_findings": [
+    {
+      "category": "exam",
+      "name": "left knee range of motion",
+      "value": "50 to 70",
+      "unit": "degrees",
+      "flag": "abnormal",
+      "trend": null,
+      "interpretation": "Range of motion of left knee reveals 50 to 70 degrees of flexion.",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 2817,
+          "end": 2886
+        }
+      ]
+    },
+    {
+      "category": "imaging",
+      "name": "MRI left knee",
+      "value": null,
+      "unit": null,
+      "flag": "abnormal",
+      "trend": null,
+      "interpretation": "Demonstrated complete tear of mid to distal ACL and small peripheral longitudinal tear of posterior horn of medial meniscus.",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 3841,
+          "end": 3955
+        },
+        {
+          "doc_id": "d1",
+          "start": 4129,
+          "end": 4229
+        }
+      ]
+    }
+  ],
+  "procedures": [
+    {
+      "name": "arthroscopic surgery of the left knee",
+      "time": null,
+      "outcome": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 2221,
+          "end": 2302
+        }
+      ]
+    },
+    {
+      "name": "arthroscopic surgery of the right knee",
+      "time": null,
+      "outcome": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 2221,
+          "end": 2302
+        }
+      ]
+    },
+    {
+      "name": "meniscectomy and the anterior cruciate ligament reconstruction",
+      "time": null,
+      "outcome": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 3465,
+          "end": 3545
+        }
+      ]
+    }
+  ],
+  "course": {
+    "narrative": "A 34-year-old male presented for evaluation of left knee conditions after filing an application for additional allowance of left knee medial meniscus tear and ACL tear. He had a history of injury while walking down stairs when his left knee locked up. Physical examination showed a healed scar, limited range of motion of 50 to 70 degrees flexion, medial and lateral joint line discomfort, and quadriceps and hamstring weakness. Review of prior imaging including an MRI demonstrated a complete tear of the mid to distal ACL, a small peripheral longitudinal tear of the posterior horn of the medial meniscus, and previous arthroscopic findings.",
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 2492,
+        "end": 2582
+      },
+      {
+        "doc_id": "d1",
+        "start": 4635,
+        "end": 4729
+      },
+      {
+        "doc_id": "d1",
+        "start": 5713,
+        "end": 5840
+      }
+    ]
+  },
+  "disposition": {
+    "status": "unknown",
+    "destination": null,
+    "condition": null,
+    "evidence": []
+  },
+  "action_items": [],
+  "red_flags": [],
+  "patient_summary": null,
+  "quality": {
+    "missing_information": [],
+    "contradictions": [],
+    "low_confidence_fields": []
+  }
+}

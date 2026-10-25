@@ -1,0 +1,51 @@
+{
+  "record_id": "mtsamples:2637",
+  "model": "gemma4:e4b",
+  "latency_s": 203.81,
+  "tokens_in": 995,
+  "tokens_out": 1881,
+  "cached": false,
+  "error": null,
+  "context_mode": "all_chunks",
+  "n_chunks": 4,
+  "grounding": {
+    "claims": 13,
+    "supported_claims": 9,
+    "unsupported": [
+      {
+        "pointer": "/problems/1",
+        "claim": "Severe anemia",
+        "quotes": [
+          "ADMISSION DIAGNOSES: 2. Severe anemia.",
+          "DISCHARGE DIAGNOSES: 2. Severe anemia."
+        ]
+      },
+      {
+        "pointer": "/problems/2",
+        "claim": "Fibroid uterus",
+        "quotes": [
+          "ADMISSION DIAGNOSES: 3. Fibroid uterus.",
+          "DISCHARGE DIAGNOSES: 3. Fibroid uterus."
+        ]
+      },
+      {
+        "pointer": "/procedures/1",
+        "claim": "Dilatation and curettage (D&C)",
+        "quotes": [
+          "OPERATIONS PERFORMED: 2. Dilatation and curettage (D&C)."
+        ]
+      },
+      {
+        "pointer": "/procedures/2",
+        "claim": "Myomectomy",
+        "quotes": [
+          "OPERATIONS PERFORMED: 3. Myomectomy."
+        ]
+      }
+    ],
+    "quotes": 23,
+    "quotes_found": 17,
+    "wrong_chunk_id": 0
+  },
+  "schema_errors": []
+}

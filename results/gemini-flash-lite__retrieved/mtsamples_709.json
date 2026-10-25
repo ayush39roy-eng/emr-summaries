@@ -1,0 +1,193 @@
+{
+  "schema_version": "0.1",
+  "record_id": "mtsamples:709",
+  "patient_id": "474c8368-b2ad-4026-89ea-5299b0bb3abe",
+  "generator": {
+    "kind": "model",
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "v1",
+    "generated_at": "2026-10-25T16:12:38Z"
+  },
+  "one_liner": "A 7-year-old male with a retained wooden foreign body in the right foot following a bike accident underwent successful incision, drainage, and foreign body removal.",
+  "problems": [
+    {
+      "name": "Foreign body, right foot",
+      "code": null,
+      "status": "confirmed",
+      "is_new": false,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 50,
+          "end": 100
+        }
+      ]
+    },
+    {
+      "name": "Purulent drainage from right foot",
+      "code": null,
+      "status": "confirmed",
+      "is_new": false,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 413,
+          "end": 451
+        }
+      ]
+    }
+  ],
+  "medications": {
+    "started": [
+      {
+        "name": "Tylenol, Elixir with codeine",
+        "dose": null,
+        "route": null,
+        "frequency": "as needed",
+        "previous": null,
+        "reason": "postoperative pain",
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 2644,
+            "end": 2726
+          }
+        ]
+      }
+    ],
+    "stopped": [],
+    "changed": [],
+    "continued": []
+  },
+  "allergies": [],
+  "key_findings": [
+    {
+      "category": "exam",
+      "name": "periwound erythema",
+      "value": null,
+      "unit": null,
+      "flag": "abnormal",
+      "trend": null,
+      "interpretation": "remaining periwound erythema noted on exam",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1018,
+          "end": 1074
+        }
+      ]
+    },
+    {
+      "category": "exam",
+      "name": "mild crepitation",
+      "value": "2 cm proximal",
+      "unit": "cm",
+      "flag": "abnormal",
+      "trend": null,
+      "interpretation": "mild crepitation about 2 cm proximal from the entry wound",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1076,
+          "end": 1161
+        }
+      ]
+    },
+    {
+      "category": "exam",
+      "name": "wound probing to bone",
+      "value": null,
+      "unit": null,
+      "flag": "abnormal",
+      "trend": null,
+      "interpretation": "area along third metatarsal head that did probe to the bone",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1804,
+          "end": 1884
+        }
+      ]
+    }
+  ],
+  "procedures": [
+    {
+      "name": "Incision and drainage, right foot",
+      "time": null,
+      "outcome": "tolerated well without complications",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 122,
+          "end": 160
+        }
+      ]
+    },
+    {
+      "name": "Removal of foreign body, right foot",
+      "time": null,
+      "outcome": "large wooden foreign body and small pieces removed",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 161,
+          "end": 201
+        }
+      ]
+    }
+  ],
+  "course": {
+    "narrative": "A 7-year-old male inpatient with a history of falling off his bike and a retained wooden root foreign body in his right foot, complicated by ongoing purulent drainage despite previous I&D, was brought to the operating room under general anesthesia. Examination revealed periwound erythema, mild crepitation, and an entry wound over the third metatarsal head. The wound was extended, and a large wooden foreign body along with several small pieces were successfully removed. The wound probed to the bone distally, but no purulent drainage was expressed. The area was thoroughly flushed, pulse lavaged with 3 liters of plain sterile saline, and wound cultures (aerobic and aerobic) were obtained. The wound was packed with sterile new gauze and dressed. The patient tolerated the procedure well, was transported to the PACU with stable vitals, and was returned to pediatrics for ongoing podiatry care.",
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 211,
+        "end": 321
+      },
+      {
+        "doc_id": "d1",
+        "start": 2332,
+        "end": 2416
+      }
+    ]
+  },
+  "disposition": {
+    "status": "admitted",
+    "destination": "pediatrics",
+    "condition": "vital signs stable and vascular status intact",
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 2511,
+        "end": 2624
+      }
+    ]
+  },
+  "action_items": [
+    {
+      "action": "Perform daily dressing changes",
+      "owner": "specialist",
+      "priority": "routine",
+      "due": "daily",
+      "category": "monitoring",
+      "rationale": "Postoperative wound care",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 2571,
+          "end": 2624
+        }
+      ]
+    }
+  ],
+  "red_flags": [],
+  "patient_summary": null,
+  "quality": {
+    "missing_information": [],
+    "contradictions": [],
+    "low_confidence_fields": []
+  }
+}

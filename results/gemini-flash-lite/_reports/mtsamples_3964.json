@@ -1,0 +1,20 @@
+{
+  "record_id": "mtsamples:3964",
+  "model": "gemini-3.5-flash-lite",
+  "latency_s": 5.31,
+  "tokens_in": 911,
+  "tokens_out": 1749,
+  "cached": false,
+  "error": null,
+  "context_mode": "all_chunks",
+  "n_chunks": 2,
+  "grounding": {
+    "claims": 17,
+    "supported_claims": 17,
+    "unsupported": [],
+    "quotes": 17,
+    "quotes_found": 17,
+    "wrong_chunk_id": 0
+  },
+  "schema_errors": []
+}

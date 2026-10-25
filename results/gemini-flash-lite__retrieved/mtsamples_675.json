@@ -1,0 +1,96 @@
+{
+  "schema_version": "0.1",
+  "record_id": "mtsamples:675",
+  "patient_id": "8fbf7b41-7080-40c7-813d-c745a509bc31",
+  "generator": {
+    "kind": "model",
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "v1",
+    "generated_at": "2026-10-25T16:11:06Z"
+  },
+  "one_liner": "A 69-year-old male with bilateral knee pain underwent successful right total knee arthroplasty (with concurrent left total knee arthroplasty) and was transferred to PACU.",
+  "problems": [
+    {
+      "name": "Bilateral degenerative arthritis of the knees",
+      "code": null,
+      "status": "confirmed",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 24,
+          "end": 70
+        }
+      ]
+    }
+  ],
+  "medications": {
+    "started": [],
+    "stopped": [],
+    "changed": [],
+    "continued": []
+  },
+  "allergies": [],
+  "key_findings": [],
+  "procedures": [
+    {
+      "name": "Right total knee arthroplasty",
+      "time": null,
+      "outcome": "tolerated the procedure well and there were no complications",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 164,
+          "end": 249
+        },
+        {
+          "doc_id": "d1",
+          "start": 9897,
+          "end": 9970
+        }
+      ]
+    }
+  ],
+  "course": {
+    "narrative": "A 69-year-old male with bilateral knee pain and degenerative arthritis presented for surgery. He underwent a right total knee arthroplasty under general anesthesia, performed in conjunction with a left total knee arthroplasty. Zimmer NexGen components were utilized. Estimated blood loss for the bilateral procedure was 400 cc with a total tourniquet time of 75 minutes. The procedure was completed without complications. The wound was closed with sutures and staples, a drain with ConstaVac was placed, and sterile dressings were applied. The patient tolerated the procedure well and was transferred to the Postanesthesia Care Unit.",
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 328,
+        "end": 381
+      },
+      {
+        "doc_id": "d1",
+        "start": 811,
+        "end": 907
+      },
+      {
+        "doc_id": "d1",
+        "start": 9897,
+        "end": 9970
+      }
+    ]
+  },
+  "disposition": {
+    "status": "transferred",
+    "destination": "Postanesthesia Care Unit",
+    "condition": "tolerated the procedure well",
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 9811,
+        "end": 9937
+      }
+    ]
+  },
+  "action_items": [],
+  "red_flags": [],
+  "patient_summary": null,
+  "quality": {
+    "missing_information": [
+      "Postoperative care plan and follow-up instructions are not detailed in the provided text."
+    ],
+    "contradictions": [],
+    "low_confidence_fields": []
+  }
+}

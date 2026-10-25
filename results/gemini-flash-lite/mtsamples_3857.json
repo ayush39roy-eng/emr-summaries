@@ -1,0 +1,307 @@
+{
+  "schema_version": "0.1",
+  "record_id": "mtsamples:3857",
+  "patient_id": "2c0700ec-2824-41db-8720-7e3e8a3e634f",
+  "generator": {
+    "kind": "model",
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "v1",
+    "generated_at": "2026-10-25T15:59:02Z"
+  },
+  "one_liner": "A 45-year-old female with a history of CAD, hypertension, and hypothyroidism presents with severe left lower jaw dental pain and a fractured tooth with a likely dental abscess, treated in the ED with an inferior alveolar nerve block, Vicodin, and Keflex, and discharged with follow-up instructions.",
+  "problems": [
+    {
+      "name": "Dental pain",
+      "code": null,
+      "status": "confirmed",
+      "is_new": true,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 0,
+          "end": 29
+        }
+      ]
+    },
+    {
+      "name": "Dental abscess",
+      "code": null,
+      "status": "suspected",
+      "is_new": true,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 2873,
+          "end": 2912
+        }
+      ]
+    },
+    {
+      "name": "Coronary artery disease",
+      "code": null,
+      "status": "chronic",
+      "is_new": false,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 959,
+          "end": 987
+        }
+      ]
+    },
+    {
+      "name": "Hypertension",
+      "code": null,
+      "status": "chronic",
+      "is_new": false,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 988,
+          "end": 1005
+        }
+      ]
+    },
+    {
+      "name": "Hypothyroidism",
+      "code": null,
+      "status": "chronic",
+      "is_new": false,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1006,
+          "end": 1025
+        }
+      ]
+    }
+  ],
+  "medications": {
+    "started": [
+      {
+        "name": "Vicodin",
+        "dose": null,
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": "dental pain",
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 2756,
+            "end": 2800
+          }
+        ]
+      },
+      {
+        "name": "Keflex",
+        "dose": null,
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": "treatment of her dental infection",
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 2805,
+            "end": 2860
+          }
+        ]
+      }
+    ],
+    "stopped": [],
+    "changed": [],
+    "continued": [
+      {
+        "name": "Plavix",
+        "dose": null,
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 1213,
+            "end": 1224
+          }
+        ]
+      },
+      {
+        "name": "Metoprolol",
+        "dose": null,
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 1225,
+            "end": 1240
+          }
+        ]
+      },
+      {
+        "name": "Synthroid",
+        "dose": null,
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 1241,
+            "end": 1255
+          }
+        ]
+      },
+      {
+        "name": "Potassium chloride",
+        "dose": null,
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 1256,
+            "end": 1279
+          }
+        ]
+      }
+    ]
+  },
+  "allergies": [
+    {
+      "substance": "Penicillin",
+      "reaction": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1291,
+          "end": 1306
+        }
+      ]
+    },
+    {
+      "substance": "Sulfa",
+      "reaction": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1307,
+          "end": 1317
+        }
+      ]
+    }
+  ],
+  "key_findings": [
+    {
+      "category": "vital",
+      "name": "blood pressure",
+      "value": "145/91",
+      "unit": "mmHg",
+      "flag": "high",
+      "trend": null,
+      "interpretation": "Elevated blood pressure",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1564,
+          "end": 1585
+        }
+      ]
+    },
+    {
+      "category": "exam",
+      "name": "Dentition",
+      "value": null,
+      "unit": null,
+      "flag": "abnormal",
+      "trend": null,
+      "interpretation": "Significant decay throughout dentition, tooth #20 has a small fracture and minor area of fluctuance and induration",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1986,
+          "end": 2312
+        }
+      ]
+    }
+  ],
+  "procedures": [
+    {
+      "name": "inferior alveolar nerve block",
+      "time": null,
+      "outcome": "patient does report some mild decrease of her pain",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 2505,
+          "end": 2607
+        }
+      ]
+    }
+  ],
+  "course": {
+    "narrative": "A 45-year-old female presented with severe (9/10) left lower jaw pain starting overnight, associated with a fractured tooth and likely dental abscess. Her past medical history includes CAD, hypertension, and hypothyroidism. Physical examination revealed significant dental decay and a small fracture on tooth #20 with a minor area of fluctuance and induration. In the ED, she received an inferior alveolar nerve block with 1.5 mL of 0.5% bupivacaine, which provided mild pain relief. She was also administered two Vicodin and a dose of Keflex, which she tolerated well without hypersensitivity. She was prescribed Vicodin and Keflex, instructed to follow up with the Dental Clinic on Monday, and discharged in satisfactory condition.",
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 58,
+        "end": 189
+      },
+      {
+        "doc_id": "d1",
+        "start": 2477,
+        "end": 2608
+      },
+      {
+        "doc_id": "d1",
+        "start": 3147,
+        "end": 3374
+      }
+    ]
+  },
+  "disposition": {
+    "status": "discharged",
+    "destination": null,
+    "condition": "satisfactory condition",
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 3325,
+        "end": 3374
+      }
+    ]
+  },
+  "action_items": [
+    {
+      "action": "Follow up with Dental Clinic on Monday",
+      "owner": "patient",
+      "priority": "soon",
+      "due": "Monday",
+      "category": "follow_up",
+      "rationale": "Evaluation and management of dental pain and likely dental abscess",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 3147,
+          "end": 3260
+        }
+      ]
+    }
+  ],
+  "red_flags": [],
+  "patient_summary": null,
+  "quality": {
+    "missing_information": [],
+    "contradictions": [],
+    "low_confidence_fields": []
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "schema_version": "0.1",
+  "record_id": "mtsamples:546",
+  "patient_id": "584db6d1-4872-4e62-a5bf-63e3bb1c94ce",
+  "generator": {
+    "kind": "model",
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "v1",
+    "generated_at": "2026-10-25T16:12:57Z"
+  },
+  "one_liner": "A patient with a right lung mass invading the diaphragm and liver underwent a right thoracotomy, right lower lobectomy, and en bloc resection of the diaphragm and liver portion, and was transferred to the recovery room in stable condition.",
+  "problems": [
+    {
+      "name": "Right mesothelioma",
+      "code": null,
+      "status": "suspected",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 0,
+          "end": 43
+        }
+      ]
+    },
+    {
+      "name": "Right lung mass invading diaphragm and liver",
+      "code": null,
+      "status": "confirmed",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 44,
+          "end": 114
+        }
+      ]
+    }
+  ],
+  "medications": {
+    "started": [],
+    "stopped": [],
+    "changed": [],
+    "continued": []
+  },
+  "allergies": [],
+  "key_findings": [
+    {
+      "category": "exam",
+      "name": "Right lower lobe lung mass invading diaphragm and liver",
+      "value": null,
+      "unit": null,
+      "flag": null,
+      "trend": null,
+      "interpretation": "Mass involving diaphragm and dome of liver found intraoperatively",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 125,
+          "end": 181
+        }
+      ]
+    }
+  ],
+  "procedures": [
+    {
+      "name": "Right thoracotomy",
+      "time": null,
+      "outcome": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 194,
+          "end": 216
+        }
+      ]
+    },
+    {
+      "name": "Right lower lobectomy with en bloc resection of diaphragm and portion of liver",
+      "time": null,
+      "outcome": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 221,
+          "end": 300
+        }
+      ]
+    }
+  ],
+  "course": {
+    "narrative": "The patient underwent a right thoracotomy and right lower lobectomy with en bloc resection of the diaphragm and a portion of the liver for a lung mass invading the diaphragm and liver. Intraoperatively, the inferior pulmonary vein was ligated, the right lower lobe bronchus was divided with a stapler, and the involved diaphragm and dome of the liver were resected using Bovie cautery. Hemostasis was achieved. A 10-flat JP drain was placed in the abdomen, a single 32 straight chest tube was placed, and the chest was closed. The patient was extubated and transferred to the recovery room in stable condition.",
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 5478,
+        "end": 5591
+      }
+    ]
+  },
+  "disposition": {
+    "status": "admitted",
+    "destination": "recovery room",
+    "condition": "stable condition",
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 5542,
+        "end": 5591
+      }
+    ]
+  },
+  "action_items": [],
+  "red_flags": [],
+  "patient_summary": null,
+  "quality": {
+    "missing_information": [],
+    "contradictions": [],
+    "low_confidence_fields": []
+  }
+}

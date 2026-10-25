@@ -1,0 +1,635 @@
+{
+  "schema_version": "0.1",
+  "record_id": "mtsamples:3054",
+  "patient_id": "2ce4dcf0-fab4-4a0a-9062-cc077aa7b1c9",
+  "generator": {
+    "kind": "model",
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "v1",
+    "generated_at": "2026-10-25T15:55:40Z"
+  },
+  "one_liner": "68-year-old Korean man with CAD, heart failure, diabetes, and stage III CKD presented with acute on chronic renal failure, orthostatic hypotension, and elevated CK, likely secondary to supplements, antihypertensives, and statin/fibrate therapy.",
+  "problems": [
+    {
+      "name": "Acute on chronic kidney failure",
+      "code": null,
+      "status": "confirmed",
+      "is_new": true,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 542,
+          "end": 587
+        }
+      ]
+    },
+    {
+      "name": "Orthostatic hypotension",
+      "code": null,
+      "status": "confirmed",
+      "is_new": true,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 6174,
+          "end": 6285
+        }
+      ]
+    },
+    {
+      "name": "Elevated creatine kinase consistent with myositis",
+      "code": null,
+      "status": "confirmed",
+      "is_new": true,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 6330,
+          "end": 6380
+        }
+      ]
+    },
+    {
+      "name": "Coronary artery disease",
+      "code": null,
+      "status": "chronic",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 121,
+          "end": 155
+        }
+      ]
+    },
+    {
+      "name": "Hypertension",
+      "code": null,
+      "status": "chronic",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 121,
+          "end": 179
+        }
+      ]
+    },
+    {
+      "name": "Diabetes",
+      "code": null,
+      "status": "chronic",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 121,
+          "end": 179
+        }
+      ]
+    },
+    {
+      "name": "Stage III CKD",
+      "code": null,
+      "status": "chronic",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 184,
+          "end": 222
+        }
+      ]
+    },
+    {
+      "name": "Prostatic hypertrophy",
+      "code": null,
+      "status": "confirmed",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 906,
+          "end": 969
+        }
+      ]
+    }
+  ],
+  "medications": {
+    "started": [],
+    "stopped": [
+      {
+        "name": "Crestor",
+        "dose": "5 mg",
+        "route": null,
+        "frequency": "daily",
+        "previous": null,
+        "reason": "Elevated creatine kinase consistent with myositis",
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 6829,
+            "end": 6846
+          }
+        ]
+      }
+    ],
+    "changed": [
+      {
+        "name": "atenolol",
+        "dose": "25 mg",
+        "route": null,
+        "frequency": "daily",
+        "previous": "50 mg daily",
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 6717,
+            "end": 6754
+          }
+        ]
+      },
+      {
+        "name": "enalapril",
+        "dose": "10 mg",
+        "route": null,
+        "frequency": "daily",
+        "previous": "10 mg b.i.d.",
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 6755,
+            "end": 6793
+          }
+        ]
+      },
+      {
+        "name": "Lasix",
+        "dose": "20 mg",
+        "route": null,
+        "frequency": "daily",
+        "previous": "60 mg daily",
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 6794,
+            "end": 6828
+          }
+        ]
+      }
+    ],
+    "continued": [
+      {
+        "name": "Imdur",
+        "dose": "20 mg",
+        "route": null,
+        "frequency": "two to three times daily",
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 1525,
+            "end": 1561
+          }
+        ]
+      },
+      {
+        "name": "nitroglycerin",
+        "dose": null,
+        "route": null,
+        "frequency": "p.r.n.",
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 1563,
+            "end": 1583
+          }
+        ]
+      },
+      {
+        "name": "insulin 70/30",
+        "dose": "40/45 units",
+        "route": null,
+        "frequency": "daily",
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 1585,
+            "end": 1616
+          }
+        ]
+      },
+      {
+        "name": "Zetia",
+        "dose": "10 mg",
+        "route": null,
+        "frequency": "daily",
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 1618,
+            "end": 1635
+          }
+        ]
+      },
+      {
+        "name": "Triglide",
+        "dose": "50 mg",
+        "route": null,
+        "frequency": "daily",
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 1637,
+            "end": 1659
+          }
+        ]
+      },
+      {
+        "name": "Prevacid",
+        "dose": "30 mg",
+        "route": null,
+        "frequency": "daily",
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 1661,
+            "end": 1681
+          }
+        ]
+      },
+      {
+        "name": "Plavix",
+        "dose": "75 mg",
+        "route": null,
+        "frequency": "daily",
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 1683,
+            "end": 1701
+          }
+        ]
+      },
+      {
+        "name": "potassium",
+        "dose": "10 mEq",
+        "route": null,
+        "frequency": "daily",
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 1703,
+            "end": 1725
+          }
+        ]
+      },
+      {
+        "name": "folate",
+        "dose": "1 mg",
+        "route": null,
+        "frequency": "b.i.d.",
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 1746,
+            "end": 1764
+          }
+        ]
+      },
+      {
+        "name": "Niaspan",
+        "dose": "500 mg",
+        "route": null,
+        "frequency": "daily",
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 1766,
+            "end": 1786
+          }
+        ]
+      },
+      {
+        "name": "glyburide",
+        "dose": "10 mg",
+        "route": null,
+        "frequency": "b.i.d.",
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 1834,
+            "end": 1856
+          }
+        ]
+      },
+      {
+        "name": "Xanax",
+        "dose": "0.25 mg",
+        "route": null,
+        "frequency": "b.i.d.",
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 1858,
+            "end": 1878
+          }
+        ]
+      },
+      {
+        "name": "aspirin",
+        "dose": "325 mg",
+        "route": null,
+        "frequency": "daily",
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 1880,
+            "end": 1900
+          }
+        ]
+      },
+      {
+        "name": "Tylenol",
+        "dose": null,
+        "route": null,
+        "frequency": "p.r.n.",
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 1902,
+            "end": 1916
+          }
+        ]
+      },
+      {
+        "name": "Zantac",
+        "dose": "150 mg",
+        "route": null,
+        "frequency": "b.i.d.",
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 1918,
+            "end": 1938
+          }
+        ]
+      },
+      {
+        "name": "TriCor",
+        "dose": "145 mg",
+        "route": null,
+        "frequency": "daily",
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 1960,
+            "end": 1979
+          }
+        ]
+      },
+      {
+        "name": "Digitek",
+        "dose": "0.125 mg",
+        "route": null,
+        "frequency": "daily",
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 1981,
+            "end": 2003
+          }
+        ]
+      },
+      {
+        "name": "Celexa",
+        "dose": "20 mg",
+        "route": null,
+        "frequency": "daily",
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 2005,
+            "end": 2023
+          }
+        ]
+      },
+      {
+        "name": "Flomax",
+        "dose": "0.4 mg",
+        "route": null,
+        "frequency": "daily",
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 2029,
+            "end": 2048
+          }
+        ]
+      }
+    ]
+  },
+  "allergies": [],
+  "key_findings": [
+    {
+      "category": "lab",
+      "name": "creatinine",
+      "value": "2.3",
+      "unit": null,
+      "flag": "high",
+      "trend": null,
+      "interpretation": "Elevation in creatinine indicating acute on chronic kidney failure",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 358,
+          "end": 395
+        }
+      ]
+    },
+    {
+      "category": "vital",
+      "name": "blood pressure",
+      "value": "100/60",
+      "unit": null,
+      "flag": "low",
+      "trend": null,
+      "interpretation": "Episodic low blood pressure at home contributing to orthostasis and prerenal state",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1420,
+          "end": 1460
+        }
+      ]
+    },
+    {
+      "category": "lab",
+      "name": "BUN",
+      "value": "46",
+      "unit": null,
+      "flag": "high",
+      "trend": null,
+      "interpretation": "Elevated BUN reflecting renal dysfunction",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 5025,
+          "end": 5047
+        }
+      ]
+    },
+    {
+      "category": "lab",
+      "name": "CK",
+      "value": "653",
+      "unit": null,
+      "flag": "high",
+      "trend": null,
+      "interpretation": "Elevated creatine kinase consistent with myositis",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 5093,
+          "end": 5116
+        }
+      ]
+    }
+  ],
+  "procedures": [],
+  "course": {
+    "narrative": "A 68-year-old man with a history of CAD, heart failure, diabetes, and stage III CKD was evaluated for acute on chronic renal failure after routine labs showed a creatinine elevation to 2.3. He reported taking multiple Chinese herbs and dietary supplements for a year until stopping 2-3 weeks prior. He also experienced morning dizziness, low home blood pressure readings, and weight loss. Physical exam showed orthostatic changes. Lab work demonstrated elevated BUN, creatinine, and a CK of 653. The clinician suspected prerenal azotemia, potential urinary obstruction, chronic interstitial nephritis from herbs, and statin/fibrate myositis. Recommendations included stopping Crestor, decreasing dosages of atenolol, enalapril, and Lasix, avoiding NSAIDs and Chinese herbs, obtaining a renal ultrasound, drawing repeat labs, and following up in two weeks.",
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 5483,
+        "end": 5515
+      }
+    ]
+  },
+  "disposition": {
+    "status": "discharged",
+    "destination": null,
+    "condition": null,
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 6875,
+        "end": 6931
+      }
+    ]
+  },
+  "action_items": [
+    {
+      "action": "Avoid any further Chinese herbs and NSAIDs",
+      "owner": "patient",
+      "priority": "routine",
+      "due": null,
+      "category": "patient_education",
+      "rationale": "To prevent further renal injury",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 6540,
+          "end": 6633
+        }
+      ]
+    },
+    {
+      "action": "Recheck labs including CBC with differential, SPEP, uric acid and renal panel",
+      "owner": "treating_team",
+      "priority": "soon",
+      "due": null,
+      "category": "monitoring",
+      "rationale": "To monitor renal function and systemic parameters",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 6634,
+          "end": 6716
+        }
+      ]
+    },
+    {
+      "action": "Check renal ultrasound",
+      "owner": "treating_team",
+      "priority": "soon",
+      "due": null,
+      "category": "other",
+      "rationale": "To investigate obstruction due to prostatic hypertrophy",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 6847,
+          "end": 6874
+        }
+      ]
+    },
+    {
+      "action": "Follow up in two weeks for review of the studies",
+      "owner": "treating_team",
+      "priority": "soon",
+      "due": "two weeks",
+      "category": "follow_up",
+      "rationale": "To review diagnostic studies and clinical status",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 6875,
+          "end": 6931
+        }
+      ]
+    }
+  ],
+  "red_flags": [],
+  "patient_summary": null,
+  "quality": {
+    "missing_information": [],
+    "contradictions": [],
+    "low_confidence_fields": []
+  }
+}

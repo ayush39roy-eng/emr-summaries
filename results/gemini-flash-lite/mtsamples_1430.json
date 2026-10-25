@@ -1,0 +1,312 @@
+{
+  "schema_version": "0.1",
+  "record_id": "mtsamples:1430",
+  "patient_id": "b2c6c422-d95f-4a6b-84ea-63900d2c3fe2",
+  "generator": {
+    "kind": "model",
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "v1",
+    "generated_at": "2026-10-25T15:58:53Z"
+  },
+  "one_liner": "A 41-year-old female with chronic hip and knee pain, osteoarthritis, sacroiliitis, and lumbar spondylosis establishes care for ongoing pain management.",
+  "problems": [
+    {
+      "name": "Osteoarthritis",
+      "code": null,
+      "status": "confirmed",
+      "is_new": false,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 5056,
+          "end": 5074
+        }
+      ]
+    },
+    {
+      "name": "Chronic sacroiliitis",
+      "code": null,
+      "status": "confirmed",
+      "is_new": false,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 5075,
+          "end": 5099
+        }
+      ]
+    },
+    {
+      "name": "Lumbar spondylosis",
+      "code": null,
+      "status": "confirmed",
+      "is_new": false,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 5100,
+          "end": 5122
+        }
+      ]
+    },
+    {
+      "name": "Migraine",
+      "code": null,
+      "status": "confirmed",
+      "is_new": false,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 5123,
+          "end": 5135
+        }
+      ]
+    },
+    {
+      "name": "TMJ arthropathy secondary to bruxism",
+      "code": null,
+      "status": "confirmed",
+      "is_new": false,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 5136,
+          "end": 5176
+        }
+      ]
+    },
+    {
+      "name": "Mood disorder secondary to chronic pain",
+      "code": null,
+      "status": "confirmed",
+      "is_new": false,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 5177,
+          "end": 5220
+        }
+      ]
+    },
+    {
+      "name": "Attention deficit disorder",
+      "code": null,
+      "status": "confirmed",
+      "is_new": false,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 5221,
+          "end": 5291
+        }
+      ]
+    }
+  ],
+  "medications": {
+    "started": [],
+    "stopped": [],
+    "changed": [],
+    "continued": [
+      {
+        "name": "Methadone",
+        "dose": "2.5 mg",
+        "route": "p.o.",
+        "frequency": "t.i.d.",
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 3599,
+            "end": 3631
+          }
+        ]
+      },
+      {
+        "name": "Norco",
+        "dose": "10/325 mg",
+        "route": "p.o.",
+        "frequency": "q.i.d.",
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 3632,
+            "end": 3663
+          }
+        ]
+      },
+      {
+        "name": "Tenormin",
+        "dose": "50 mg",
+        "route": null,
+        "frequency": "q.a.m.",
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 3664,
+            "end": 3689
+          }
+        ]
+      },
+      {
+        "name": "Skelaxin",
+        "dose": "800 mg",
+        "route": null,
+        "frequency": "b.i.d. to t.i.d. p.r.n.",
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 3690,
+            "end": 3733
+          }
+        ]
+      },
+      {
+        "name": "Wellbutrin SR",
+        "dose": "100 mg",
+        "route": null,
+        "frequency": "q.d.",
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 3734,
+            "end": 3763
+          }
+        ]
+      },
+      {
+        "name": "Naprosyn",
+        "dose": "500 mg",
+        "route": null,
+        "frequency": "one to two pills q.d. p.r.n.",
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 3764,
+            "end": 3812
+          }
+        ]
+      }
+    ]
+  },
+  "allergies": [
+    {
+      "substance": "IV morphine",
+      "reaction": "hives",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 3824,
+          "end": 3849
+        }
+      ]
+    },
+    {
+      "substance": "Sulfa",
+      "reaction": "blisters and rash",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 3851,
+          "end": 3882
+        }
+      ]
+    }
+  ],
+  "key_findings": [
+    {
+      "category": "exam",
+      "name": "Musculoskeletal soreness and tenderness",
+      "value": null,
+      "unit": null,
+      "flag": "abnormal",
+      "trend": null,
+      "interpretation": "Musculoskeletal soreness and tenderness at ankles, feet, low back above SI joints, and bilateral hip pain on passive motion",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 4591,
+          "end": 4737
+        }
+      ]
+    }
+  ],
+  "procedures": [],
+  "course": {
+    "narrative": "A 41-year-old female with a complex history of bilateral hip and knee pain, osteoarthritis, lumbar spondylosis, and sacroiliitis presented to establish care for pain management. Her past history includes retroverted hips, previous diagnoses of fractured sesamoid bones (later ruled out), and a pericardial fluid-filled cyst. She is currently taking methadone, Norco, Tenormin, Skelaxin, Wellbutrin SR, and Naprosyn. Physical examination revealed soreness and tenderness at the ankles, feet, and low back above the SI joints, along with hip pain on passive motion. The plan includes agreeing with the rheumatology referral, recommending a bone density scan, thyroid and parathyroid studies, and decreasing Naprosyn usage due to previous sulfa allergies.",
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 58,
+        "end": 188
+      },
+      {
+        "doc_id": "d1",
+        "start": 5309,
+        "end": 5480
+      }
+    ]
+  },
+  "disposition": {
+    "status": "other",
+    "destination": null,
+    "condition": null,
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 355,
+        "end": 430
+      }
+    ]
+  },
+  "action_items": [
+    {
+      "action": "Pursue a bone density scan as well as thyroid and parathyroid studies",
+      "owner": "treating_team",
+      "priority": "routine",
+      "due": null,
+      "category": "referral",
+      "rationale": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 5358,
+          "end": 5480
+        }
+      ]
+    },
+    {
+      "action": "Decrease Naprosyn usage",
+      "owner": "patient",
+      "priority": "routine",
+      "due": null,
+      "category": "medication",
+      "rationale": "Given the patient's previous sulfa allergies",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 5484,
+          "end": 5579
+        }
+      ]
+    }
+  ],
+  "red_flags": [],
+  "patient_summary": null,
+  "quality": {
+    "missing_information": [],
+    "contradictions": [],
+    "low_confidence_fields": []
+  }
+}

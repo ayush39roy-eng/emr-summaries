@@ -27,7 +27,7 @@ def index_bundle(col, embedder, bundle, chunking_cfg):
     return len(chunks)
 
 
-def retrieve_for_record(col, embedder, record_id, k=4):
+def retrieve_for_record(col, embedder, record_id, k=4, force_retrieved=False):
     """Returns {"chunks": [...], "mode": "all_chunks"|"retrieved", "per_section": {section: [(chunk_id, distance)]}}"""
     query_vectors = dict(zip(SECTION_QUERIES, embedder.embed(list(SECTION_QUERIES.values()), task="query")))
     per_section, selected = {}, {}
@@ -39,12 +39,13 @@ def retrieve_for_record(col, embedder, record_id, k=4):
 
     every_chunk = store.record_chunks(col, record_id)
     total_words = sum(len(c["text"].split()) for c in every_chunk)
-    if total_words <= ALL_CHUNKS_MAX_WORDS:
+    if total_words <= ALL_CHUNKS_MAX_WORDS and not force_retrieved:
         mode, chunks = "all_chunks", every_chunk
     else:
         mode = "retrieved"
         chunks = sorted(selected.values(), key=lambda c: (c["doc_id"], c["start"]))
     for c in chunks:
         c.pop("distance", None)
-    return {"record_id": record_id, "mode": mode, "total_words": total_words,
+    sent_words = sum(len(c["text"].split()) for c in chunks)
+    return {"record_id": record_id, "mode": mode, "total_words": total_words, "sent_words": sent_words,
             "chunks": chunks, "per_section": per_section}

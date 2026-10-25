@@ -1,0 +1,136 @@
+{
+  "schema_version": "0.1",
+  "record_id": "mtsamples:4987",
+  "patient_id": "3a9b157c-cab7-4c6c-ac22-638dd790d766",
+  "generator": {
+    "kind": "model",
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "v1",
+    "generated_at": "2026-10-25T16:10:46Z"
+  },
+  "one_liner": "A 25-year-old male autopsy case presenting with multiple sharp force injuries, including a neck wound transecting the left internal jugular vein, stab wounds of the chest and abdomen, and defense wounds.",
+  "problems": [
+    {
+      "name": "Sharp force wound of neck with transection of left internal jugular vein",
+      "code": null,
+      "status": "confirmed",
+      "is_new": true,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 22,
+          "end": 107
+        }
+      ]
+    },
+    {
+      "name": "Penetrating stab wounds of chest and abdomen",
+      "code": null,
+      "status": "confirmed",
+      "is_new": true,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 167,
+          "end": 253
+        }
+      ]
+    },
+    {
+      "name": "Multiple incised wounds of scalp, face, neck, chest and left hand",
+      "code": null,
+      "status": "confirmed",
+      "is_new": true,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 257,
+          "end": 339
+        }
+      ]
+    }
+  ],
+  "medications": {
+    "started": [],
+    "stopped": [],
+    "changed": [],
+    "continued": []
+  },
+  "allergies": [],
+  "key_findings": [
+    {
+      "category": "exam",
+      "name": "Pupils",
+      "value": "fixed and dilated",
+      "unit": null,
+      "flag": null,
+      "trend": null,
+      "interpretation": "Pupils are fixed and dilated.",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1213,
+          "end": 1242
+        }
+      ]
+    },
+    {
+      "category": "exam",
+      "name": "Rigor mortis",
+      "value": "fixed",
+      "unit": null,
+      "flag": null,
+      "trend": null,
+      "interpretation": "Rigor mortis is fixed.",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1576,
+          "end": 1598
+        }
+      ]
+    }
+  ],
+  "procedures": [],
+  "course": {
+    "narrative": "Autopsy findings for a 25-year-old male reveal multiple antemortem sharp force injuries. These include a complex sharp force wound on the left side of the neck transecting the left internal jugular vein, multiple stab wounds of the chest and abdomen with right hemothorax and hemoperitoneum, multiple incised wounds of the scalp, face, neck, chest, and left hand, and abrasions on the upper extremities and hands consistent with defense wounds.",
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 22,
+        "end": 107
+      },
+      {
+        "doc_id": "d1",
+        "start": 167,
+        "end": 253
+      }
+    ]
+  },
+  "disposition": {
+    "status": "expired",
+    "destination": null,
+    "condition": null,
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 973,
+        "end": 1067
+      }
+    ]
+  },
+  "action_items": [],
+  "red_flags": [],
+  "patient_summary": null,
+  "quality": {
+    "missing_information": [
+      "Clinical history prior to death",
+      "Toxicology results",
+      "Full internal examination details beyond preliminary anatomical summary"
+    ],
+    "contradictions": [],
+    "low_confidence_fields": []
+  }
+}

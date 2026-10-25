@@ -1,0 +1,435 @@
+{
+  "schema_version": "0.1",
+  "record_id": "mtsamples:1426",
+  "patient_id": "313e5d51-343e-474d-b5ab-f78798a6854d",
+  "generator": {
+    "kind": "model",
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "v1",
+    "generated_at": "2026-10-25T15:57:47Z"
+  },
+  "one_liner": "The patient is improving with resolving Clostridium difficile colitis, acute renal failure, and urinary tract infection, and may be transferred to telemetry.",
+  "problems": [
+    {
+      "name": "Clostridium difficile colitis",
+      "code": null,
+      "status": "confirmed",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 952,
+          "end": 993
+        }
+      ]
+    },
+    {
+      "name": "Urinary tract infection",
+      "code": null,
+      "status": "confirmed",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1417,
+          "end": 1484
+        }
+      ]
+    },
+    {
+      "name": "Acute renal failure secondary to dehydration",
+      "code": null,
+      "status": "confirmed",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1260,
+          "end": 1335
+        }
+      ]
+    },
+    {
+      "name": "Leukocytosis",
+      "code": null,
+      "status": "confirmed",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1489,
+          "end": 1513
+        }
+      ]
+    },
+    {
+      "name": "Minimal elevated cardiac enzyme on admission",
+      "code": null,
+      "status": "confirmed",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1518,
+          "end": 1563
+        }
+      ]
+    },
+    {
+      "name": "Possible pneumonia",
+      "code": null,
+      "status": "suspected",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1611,
+          "end": 1664
+        }
+      ]
+    }
+  ],
+  "medications": {
+    "started": [],
+    "stopped": [],
+    "changed": [],
+    "continued": [
+      {
+        "name": "Flagyl",
+        "dose": null,
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": "Clostridium difficile colitis",
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 1340,
+            "end": 1412
+          }
+        ]
+      },
+      {
+        "name": "Levaquin",
+        "dose": null,
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": "Urinary tract infection",
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 1417,
+            "end": 1484
+          }
+        ]
+      },
+      {
+        "name": "vancomycin",
+        "dose": null,
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": "Possible pneumonia",
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 1611,
+            "end": 1664
+          }
+        ]
+      }
+    ]
+  },
+  "allergies": [],
+  "key_findings": [
+    {
+      "category": "vital",
+      "name": "Blood Pressure",
+      "value": "102/64",
+      "unit": "mmHg",
+      "flag": null,
+      "trend": null,
+      "interpretation": "Hemodynamically stable",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 270,
+          "end": 291
+        }
+      ]
+    },
+    {
+      "category": "vital",
+      "name": "Heart Rate",
+      "value": "89",
+      "unit": "bpm",
+      "flag": null,
+      "trend": null,
+      "interpretation": "Normal heart rate",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 293,
+          "end": 309
+        }
+      ]
+    },
+    {
+      "category": "vital",
+      "name": "Respiratory Rate",
+      "value": "12",
+      "unit": "breaths/min",
+      "flag": null,
+      "trend": null,
+      "interpretation": "Normal respiratory rate",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 311,
+          "end": 333
+        }
+      ]
+    },
+    {
+      "category": "vital",
+      "name": "Temperature",
+      "value": "96.8",
+      "unit": "F",
+      "flag": null,
+      "trend": null,
+      "interpretation": "Afebrile",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 335,
+          "end": 351
+        }
+      ]
+    },
+    {
+      "category": "vital",
+      "name": "O2 Saturation",
+      "value": "94",
+      "unit": "%",
+      "flag": null,
+      "trend": null,
+      "interpretation": "94% on room air",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 357,
+          "end": 387
+        }
+      ]
+    },
+    {
+      "category": "lab",
+      "name": "WBC count",
+      "value": "10.9",
+      "unit": "K/uL",
+      "flag": "high",
+      "trend": null,
+      "interpretation": "Down from 17.3 yesterday and 26.9 on admission, improving",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 644,
+          "end": 712
+        }
+      ]
+    },
+    {
+      "category": "lab",
+      "name": "Hemoglobin",
+      "value": "10.2",
+      "unit": "g/dL",
+      "flag": null,
+      "trend": null,
+      "interpretation": "Hemoglobin level",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 714,
+          "end": 729
+        }
+      ]
+    },
+    {
+      "category": "lab",
+      "name": "Hematocrit",
+      "value": "31.3",
+      "unit": "%",
+      "flag": null,
+      "trend": null,
+      "interpretation": "Hematocrit level",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 731,
+          "end": 746
+        }
+      ]
+    },
+    {
+      "category": "lab",
+      "name": "Platelet count",
+      "value": "370000",
+      "unit": "/uL",
+      "flag": null,
+      "trend": null,
+      "interpretation": "Platelet count",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 752,
+          "end": 775
+        }
+      ]
+    },
+    {
+      "category": "lab",
+      "name": "BUN",
+      "value": "28.3",
+      "unit": "mg/dL",
+      "flag": "high",
+      "trend": null,
+      "interpretation": "Improving from 32.2",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 777,
+          "end": 803
+        }
+      ]
+    },
+    {
+      "category": "lab",
+      "name": "Creatinine",
+      "value": "1.8",
+      "unit": "mg/dL",
+      "flag": "high",
+      "trend": null,
+      "interpretation": "Improving from 1.89 and 2.7",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 805,
+          "end": 839
+        }
+      ]
+    },
+    {
+      "category": "lab",
+      "name": "Calcium",
+      "value": "8.2",
+      "unit": "mg/dL",
+      "flag": null,
+      "trend": null,
+      "interpretation": "Calcium level",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 841,
+          "end": 856
+        }
+      ]
+    },
+    {
+      "category": "lab",
+      "name": "Stool Clostridium difficile",
+      "value": "positive",
+      "unit": null,
+      "flag": "abnormal",
+      "trend": null,
+      "interpretation": "Positive for Clostridium difficile",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 952,
+          "end": 993
+        }
+      ]
+    }
+  ],
+  "procedures": [],
+  "course": {
+    "narrative": "The patient feels better today, remaining afebrile with good urine output, though still experiencing decreased appetite and diarrhea. Vital signs are stable. Laboratory findings show improving leukocytosis (WBC down to 10.9) and improving acute renal failure with decreasing BUN and creatinine. The stool remains positive for Clostridium difficile. Current antimicrobial therapy including Flagyl, Levaquin, and vancomycin is continued. Evaluation by Dr. X is scheduled for the morning, and the patient may be transferred to telemetry.",
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 12,
+        "end": 174
+      },
+      {
+        "doc_id": "d1",
+        "start": 1669,
+        "end": 1713
+      }
+    ]
+  },
+  "disposition": {
+    "status": "other",
+    "destination": "telemetry",
+    "condition": "improving",
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 1669,
+        "end": 1713
+      }
+    ]
+  },
+  "action_items": [
+    {
+      "action": "Evaluation by Dr. X in a.m.",
+      "owner": "specialist",
+      "priority": "routine",
+      "due": "tomorrow morning",
+      "category": "referral",
+      "rationale": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1340,
+          "end": 1412
+        }
+      ]
+    },
+    {
+      "action": "Follow up with Cardiology recommendations regarding minimal elevated cardiac enzyme on admission",
+      "owner": "specialist",
+      "priority": "routine",
+      "due": null,
+      "category": "follow_up",
+      "rationale": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1518,
+          "end": 1606
+        }
+      ]
+    }
+  ],
+  "red_flags": [],
+  "patient_summary": null,
+  "quality": {
+    "missing_information": [],
+    "contradictions": [],
+    "low_confidence_fields": []
+  }
+}

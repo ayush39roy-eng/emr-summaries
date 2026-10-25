@@ -1,0 +1,265 @@
+{
+  "schema_version": "0.1",
+  "record_id": "mtsamples:2874",
+  "patient_id": "8abc3874-dd7b-49c4-841c-bc913b99347f",
+  "generator": {
+    "kind": "model",
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "v1",
+    "generated_at": "2026-10-25T16:13:18Z"
+  },
+  "one_liner": "A 52-year-old right-handed female with progressive worsening of vision, dysarthria, headache, and incoordination following a motor vehicle accident experienced progressive neurological decline and was discharged to a care facility.",
+  "problems": [
+    {
+      "name": "Dysarthria",
+      "code": null,
+      "status": "confirmed",
+      "is_new": true,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 0,
+          "end": 14
+        }
+      ]
+    },
+    {
+      "name": "Progressive worsening of vision",
+      "code": null,
+      "status": "confirmed",
+      "is_new": true,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 108,
+          "end": 139
+        }
+      ]
+    },
+    {
+      "name": "Headache",
+      "code": null,
+      "status": "confirmed",
+      "is_new": true,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 153,
+          "end": 161
+        }
+      ]
+    },
+    {
+      "name": "Incoordination",
+      "code": null,
+      "status": "confirmed",
+      "is_new": true,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 167,
+          "end": 181
+        }
+      ]
+    },
+    {
+      "name": "Demential syndrome",
+      "code": null,
+      "status": "suspected",
+      "is_new": true,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 3973,
+          "end": 4014
+        }
+      ]
+    }
+  ],
+  "medications": {
+    "started": [],
+    "stopped": [],
+    "changed": [],
+    "continued": []
+  },
+  "allergies": [],
+  "key_findings": [
+    {
+      "category": "lab",
+      "name": "CSF Glucose",
+      "value": "16",
+      "unit": null,
+      "flag": "low",
+      "trend": null,
+      "interpretation": "Atypical mononuclear cells suggestive of tumor or reactive lymphocytosis",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1507,
+          "end": 1546
+        }
+      ]
+    },
+    {
+      "category": "lab",
+      "name": "CSF Protein",
+      "value": "99",
+      "unit": null,
+      "flag": "high",
+      "trend": null,
+      "interpretation": "Elevated protein in CSF analysis",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1507,
+          "end": 1546
+        }
+      ]
+    },
+    {
+      "category": "imaging",
+      "name": "MRI brain scan",
+      "value": null,
+      "unit": null,
+      "flag": "abnormal",
+      "trend": null,
+      "interpretation": "5x10mm area of increased signal on T2 weighted images in the right temporal lobe, midbrain, pons, and cerebellum",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1740,
+          "end": 1822
+        }
+      ]
+    },
+    {
+      "category": "lab",
+      "name": "CSF Protein",
+      "value": "131",
+      "unit": "mg/dl",
+      "flag": "high",
+      "trend": null,
+      "interpretation": "Elevated CSF total protein suggesting breakdown of blood brain barrier or blockage",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 3173,
+          "end": 3204
+        }
+      ]
+    },
+    {
+      "category": "lab",
+      "name": "CSF Glucose",
+      "value": "13",
+      "unit": null,
+      "flag": "low",
+      "trend": null,
+      "interpretation": "Low glucose in CSF analysis",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 3363,
+          "end": 3373
+        }
+      ]
+    }
+  ],
+  "procedures": [
+    {
+      "name": "Lumbar punctures",
+      "time": null,
+      "outcome": "Revealed atypical mononuclear cells suggestive of tumor or reactive lymphocytosis",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1356,
+          "end": 1423
+        }
+      ]
+    },
+    {
+      "name": "Bone marrow biopsy",
+      "time": null,
+      "outcome": "Normal except for decreased iron",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1575,
+          "end": 1631
+        }
+      ]
+    },
+    {
+      "name": "Cerebral angiogram",
+      "time": null,
+      "outcome": "Noted variable caliber in the RMCA, LACA and Left AICA distributions",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 4300,
+          "end": 4395
+        }
+      ]
+    },
+    {
+      "name": "Temporal artery biopsy",
+      "time": null,
+      "outcome": "Unremarkable",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 4523,
+          "end": 4563
+        }
+      ]
+    },
+    {
+      "name": "Left temporal lobe brain biopsy",
+      "time": null,
+      "outcome": "Inconclusive, showed atypical mononuclear cells and lymphocytes",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 4879,
+          "end": 4949
+        }
+      ]
+    }
+  ],
+  "course": {
+    "narrative": "A 52-year-old female experienced progressive neurological symptoms including vision changes, dysarthria, headache, and incoordination following a motor vehicle accident. Extensive workup including multiple lumbar punctures, brain MRIs, a cerebral angiogram, and a temporal artery biopsy showed persistent T2 signal abnormalities in the brainstem, cerebellar peduncles, and temporal lobes, suggesting glioma or vasculopathy. She received a short course of IV steroids. A left temporal lobe brain biopsy showed atypical mononuclear cells and lymphocytes that were ultimately considered reactive. Her neurological state progressively worsened throughout her hospital stay, requiring NGT feeding and 24-hour supportive care. She was made DNR at family request and transferred to a care facility.",
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 5376,
+        "end": 5581
+      }
+    ]
+  },
+  "disposition": {
+    "status": "transferred",
+    "destination": "care facility",
+    "condition": "very somnolent and difficult to arouse",
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 5582,
+        "end": 5657
+      }
+    ]
+  },
+  "action_items": [],
+  "red_flags": [],
+  "patient_summary": null,
+  "quality": {
+    "missing_information": [],
+    "contradictions": [],
+    "low_confidence_fields": []
+  }
+}

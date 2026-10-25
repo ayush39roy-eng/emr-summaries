@@ -1,0 +1,149 @@
+{
+  "schema_version": "0.1",
+  "record_id": "mtsamples:925",
+  "patient_id": "35d84885-c6c1-4d7c-8234-4dcbc77c33ba",
+  "generator": {
+    "kind": "model",
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "v1",
+    "generated_at": "2026-10-25T16:12:08Z"
+  },
+  "one_liner": "A male patient with polytrauma of the left lower extremity from a motorcycle accident presented with elevated compartment pressure and necrotic muscle, treated with fasciotomies, debridement, and vacuum-assisted closure.",
+  "problems": [
+    {
+      "name": "Status post polytrauma of left lower extremity status post motorcycle accident with an open wound of the left ankle",
+      "code": null,
+      "status": "confirmed",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 24,
+          "end": 140
+        }
+      ]
+    },
+    {
+      "name": "Elevated compartment pressure for the lateral as well as the medial compartments with necrotic muscle of the anterior compartment",
+      "code": null,
+      "status": "confirmed",
+      "is_new": true,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 284,
+          "end": 414
+        }
+      ]
+    }
+  ],
+  "medications": {
+    "started": [],
+    "stopped": [],
+    "changed": [],
+    "continued": []
+  },
+  "allergies": [],
+  "key_findings": [
+    {
+      "category": "vital",
+      "name": "Anterior and lateral compartment pressures",
+      "value": "32",
+      "unit": null,
+      "flag": "high",
+      "trend": null,
+      "interpretation": "Elevated compartment pressure",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1165,
+          "end": 1229
+        }
+      ]
+    },
+    {
+      "category": "vital",
+      "name": "Posterior compartment superficial and deep pressures",
+      "value": "34",
+      "unit": null,
+      "flag": "high",
+      "trend": null,
+      "interpretation": "Elevated compartment pressure",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1231,
+          "end": 1293
+        }
+      ]
+    },
+    {
+      "category": "exam",
+      "name": "Anterior compartment muscle",
+      "value": null,
+      "unit": null,
+      "flag": "abnormal",
+      "trend": null,
+      "interpretation": "Anterior compartment appeared necrotic for most of the muscle",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1694,
+          "end": 1780
+        }
+      ]
+    }
+  ],
+  "procedures": [
+    {
+      "name": "Debridement of wound, fasciotomies, debridement of muscle from the anterior compartment, and application of vacuum-assisted closure systems",
+      "time": null,
+      "outcome": "Tolerated the procedure well, was taken to the recovery room in good condition.",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 426,
+          "end": 565
+        },
+        {
+          "doc_id": "d1",
+          "start": 2261,
+          "end": 2343
+        }
+      ]
+    }
+  ],
+  "course": {
+    "narrative": "The patient underwent general anesthesia for debridement of a left ankle traumatic wound and measurement of four-compartment pressures of the left lower extremity. Pressures were elevated (32 in anterior/lateral, 34 in posterior superficial/deep). Medial and anterolateral fasciotomies were performed. The superficial posterior, deep posterior, and lateral compartments showed contractile muscle. The anterior compartment showed necrotic muscle for the most part, and viable portions were left intact. A fasciotomy of the foot was also performed with good contractile muscle found. Vacuum-assisted closure systems were applied to each fasciotomy wound and the traumatic wound. A well-padded posterior plaster splint was placed. The patient tolerated the procedure well and was transferred to the recovery room in good condition.",
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 2261,
+        "end": 2343
+      }
+    ]
+  },
+  "disposition": {
+    "status": "other",
+    "destination": "recovery room",
+    "condition": "good condition",
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 2294,
+        "end": 2343
+      }
+    ]
+  },
+  "action_items": [],
+  "red_flags": [],
+  "patient_summary": null,
+  "quality": {
+    "missing_information": [],
+    "contradictions": [],
+    "low_confidence_fields": []
+  }
+}

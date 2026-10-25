@@ -1,0 +1,297 @@
+{
+  "schema_version": "0.1",
+  "record_id": "mtsamples:3857",
+  "patient_id": "2c0700ec-2824-41db-8720-7e3e8a3e634f",
+  "generator": {
+    "kind": "model",
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "v1",
+    "generated_at": "2026-10-25T16:12:19Z"
+  },
+  "one_liner": "A 45-year-old female with dental pain and likely dental abscess was treated, prescribed Vicodin and Keflex, and discharged to follow up with Dental Clinic.",
+  "problems": [
+    {
+      "name": "Coronary artery disease",
+      "code": null,
+      "status": "chronic",
+      "is_new": false,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 959,
+          "end": 987
+        }
+      ]
+    },
+    {
+      "name": "Hypertension",
+      "code": null,
+      "status": "chronic",
+      "is_new": false,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 988,
+          "end": 1005
+        }
+      ]
+    },
+    {
+      "name": "Hypothyroidism",
+      "code": null,
+      "status": "chronic",
+      "is_new": false,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1006,
+          "end": 1025
+        }
+      ]
+    },
+    {
+      "name": "Tobacco abuse",
+      "code": null,
+      "status": "chronic",
+      "is_new": false,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1148,
+          "end": 1199
+        }
+      ]
+    },
+    {
+      "name": "Dental pain with likely dental abscess",
+      "code": null,
+      "status": "suspected",
+      "is_new": true,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 2873,
+          "end": 2912
+        }
+      ]
+    }
+  ],
+  "medications": {
+    "started": [
+      {
+        "name": "Vicodin",
+        "dose": null,
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": "dental pain",
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 2921,
+            "end": 2970
+          }
+        ]
+      },
+      {
+        "name": "Keflex",
+        "dose": null,
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": "dental abscess / penicillin allergy",
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 2972,
+            "end": 3045
+          }
+        ]
+      }
+    ],
+    "stopped": [],
+    "changed": [],
+    "continued": [
+      {
+        "name": "Plavix",
+        "dose": null,
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 1213,
+            "end": 1224
+          }
+        ]
+      },
+      {
+        "name": "Metoprolol",
+        "dose": null,
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 1225,
+            "end": 1240
+          }
+        ]
+      },
+      {
+        "name": "Synthroid",
+        "dose": null,
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 1241,
+            "end": 1255
+          }
+        ]
+      },
+      {
+        "name": "Potassium chloride",
+        "dose": null,
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 1256,
+            "end": 1279
+          }
+        ]
+      }
+    ]
+  },
+  "allergies": [
+    {
+      "substance": "Penicillin",
+      "reaction": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1291,
+          "end": 1306
+        }
+      ]
+    },
+    {
+      "substance": "Sulfa",
+      "reaction": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1307,
+          "end": 1317
+        }
+      ]
+    }
+  ],
+  "key_findings": [
+    {
+      "category": "vital",
+      "name": "Blood pressure",
+      "value": "145/91",
+      "unit": "mmHg",
+      "flag": "high",
+      "trend": null,
+      "interpretation": "Elevated blood pressure",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1564,
+          "end": 1585
+        }
+      ]
+    },
+    {
+      "category": "exam",
+      "name": "Dentition examination",
+      "value": null,
+      "unit": null,
+      "flag": "abnormal",
+      "trend": null,
+      "interpretation": "Significant decay throughout dentition, tooth #20 fracture with minor fluctuance and induration at alveolar margin",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1986,
+          "end": 2312
+        }
+      ]
+    }
+  ],
+  "procedures": [
+    {
+      "name": "Coronary artery stent insertion",
+      "time": null,
+      "outcome": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1049,
+          "end": 1081
+        }
+      ]
+    }
+  ],
+  "course": {
+    "narrative": "A 45-year-old female with a history of CAD, hypertension, and hypothyroidism presented to the Emergency Department complaining of dental pain. Physical examination revealed significant decay and a fractured tooth #20 with a minor area of fluctuance and induration at the alveolar margin, assessed as dental pain with likely dental abscess. She tolerated a dose of Keflex in the ED without hypersensitivity. She was prescribed Vicodin and Keflex, instructed to follow up with the Dental Clinic on Monday, and discharged in satisfactory condition.",
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 2873,
+        "end": 3375
+      }
+    ]
+  },
+  "disposition": {
+    "status": "discharged",
+    "destination": null,
+    "condition": "satisfactory condition",
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 3325,
+        "end": 3374
+      }
+    ]
+  },
+  "action_items": [
+    {
+      "action": "Follow up with Dental Clinic on Monday",
+      "owner": "patient",
+      "priority": "soon",
+      "due": "Monday",
+      "category": "follow_up",
+      "rationale": "Evaluation and management of dental pain and likely dental abscess",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 3147,
+          "end": 3260
+        }
+      ]
+    }
+  ],
+  "red_flags": [],
+  "patient_summary": null,
+  "quality": {
+    "missing_information": [],
+    "contradictions": [],
+    "low_confidence_fields": []
+  }
+}

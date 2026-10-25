@@ -1,0 +1,112 @@
+{
+  "schema_version": "0.1",
+  "record_id": "mtsamples:105",
+  "patient_id": "51197725-3798-4a94-9f1d-bd013dc7fb15",
+  "generator": {
+    "kind": "model",
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "v1",
+    "generated_at": "2026-10-25T16:11:56Z"
+  },
+  "one_liner": "A 53-year-old male with a history of multiple abdominal surgeries presented with a left inguinal hernia and underwent an open left inguinal hernia repair with Prolene mesh.",
+  "problems": [
+    {
+      "name": "left inguinal hernia",
+      "code": null,
+      "status": "confirmed",
+      "is_new": true,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 580,
+          "end": 656
+        }
+      ]
+    }
+  ],
+  "medications": {
+    "started": [],
+    "stopped": [],
+    "changed": [],
+    "continued": []
+  },
+  "allergies": [],
+  "key_findings": [
+    {
+      "category": "lab",
+      "name": "gram stain",
+      "value": "no organisms",
+      "unit": null,
+      "flag": "normal",
+      "trend": null,
+      "interpretation": "Negative for organisms",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1046,
+          "end": 1089
+        }
+      ]
+    }
+  ],
+  "procedures": [
+    {
+      "name": "open left inguinal hernial repair with Prolene mesh",
+      "time": null,
+      "outcome": "tolerated the procedure well and was transferred to Recovery in stable condition",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 721,
+          "end": 785
+        },
+        {
+          "doc_id": "d1",
+          "start": 254,
+          "end": 346
+        }
+      ]
+    }
+  ],
+  "course": {
+    "narrative": "A 53-year-old male with a history of multiple abdominal surgeries presented with an increasing left inguinal hernia and underwent an open left inguinal hernia repair with Prolene mesh. Intraoperatively, he was found to have direct and indirect components to the hernia with a large sac and turbid fluid, which gram stain showed to be negative with no organisms. The procedure was uncomplicated, and the patient was transferred to recovery in stable condition.",
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 481,
+        "end": 571
+      },
+      {
+        "doc_id": "d1",
+        "start": 812,
+        "end": 911
+      },
+      {
+        "doc_id": "d1",
+        "start": 254,
+        "end": 346
+      }
+    ]
+  },
+  "disposition": {
+    "status": "transferred",
+    "destination": "Recovery",
+    "condition": "stable",
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 303,
+        "end": 346
+      }
+    ]
+  },
+  "action_items": [],
+  "red_flags": [],
+  "patient_summary": null,
+  "quality": {
+    "missing_information": [],
+    "contradictions": [],
+    "low_confidence_fields": []
+  }
+}

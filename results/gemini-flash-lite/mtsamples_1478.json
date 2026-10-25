@@ -1,0 +1,220 @@
+{
+  "schema_version": "0.1",
+  "record_id": "mtsamples:1478",
+  "patient_id": "224dd5bd-dc7d-4a4b-a200-0ce6ac8c2b93",
+  "generator": {
+    "kind": "model",
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "v1",
+    "generated_at": "2026-10-25T15:59:39Z"
+  },
+  "one_liner": "A 26-year-old male with 2 weeks of aching, joint pain, and symmetrical hand swelling presents for suspected rheumatoid arthritis and is prescribed Vioxx with a 2-week follow-up.",
+  "problems": [
+    {
+      "name": "rheumatoid arthritis",
+      "code": null,
+      "status": "suspected",
+      "is_new": true,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 39,
+          "end": 101
+        }
+      ]
+    }
+  ],
+  "medications": {
+    "started": [
+      {
+        "name": "Vioxx",
+        "dose": "12.5 mg",
+        "route": null,
+        "frequency": "BID",
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 4610,
+            "end": 4694
+          }
+        ]
+      }
+    ],
+    "stopped": [],
+    "changed": [],
+    "continued": [
+      {
+        "name": "amoxicillin-clavulanate",
+        "dose": "125 mg-31.25 mg",
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 615,
+            "end": 689
+          }
+        ]
+      },
+      {
+        "name": "Adrenocot",
+        "dose": "0.5 mg",
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 757,
+            "end": 836
+          }
+        ]
+      }
+    ]
+  },
+  "allergies": [
+    {
+      "substance": "aspirin",
+      "reaction": "GI upset, disorientation",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 520,
+          "end": 594
+        }
+      ]
+    }
+  ],
+  "key_findings": [
+    {
+      "category": "lab",
+      "name": "Rheumatoid factor",
+      "value": "52",
+      "unit": "U/ml",
+      "flag": "high",
+      "trend": null,
+      "interpretation": "Elevated rheumatoid factor",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 4365,
+          "end": 4393
+        }
+      ]
+    },
+    {
+      "category": "lab",
+      "name": "Sed rate",
+      "value": "31",
+      "unit": "mm/hr",
+      "flag": "high",
+      "trend": null,
+      "interpretation": "Elevated sed rate",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 4395,
+          "end": 4415
+        }
+      ]
+    }
+  ],
+  "procedures": [],
+  "course": {
+    "narrative": "A 26-year-old male with a 2-week history of aching, joint pain, and symmetrical hand swelling presented for treatment of suspected rheumatoid arthritis. He reported a family history of rheumatoid arthritis in his maternal grandmother. Physical exam revealed no acute distress. Laboratory evaluation showed an elevated rheumatoid factor of 52 U/ml and sed rate of 31 mm/hr. The impression was rheumatoid arthritis. The patient was prescribed Vioxx, ordered ESR, RBC, and quantitative rheumatoid factor, and instructed to return to the clinic in 2 weeks.",
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 17,
+        "end": 102
+      },
+      {
+        "doc_id": "d1",
+        "start": 4443,
+        "end": 4476
+      }
+    ]
+  },
+  "disposition": {
+    "status": "unknown",
+    "destination": null,
+    "condition": null,
+    "evidence": []
+  },
+  "action_items": [
+    {
+      "action": "Return to clinic in 2 weeks",
+      "owner": "patient",
+      "priority": "soon",
+      "due": "2 weeks",
+      "category": "follow_up",
+      "rationale": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 4563,
+          "end": 4594
+        }
+      ]
+    },
+    {
+      "action": "ESR ordered; automated",
+      "owner": "treating_team",
+      "priority": "routine",
+      "due": null,
+      "category": "pending_result",
+      "rationale": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 4483,
+          "end": 4506
+        }
+      ]
+    },
+    {
+      "action": "Ordered RBC",
+      "owner": "treating_team",
+      "priority": "routine",
+      "due": null,
+      "category": "pending_result",
+      "rationale": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 4508,
+          "end": 4520
+        }
+      ]
+    },
+    {
+      "action": "Ordered quantitative rheumatoid factor",
+      "owner": "treating_team",
+      "priority": "routine",
+      "due": null,
+      "category": "pending_result",
+      "rationale": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 4522,
+          "end": 4561
+        }
+      ]
+    }
+  ],
+  "red_flags": [],
+  "patient_summary": null,
+  "quality": {
+    "missing_information": [],
+    "contradictions": [],
+    "low_confidence_fields": []
+  }
+}

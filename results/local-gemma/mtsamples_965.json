@@ -1,0 +1,135 @@
+{
+  "schema_version": "0.1",
+  "record_id": "mtsamples:965",
+  "patient_id": "0de7963a-9425-43d4-896c-e0e08705bd72",
+  "generator": {
+    "kind": "model",
+    "model": "gemma4:e4b",
+    "prompt_version": "v1",
+    "generated_at": "2026-10-25T16:18:45Z"
+  },
+  "one_liner": "N/A, patient underwent right burr hole craniotomy for evacuation of subdural hematoma and placement of subdural drain.",
+  "problems": [
+    {
+      "name": "Right chronic subdural hematoma",
+      "code": null,
+      "status": "resolved",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 0,
+          "end": 56
+        },
+        {
+          "doc_id": "d1",
+          "start": 57,
+          "end": 114
+        }
+      ]
+    }
+  ],
+  "medications": {
+    "started": [],
+    "stopped": [],
+    "changed": [],
+    "continued": []
+  },
+  "allergies": [],
+  "key_findings": [
+    {
+      "category": "exam",
+      "name": "Operating Room Findings",
+      "value": null,
+      "unit": null,
+      "flag": null,
+      "trend": null,
+      "interpretation": "The scalp was shaved, and then prepped and draped in usual sterile fashion.",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 657,
+          "end": 732
+        }
+      ]
+    }
+  ],
+  "procedures": [
+    {
+      "name": "Right burr hole craniotomy for evacuation of subdural hematoma and placement of subdural drain",
+      "time": null,
+      "outcome": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 115,
+          "end": 229
+        }
+      ]
+    }
+  ],
+  "course": {
+    "narrative": "The patient was taken to the operating room and placed in supine position. Following induction of satisfactory general endotracheal anesthesia, the patient was prepared for surgery. Incisions were marked along a putative right frontotemporal craniotomy frontally and over the parietal boss. A bur hole was fashioned with the perforator, which was widened with a 2-mm Kerrison punch. The dura was opened in a cruciate-type fashion, and a subdural drain was inserted under direct vision into the subdural space and brought out through a separate stab incision. The area was closed with interrupted inverted 2-0 Vicryl sutures, and the skin was closed with staples.",
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 326,
+        "end": 432
+      },
+      {
+        "doc_id": "d1",
+        "start": 1001,
+        "end": 1050
+      },
+      {
+        "doc_id": "d1",
+        "start": 1397,
+        "end": 1524
+      },
+      {
+        "doc_id": "d1",
+        "start": 1567,
+        "end": 1632
+      }
+    ]
+  },
+  "disposition": {
+    "status": "transferred",
+    "destination": null,
+    "condition": null,
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 1759,
+        "end": 1849
+      }
+    ]
+  },
+  "action_items": [
+    {
+      "action": "Monitoring/Observation",
+      "owner": "patient",
+      "priority": "routine",
+      "due": null,
+      "category": null,
+      "rationale": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1700,
+          "end": 1757
+        }
+      ]
+    }
+  ],
+  "red_flags": [],
+  "patient_summary": null,
+  "quality": {
+    "missing_information": [
+      "No specific post-operative follow-up appointments or pending lab results were documented."
+    ],
+    "contradictions": [],
+    "low_confidence_fields": []
+  }
+}

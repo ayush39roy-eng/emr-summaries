@@ -1,0 +1,242 @@
+{
+  "schema_version": "0.1",
+  "record_id": "mtsamples:2190",
+  "patient_id": "2aed61ae-97ee-4e15-aaf9-b990ab5c91e3",
+  "generator": {
+    "kind": "model",
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "v1",
+    "generated_at": "2026-10-25T16:14:13Z"
+  },
+  "one_liner": "An 18-year-old girl with a history of prior ACL reconstructions presents with a new right knee injury after playing tennis, presenting with pain, effusion, and a positive Lachman's exam.",
+  "problems": [
+    {
+      "name": "Right knee injury suggestive of a recurrent anterior cruciate ligament tear",
+      "code": null,
+      "status": "suspected",
+      "is_new": true,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 2052,
+          "end": 2127
+        }
+      ]
+    },
+    {
+      "name": "Possible internal derangement",
+      "code": null,
+      "status": "suspected",
+      "is_new": true,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 2129,
+          "end": 2158
+        }
+      ]
+    }
+  ],
+  "medications": {
+    "started": [],
+    "stopped": [],
+    "changed": [],
+    "continued": []
+  },
+  "allergies": [
+    {
+      "substance": "Keflex",
+      "reaction": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1206,
+          "end": 1231
+        }
+      ]
+    },
+    {
+      "substance": "Steri-Strips",
+      "reaction": "skin sensitivity",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1236,
+          "end": 1272
+        }
+      ]
+    }
+  ],
+  "key_findings": [
+    {
+      "category": "exam",
+      "name": "Right knee effusion",
+      "value": null,
+      "unit": null,
+      "flag": "abnormal",
+      "trend": null,
+      "interpretation": "significant effusion in the knee",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1770,
+          "end": 1812
+        }
+      ]
+    },
+    {
+      "category": "exam",
+      "name": "Lachman's exam",
+      "value": "positive",
+      "unit": null,
+      "flag": "abnormal",
+      "trend": null,
+      "interpretation": "positive Lachman's exam indicating anterior laxity",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1962,
+          "end": 1991
+        }
+      ]
+    },
+    {
+      "category": "exam",
+      "name": "Medial joint line tenderness",
+      "value": null,
+      "unit": null,
+      "flag": "abnormal",
+      "trend": null,
+      "interpretation": "tenderness to palpation at the medial joint line",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1909,
+          "end": 1957
+        }
+      ]
+    }
+  ],
+  "procedures": [
+    {
+      "name": "Anterior cruciate ligament reconstruction",
+      "time": null,
+      "outcome": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 962,
+          "end": 1017
+        }
+      ]
+    },
+    {
+      "name": "Revision ACL reconstruction",
+      "time": null,
+      "outcome": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1042,
+          "end": 1080
+        }
+      ]
+    },
+    {
+      "name": "Arm surgery",
+      "time": null,
+      "outcome": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1100,
+          "end": 1136
+        }
+      ]
+    }
+  ],
+  "course": {
+    "narrative": "An 18-year-old female presented with a right knee injury sustained three days prior while playing tennis, reporting immediate pain, swelling, and instability. She had a remote history of bilateral ACL reconstruction in 2008. Physical examination revealed a marked limp, significant knee effusion, difficulty with passive range of motion due to pain, medial joint line tenderness, and a positive Lachman's exam. She was assessed as having a right knee injury suggestive of a recurrent ACL tear and possible internal derangement. The plan is to obtain an MRI of the right knee, have her use ice, moderate activities, use crutches, and follow up once the MRI is completed.",
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 28,
+        "end": 132
+      },
+      {
+        "doc_id": "d1",
+        "start": 2166,
+        "end": 2276
+      }
+    ]
+  },
+  "disposition": {
+    "status": "other",
+    "destination": null,
+    "condition": null,
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 2166,
+        "end": 2223
+      }
+    ]
+  },
+  "action_items": [
+    {
+      "action": "MRI of the right knee to evaluate the integrity of her revision ACL graft",
+      "owner": "treating_team",
+      "priority": "routine",
+      "due": null,
+      "category": "referral",
+      "rationale": "evaluate the integrity of her revision ACL graft",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 2166,
+          "end": 2276
+        }
+      ]
+    },
+    {
+      "action": "Continue to use ice as needed, moderate activities, and use crutches",
+      "owner": "patient",
+      "priority": "routine",
+      "due": null,
+      "category": "patient_education",
+      "rationale": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 2295,
+          "end": 2377
+        }
+      ]
+    },
+    {
+      "action": "Follow up as soon as the MRI is performed",
+      "owner": "treating_team",
+      "priority": "soon",
+      "due": null,
+      "category": "follow_up",
+      "rationale": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 2379,
+          "end": 2430
+        }
+      ]
+    }
+  ],
+  "red_flags": [],
+  "patient_summary": null,
+  "quality": {
+    "missing_information": [],
+    "contradictions": [],
+    "low_confidence_fields": []
+  }
+}

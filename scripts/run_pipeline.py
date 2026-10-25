@@ -52,12 +52,16 @@ def make_test_set(config):
     return chosen
 
 
-def load_contexts(config, record_ids, dry_run):
+def context_dir(config, context):
+    return f"{config['paths']['cache']}/context" + ("" if context == "full" else f"_{context}")
+
+
+def load_contexts(config, record_ids, dry_run, context="full", k=2):
     """Index + retrieve once; every model then gets exactly these chunks."""
     paths = config["paths"]
     contexts, todo = {}, []
     for rid in record_ids:
-        p = path_for(f"{paths['cache']}/context", rid)
+        p = path_for(context_dir(config, context), rid)
         if p.exists():
             contexts[rid] = read_json(p)
         else:
@@ -72,8 +76,11 @@ def load_contexts(config, record_ids, dry_run):
             n_chunks += index_bundle(col, embedder, read_json(path_for(paths["bundles"], rid)), config["chunking"])
         print(f"Indexed {len(todo)} records ({n_chunks} new chunks) into ChromaDB")
         for rid in todo:
-            contexts[rid] = retrieve_for_record(col, embedder, rid)
-            write_json(path_for(f"{paths['cache']}/context", rid), contexts[rid])
+            if context == "retrieved":
+                contexts[rid] = retrieve_for_record(col, embedder, rid, k=k, force_retrieved=True)
+            else:
+                contexts[rid] = retrieve_for_record(col, embedder, rid)
+            write_json(path_for(context_dir(config, context), rid), contexts[rid])
     return contexts
 
 
@@ -84,16 +91,21 @@ def main():
     parser.add_argument("--dry-run", action="store_true", help="no model calls; just show what would be sent")
     parser.add_argument("--redo", action="store_true", help="regenerate even if results exist")
     parser.add_argument("--workers", type=int, default=1, help="parallel requests (API models only)")
+    parser.add_argument("--context", choices=["full", "retrieved"], default="full",
+                        help="full = whole record when it fits (default); retrieved = ONLY the top-k chunks per "
+                             "summary section (RAG experiment); results go to results/<model>__retrieved/")
+    parser.add_argument("--k", type=int, default=2, help="chunks per summary section in --context retrieved")
     args = parser.parse_args()
 
     config = load_config()
     spec = model_spec(config, args.model)
     record_ids = make_test_set(config)[:args.limit]
-    contexts = load_contexts(config, record_ids, args.dry_run)
+    contexts = load_contexts(config, record_ids, args.dry_run, args.context, args.k)
 
-    out_dir = ROOT / config["paths"]["results"] / args.model
+    run_name = args.model + ("" if args.context == "full" else f"__{args.context}")
+    out_dir = ROOT / config["paths"]["results"] / run_name
     todo = [r for r in record_ids if args.redo or not path_for(out_dir.relative_to(ROOT), r).exists()]
-    print(f"{args.model} ({spec['model_id']}): {len(record_ids) - len(todo)} done, {len(todo)} to do")
+    print(f"{run_name} ({spec['model_id']}): {len(record_ids) - len(todo)} done, {len(todo)} to do", flush=True)
     if args.dry_run:
         prompt = build_prompt(contexts[todo[0]]) if todo else ""
         print(f"Dry run: would make {len(todo)} calls. Example prompt ({len(prompt)} chars):\n{prompt[:1500]}")

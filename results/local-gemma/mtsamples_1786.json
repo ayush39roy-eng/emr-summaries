@@ -1,0 +1,373 @@
+{
+  "schema_version": "0.1",
+  "record_id": "mtsamples:1786",
+  "patient_id": "dc072d55-ff09-4393-a670-f51d4ef96b42",
+  "generator": {
+    "kind": "model",
+    "model": "gemma4:e4b",
+    "prompt_version": "v1",
+    "generated_at": "2026-10-25T16:10:56Z"
+  },
+  "one_liner": "87-year-old white female with a history of hip fracture and two thoracic compression fractures, presenting with major depression disorder.",
+  "problems": [
+    {
+      "name": "Depression",
+      "code": null,
+      "status": "resolved",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 0,
+          "end": 31
+        }
+      ]
+    },
+    {
+      "name": "Osteoporosis",
+      "code": null,
+      "status": "chronic",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 229,
+          "end": 273
+        },
+        {
+          "doc_id": "d1",
+          "start": 374,
+          "end": 398
+        },
+        {
+          "doc_id": "d1",
+          "start": 4560,
+          "end": 4680
+        }
+      ]
+    },
+    {
+      "name": "Hypertension",
+      "code": null,
+      "status": "chronic",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1971,
+          "end": 2133
+        },
+        {
+          "doc_id": "d1",
+          "start": 4560,
+          "end": 4680
+        }
+      ]
+    },
+    {
+      "name": "Hip Fracture",
+      "code": null,
+      "status": "chronic",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 37,
+          "end": 183
+        },
+        {
+          "doc_id": "d1",
+          "start": 4246,
+          "end": 4364
+        }
+      ]
+    },
+    {
+      "name": "Possible Meningioma",
+      "code": null,
+      "status": "suspected",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 746,
+          "end": 826
+        },
+        {
+          "doc_id": "d1",
+          "start": 4560,
+          "end": 4680
+        }
+      ]
+    }
+  ],
+  "medications": {
+    "started": [
+      {
+        "name": "None",
+        "dose": null,
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": null,
+        "evidence": []
+      }
+    ],
+    "stopped": [
+      {
+        "name": "None",
+        "dose": null,
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": null,
+        "evidence": []
+      }
+    ],
+    "changed": [
+      {
+        "name": "None",
+        "dose": null,
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": null,
+        "evidence": []
+      }
+    ],
+    "continued": [
+      {
+        "name": "Lexapro",
+        "dose": null,
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 2361,
+            "end": 2385
+          }
+        ]
+      },
+      {
+        "name": "Pamelor",
+        "dose": null,
+        "route": null,
+        "frequency": null,
+        "previous": null,
+        "reason": null,
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 2577,
+            "end": 2608
+          }
+        ]
+      }
+    ]
+  },
+  "allergies": [
+    {
+      "substance": "CODEINE",
+      "reaction": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 2780,
+          "end": 2816
+        }
+      ]
+    }
+  ],
+  "key_findings": [
+    {
+      "category": "imaging",
+      "name": "MRI",
+      "value": null,
+      "unit": null,
+      "flag": null,
+      "trend": null,
+      "interpretation": "positive for possible meningioma to the left of anterior box",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 746,
+          "end": 826
+        }
+      ]
+    },
+    {
+      "category": "vital",
+      "name": "None",
+      "value": null,
+      "unit": null,
+      "flag": null,
+      "trend": null,
+      "interpretation": "unknown",
+      "time": null,
+      "evidence": []
+    },
+    {
+      "category": "exam",
+      "name": "Mental Status Exam",
+      "value": null,
+      "unit": null,
+      "flag": null,
+      "trend": null,
+      "interpretation": "Mood, labile, tearful at times, depressed, then euthymic. Affect, mood congruent, full range. Thought content, no delusions, suicidal or homicidal ideations.",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 3765,
+          "end": 3822
+        },
+        {
+          "doc_id": "d1",
+          "start": 3906,
+          "end": 3969
+        }
+      ]
+    },
+    {
+      "category": "exam",
+      "name": "MMSE",
+      "value": null,
+      "unit": null,
+      "flag": null,
+      "trend": null,
+      "interpretation": "28/30. Could not remember two out of the three recalled words.",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 4141,
+          "end": 4232
+        }
+      ]
+    }
+  ],
+  "procedures": [
+    {
+      "name": "Vertebroplasty",
+      "time": null,
+      "outcome": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 185,
+          "end": 273
+        },
+        {
+          "doc_id": "d1",
+          "start": 400,
+          "end": 442
+        }
+      ]
+    }
+  ],
+  "course": {
+    "narrative": "The patient was admitted for low back pain following a hip fracture and subsequent T9 compression fracture treated with vertebroplasty. She was readmitted for severe mid low back pain due to a T8 compression fracture, also treated with vertebroplasty. She presents with fluctuating back pain, worse with activity, and reports depressive symptoms, including loss of interest and thoughts of not wanting to live. Physical therapy participation is noted. The assessment diagnoses Major depression disorder. The plan is to continue Lexapro 10 mg daily and Pamelor 25 mg each bedtime, while monitoring for adverse effects of TCA and worsening depression. Discussion regarding possible inpatient psychiatric care occurred.",
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 37,
+        "end": 183
+      },
+      {
+        "doc_id": "d1",
+        "start": 185,
+        "end": 273
+      },
+      {
+        "doc_id": "d1",
+        "start": 275,
+        "end": 398
+      },
+      {
+        "doc_id": "d1",
+        "start": 444,
+        "end": 574
+      },
+      {
+        "doc_id": "d1",
+        "start": 4504,
+        "end": 4538
+      },
+      {
+        "doc_id": "d1",
+        "start": 4780,
+        "end": 4912
+      }
+    ]
+  },
+  "disposition": {
+    "status": "unknown",
+    "destination": null,
+    "condition": null,
+    "evidence": []
+  },
+  "action_items": [
+    {
+      "action": "Monitor for adverse effects of TCA and worsening of depressive symptoms",
+      "owner": "patient",
+      "priority": "routine",
+      "due": null,
+      "category": null,
+      "rationale": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 4780,
+          "end": 4912
+        }
+      ]
+    },
+    {
+      "action": "Discuss possible inpatient psychiatric care",
+      "owner": "treating_team",
+      "priority": "routine",
+      "due": null,
+      "category": null,
+      "rationale": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 4914,
+          "end": 4966
+        }
+      ]
+    }
+  ],
+  "red_flags": [
+    {
+      "message": "Patient denies suicidal ideations and homicidal ideations, but that she did not mind dying",
+      "severity": "moderate",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1466,
+          "end": 1548
+        }
+      ]
+    }
+  ],
+  "patient_summary": null,
+  "quality": {
+    "missing_information": [
+      "Specific details regarding the initial hip fracture date",
+      "Specific details regarding the T8 compression fracture date",
+      "Results of the MRI on <DATE>"
+    ],
+    "contradictions": [],
+    "low_confidence_fields": [
+      "/key_findings/1",
+      "/medications/started/0",
+      "/medications/stopped/0",
+      "/medications/changed/0"
+    ]
+  }
+}

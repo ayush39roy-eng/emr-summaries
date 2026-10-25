@@ -1,0 +1,192 @@
+{
+  "schema_version": "0.1",
+  "record_id": "mtsamples:4987",
+  "patient_id": "3a9b157c-cab7-4c6c-ac22-638dd790d766",
+  "generator": {
+    "kind": "model",
+    "model": "gemma4:e4b",
+    "prompt_version": "v1",
+    "generated_at": "2026-10-25T16:17:16Z"
+  },
+  "one_liner": "25 y/o Caucasian male with multiple sharp force injuries, including a fatal wound to the left internal jugular vein, and other superficial wounds to the face and neck.",
+  "problems": [
+    {
+      "name": "Sharp force wound of neck, left side",
+      "code": null,
+      "status": "suspected",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 3055,
+          "end": 3133
+        }
+      ]
+    },
+    {
+      "name": "Multiple stab wounds of chest, abdomen, and left thigh",
+      "code": null,
+      "status": "suspected",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 111,
+          "end": 253
+        }
+      ]
+    },
+    {
+      "name": "Multiple incised wounds of scalp, face, neck, chest and left hand",
+      "code": null,
+      "status": "suspected",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 257,
+          "end": 339
+        }
+      ]
+    }
+  ],
+  "medications": {
+    "started": [],
+    "stopped": [],
+    "changed": [],
+    "continued": []
+  },
+  "allergies": [],
+  "key_findings": [
+    {
+      "category": "vital",
+      "name": "Pupils",
+      "value": null,
+      "unit": null,
+      "flag": null,
+      "trend": null,
+      "interpretation": "fixed and dilated",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1181,
+          "end": 1242
+        }
+      ]
+    },
+    {
+      "category": "exam",
+      "name": "Neck Injury (Left Side)",
+      "value": null,
+      "unit": null,
+      "flag": null,
+      "trend": null,
+      "interpretation": "Sharp force injury of neck, left side, transecting left internal jugular vein.",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 3055,
+          "end": 3133
+        }
+      ]
+    },
+    {
+      "category": "exam",
+      "name": "Neck Injury (Right Side)",
+      "value": null,
+      "unit": null,
+      "flag": null,
+      "trend": null,
+      "interpretation": "Complex injury on the right side of the neck.",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 5500,
+          "end": 5650
+        }
+      ]
+    }
+  ],
+  "procedures": [
+    {
+      "name": "Autopsy",
+      "time": null,
+      "outcome": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1649,
+          "end": 1729
+        }
+      ]
+    }
+  ],
+  "course": {
+    "narrative": "The body is that of a well developed, well nourished Caucasian male stated to be 25 years old. Examination revealed extensive external traumatic injury, including a sharp force injury of the neck on the left side, which transected the left internal jugular vein. There were also injuries noted on the right side of the neck, and multiple superficial incised wounds on the face and other areas. The sharp force injury of the neck was opined to be fatal due to the transection of the left internal jugular vein.",
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 973,
+        "end": 1067
+      },
+      {
+        "doc_id": "d1",
+        "start": 3055,
+        "end": 3133
+      },
+      {
+        "doc_id": "d1",
+        "start": 5254,
+        "end": 5362
+      }
+    ]
+  },
+  "disposition": {
+    "status": "unknown",
+    "destination": null,
+    "condition": null,
+    "evidence": []
+  },
+  "action_items": [
+    {
+      "action": "Refer to available photographs and diagrams and to the specific documentation of the autopsy protocol.",
+      "owner": "other",
+      "priority": "routine",
+      "due": null,
+      "category": null,
+      "rationale": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 2252,
+          "end": 2354
+        }
+      ]
+    }
+  ],
+  "red_flags": [
+    {
+      "message": "Fatal injury noted: transection of the left internal jugular vein.",
+      "severity": "critical",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 3055,
+          "end": 3133
+        }
+      ]
+    }
+  ],
+  "patient_summary": null,
+  "quality": {
+    "missing_information": [
+      "Specific details regarding the chest and abdomen stab wounds mentioned in the preamble were not detailed in the provided chunks.",
+      "The specific nature of the 'right hemothorax and hemoperitoneum' mentioned in the preamble was not detailed in the provided chunks."
+    ],
+    "contradictions": [],
+    "low_confidence_fields": []
+  }
+}

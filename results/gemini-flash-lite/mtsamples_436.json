@@ -1,0 +1,174 @@
+{
+  "schema_version": "0.1",
+  "record_id": "mtsamples:436",
+  "patient_id": "ce2c8c98-df61-4c8c-a92e-eddd5325caa0",
+  "generator": {
+    "kind": "model",
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "v1",
+    "generated_at": "2026-10-25T16:00:42Z"
+  },
+  "one_liner": "A 27-year-old male with history of childhood open globe injury and retinal detachment, presenting with silicone oil in the anterior chamber and dense cataract in the right eye, underwent successful phacoemulsification with posterior chamber intraocular lens implant and silicone oil removal.",
+  "problems": [
+    {
+      "name": "Open globe injury",
+      "code": null,
+      "status": "chronic",
+      "is_new": false,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 168,
+          "end": 209
+        }
+      ]
+    },
+    {
+      "name": "Retinal detachment",
+      "code": null,
+      "status": "chronic",
+      "is_new": false,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 228,
+          "end": 268
+        }
+      ]
+    },
+    {
+      "name": "Silicone oil in anterior chamber",
+      "code": null,
+      "status": "confirmed",
+      "is_new": false,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 273,
+          "end": 334
+        }
+      ]
+    },
+    {
+      "name": "Dense silicone oil cataract",
+      "code": null,
+      "status": "confirmed",
+      "is_new": false,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 335,
+          "end": 362
+        }
+      ]
+    }
+  ],
+  "medications": {
+    "started": [],
+    "stopped": [],
+    "changed": [],
+    "continued": []
+  },
+  "allergies": [],
+  "key_findings": [
+    {
+      "category": "exam",
+      "name": "Intraocular pressure",
+      "value": "satisfactory",
+      "unit": null,
+      "flag": "normal",
+      "trend": null,
+      "interpretation": "Intraocular pressure was satisfactory at the end of the procedure.",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 3133,
+          "end": 3171
+        }
+      ]
+    }
+  ],
+  "procedures": [
+    {
+      "name": "Phacoemulsification with posterior chamber intraocular lens implant",
+      "time": null,
+      "outcome": "The patient tolerated the procedure well and then was turned over to the retina service in good condition.",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 20,
+          "end": 105
+        },
+        {
+          "doc_id": "d1",
+          "start": 3173,
+          "end": 3279
+        }
+      ]
+    },
+    {
+      "name": "Silicone oil removal",
+      "time": null,
+      "outcome": "Completed by the vitreoretinal team during the surgery.",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 365,
+          "end": 444
+        }
+      ]
+    }
+  ],
+  "course": {
+    "narrative": "A 27-year-old male with a history of open globe injury and retinal detachment in the right eye, presenting with silicone oil in the anterior chamber and a dense cataract, underwent general anesthesia for combined silicone oil removal and phacoemulsification with posterior chamber intraocular lens implantation. The vitreoretinal team placed the infusion cannula, followed by the cornea service performing the cataract extraction and IOL placement. The wound was sutured, leaving the anterior chamber secured and watertight with satisfactory intraocular pressure. The patient tolerated the procedure well and was handed over to the retina service in good condition.",
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 365,
+        "end": 480
+      },
+      {
+        "doc_id": "d1",
+        "start": 3173,
+        "end": 3279
+      }
+    ]
+  },
+  "disposition": {
+    "status": "transferred",
+    "destination": "retina service",
+    "condition": "good condition",
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 3173,
+        "end": 3279
+      }
+    ]
+  },
+  "action_items": [
+    {
+      "action": "Dictate a separate note",
+      "owner": "specialist",
+      "priority": "routine",
+      "due": null,
+      "category": "other",
+      "rationale": "Retina service note for the silicone oil removal portion of the case",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 3281,
+          "end": 3315
+        }
+      ]
+    }
+  ],
+  "red_flags": [],
+  "patient_summary": null,
+  "quality": {
+    "missing_information": [],
+    "contradictions": [],
+    "low_confidence_fields": []
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "schema_version": "0.1",
+  "record_id": "mtsamples:105",
+  "patient_id": "51197725-3798-4a94-9f1d-bd013dc7fb15",
+  "generator": {
+    "kind": "model",
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "v1",
+    "generated_at": "2026-10-25T15:58:47Z"
+  },
+  "one_liner": "A 53-year-old male with a left inguinal hernia underwent successful open repair of left direct and indirect inguinal hernia with Prolene mesh.",
+  "problems": [
+    {
+      "name": "Left inguinal hernia",
+      "code": null,
+      "status": "confirmed",
+      "is_new": true,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 0,
+          "end": 45
+        }
+      ]
+    },
+    {
+      "name": "Left direct and indirect inguinal hernia",
+      "code": null,
+      "status": "confirmed",
+      "is_new": true,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 46,
+          "end": 112
+        }
+      ]
+    }
+  ],
+  "medications": {
+    "started": [],
+    "stopped": [],
+    "changed": [],
+    "continued": []
+  },
+  "allergies": [],
+  "key_findings": [
+    {
+      "category": "lab",
+      "name": "Hernia sac fluid gram stain",
+      "value": "no organisms",
+      "unit": null,
+      "flag": "normal",
+      "trend": null,
+      "interpretation": "Negative for organisms",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 417,
+          "end": 465
+        }
+      ]
+    },
+    {
+      "category": "exam",
+      "name": "Intraoperative hernia findings",
+      "value": "direct and indirect component with large sac and turbid fluid",
+      "unit": null,
+      "flag": "abnormal",
+      "trend": null,
+      "interpretation": "Direct and indirect inguinal hernia with turbid fluid",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 844,
+          "end": 929
+        }
+      ]
+    }
+  ],
+  "procedures": [
+    {
+      "name": "Repair of left inguinal hernia with Prolene mesh",
+      "time": null,
+      "outcome": "tolerated the procedure well and was transferred to Recovery in stable condition",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 113,
+          "end": 183
+        }
+      ]
+    }
+  ],
+  "course": {
+    "narrative": "A 53-year-old male with a history of multiple abdominal surgeries and a left inguinal hernia increasing over several months underwent an open repair using Prolene mesh under IV sedation with local anesthesia. Intraoperatively, the patient was found to have a direct and indirect left inguinal hernia with a large sac and some turbid fluid, which was sent for gram stain and cultures (gram stain was negative for organisms). The hernia sac was ligated and transected, and a Prolene mesh was placed to cover the floor. The ilioinguinal nerve was salvaged and found to be intact. The wounds were closed in layers. The patient tolerated the procedure well and was transferred to Recovery in stable condition.",
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 254,
+        "end": 347
+      },
+      {
+        "doc_id": "d1",
+        "start": 481,
+        "end": 571
+      }
+    ]
+  },
+  "disposition": {
+    "status": "transferred",
+    "destination": "Recovery",
+    "condition": "stable condition",
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 303,
+        "end": 347
+      }
+    ]
+  },
+  "action_items": [],
+  "red_flags": [],
+  "patient_summary": null,
+  "quality": {
+    "missing_information": [],
+    "contradictions": [],
+    "low_confidence_fields": []
+  }
+}

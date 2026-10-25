@@ -1,0 +1,293 @@
+{
+  "schema_version": "0.1",
+  "record_id": "mtsamples:1437",
+  "patient_id": "92d55451-e057-4f65-965c-dd7bbbbd440f",
+  "generator": {
+    "kind": "model",
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "v1",
+    "generated_at": "2026-10-25T16:10:58Z"
+  },
+  "one_liner": "A 65-year-old female with profound hyponatremia, likely recurrent aspiration pneumonia, and suspected ovarian malignancy underwent CPR following a catastrophic event last night, and following family discussion, transitioned to terminal wean and comfort care measures.",
+  "problems": [
+    {
+      "name": "profound hyponatremia",
+      "code": null,
+      "status": "confirmed",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 365,
+          "end": 412
+        }
+      ]
+    },
+    {
+      "name": "mental status changes",
+      "code": null,
+      "status": "confirmed",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 365,
+          "end": 412
+        }
+      ]
+    },
+    {
+      "name": "recurrent aspiration pneumonia",
+      "code": null,
+      "status": "suspected",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 451,
+          "end": 488
+        }
+      ]
+    },
+    {
+      "name": "possible ovarian malignancy",
+      "code": null,
+      "status": "suspected",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 702,
+          "end": 741
+        }
+      ]
+    },
+    {
+      "name": "dysphagia",
+      "code": null,
+      "status": "confirmed",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 971,
+          "end": 1018
+        }
+      ]
+    },
+    {
+      "name": "hypertension",
+      "code": null,
+      "status": "confirmed",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 971,
+          "end": 1018
+        }
+      ]
+    },
+    {
+      "name": "debilitation",
+      "code": null,
+      "status": "confirmed",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 971,
+          "end": 1018
+        }
+      ]
+    }
+  ],
+  "medications": {
+    "started": [
+      {
+        "name": "morphine",
+        "dose": null,
+        "route": "intravenous",
+        "frequency": null,
+        "previous": null,
+        "reason": "comfort care measures during terminal wean",
+        "evidence": [
+          {
+            "doc_id": "d1",
+            "start": 1914,
+            "end": 1961
+          }
+        ]
+      }
+    ],
+    "stopped": [],
+    "changed": [],
+    "continued": []
+  },
+  "allergies": [],
+  "key_findings": [
+    {
+      "category": "vital",
+      "name": "limbs temperature",
+      "value": "cool",
+      "unit": null,
+      "flag": "abnormal",
+      "trend": null,
+      "interpretation": "limbs and extremities cool to the touch",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1453,
+          "end": 1469
+        },
+        {
+          "doc_id": "d1",
+          "start": 1566,
+          "end": 1601
+        }
+      ]
+    },
+    {
+      "category": "exam",
+      "name": "cardiovascular exam",
+      "value": "tachycardia",
+      "unit": null,
+      "flag": "abnormal",
+      "trend": null,
+      "interpretation": "tachycardia noted on cardiovascular exam",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1471,
+          "end": 1512
+        }
+      ]
+    },
+    {
+      "category": "exam",
+      "name": "lungs",
+      "value": "coarse breath sounds",
+      "unit": null,
+      "flag": "abnormal",
+      "trend": null,
+      "interpretation": "coarse breath sounds",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1514,
+          "end": 1545
+        }
+      ]
+    },
+    {
+      "category": "exam",
+      "name": "pupils",
+      "value": "6 to 2 mm",
+      "unit": "mm",
+      "flag": "abnormal",
+      "trend": null,
+      "interpretation": "pupils 6 to 2 mm, not responsive to light, doll's eyes not intact",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1603,
+          "end": 1690
+        }
+      ]
+    },
+    {
+      "category": "lab",
+      "name": "CA-125",
+      "value": "elevated",
+      "unit": null,
+      "flag": "high",
+      "trend": null,
+      "interpretation": "elevated CA-125",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 747,
+          "end": 803
+        }
+      ]
+    }
+  ],
+  "procedures": [
+    {
+      "name": "intubation",
+      "time": null,
+      "outcome": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1140,
+          "end": 1195
+        }
+      ]
+    },
+    {
+      "name": "CPR",
+      "time": null,
+      "outcome": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 198,
+          "end": 256
+        }
+      ]
+    },
+    {
+      "name": "terminal wean and removal of ET tube",
+      "time": null,
+      "outcome": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1874,
+          "end": 2014
+        }
+      ]
+    }
+  ],
+  "course": {
+    "narrative": "A 65-year-old patient admitted weeks prior with hyponatremia and mental status changes, alongside suspected ovarian malignancy and recurrent pneumonia, suffered a catastrophic event requiring intubation, CPR, and advanced cardiac life support last night. Following family discussions this morning involving sons, daughter, and daughter-in-law, the care goal was changed from full code status to terminal wean with comfort care measures. All pressure support was discontinued, intravenous morphine was started, the ET tube was removed by respiratory, and monitors were turned off. The patient appeared comfortable with the family at the bedside.",
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 68,
+        "end": 179
+      },
+      {
+        "doc_id": "d1",
+        "start": 1874,
+        "end": 2014
+      }
+    ]
+  },
+  "disposition": {
+    "status": "other",
+    "destination": null,
+    "condition": null,
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 139,
+        "end": 179
+      }
+    ]
+  },
+  "action_items": [],
+  "red_flags": [],
+  "patient_summary": null,
+  "quality": {
+    "missing_information": [],
+    "contradictions": [],
+    "low_confidence_fields": []
+  }
+}

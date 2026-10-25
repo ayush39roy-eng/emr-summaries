@@ -1,0 +1,216 @@
+{
+  "schema_version": "0.1",
+  "record_id": "mtsamples:1125",
+  "patient_id": "d6c05bcc-c58f-4eca-80c5-d4a4a150e1de",
+  "generator": {
+    "kind": "model",
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "v1",
+    "generated_at": "2026-10-25T16:00:57Z"
+  },
+  "one_liner": "A 36-year-old female at 38 weeks and 3 days gestation with previous cesarean sections underwent a repeat low transverse cesarean section, bilateral tubal ligation, and lysis of adhesions, delivering a viable female infant.",
+  "problems": [
+    {
+      "name": "Pregnancy at 38 weeks and three days",
+      "code": null,
+      "status": "confirmed",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 28,
+          "end": 65
+        }
+      ]
+    },
+    {
+      "name": "Previous cesarean section",
+      "code": null,
+      "status": "chronic",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 70,
+          "end": 99
+        }
+      ]
+    },
+    {
+      "name": "Refusing trial of labor",
+      "code": null,
+      "status": "confirmed",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 104,
+          "end": 128
+        }
+      ]
+    },
+    {
+      "name": "Multiparity, seeking family planning",
+      "code": null,
+      "status": "confirmed",
+      "is_new": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 133,
+          "end": 170
+        }
+      ]
+    },
+    {
+      "name": "Pelvic adhesions",
+      "code": null,
+      "status": "confirmed",
+      "is_new": true,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 347,
+          "end": 364
+        }
+      ]
+    }
+  ],
+  "medications": {
+    "started": [],
+    "stopped": [],
+    "changed": [],
+    "continued": []
+  },
+  "allergies": [],
+  "key_findings": [
+    {
+      "category": "exam",
+      "name": "Infant presentation and Apgar",
+      "value": "9 and 9",
+      "unit": null,
+      "flag": "normal",
+      "trend": null,
+      "interpretation": "Apgars of 9 and 9 at one and five minutes respectively",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1118,
+          "end": 1173
+        }
+      ]
+    },
+    {
+      "category": "exam",
+      "name": "Infant weight",
+      "value": "6 lb 2 oz",
+      "unit": null,
+      "flag": "normal",
+      "trend": null,
+      "interpretation": "Weight is 6 lb 2 oz",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 1175,
+          "end": 1220
+        }
+      ]
+    }
+  ],
+  "procedures": [
+    {
+      "name": "Repeat low transverse cervical cesarean section with delivery of a viable female neonate",
+      "time": null,
+      "outcome": "tolerated the procedure well",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 390,
+          "end": 479
+        }
+      ]
+    },
+    {
+      "name": "Bilateral tubal ligation and partial salpingectomy",
+      "time": null,
+      "outcome": "tolerated the procedure well",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 484,
+          "end": 535
+        }
+      ]
+    },
+    {
+      "name": "Lysis of adhesions",
+      "time": null,
+      "outcome": "tolerated the procedure well",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 540,
+          "end": 559
+        }
+      ]
+    }
+  ],
+  "course": {
+    "narrative": "A 36-year-old female at 38 weeks and 3 days gestation with prior cesarean sections and refusing trial of labor was taken to the operating room for an elective repeat cesarean section, concurrent bilateral tubal ligation, and lysis of adhesions under spinal anesthesia with Astramorph. The procedure was uncomplicated, yielding a viable female infant in cephalic presentation with good Apgar scores. Estimated blood loss was 800 cc. The patient tolerated the procedure well and was transferred to the recovery room in satisfactory condition.",
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 596,
+        "end": 616
+      },
+      {
+        "doc_id": "d1",
+        "start": 4305,
+        "end": 4346
+      },
+      {
+        "doc_id": "d1",
+        "start": 4397,
+        "end": 4466
+      }
+    ]
+  },
+  "disposition": {
+    "status": "admitted",
+    "destination": "recovery room",
+    "condition": "satisfactory condition",
+    "evidence": [
+      {
+        "doc_id": "d1",
+        "start": 4397,
+        "end": 4466
+      }
+    ]
+  },
+  "action_items": [
+    {
+      "action": "Followed immediately postoperatively within the hospital",
+      "owner": "treating_team",
+      "priority": "urgent",
+      "due": null,
+      "category": "monitoring",
+      "rationale": "Immediate postoperative monitoring",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 4468,
+          "end": 4537
+        }
+      ]
+    }
+  ],
+  "red_flags": [],
+  "patient_summary": null,
+  "quality": {
+    "missing_information": [],
+    "contradictions": [],
+    "low_confidence_fields": []
+  }
+}
