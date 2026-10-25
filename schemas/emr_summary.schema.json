@@ -1,0 +1,213 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://dtu-koshika-emr/schemas/emr_summary.schema.json",
+  "title": "ActionableSummary (pipeline output)",
+  "description": "Clinician-facing summary of one EMRBundle. Every clinical claim carries evidence pointing back into the input so it can be verified and hallucinations measured.",
+  "type": "object",
+  "required": ["schema_version", "record_id", "patient_id", "generator", "one_liner", "problems", "medications", "key_findings", "course", "action_items", "red_flags", "disposition"],
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": { "const": "0.1" },
+    "record_id": { "type": "string", "description": "Must equal EMRBundle.record_id" },
+    "patient_id": {
+      "type": "string",
+      "format": "uuid",
+      "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$",
+      "description": "Must equal EMRBundle.patient.patient_id"
+    },
+    "generator": {
+      "type": "object",
+      "required": ["kind"],
+      "additionalProperties": false,
+      "properties": {
+        "kind": { "enum": ["model", "human_gold", "rule_baseline"] },
+        "model": { "type": ["string", "null"] },
+        "prompt_version": { "type": ["string", "null"] },
+        "generated_at": { "type": ["string", "null"], "format": "date-time" }
+      }
+    },
+    "one_liner": {
+      "type": "string",
+      "maxLength": 300,
+      "description": "Age/sex, key history, presenting problem, outcome. E.g. '67M with CHF and CKD3 presented with dyspnoea; treated for acute decompensated HF, discharged on higher diuretic dose.'"
+    },
+    "problems": {
+      "type": "array",
+      "description": "Diagnoses/problems addressed in this encounter, most important first.",
+      "items": {
+        "type": "object",
+        "required": ["name", "status", "evidence"],
+        "additionalProperties": false,
+        "properties": {
+          "name": { "type": "string" },
+          "code": { "type": ["string", "null"] },
+          "status": { "enum": ["confirmed", "suspected", "ruled_out", "chronic", "resolved"] },
+          "is_new": { "type": ["boolean", "null"] },
+          "evidence": { "$ref": "#/$defs/evidence" }
+        }
+      }
+    },
+    "medications": {
+      "type": "object",
+      "description": "Medication reconciliation: what changed is the actionable part.",
+      "required": ["started", "stopped", "changed", "continued"],
+      "additionalProperties": false,
+      "properties": {
+        "started": { "type": "array", "items": { "$ref": "#/$defs/med" } },
+        "stopped": { "type": "array", "items": { "$ref": "#/$defs/med" } },
+        "changed": { "type": "array", "items": { "$ref": "#/$defs/med" } },
+        "continued": { "type": "array", "items": { "$ref": "#/$defs/med" } }
+      }
+    },
+    "allergies": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["substance", "evidence"],
+        "additionalProperties": false,
+        "properties": {
+          "substance": { "type": "string" },
+          "reaction": { "type": ["string", "null"] },
+          "evidence": { "$ref": "#/$defs/evidence" }
+        }
+      }
+    },
+    "key_findings": {
+      "type": "array",
+      "description": "Abnormal or decision-relevant labs, vitals, imaging. Normal results are omitted unless they rule something out.",
+      "items": {
+        "type": "object",
+        "required": ["category", "name", "interpretation", "evidence"],
+        "additionalProperties": false,
+        "properties": {
+          "category": { "enum": ["lab", "vital", "imaging", "ecg", "exam", "other"] },
+          "name": { "type": "string" },
+          "value": { "type": ["string", "number", "null"] },
+          "unit": { "type": ["string", "null"] },
+          "flag": { "enum": ["low", "high", "critical", "abnormal", "normal", null] },
+          "trend": { "enum": ["improving", "worsening", "stable", "single_value", null] },
+          "interpretation": { "type": "string" },
+          "time": { "type": ["string", "null"], "format": "date-time" },
+          "evidence": { "$ref": "#/$defs/evidence" }
+        }
+      }
+    },
+    "procedures": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name", "evidence"],
+        "additionalProperties": false,
+        "properties": {
+          "name": { "type": "string" },
+          "time": { "type": ["string", "null"], "format": "date-time" },
+          "outcome": { "type": ["string", "null"] },
+          "evidence": { "$ref": "#/$defs/evidence" }
+        }
+      }
+    },
+    "course": {
+      "type": "object",
+      "required": ["narrative"],
+      "additionalProperties": false,
+      "description": "Short narrative of what happened. Directly comparable to the MIMIC-IV-Ext-BHC target text.",
+      "properties": {
+        "narrative": { "type": "string", "maxLength": 2500 },
+        "evidence": { "$ref": "#/$defs/evidence" }
+      }
+    },
+    "disposition": {
+      "type": "object",
+      "required": ["status"],
+      "additionalProperties": false,
+      "properties": {
+        "status": { "enum": ["admitted", "discharged", "transferred", "expired", "left_ama", "other", "unknown"] },
+        "destination": { "type": ["string", "null"] },
+        "condition": { "type": ["string", "null"] },
+        "evidence": { "$ref": "#/$defs/evidence" }
+      }
+    },
+    "action_items": {
+      "type": "array",
+      "description": "The 'actionable' part: concrete next steps a clinician or patient must take.",
+      "items": {
+        "type": "object",
+        "required": ["action", "owner", "priority", "evidence"],
+        "additionalProperties": false,
+        "properties": {
+          "action": { "type": "string" },
+          "owner": { "enum": ["treating_team", "primary_care", "specialist", "patient", "lab", "pharmacy", "other"] },
+          "priority": { "enum": ["urgent", "soon", "routine"] },
+          "due": { "type": ["string", "null"], "description": "Date or relative window, e.g. 'within 1 week'" },
+          "category": { "enum": ["follow_up", "pending_result", "monitoring", "medication", "referral", "patient_education", "other", null] },
+          "rationale": { "type": ["string", "null"] },
+          "evidence": { "$ref": "#/$defs/evidence" }
+        }
+      }
+    },
+    "red_flags": {
+      "type": "array",
+      "description": "Safety-critical items surfaced at the top of the UI: critical values, drug–allergy conflicts, missed follow-up of a serious finding.",
+      "items": {
+        "type": "object",
+        "required": ["message", "severity", "evidence"],
+        "additionalProperties": false,
+        "properties": {
+          "message": { "type": "string" },
+          "severity": { "enum": ["critical", "high", "moderate"] },
+          "evidence": { "$ref": "#/$defs/evidence" }
+        }
+      }
+    },
+    "patient_summary": {
+      "type": ["string", "null"],
+      "description": "Optional plain-language version for the patient (later: Hindi).",
+      "maxLength": 1500
+    },
+    "quality": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "missing_information": { "type": "array", "items": { "type": "string" } },
+        "contradictions": { "type": "array", "items": { "type": "string" } },
+        "low_confidence_fields": { "type": "array", "items": { "type": "string" }, "description": "JSON pointers, e.g. /medications/started/0" }
+      }
+    }
+  },
+  "$defs": {
+    "span": {
+      "type": "object",
+      "description": "A pointer into the input. Either a text span in a document or a structured row.",
+      "additionalProperties": false,
+      "properties": {
+        "doc_id": { "type": "string" },
+        "start": { "type": "integer", "minimum": 0 },
+        "end": { "type": "integer", "minimum": 0 },
+        "table": { "type": "string" },
+        "row_key": { "type": "string" }
+      },
+      "anyOf": [
+        { "required": ["doc_id", "start", "end"] },
+        { "required": ["table", "row_key"] }
+      ]
+    },
+    "evidence": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/span" }
+    },
+    "med": {
+      "type": "object",
+      "required": ["name", "evidence"],
+      "additionalProperties": false,
+      "properties": {
+        "name": { "type": "string" },
+        "dose": { "type": ["string", "null"] },
+        "route": { "type": ["string", "null"] },
+        "frequency": { "type": ["string", "null"] },
+        "previous": { "type": ["string", "null"], "description": "For 'changed': the old dose/frequency" },
+        "reason": { "type": ["string", "null"] },
+        "evidence": { "$ref": "#/$defs/evidence" }
+      }
+    }
+  }
+}

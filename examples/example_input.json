@@ -1,0 +1,88 @@
+{
+  "schema_version": "0.1",
+  "record_id": "example:0001",
+  "source": {
+    "dataset": "other",
+    "license": "synthetic example, written for this spec"
+  },
+  "patient": {
+    "patient_id": "87ff90af-12c5-4fe6-826c-c4becc85a874",
+    "age_years": 64,
+    "sex": "M",
+    "allergies": [
+      {
+        "substance": "penicillin",
+        "reaction": "rash",
+        "src": null
+      }
+    ]
+  },
+  "encounter": {
+    "type": "emergency",
+    "start_time": "2026-10-20T08:15:00Z",
+    "end_time": "2026-10-20T14:40:00Z",
+    "chief_complaint": "shortness of breath",
+    "triage_acuity": 2,
+    "disposition": "admitted",
+    "department": "ED"
+  },
+  "documents": [
+    {
+      "doc_id": "d1",
+      "doc_type": "triage_note",
+      "timestamp": "2026-10-20T08:20:00Z",
+      "language": "en",
+      "origin": "typed",
+      "text": "ED TRIAGE NOTE\nChief complaint: shortness of breath x3 days, worse lying flat.\nPMH: heart failure (EF 35%), type 2 diabetes, CKD stage 3.\nAllergies: penicillin (rash).\nHome meds: furosemide 40 mg PO daily, metformin 500 mg PO BID, lisinopril 10 mg PO daily.\n"
+    },
+    {
+      "doc_id": "d2",
+      "doc_type": "progress_note",
+      "timestamp": "2026-10-20T14:30:00Z",
+      "language": "en",
+      "origin": "typed",
+      "text": "ED COURSE\nBNP 1840 pg/mL. Creatinine 2.1 mg/dL (baseline 1.5). Potassium 5.6 mmol/L.\nCXR: bilateral pleural effusions with pulmonary vascular congestion.\nGiven furosemide 80 mg IV with good urine output. Lisinopril held for hyperkalaemia and AKI. Metformin held given creatinine.\nAdmitted to cardiology for acute decompensated heart failure.\nPlan: repeat BMP in AM, daily weights, echo pending.\n"
+    }
+  ],
+  "structured": {
+    "vitals": [
+      {
+        "name": "spo2",
+        "value": 89,
+        "unit": "%",
+        "time": "2026-10-20T08:20:00Z",
+        "src": {
+          "table": "triage",
+          "row_key": "example:0001"
+        }
+      }
+    ],
+    "labs": [
+      {
+        "name": "Potassium",
+        "loinc": "2823-3",
+        "value": 5.6,
+        "unit": "mmol/L",
+        "ref_low": 3.5,
+        "ref_high": 5.1,
+        "flag": "high",
+        "time": "2026-10-20T09:00:00Z",
+        "src": {
+          "table": "labevents",
+          "row_key": "k1"
+        }
+      }
+    ],
+    "medications": [],
+    "diagnoses": [
+      {
+        "code": "I50.23",
+        "system": "ICD-10",
+        "description": "Acute on chronic systolic heart failure",
+        "rank": 1,
+        "src": null
+      }
+    ],
+    "procedures": []
+  }
+}

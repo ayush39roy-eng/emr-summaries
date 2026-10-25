@@ -1,0 +1,217 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://dtu-koshika-emr/schemas/emr_input.schema.json",
+  "title": "EMRBundle (pipeline input)",
+  "description": "One patient encounter, normalised from any source (MIMIC-IV-Note/ED, Synthea FHIR, MTSamples, ACI-Bench, scanned hospital records). Every downstream module reads only this shape.",
+  "type": "object",
+  "required": ["schema_version", "record_id", "source", "patient", "encounter", "documents"],
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": { "const": "0.1" },
+    "record_id": { "type": "string", "description": "Stable ID for this encounter bundle, e.g. mimic-ed:39765666" },
+    "source": {
+      "type": "object",
+      "required": ["dataset"],
+      "additionalProperties": false,
+      "properties": {
+        "dataset": {
+          "enum": ["mimic-iv-note", "mimic-iv-ed", "mimic-iv-ext-bhc", "mimic-iv-demo", "mimic-iv-ed-demo", "synthea", "mtsamples", "aci-bench", "asclepius", "hospital-scan", "other"]
+        },
+        "dataset_version": { "type": "string" },
+        "native_ids": {
+          "type": "object",
+          "description": "Original keys so outputs can be traced back, e.g. {subject_id, hadm_id, stay_id, note_id}",
+          "additionalProperties": { "type": ["string", "integer"] }
+        },
+        "license": { "type": "string", "description": "Licence of the source data, e.g. PhysioNet-Credentialed-1.5.0, CC0, CC-BY-4.0" }
+      }
+    },
+    "patient": {
+      "type": "object",
+      "description": "De-identified only. No names, MRNs, phone numbers or addresses ever enter the bundle; the patient is known only by patient_id.",
+      "required": ["patient_id"],
+      "additionalProperties": false,
+      "properties": {
+        "patient_id": {
+          "type": "string",
+          "format": "uuid",
+          "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$",
+          "description": "Random UUIDv4 replacing the patient's name/MRN. The same patient keeps the same UUID across encounters; the name-to-UUID lookup is held separately by the data custodian and never enters the pipeline."
+        },
+        "age_years": { "type": ["number", "null"], "minimum": 0, "maximum": 120 },
+        "sex": { "enum": ["M", "F", "O", "U"] },
+        "allergies": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["substance"],
+            "additionalProperties": false,
+            "properties": {
+              "substance": { "type": "string" },
+              "reaction": { "type": ["string", "null"] },
+              "src": { "$ref": "#/$defs/src" }
+            }
+          }
+        }
+      }
+    },
+    "encounter": {
+      "type": "object",
+      "required": ["type"],
+      "additionalProperties": false,
+      "properties": {
+        "type": { "enum": ["emergency", "inpatient", "outpatient", "icu", "unknown"] },
+        "start_time": { "type": ["string", "null"], "format": "date-time" },
+        "end_time": { "type": ["string", "null"], "format": "date-time" },
+        "chief_complaint": { "type": ["string", "null"] },
+        "triage_acuity": { "type": ["integer", "null"], "minimum": 1, "maximum": 5, "description": "ESI 1 (most urgent) to 5" },
+        "disposition": { "enum": ["admitted", "discharged", "transferred", "expired", "left_ama", "other", "unknown", null] },
+        "department": { "type": ["string", "null"] }
+      }
+    },
+    "documents": {
+      "type": "array",
+      "minItems": 1,
+      "description": "Free-text sources. Character offsets in summary evidence point into documents[].text.",
+      "items": {
+        "type": "object",
+        "required": ["doc_id", "doc_type", "text"],
+        "additionalProperties": false,
+        "properties": {
+          "doc_id": { "type": "string" },
+          "doc_type": {
+            "enum": ["discharge_summary", "triage_note", "progress_note", "history_physical", "radiology_report", "lab_report", "prescription", "operative_note", "consult_note", "nursing_note", "transcript", "other"]
+          },
+          "timestamp": { "type": ["string", "null"], "format": "date-time" },
+          "language": { "type": "string", "default": "en", "description": "BCP-47, e.g. en, hi, en-IN" },
+          "origin": { "enum": ["typed", "ocr", "asr", "synthetic"], "default": "typed" },
+          "ocr": {
+            "type": ["object", "null"],
+            "description": "Present only when origin = ocr (scanned/handwritten records).",
+            "additionalProperties": false,
+            "properties": {
+              "engine": { "type": "string" },
+              "mean_confidence": { "type": "number", "minimum": 0, "maximum": 1 },
+              "page_images": { "type": "array", "items": { "type": "string" } }
+            }
+          },
+          "sections": {
+            "type": "array",
+            "description": "Optional section split, e.g. HPI, Medications on Admission, Brief Hospital Course.",
+            "items": {
+              "type": "object",
+              "required": ["name", "start", "end"],
+              "additionalProperties": false,
+              "properties": {
+                "name": { "type": "string" },
+                "start": { "type": "integer", "minimum": 0 },
+                "end": { "type": "integer", "minimum": 0 }
+              }
+            }
+          },
+          "text": { "type": "string" }
+        }
+      }
+    },
+    "structured": {
+      "type": "object",
+      "description": "Coded data when the source has it (MIMIC tables, Synthea FHIR). Empty arrays are fine for text-only sources.",
+      "additionalProperties": false,
+      "properties": {
+        "vitals": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["name", "value"],
+            "additionalProperties": false,
+            "properties": {
+              "name": { "enum": ["heart_rate", "resp_rate", "sbp", "dbp", "temperature", "spo2", "pain", "gcs", "weight", "other"] },
+              "value": { "type": ["number", "string"] },
+              "unit": { "type": ["string", "null"] },
+              "time": { "type": ["string", "null"], "format": "date-time" },
+              "src": { "$ref": "#/$defs/src" }
+            }
+          }
+        },
+        "labs": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["name", "value"],
+            "additionalProperties": false,
+            "properties": {
+              "name": { "type": "string" },
+              "loinc": { "type": ["string", "null"] },
+              "value": { "type": ["number", "string"] },
+              "unit": { "type": ["string", "null"] },
+              "ref_low": { "type": ["number", "null"] },
+              "ref_high": { "type": ["number", "null"] },
+              "flag": { "enum": ["low", "high", "critical", "abnormal", "normal", null] },
+              "time": { "type": ["string", "null"], "format": "date-time" },
+              "src": { "$ref": "#/$defs/src" }
+            }
+          }
+        },
+        "medications": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["name", "context"],
+            "additionalProperties": false,
+            "properties": {
+              "name": { "type": "string" },
+              "rxnorm": { "type": ["string", "null"] },
+              "dose": { "type": ["string", "null"] },
+              "route": { "type": ["string", "null"] },
+              "frequency": { "type": ["string", "null"] },
+              "context": { "enum": ["home", "administered", "prescribed_at_discharge", "unknown"] },
+              "time": { "type": ["string", "null"], "format": "date-time" },
+              "src": { "$ref": "#/$defs/src" }
+            }
+          }
+        },
+        "diagnoses": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["description"],
+            "additionalProperties": false,
+            "properties": {
+              "code": { "type": ["string", "null"] },
+              "system": { "enum": ["ICD-9", "ICD-10", "SNOMED-CT", null] },
+              "description": { "type": "string" },
+              "rank": { "type": ["integer", "null"], "minimum": 1 },
+              "src": { "$ref": "#/$defs/src" }
+            }
+          }
+        },
+        "procedures": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["description"],
+            "additionalProperties": false,
+            "properties": {
+              "code": { "type": ["string", "null"] },
+              "system": { "type": ["string", "null"] },
+              "description": { "type": "string" },
+              "time": { "type": ["string", "null"], "format": "date-time" },
+              "src": { "$ref": "#/$defs/src" }
+            }
+          }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "src": {
+      "type": ["object", "null"],
+      "description": "Where a structured value came from, e.g. {table: 'triage', row_key: '39765666'}.",
+      "additionalProperties": false,
+      "properties": {
+        "table": { "type": "string" },
+        "row_key": { "type": "string" }
+      }
+    }
+  }
+}

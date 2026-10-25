@@ -1,0 +1,62 @@
+# All model IDs and tunable settings live here. Code never hard-codes a model ID.
+# Model IDs are filled in from `python scripts/check_gemini.py` (client.models.list()).
+
+paths:
+  raw_csv: data/raw/mtsamples.csv
+  bundles_raw: data/bundles/raw          # converted, NOT yet anonymized
+  bundles: data/bundles/anon             # anonymized, schema-valid bundles
+  chroma: data/chroma
+  cache: data/cache
+  results: results
+  test_set: data/test_set.json
+  patient_id_lookup: secrets/patient_ids.json
+
+# Short name (used on the command line and in results/<name>/) -> provider + real model ID.
+# IDs verified with client.models.list() on 2026-10-25. rpm = max requests/minute we send (free-tier friendly).
+models:
+  gemini-flash:                     # main model
+    provider: gemini
+    model_id: gemini-3.8-flash
+    rpm: 8
+  gemini-flash-3.5:                 # previous-generation Flash, for reference
+    provider: gemini
+    model_id: gemini-3.5-flash
+    rpm: 8
+  gemini-flash-lite:                # cheapest Gemini tier
+    provider: gemini
+    model_id: gemini-3.5-flash-lite
+    rpm: 12
+  gemini-pro:                       # NEEDS BILLING: free-tier quota for Pro is 0 (429 "limit: 0")
+    provider: gemini
+    model_id: gemini-3.1-pro-preview
+    rpm: 4
+  local-gemma:                      # local, runs on the M4 GPU via Ollama; nothing leaves the laptop
+    provider: ollama
+    model_id: gemma4:e4b
+    think: false
+  local-qwen:
+    provider: ollama
+    model_id: qwen3:8b
+    think: false
+  local-medgemma:                   # Google's medical Gemma variant (4B)
+    provider: ollama
+    model_id: medgemma:4b
+
+embedding:
+  provider: gemini
+  model_id: gemini-embedding-001
+
+generation:
+  temperature: 0.0
+  prompt_version: v1
+  max_retries: 6                    # exponential backoff on rate limits / server errors
+
+chunking:
+  window_words: 500
+  overlap_words: 75
+
+dataset:
+  min_chars: 300                    # skip transcriptions shorter than this
+  test_set_size: 50
+  test_set_min_chars: 1500
+  seed: 42

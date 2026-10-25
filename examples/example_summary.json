@@ -1,0 +1,303 @@
+{
+  "schema_version": "0.1",
+  "record_id": "example:0001",
+  "patient_id": "87ff90af-12c5-4fe6-826c-c4becc85a874",
+  "generator": {
+    "kind": "human_gold",
+    "model": null,
+    "prompt_version": null,
+    "generated_at": "2026-10-25T10:00:00Z"
+  },
+  "one_liner": "64M with HFrEF (EF 35%), T2DM and CKD3 presented with 3 days of orthopnoea; treated for acute decompensated heart failure with AKI and hyperkalaemia, admitted to cardiology.",
+  "problems": [
+    {
+      "name": "Acute decompensated heart failure",
+      "code": "I50.23",
+      "status": "confirmed",
+      "is_new": true,
+      "evidence": [
+        {
+          "doc_id": "d2",
+          "start": 280,
+          "end": 340
+        },
+        {
+          "doc_id": "d2",
+          "start": 10,
+          "end": 24
+        }
+      ]
+    },
+    {
+      "name": "Acute kidney injury on CKD stage 3",
+      "code": null,
+      "status": "suspected",
+      "is_new": true,
+      "evidence": [
+        {
+          "doc_id": "d2",
+          "start": 26,
+          "end": 61
+        }
+      ]
+    },
+    {
+      "name": "Hyperkalaemia",
+      "code": null,
+      "status": "confirmed",
+      "is_new": true,
+      "evidence": [
+        {
+          "doc_id": "d2",
+          "start": 63,
+          "end": 83
+        },
+        {
+          "table": "labevents",
+          "row_key": "k1"
+        }
+      ]
+    }
+  ],
+  "medications": {
+    "started": [
+      {
+        "name": "furosemide",
+        "dose": "80 mg",
+        "route": "IV",
+        "frequency": null,
+        "previous": null,
+        "reason": "diuresis",
+        "evidence": [
+          {
+            "doc_id": "d2",
+            "start": 154,
+            "end": 179
+          }
+        ]
+      }
+    ],
+    "stopped": [
+      {
+        "name": "lisinopril",
+        "dose": "10 mg",
+        "route": "PO",
+        "frequency": "daily",
+        "previous": null,
+        "reason": "held for hyperkalaemia and AKI",
+        "evidence": [
+          {
+            "doc_id": "d2",
+            "start": 204,
+            "end": 245
+          }
+        ]
+      },
+      {
+        "name": "metformin",
+        "dose": "500 mg",
+        "route": "PO",
+        "frequency": "BID",
+        "previous": null,
+        "reason": "held given creatinine",
+        "evidence": [
+          {
+            "doc_id": "d2",
+            "start": 247,
+            "end": 278
+          }
+        ]
+      }
+    ],
+    "changed": [],
+    "continued": []
+  },
+  "allergies": [
+    {
+      "substance": "penicillin",
+      "reaction": "rash",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 149,
+          "end": 166
+        }
+      ]
+    }
+  ],
+  "key_findings": [
+    {
+      "category": "lab",
+      "name": "Potassium",
+      "value": 5.6,
+      "unit": "mmol/L",
+      "flag": "high",
+      "trend": "single_value",
+      "interpretation": "Hyperkalaemia, likely ACE inhibitor plus AKI",
+      "time": "2026-10-20T09:00:00Z",
+      "evidence": [
+        {
+          "table": "labevents",
+          "row_key": "k1"
+        }
+      ]
+    },
+    {
+      "category": "imaging",
+      "name": "Chest X-ray",
+      "value": null,
+      "unit": null,
+      "flag": "abnormal",
+      "trend": null,
+      "interpretation": "Bilateral effusions and vascular congestion consistent with fluid overload",
+      "time": null,
+      "evidence": [
+        {
+          "doc_id": "d2",
+          "start": 85,
+          "end": 152
+        }
+      ]
+    },
+    {
+      "category": "vital",
+      "name": "SpO2",
+      "value": 89,
+      "unit": "%",
+      "flag": "low",
+      "trend": "single_value",
+      "interpretation": "Hypoxaemia at triage",
+      "time": "2026-10-20T08:20:00Z",
+      "evidence": [
+        {
+          "table": "triage",
+          "row_key": "example:0001"
+        }
+      ]
+    }
+  ],
+  "procedures": [],
+  "course": {
+    "narrative": "Presented with orthopnoea and hypoxaemia. BNP and chest X-ray consistent with fluid overload. Diuresed with IV furosemide with good response. Lisinopril and metformin held for AKI and hyperkalaemia. Admitted to cardiology.",
+    "evidence": [
+      {
+        "doc_id": "d2",
+        "start": 154,
+        "end": 202
+      }
+    ]
+  },
+  "disposition": {
+    "status": "admitted",
+    "destination": "cardiology",
+    "condition": null,
+    "evidence": [
+      {
+        "doc_id": "d2",
+        "start": 280,
+        "end": 302
+      }
+    ]
+  },
+  "action_items": [
+    {
+      "action": "Repeat BMP (potassium, creatinine) next morning",
+      "owner": "treating_team",
+      "priority": "urgent",
+      "due": "next AM",
+      "category": "monitoring",
+      "rationale": "K 5.6 and creatinine above baseline",
+      "evidence": [
+        {
+          "doc_id": "d2",
+          "start": 348,
+          "end": 364
+        }
+      ]
+    },
+    {
+      "action": "Follow up pending echocardiogram",
+      "owner": "treating_team",
+      "priority": "soon",
+      "due": null,
+      "category": "pending_result",
+      "rationale": null,
+      "evidence": [
+        {
+          "doc_id": "d2",
+          "start": 381,
+          "end": 393
+        }
+      ]
+    },
+    {
+      "action": "Daily weights",
+      "owner": "treating_team",
+      "priority": "routine",
+      "due": null,
+      "category": "monitoring",
+      "rationale": "track diuresis",
+      "evidence": [
+        {
+          "doc_id": "d2",
+          "start": 366,
+          "end": 379
+        }
+      ]
+    },
+    {
+      "action": "Decide on restarting lisinopril and metformin once renal function and potassium recover",
+      "owner": "treating_team",
+      "priority": "routine",
+      "due": null,
+      "category": "medication",
+      "rationale": "both held this admission",
+      "evidence": [
+        {
+          "doc_id": "d2",
+          "start": 204,
+          "end": 245
+        }
+      ]
+    }
+  ],
+  "red_flags": [
+    {
+      "message": "Potassium 5.6 mmol/L on an ACE inhibitor with AKI",
+      "severity": "high",
+      "evidence": [
+        {
+          "table": "labevents",
+          "row_key": "k1"
+        },
+        {
+          "doc_id": "d2",
+          "start": 204,
+          "end": 245
+        }
+      ]
+    },
+    {
+      "message": "Penicillin allergy (rash) — check before any beta-lactam",
+      "severity": "moderate",
+      "evidence": [
+        {
+          "doc_id": "d1",
+          "start": 149,
+          "end": 166
+        }
+      ]
+    }
+  ],
+  "patient_summary": null,
+  "quality": {
+    "missing_information": [
+      "Discharge-time vitals and weight",
+      "Echo result"
+    ],
+    "contradictions": [],
+    "low_confidence_fields": [
+      "/problems/1"
+    ]
+  }
+}
