@@ -96,5 +96,4 @@ It resumes automatically (records with a result file are skipped) and every LLM/
 - Retrieval-only context: 17% fewer input tokens, grounding unchanged (99.4%).
 - Gemini 3.8 Flash / 3.5 Flash / 3.1 Pro: blocked by free-tier quotas (need a paid key). Qwen3 / MedGemma: deferred.
 
-See `results/report.md` (summary for the team), `results/comparison.md` (full tables) and
-`results/leak_test_seed2026.md` (anonymization).
+
