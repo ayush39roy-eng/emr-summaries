@@ -71,8 +71,9 @@ def model_metrics(model_name, model_id, record_ids, references, results_dir, pri
         metrics["est_cost_usd_per_1k_records"] = round(
             1000 * (statistics.mean(tokens_in) * price["input"] + statistics.mean(tokens_out) * price["output"]) / 1e6, 2)
 
-    preds = [r["summary"]["one_liner"] for r in outputs]
-    refs = [references[r["record_id"]]["description"] for r in outputs]
+    # an empty string crashes bert-score; an empty one-liner should simply score ~0
+    preds = [r["summary"]["one_liner"].strip() or "(empty)" for r in outputs]
+    refs = [references[r["record_id"]]["description"].strip() or "(empty)" for r in outputs]
     if preds:
         metrics["rougeL_one_liner"] = round(statistics.mean(_rouge_l(preds, refs)), 3)
         if with_bertscore:

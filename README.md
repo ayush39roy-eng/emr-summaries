@@ -7,7 +7,7 @@ The pipeline takes a raw medical report, anonymizes it, stores it in a vector da
 (Gemini, plus other models for comparison) to write a structured **ActionableSummary** where every clinical
 claim points back to the exact text it came from.
 
-> Status: **Phase 0 (setup)**. Sections marked _TODO_ get filled in as later phases land.
+> Status: pipeline working end to end; model comparison in `results/report.md`.
 
 ## Data rules (read before running anything)
 
@@ -29,13 +29,46 @@ source .venv/bin/activate
 uv pip install -r requirements.txt   # or: pip install -r requirements.txt
 uv pip install -e .                  # makes `import emr` work
 cp .env.example .env                 # then paste your GEMINI_API_KEY into .env
+python -m spacy download en_core_web_lg
 python scripts/check_gemini.py --hello gemini-flash
 pytest
 ```
 
+Local models (optional, run on your own machine — nothing leaves it): install [Ollama](https://ollama.com), then
+`ollama pull gemma4:e4b`, `ollama pull qwen3:8b`, `ollama pull medgemma:4b`.
+
 ## Run
 
-_TODO (Phase 4):_ `python scripts/run_pipeline.py --model gemini-flash --limit 50`
+Put the Kaggle file `mtsamples.csv` (dataset `tboyle10/medicaltranscriptions`, needs a Kaggle login) in
+`data/raw/`, then:
+
+```bash
+python scripts/convert_mtsamples.py          # Phase 1: CSV -> data/bundles/raw (2,319 unique reports)
+python scripts/anonymize_bundles.py          # Phase 2: -> data/bundles/anon (Presidio + custom recognizers)
+python scripts/leak_test.py --seed 2026      # Phase 2: anonymizer recall on synthetic Indian/US identifiers
+python scripts/run_pipeline.py --model gemini-flash --workers 4   # Phases 3-4: test set, index, retrieve, summarize
+python scripts/run_pipeline.py --model local-gemma               # Phase 5: same chunks + prompt, other model
+python scripts/compare.py                    # Phase 6: results/comparison.{csv,md}, manual_review.csv
+```
+
+`run_pipeline.py` options: `--limit N`, `--dry-run` (no API calls, prints the prompt), `--redo`, `--workers N`.
+It resumes automatically (records with a result file are skipped) and every LLM/embedding call is cached in
+`data/cache/`, so reruns are free. Model short names (`gemini-flash`, `gemini-flash-3.5`, `gemini-flash-lite`,
+`gemini-pro`, `local-gemma`, `local-qwen`, `local-medgemma`) are defined in `config.yaml`.
+
+### How the pipeline works
+
+1. **Convert**: each MTSamples row → an EMRBundle (`schemas/emr_input.schema.json`). Duplicate reports are merged.
+2. **Anonymize**: Presidio + spaCy find names, dates, phones, places, IDs (incl. Indian mobile, Aadhaar-like
+   numbers, MRN/UHID) and replace them with tags like `<PERSON>`. Each patient gets a random UUID.
+3. **Chunk**: split each report at its ALL-CAPS headings (`HISTORY OF PRESENT ILLNESS:`); every chunk keeps
+   exact character offsets into the anonymized text.
+4. **Embed + store**: chunks → Gemini embeddings → ChromaDB (`data/chroma/`), with record/patient metadata.
+5. **Retrieve**: per summary section (problems, meds, findings, course, plan, allergies), only from this
+   record. Short reports are passed whole. The retrieved chunks are cached so every model sees the same input.
+6. **Generate**: the model fills a simplified JSON shape where each claim has `{chunk_id, quote}` evidence.
+7. **Ground + validate**: code finds each quote in the source and converts it to `{doc_id, start, end}`;
+   claims whose quotes can't be found are marked unsupported. Output is checked against the full schema.
 
 ## Repo layout
 
@@ -51,4 +84,5 @@ _TODO (Phase 4):_ `python scripts/run_pipeline.py --model gemini-flash --limit 5
 
 ## Results
 
-_TODO (Phase 6):_ see `results/report.md`.
+See `results/report.md` (summary for the team), `results/comparison.md` (full tables) and
+`results/leak_test_seed2026.md` (anonymization).
